@@ -1,0 +1,10 @@
+name: "Kenneth.fm"
+description: "Kenneth's blog"
+
+url: "http://localhost:4000"
+
+paginate: 10
+
+permalink: pretty
+markdown: redcarpet
+pygments: true

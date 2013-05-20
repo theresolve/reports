@@ -1,0 +1,105 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: rgba(0, 6, 15, 0.74);
+}
+
+#mark{
+  font-size: 190;
+  font-weight: 700;
+  text-align: center;
+  margin: -35px 0px 0px;
+  height: 220px;
+}
+
+#mark a {
+  text-decoration: none;
+  color: rgba(0, 6, 15, 0.74);
+}
+
+.post {
+  width: 650px;
+  margin: 0px auto;
+  font-weight: 400;
+  font-size: 14.5;
+  color: rgb(71, 71, 71);
+  line-height: 22px;
+}
+
+.post-title {
+  color: rgba(0, 6, 15, 0.74);
+  font-weight: 400;
+  font-size: 25;
+}
+
+.post-title a {
+  color: rgba(0, 6, 15, 0.74);
+  text-decoration: none;
+}
+
+.post-date {
+  font-size: 14px;
+  color: rgba(128, 128, 128, 0.82);
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+  margin: 40px auto 0px;
+  width: 250px;
+  height: 80px;
+  font-size: 18px;
+  color: rgba(0, 6, 15, 0.74);
+}
+
+ul a {
+  text-decoration: none;
+}
+
+li {
+  float: left;
+  margin-right: 20px;
+}
+
+/* Index */
+
+.post-list {
+  width: 650px;
+  margin: 0px auto;
+}
+
+.post-title-list {
+  color: rgba(0, 6, 15, 0.74);
+  font-weight: 400;
+  font-size: 25;
+  text-align: right;
+  width: 50%;
+  float: left;
+}
+
+.post-title-list a {
+  color: rgba(0, 6, 15, 0.74);
+  text-decoration: none;
+}
+
+.post-date-list {
+  font-size: 14px;
+  color: rgba(128, 128, 128, 0.82);
+  font-weight: 400;
+  text-align: left;
+  width: 48%;
+  margin-top: 8px;
+  float: right;
+}
+
+footer {
+  color: rgba(0, 6, 15, 0.74);
+  margin: -5px auto 0px;
+  width: 0px;
+  padding: 60px 0px;
+  font-size: 20px;
+}
