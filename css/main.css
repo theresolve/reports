@@ -7,14 +7,15 @@ html {
 }
 
 body {
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(246, 246, 246);
   margin: 0px;
+  padding-top: 70px;
 }
 
 .page {
   margin: 0px auto;
-  padding-bottom: 100px;
-  width: 800px;
+  padding-bottom: 25px;
+  width: 900px;
   background-color: white;
 }
 
@@ -22,25 +23,30 @@ body {
   padding: 30px;
 }
 
-.header {
-  background-color: #2A2929;
-  width: 100%;
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+
+.navbar-inverse {
+  background-color: #3F3F3F;
+}
+
+.navbar-header {
+  margin: 0px auto;
+  width: 900px;
+  float: none;
+  padding: none;
   height: 70px;
-  margin-bottom: 40px;
+  padding-top: 10px;
 }
 
-.header-container {
-  width: 840px;
-  margin: 0px auto 0px;
-  padding: 30px 0px 0px;
+.btn {
+  margin-top: 25px;
 }
 
-.section-title {
-  padding-top: 35px;
-}
-
-#chart_div {
-  margin-left: -30px;
+.btn a {
+  color: white;
+  text-decoration: none;
 }
 
 .leaflet-control-attribution {
@@ -49,4 +55,9 @@ body {
 
 .cartodb-logo {
   display: none;
+}
+
+.footer {
+  text-align: center;
+  padding: 40px;
 }
