@@ -5,29 +5,69 @@
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
     <script src="{{ site.baseurl }}/js/visual.js"></script>
   </head>
 
   <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">LRA Crisis Tracker Mid-Year Security Brief</a>
+      <div class="navbar-header col-md-8">
+        <img src="{{ site.baseurl }}/logo.jpg"
       </div>
     </nav>
-    
-    <!-- CONTENT -->
-    <div class="page">
-      {{ content }}
+    <!-- CONTENT --> 
+    <div class="container">
+      <div class="row">
+
+        <!-- TABLE OF CONTENTS -->
+        <div class="col-md-3 sidebar">
+          <div role="complementary">
+            <h4> January-June 2013 Mid-Year Security Brief</h4>
+            <ul class="nav bs-sidenav">   
+              <li>
+                <a href="{{ site.baseurl}}/my13/executive-summary/">Executive Summary</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl}}/my13/notable-political-context/">Notable Political Context</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl}}/my13/comparing-activity/">Comparing LRA Activity in Haut-Mbomou, Haut Kotto, and Mbomou</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl}}/my13/concentration-of-attacks/">Concentration of Major LRA Attacks in Eastern CAR</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl}}/my13/decline/">Decline in Massacres and Mass Abductions</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl}}/my13/comm-with-populations/">LRA Members Communicating with Local Populations</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl}}/my13/attacks-comparison/">Attacks by LRA vs Other Armed Groups</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl}}/my13/methodology/">LRA Crisis Tracker Methodology</a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl}}/my13/about/">About the LRA Crisis Tracker</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- PAGE -->
+        <div class="col-md-9 page" role="main">
+          {{ content }}
+        </div>
+      </div>
     </div>
     
     <!-- FOOTER -->
     <div class="footer">
-      <a href="http://lracrisistracker.com">LRA Crisis Tracker</a>
-      |
-      <a href="http://lracrisistracker.com">Resolve</a>
-      |
-      <a href="http://lracrisistracker.com">Invisible Children</a>
+      <a href="http://lracrisistracker.com"></a>
+      <a href="http://lracrisistracker.com"></a>
+      <a href="http://lracrisistracker.com"></a>
     </div>
   </body>
 </html>
