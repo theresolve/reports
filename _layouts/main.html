@@ -1,18 +1,30 @@
 <html>
   <head>
     <link href="/reports/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link rel="stylesheet" type="text/css" href="http://ktransier.github.io/reports/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/reports/css/main.css">
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="/reports/js/bootstrap.min.js"></script>
   </head>
 
   <body>
-    <div class="header">
-      <div class="header-container">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">LRA Crisis Tracker Mid-Year Security Brief</a>
       </div>
-    </div>
 
+    </nav>
+    <div class="page">
       {{ content }}
+    </div>
+    <div class="footer">
+      <i>
+      <a href="http://lracrisistracker.com">LRA Crisis Tracker</a>
+      |
+      <a href="http://lracrisistracker.com">Resolve</a>
+      |
+      <a href="http://lracrisistracker.com">Invisible Children</a>
+    </i>
+    </div>
   </body>
 </html>

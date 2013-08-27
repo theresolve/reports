@@ -8,6 +8,7 @@ html {
 
 body {
   background-color: rgb(240, 240, 240);
+  margin: 0px;
 }
 
 .page {
@@ -40,4 +41,12 @@ body {
 
 #chart_div {
   margin-left: -30px;
+}
+
+.leaflet-control-attribution {
+ display: none;
+}
+
+.cartodb-logo {
+  display: none;
 }
