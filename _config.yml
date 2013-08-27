@@ -1,7 +1,8 @@
-name: "Kenneth.fm"
-description: "Kenneth's blog"
+name: "LRA Crisis Tracker"
+description: "LRA Crisis Tracker Security Briefs"
 
 url: "http://localhost:4000"
+baseurl: "/reports"
 
 paginate: 10
 

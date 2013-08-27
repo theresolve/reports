@@ -63,6 +63,6 @@ function drawVisual2() {
                  'colors' :["#1D1D1D", "#CB4133", "#DBDBDB"]};
 
   // Instantiate and draw our chart, passing in some options.
-  var chart = new google.visualization.PieChart(document.getElementById('chart_div1'));
+  var chart = new google.visualization.PieChart(document.getElementById('trends-visual'));
   chart.draw(data, options);
 }

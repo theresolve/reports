@@ -1,31 +1,33 @@
 <html>
   <head>
-    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css">
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/visual.js"></script>
+    <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+    <script src="{{ site.baseurl }}/js/visual.js"></script>
   </head>
 
   <body>
+    <!-- NAVBAR -->
     <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
       <div class="navbar-header">
         <a class="navbar-brand" href="#">LRA Crisis Tracker Mid-Year Security Brief</a>
       </div>
-
     </nav>
+    
+    <!-- CONTENT -->
     <div class="page">
       {{ content }}
     </div>
+    
+    <!-- FOOTER -->
     <div class="footer">
-      <i>
       <a href="http://lracrisistracker.com">LRA Crisis Tracker</a>
       |
       <a href="http://lracrisistracker.com">Resolve</a>
       |
       <a href="http://lracrisistracker.com">Invisible Children</a>
-    </i>
     </div>
   </body>
 </html>
