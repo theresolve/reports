@@ -9,7 +9,6 @@ html {
 body {
   background-color: rgb(246, 246, 246);
   margin: 0px;
-  padding-top: 120px;
 }
 
 .page {
@@ -72,4 +71,8 @@ body {
 .footer {
   text-align: center;
   padding: 40px;
+}
+
+.visual {
+  margin: 20px 0px;
 }
