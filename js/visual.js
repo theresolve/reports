@@ -1,4 +1,99 @@
 $(function () {
+  $('#executive-summary-visual-2').highcharts({
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: 'Number of Reported LRA Killings'
+    },
+    subtitle: {
+        text: 'Number of Reported LRA Killings'
+    },
+    colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
+    xAxis: {
+        categories: [
+          'DR Congo',
+          'CAR'
+        ]
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Number of Reported Killings'
+        }
+    },
+    plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+    },
+    credits: {
+      enabled: false
+    },
+    series: [{
+        name: '2012',
+        data: [12, 20]
+
+    }, {
+        name: '2013',
+        data: [13, 34]
+
+    }]
+  });
+});
+
+$(function () {
+  $('#executive-summary-visual-1').highcharts({
+    chart: {
+        type: 'column'
+    },
+    colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
+    title: {
+        text: 'Number of Reported LRA Attacks From January - June'
+    },
+    xAxis: {
+        categories: [
+          'Reported LRA Attacks'
+        ]
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Number of Reported Attacks'
+        }
+    },
+    plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+    },
+    credits: {
+      enabled: false
+    },
+    series: [{
+        name: '2010',
+        data: [359]
+
+    }, {
+        name: '2011',
+        data: [218]
+
+    }, {
+        name: '2012',
+        data: [194]
+
+    }, {
+        name: '2013',
+        data: [90]
+
+    }]
+  });
+});
+
+
+$(function () {
   if ($('#attack-by-country-visual').length) {
     $('#attack-by-country-visual').highcharts({
       colors: ['rgb(51,51,51)', 'rgb(179, 84, 72)', 'rgb(150, 150, 150)'],
