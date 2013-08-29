@@ -1,4 +1,52 @@
 $(function () {
+  $('#executive-summary-visual-3').highcharts({
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: 'LRA Activity in Haut Kotte'
+    },
+    subtitle: {
+        text: 'January - June 2013'
+    },
+    colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
+    xAxis: {
+        categories: [
+          'Haut Kotte'
+        ]
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: ''
+        }
+    },
+    plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+    },
+    credits: {
+      enabled: false
+    },
+    series: [{
+        name: 'Attacks',
+        data: [8]
+
+    }, {
+        name: 'Killings',
+        data: [79]
+
+    }, {
+        name: 'Abductions',
+        data: [25]
+
+    }]
+  });
+});
+
+$(function () {
   $('#executive-summary-visual-2').highcharts({
     chart: {
         type: 'column'
