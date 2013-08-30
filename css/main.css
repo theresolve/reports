@@ -93,3 +93,12 @@ padding: 3px 15px;
 .visual {
   margin: 20px 0px;
 }
+
+.crisis-tracker-btn {
+  background-color: rgb(192, 42, 19);
+  border: none;
+  padding: 15px;
+  font-weight: bold;
+  font-style: italic;
+  float: right;
+}
