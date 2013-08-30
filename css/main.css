@@ -30,6 +30,23 @@ body {
   padding: 17px;
 }
 
+.sidebar-title {
+  margin: 0px 16px;
+  padding: 22px 0px;
+  text-align: center;
+}
+
+.sidebar-subtitle {
+  margin: 20px 16px 10px;
+  font-size: 15;
+}
+
+.nav>li>a {
+position: relative;
+display: block;
+padding: 3px 15px;
+}
+
 .navbar img {
   height: 90px;
   margin-top: 5px;

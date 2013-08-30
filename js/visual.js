@@ -1,4 +1,43 @@
 $(function () {
+  if ($('#decline-mass-events-congo').length) {
+  $('#decline-mass-events-congo').highcharts({
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: 'Decline in Mass Killings and Abductions in DR Congo'
+    },
+    subtitle: {
+        text: 'January 2009 - June 2013'
+    },
+    xAxis: {
+        categories: ['Q1 09','Q2','Q3','Q4', 'Q1 10','Q2','Q3','Q4', 'Q1 11','Q2','Q3','Q4', 'Q1 12','Q2','Q3','Q4', 'Q1 13','Q2']
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Number of Attacks'
+        }
+    },
+    plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+    },
+    credits: {
+      enabled: false
+    },
+    series: [{
+        name: 'LRA Attacks in DRC (5 or more killings or 10 or more abductions)',
+        data: [16, 9, 20, 18, 29, 5, 3, 2, 3, 5, 1, 0, 1, 2, 0, 0, 1, 0]
+    }]
+  });
+}
+});
+
+$(function () {
+  if ($('#executive-summary-visual-3').length) {
   $('#executive-summary-visual-3').highcharts({
     chart: {
         type: 'column'
@@ -44,9 +83,11 @@ $(function () {
 
     }]
   });
+}
 });
 
 $(function () {
+  if ($('#executive-summary-visual-2').length) {
   $('#executive-summary-visual-2').highcharts({
     chart: {
         type: 'column'
@@ -89,9 +130,11 @@ $(function () {
 
     }]
   });
+}
 });
 
 $(function () {
+  if ($('#executive-summary-visual-1').length) {
   $('#executive-summary-visual-1').highcharts({
     chart: {
         type: 'column'
@@ -138,6 +181,7 @@ $(function () {
 
     }]
   });
+}
 });
 
 
@@ -239,6 +283,7 @@ $(function () {
 });
 
 $(function () {
+  if ($('#abductions-killings-car').length) {
   $('#abductions-killings-car').highcharts({
     chart: {
         type: 'column'
@@ -288,6 +333,7 @@ $(function () {
 
     }]
   });
+  }
 });
     
 
