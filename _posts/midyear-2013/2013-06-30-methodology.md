@@ -4,7 +4,7 @@ published: true
 category: midyear-2013
 ---
 
-<!-- MAIN TEXT -->
+
 <div class="page-container">
   <h3 class="page-title">LRA Crisis Tracker Methodology</h3>
   <h4 class="section-title">1. Data Collection</h4>
