@@ -8,7 +8,7 @@ published: true
       <a href="{{site.baseurl}}{{ post.post_url }}"><img src="{{post.img_url}}"></a>
     </div>
     <div class="preview-description">
-      <a href="{{site.baseurl}}{{ post.post_url }}">{{ post.title }}</a> | {{ post.date | date_to_string }}
+      <a href="{{ post.post_url }}">{{ post.title }}</a> | {{ post.date | date_to_string }}
     </div>
   </div>
 {% endfor %}
