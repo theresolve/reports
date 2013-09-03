@@ -1,5 +1,7 @@
 ---
 layout: main
+published: true
+category: midyear-2013
 ---
 
 <iframe width='100%' height='600' frameborder='0' src='http://theresolve.cartodb.com/viz/6c87134e-1105-11e3-89f8-67c211be62ba/embed_map?title=false&description=false&search=false&shareable=false&cartodb_logo=true&layer_selector=false&legends=false&scrollwheel=false&sublayer_options=1&sql=&sw_lat=4.455950571647079&sw_lon=23.719482421875&ne_lat=7.0245719178463695&ne_lon=28.992919921875004'></iframe>

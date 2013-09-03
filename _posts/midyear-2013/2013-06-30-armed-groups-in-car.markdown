@@ -1,5 +1,7 @@
 ---
 layout: main
+published: true
+category: midyear-2013
 ---
 
 <!-- MAIN TEXT -->
