@@ -5,7 +5,7 @@ $(function () {
         type: 'column'
     },
     title: {
-        text: 'Decline in Mass Killings and Abductions in DR Congo'
+        text: 'Decline in Mass Killings and Abductions in Congo'
     },
     subtitle: {
         text: 'January 2009 - June 2013'
@@ -16,7 +16,7 @@ $(function () {
     yAxis: {
         min: 0,
         title: {
-            text: 'Number of Attacks'
+            text: 'Number of Major Attacks'
         }
     },
     plotOptions: {
@@ -29,7 +29,7 @@ $(function () {
       enabled: false
     },
     series: [{
-        name: 'LRA Attacks in DRC (5 or more killings or 10 or more abductions)',
+        name: 'Major LRA attacks in Congo (5 or more killings and/or 10 or more abductions)',
         data: [16, 9, 20, 18, 29, 5, 3, 2, 3, 5, 1, 0, 1, 2, 0, 0, 1, 0]
     }]
   });
@@ -43,15 +43,15 @@ $(function () {
         type: 'column'
     },
     title: {
-        text: 'LRA Activity in Haut Kotte'
+        text: 'LRA Activity in Haut Kotto'
     },
     subtitle: {
-        text: 'January - June 2013'
+        text: 'January-June 2013'
     },
     colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
     xAxis: {
         categories: [
-          'Haut Kotte'
+          'Haut Kotto'
         ]
     },
     yAxis: {
@@ -75,11 +75,11 @@ $(function () {
 
     }, {
         name: 'Killings',
-        data: [79]
+        data: [25]
 
     }, {
         name: 'Abductions',
-        data: [25]
+        data: [79]
 
     }]
   });
@@ -93,22 +93,22 @@ $(function () {
         type: 'column'
     },
     title: {
-        text: 'Number of Reported LRA Killings'
+        text: 'Number of LRA Killings in Congo & CAR'
     },
     subtitle: {
-        text: 'Number of Reported LRA Killings'
+        text: '2012-2013'
     },
     colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
     xAxis: {
         categories: [
-          'DR Congo',
+          'Congo',
           'CAR'
         ]
     },
     yAxis: {
         min: 0,
         title: {
-            text: 'Number of Reported Killings'
+            text: 'Number of Killings'
         }
     },
     plotOptions: {
@@ -141,17 +141,20 @@ $(function () {
     },
     colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
     title: {
-        text: 'Number of Reported LRA Attacks From January - June'
+        text: 'Number of LRA Attacks From January - June'
+    },
+    subtitle: {
+      text: '2010-2013'
     },
     xAxis: {
         categories: [
-          'Reported LRA Attacks'
+          'LRA Attacks'
         ]
     },
     yAxis: {
         min: 0,
         title: {
-            text: 'Number of Reported Attacks'
+            text: 'Number of Attacks'
         }
     },
     plotOptions: {
@@ -164,19 +167,19 @@ $(function () {
       enabled: false
     },
     series: [{
-        name: '2010',
+        name: 'Jan-June 2010',
         data: [359]
 
     }, {
-        name: '2011',
+        name: 'Jan-June 2011',
         data: [218]
 
     }, {
-        name: '2012',
+        name: 'Jan-June 2012',
         data: [194]
 
     }, {
-        name: '2013',
+        name: 'Jan-June 2013',
         data: [90]
 
     }]
@@ -220,7 +223,7 @@ $(function () {
           borderWidth: 0
       },
       series: [{
-          name: 'DR Congo',
+          name: 'Congo',
           data: [23, 15, 6, 13, 7, 9, 13, 35, 38, 31, 21, 20, 17, 12, 11, 6, 12, 7, 17, 13, 15, 8, 5, 7]
       }, {
           name: 'CAR',
@@ -237,7 +240,7 @@ $(function () {
   if ($('#attacks-by-province-car').length) {
     $('#attacks-by-province-car').highcharts({
       title: {
-          text: 'Reported Attacks in CAR by Province',
+          text: 'LRA Attacks in CAR by Province',
           x: -20 //center
       },
       subtitle: {
@@ -289,7 +292,7 @@ $(function () {
         type: 'column'
     },
     title: {
-        text: 'Reported Killings and Abductions by Prefecture in CAR'
+        text: 'LRA Killings and Abductions by Prefecture in CAR'
     },
     subtitle: {
         text: 'January 2010 - June 2013'

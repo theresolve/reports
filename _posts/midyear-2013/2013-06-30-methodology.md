@@ -23,7 +23,7 @@ category: midyear-2013
 
   <p>Sourcing coverage: LRA Crisis Tracker Database team members make every effort to obtain data from all LRA-affected regions. Due to the remote nature of LRA-affected areas, the sourcing infrastructure available to project administrators is uneven across the geographic area of concern, and data included in the Database is often of better quality in areas with higher NGO and news agency traffic. The LRA Crisis Tracker Database does not claim to be a comprehensive record of all LRA or related incidents in the region, but team members make every effort to fill in areas where the data may not be easily accessible.</p>
 
-  <p>Note: The majority of the information gathering systems are located in DR Congo, leading to a disproportional amount of LRA reports from DRC. In upcoming months both Invisible Children and CRS, funded by USAID, will expand information gathering systems in CAR, hoping to improve access to information in the region.</p>
+  <p>Note: The majority of the information gathering systems are located in Congo, leading to a disproportional amount of LRA reports from DRC. In upcoming months both Invisible Children and CRS, funded by USAID, will expand information gathering systems in CAR, hoping to improve access to information in the region.</p>
 
   <h4 class="section-title"></h4>
   <p>Database entry: Reports are divided between a team of coders from both Invisible Children and Resolve. Coders determine if the source is reliable or unreliable (See section 4.2.B of the Codebook, Determining the Reliability of a Source). Before an incident is reported, the coder reads through other incidents in the same time range and checks for duplicates.</p>

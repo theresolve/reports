@@ -73,6 +73,9 @@ body {
   margin: 20px 16px 10px;
   font-size: 15;
 }
+.nav>li {
+  margin-left: 6px;
+}
 
 .nav>li>a {
 position: relative;
