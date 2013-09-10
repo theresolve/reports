@@ -339,9 +339,97 @@ $(function () {
   }
 });
     
+$(function () {
+  if ($('#updf-controlled-areas-of-car').length) {
+  $('#updf-controlled-areas-of-car').highcharts({
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: 'UPDF Controlled vs. Uncontrolled Areas of CAR'
+    },
+    subtitle: {
+        text: 'January 2011 - June 2013'
+    },
+    colors: ["#2f7ed8",'#0d233a', '#525252'],
+    xAxis: {
+        categories: [
+          'Controlled',
+          'Uncontrolled'
+        ]
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Number of Killings'
+        }
+    },
+    plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+    },
+    credits: {
+      enabled: false
+    },
+    series: [{
+        name: 'Attacks',
+        data: [66, 44]
 
+    },{
+        name: 'Killings',
+        data: [36, 63]
 
+    }, {
+        name: 'Abductions',
+        data: [179, 332]
 
+    }]
+  });
+}
+});
 
+$(function () {
+  if ($('#decline_in_killings').length) {
+  $('#decline_in_killings').highcharts({
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: 'LRA Killings in Congo and CAR'
+    },
+    subtitle: {
+        text: 'January 2011 - June 2013'
+    },
+    colors: ["#2f7ed8",'#0d233a', '#525252'],
+    xAxis: {
+      categories: ['Q1 11', 'Q2', 'Q3', 'Q4', 'Q1 12', 'Q2', 'Q3', 'Q4','Q1 13', 'Q2']
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Number of Killings'
+        }
+    },
+    plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+    },
+    credits: {
+      enabled: false
+    },
+    series: [{
+        name: 'Congo',
+        data: [45, 49, 11, 5, 6, 6, 1, 0, 13, 0]
 
+    },{
+        name: 'CAR',
+        data: [5, 6, 5, 0, 18, 2, 7, 11, 15, 30]
 
+    }]
+  });
+}
+});
