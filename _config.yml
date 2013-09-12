@@ -1,7 +1,7 @@
 name: "LRA Crisis Tracker"
 description: "LRA Crisis Tracker Security Briefs"
 url: "http://localhost:4000"
-baseurl: "/reports"
+baseurl: ""
 paginate: 10
 permalink: /:categories/:title/
 markdown: redcarpet
