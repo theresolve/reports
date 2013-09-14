@@ -30,6 +30,7 @@ body {
 }
 
 .preview {
+  margin-bottom: 20px;
 }
 
 .preview-image {
@@ -49,6 +50,23 @@ body {
   color: gray;
   font-style: italic;
   text-align: right;
+}
+
+.visualization-title-container {
+  border: 1px solid rgb(231, 231, 231);
+  color: gray;
+}
+
+.visualization-title {
+  margin-top: 15px;
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.visualization-subtitle {
+  font-size: 14px;
+  margin-bottom: 15px;
+  margin-left: 15px;
 }
 
 .sidebar {

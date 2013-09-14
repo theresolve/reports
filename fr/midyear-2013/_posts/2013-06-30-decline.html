@@ -1,5 +1,5 @@
 ---
-layout: report-midyear-2013
+layout: fr-report-midyear-2013
 published: true
 category: midyear-2013
 ---
