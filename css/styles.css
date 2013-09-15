@@ -37,6 +37,12 @@ header {
   padding-left: 13px;
 }
 
+@media screen and (max-width: 600px) {
+  .logo-text {
+    display: none;
+  }
+}
+
 /* PAGE
 ============================== */
 
