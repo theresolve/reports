@@ -61,7 +61,7 @@ header {
   background: white;
   margin-top: 30px;
   padding: 17px;
-  border-right: 2px rgb(250, 250, 250) solid;
+  border-right: 2px rgb(243, 243, 243) solid;
 }
 
 .section-title {
@@ -160,15 +160,24 @@ padding: 3px 15px;
   margin-top: 25px;
 }
 
-.btn a {
+.btn-primary a {
   color: white;
   text-decoration: none;
 }
 
-.crisis-tracker-btn {
+.btn-group-lang {
   float: right;
-  margin-top: 80px;
-  height: 45px;
+  margin-top: 18px;
+}
+
+.lang-menu {
+  left: 0;
+  right: 0;
+}
+
+.lang-btn {
+  float: right;
+  margin-top: 40px;
 }
 
 .icon-map-marker {

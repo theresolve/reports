@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="/js/visual.js"></script>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>LRA Crisis Tracker | Security Briefs</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <a href="{{ site.baseurl }}/"><img src="/logo.png" class="logo"></a>
+            <a href="{{ site.baseurl }}/"><img src="/logo-text.png" class="logo-text"></a>
+
+            <div class="btn-group btn-group-lang">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                Language: English <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu lang-menu" role="menu">
+                <li id="english"><a href="">&#x2713; English</a></li>
+                <li id="french"><a href="">Fran&ccedil;ais</a></li>
+              </ul>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+    </header>
+
+    {{ content }}
+    
+    <!-- FOOTER -->
+    <div class="footer">
+      <a href="http://lracrisistracker.com"> </a>
+      <a href="http://lracrisistracker.com"></a>
+      <a href="http://lracrisistracker.com"></a>
+    </div>
+  </body>
+</html>

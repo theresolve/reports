@@ -16,16 +16,27 @@
   <body>
     <!-- NAVBAR -->
     <header>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <a href="{{ site.baseurl }}/"><img src="/logo.png" class="logo"></a>
-              <a href="{{ site.baseurl }}/"><img src="/logo-text.png" class="logo-text"></a>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <a href="{{ site.baseurl }}/"><img src="/logo.png" class="logo"></a>
+            <a href="{{ site.baseurl }}/"><img src="/logo-text.png" class="logo-text"></a>
+
+            <div class="btn-group btn-group-lang">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                Langue: Fran&ccedil;ais <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu lang-menu" role="menu">
+                <li id="english"><a href="">English</a></li>
+                <li id="french"><a href="">&#x2713; Fran&ccedil;ais</a></li>
+              </ul>
             </div>
+    
           </div>
         </div>
-      </header>
-    
+      </div>
+    </header>
+
     {{ content }}
     
     <!-- FOOTER -->
