@@ -361,7 +361,7 @@ $(function () {
     yAxis: {
         min: 0,
         title: {
-            text: 'Number of Killings'
+            text: ''
         }
     },
     plotOptions: {
@@ -397,19 +397,19 @@ $(function () {
         type: 'column'
     },
     title: {
-        text: 'LRA Killings in Congo and CAR'
+        text: 'Mass LRA Abductions in Congo and CAR'
     },
     subtitle: {
-        text: 'January 2011 - June 2013'
+        text: 'January 2010 - June 2013'
     },
     colors: ["#2f7ed8",'#0d233a', '#525252'],
     xAxis: {
-      categories: ['Q1 11', 'Q2', 'Q3', 'Q4', 'Q1 12', 'Q2', 'Q3', 'Q4','Q1 13', 'Q2']
+      categories: ['Q1 10', 'Q2', 'Q3', 'Q4', 'Q1 11', 'Q2', 'Q3', 'Q4', 'Q1 12', 'Q2', 'Q3', 'Q4','Q1 13', 'Q2']
     },
     yAxis: {
         min: 0,
         title: {
-            text: 'Number of Killings'
+            text: 'Number of Civilians Abducted'
         }
     },
     plotOptions: {
@@ -423,11 +423,11 @@ $(function () {
     },
     series: [{
         name: 'Congo',
-        data: [45, 49, 11, 5, 6, 6, 1, 0, 13, 0]
+        data: [223,33,0,18,60,42,12,0,10,23,0,0,0,0,]
 
     },{
         name: 'CAR',
-        data: [5, 6, 5, 0, 18, 2, 7, 11, 15, 30]
+        data: [186,115,187,61,46,43,0,37,13,0,59,60,11,77]
 
     }]
   });
