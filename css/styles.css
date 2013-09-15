@@ -156,6 +156,15 @@ padding: 3px 15px;
 /* BUTTONS
 ============================== */
 
+.btn {
+  margin-top: 25px;
+}
+
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+
 .crisis-tracker-btn {
   float: right;
   margin-top: 80px;
