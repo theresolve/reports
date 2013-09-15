@@ -433,3 +433,51 @@ $(function () {
   });
 }
 });
+
+$(function () {
+  if ($('#executive-summary-visual-4').length) {
+  $('#executive-summary-visual-4').highcharts({
+    chart: {
+        type: 'column'
+    },
+    colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
+    title: {
+        text: 'Long-Term Returnees'
+    },
+    subtitle: {
+      text: 'January-June 2013'
+    },
+    xAxis: {
+        categories: [
+          'Long-Term Returnees'
+        ]
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Number of Long-Term Returnees'
+        }
+    },
+    plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+    },
+    credits: {
+      enabled: false
+    },
+    series: [{
+        name: 'Ugandan combatants',
+        data: [10]
+    }, {
+        name: 'Ugandan women and children',
+        data: [5]
+    }, {
+        name: 'Non-Ugandans',
+        data: [40]
+    }]
+  });
+}
+});
+
