@@ -11,6 +11,7 @@ html {
 
 body {
   margin: 0px;
+  color: rgb(63, 63, 63);
 }
 
 /* HEADER
@@ -58,6 +59,12 @@ header {
 
 .page-title {
   margin-bottom: 35px;
+}
+
+.page-subtitle {
+  font-size: 18px;
+  margin: 20px 0px 10px;
+  font-weight: 500;
 }
 
 /* SIDEBAR
@@ -131,7 +138,7 @@ padding: 3px 15px;
 ============================== */
 
 .visual {
-  margin: 20px 0px;
+  margin: 35px 0px 50px -10px;
 }
 
 .visualization-title-container {

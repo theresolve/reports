@@ -38,7 +38,7 @@ $(function () {
     yAxis: {
         min: 0,
         title: {
-            text: 'Number of Major Attacks'
+            text: ''
         }
     },
     plotOptions: {
@@ -51,7 +51,7 @@ $(function () {
       enabled: false
     },
     series: [{
-        name: 'Major LRA attacks in Congo (5 or more killings and/or 10 or more abductions)',
+        name: 'Mass LRA attacks in Congo (5 or more killings and/or 10 or more abductions)',
         data: [16, 9, 20, 18, 29, 5, 3, 2, 3, 5, 1, 0, 1, 2, 0, 0, 1, 0]
     }]
   });
@@ -65,7 +65,7 @@ $(function () {
         type: 'column'
     },
     title: {
-        text: 'LRA Activity in Haut Kotto'
+        text: 'LRA Activity in Haut Kotto prefecture, CAR'
     },
     subtitle: {
         text: 'January-June 2013'
@@ -73,7 +73,7 @@ $(function () {
     colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
     xAxis: {
         categories: [
-          'Haut Kotto'
+          ''
         ]
     },
     yAxis: {
@@ -161,7 +161,7 @@ $(function () {
     chart: {
         type: 'column'
     },
-    colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
+    colors: ["#2f7ed8", '#265688', '#0d233a', '#525252'],
     title: {
         text: 'Number of LRA Attacks From January - June'
     },
@@ -368,16 +368,16 @@ $(function () {
         type: 'column'
     },
     title: {
-        text: 'UPDF Controlled vs. Uncontrolled Areas of CAR'
+        text: 'Trends in LRA Activity in Eastern CAR'
     },
     subtitle: {
-        text: 'January 2011 - June 2013'
+        text: 'January 2011-June 2013'
     },
     colors: ["#2f7ed8",'#0d233a', '#525252'],
     xAxis: {
         categories: [
-          'Controlled',
-          'Uncontrolled'
+          'Areas under UPDF influence',
+          'Areas not under UPDF influence'
         ]
     },
     yAxis: {
@@ -419,10 +419,10 @@ $(function () {
         type: 'column'
     },
     title: {
-        text: 'Mass LRA Abductions in Congo and CAR'
+        text: 'Total Number of Civilians Abducted in LRA Mass Abductions'
     },
     subtitle: {
-        text: 'January 2010 - June 2013'
+        text: 'January 2010-June 2013'
     },
     colors: ["#2f7ed8",'#0d233a', '#525252'],
     xAxis: {
@@ -464,20 +464,20 @@ $(function () {
     },
     colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
     title: {
-        text: 'Long-Term Returnees'
+        text: 'Long-term LRA returnees'
     },
     subtitle: {
       text: 'January-June 2013'
     },
     xAxis: {
         categories: [
-          'Long-Term Returnees'
+          ''
         ]
     },
     yAxis: {
         min: 0,
         title: {
-            text: 'Number of Long-Term Returnees'
+            text: 'Number of Long-term LRA returnees'
         }
     },
     plotOptions: {
@@ -503,3 +503,52 @@ $(function () {
 }
 });
 
+
+$(function () {
+  if ($('#uag-pie').length) {
+    $('#uag-pie').highcharts({
+          chart: {
+              plotBackgroundColor: null,
+              plotBorderWidth: null,
+              plotShadow: false
+          },
+          title: {
+              text: 'LRA VS. Unidentified Armed Group (UAG) Attacks in Congo'
+          },
+          subtitle: {
+              text: 'January-June 2013'
+          },
+          tooltip: {
+            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+          },
+          plotOptions: {
+              pie: {
+                  allowPointSelect: true,
+                  cursor: 'pointer',
+                  dataLabels: {
+                      enabled: true,
+                      color: '#000000',
+                      connectorColor: '#000000',
+                      format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+                  }
+              }
+          },
+          credits: {
+           enabled: false
+          },
+          series: [{
+              type: 'pie',
+              name: 'Attacks',
+              data: [{
+                      name: 'LRA',
+                      y: 64,
+                      sliced: true,
+                      selected: true
+                  },
+                  ['UAG', 37]
+              ]
+          }]
+      });
+}
+});
+    
