@@ -65,16 +65,20 @@ $(function () {
         type: 'column'
     },
     title: {
-        text: 'LRA Activity in Haut Kotto prefecture, CAR'
+        text: 'LRA Activity in Haut Kotto prefecture, CAR',
+        style: {
+              color: '#FF00FF',
+              fontWeight: 'bold'
+           }
     },
     subtitle: {
         text: 'January-June 2013'
     },
     colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
     xAxis: {
-        categories: [
-          ''
-        ]
+        labels: {
+          enabled: false
+        }
     },
     yAxis: {
         min: 0,
@@ -163,7 +167,7 @@ $(function () {
     },
     colors: ["#2f7ed8", '#265688', '#0d233a', '#525252'],
     title: {
-        text: 'Number of LRA Attacks From January - June'
+        text: 'Number of LRA Attacks From January-June'
     },
     subtitle: {
       text: '2010-2013'
@@ -470,9 +474,9 @@ $(function () {
       text: 'January-June 2013'
     },
     xAxis: {
-        categories: [
-          ''
-        ]
+        labels: {
+          enabled: false
+        }
     },
     yAxis: {
         min: 0,
@@ -503,52 +507,46 @@ $(function () {
 }
 });
 
-
 $(function () {
   if ($('#uag-pie').length) {
     $('#uag-pie').highcharts({
-          chart: {
-              plotBackgroundColor: null,
-              plotBorderWidth: null,
-              plotShadow: false
-          },
-          title: {
-              text: 'LRA VS. Unidentified Armed Group (UAG) Attacks in Congo'
-          },
-          subtitle: {
-              text: 'January-June 2013'
-          },
-          tooltip: {
-            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-          },
-          plotOptions: {
-              pie: {
-                  allowPointSelect: true,
-                  cursor: 'pointer',
-                  dataLabels: {
-                      enabled: true,
-                      color: '#000000',
-                      connectorColor: '#000000',
-                      format: '<b>{point.name}</b>: {point.percentage:.1f} %'
-                  }
-              }
-          },
-          credits: {
-           enabled: false
-          },
-          series: [{
-              type: 'pie',
-              name: 'Attacks',
-              data: [{
-                      name: 'LRA',
-                      y: 64,
-                      sliced: true,
-                      selected: true
-                  },
-                  ['UAG', 37]
-              ]
-          }]
-      });
+    chart: {
+        type: 'column'
+    },
+    colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
+    title: {
+      text: 'LRA vs. Unidentified Armed Group (UAG) Attacks in LRA-affected Areas of Congo'
+    },
+    subtitle: {
+      text: 'January-June 2013'
+    },
+    xAxis: {
+        labels: {
+          enabled: false
+        }
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Number of Attacks'
+        }
+    },
+    plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+    },
+    credits: {
+      enabled: false
+    },
+    series: [{
+        name: 'LRA',
+        data: [64]
+    }, {
+        name: 'UAG',
+        data: [37]
+    }]
+  });
 }
 });
-    
