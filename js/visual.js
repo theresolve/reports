@@ -65,11 +65,7 @@ $(function () {
         type: 'column'
     },
     title: {
-        text: 'LRA Activity in Haut Kotto prefecture, CAR',
-        style: {
-              color: '#FF00FF',
-              fontWeight: 'bold'
-           }
+        text: 'LRA Activity in Haut Kotto prefecture, CAR'
     },
     subtitle: {
         text: 'January-June 2013'
@@ -119,7 +115,7 @@ $(function () {
         type: 'column'
     },
     title: {
-        text: 'Number of LRA Killings in Congo & CAR'
+        text: 'Number of LRA Killings in Congo & Central African Republic (CAR)'
     },
     subtitle: {
         text: '2012-2013'
