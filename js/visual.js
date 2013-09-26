@@ -563,10 +563,10 @@ $(function () {
         type: 'column'
     },
     title: {
-        text: 'Decline in Mass Killings and Abductions in Congo'
+        text: 'D\u00e9clin des Massacres et Enl\u00e8vements en Masse au Congo'
     },
     subtitle: {
-        text: 'January 2009 - June 2013'
+        text: 'Janvier 2009-Juin 2013'
     },
     xAxis: {
         categories: ['Q1 09','Q2','Q3','Q4', 'Q1 10','Q2','Q3','Q4', 'Q1 11','Q2','Q3','Q4', 'Q1 12','Q2','Q3','Q4', 'Q1 13','Q2']
@@ -587,7 +587,7 @@ $(function () {
       enabled: false
     },
     series: [{
-        name: 'Mass LRA attacks in Congo (5 or more killings and/or 10 or more abductions)',
+        name: 'Attaques en Masse de la LRA au Congo (5 meurtres ou plus et / ou 10 enl\u00e8vements ou plus)',
         data: [16, 9, 20, 18, 29, 5, 3, 2, 3, 5, 1, 0, 1, 2, 0, 0, 1, 0]
     }]
   });
@@ -904,16 +904,16 @@ $(function () {
         type: 'column'
     },
     title: {
-        text: 'Trends in LRA Activity in Eastern CAR'
+        text: 'Tendances dans l\u2019activit\u00e9 de la LRA dans l\u2019est de la RCA'
     },
     subtitle: {
-        text: 'January 2011-June 2013'
+        text: 'Janvier 2011-Juin 2013'
     },
     colors: ["#2f7ed8",'#0d233a', '#525252'],
     xAxis: {
         categories: [
-          'Areas under UPDF influence',
-          'Areas not under UPDF influence'
+          'Zones sous influence UPDF',
+          'Zones non sous influence UPDF'
         ]
     },
     yAxis: {
@@ -932,15 +932,15 @@ $(function () {
       enabled: false
     },
     series: [{
-        name: 'Attacks',
+        name: 'Attaques',
         data: [66, 44]
 
     },{
-        name: 'Killings',
+        name: 'Meurtres',
         data: [36, 63]
 
     }, {
-        name: 'Abductions',
+        name: 'Enl\u00e8vements',
         data: [179, 332]
 
     }]
@@ -955,10 +955,10 @@ $(function () {
         type: 'column'
     },
     title: {
-        text: 'Total Number of Civilians Abducted in LRA Mass Abductions'
+        text: 'Nombre total de civils enlev\u00e9s dans les enl\u00e8vements de masse par la LRA'
     },
     subtitle: {
-        text: 'January 2010-June 2013'
+        text: 'Janvier 2010-Juin 2013'
     },
     colors: ["#2f7ed8",'#0d233a', '#525252'],
     xAxis: {
@@ -967,7 +967,7 @@ $(function () {
     yAxis: {
         min: 0,
         title: {
-            text: 'Number of Civilians Abducted'
+            text: ''
         }
     },
     plotOptions: {
@@ -984,7 +984,7 @@ $(function () {
         data: [223,33,0,18,60,42,12,0,10,23,0,0,0,0,]
 
     },{
-        name: 'CAR',
+        name: 'RCA',
         data: [186,115,187,61,46,43,0,37,13,0,59,60,11,77]
 
     }]
@@ -1047,10 +1047,10 @@ $(function () {
     },
     colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
     title: {
-      text: 'LRA vs. Unidentified Armed Group (UAG) Attacks in LRA-affected Areas of Congo'
+      text: 'Attaques de la LRA vs. Groupe Arm\u00e9 Non-identifi\u00e9 (GAN) dans les zones touch\u00e9es par la LRA du Congo'
     },
     subtitle: {
-      text: 'January-June 2013'
+      text: 'Janvier - Juin 2013'
     },
     xAxis: {
         labels: {
@@ -1060,7 +1060,7 @@ $(function () {
     yAxis: {
         min: 0,
         title: {
-            text: 'Number of Attacks'
+            text: 'Nombre d\u2019Attaques'
         }
     },
     plotOptions: {
@@ -1076,7 +1076,7 @@ $(function () {
         name: 'LRA',
         data: [64]
     }, {
-        name: 'UAG',
+        name: 'GAN',
         data: [37]
     }]
   });
