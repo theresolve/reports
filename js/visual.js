@@ -3,7 +3,7 @@ $(function () {
     if (location.pathname.split('/')[2] && location.pathname.split('/')[3]) {
       window.location = "/fr/" + location.pathname.split('/')[2] + "/" + location.pathname.split('/')[3];
     } else {
-      window.location = "/";
+      window.location = "/fr/";
     }
     return false;
   });
