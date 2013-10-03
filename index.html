@@ -1,14 +1,62 @@
 ---
-layout: en-previews
+layout: main
 published: true
 ---
-{% for post in site.categories['previews_en'] %}
-  <div class="col-md-4 preview">
-    <div class="preview-image">
-      <a href="{{ post.post_url }}"><img src="{{post.img_url}}"></a>
-    </div>
-    <div class="preview-description">
-      <a href="{{ post.post_url }}">{{ post.title }}</a> | {{ post.date | date_to_string }}
+<!-- NAVBAR -->
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <a href="{{ site.baseurl }}/"><img src="/images/logo.png" class="logo"></a>
+        <a href="{{ site.baseurl }}/"><img src="/images/logo-text.png" class="logo-text"></a>
+      <a href="http://www.lracrisistracker.com/sites/default/files/reports/incidents_export.csv" class="btn btn-primary btn-export">Full Data Export</a>
+      </div>
     </div>
   </div>
-{% endfor %}
+</header>
+
+<div class="container">
+  <div class="row">
+
+    <!-- TABLE OF CONTENTS -->
+    <div class="col-md-3 sidebar">
+      <div role="complementary">
+        <ul class="nav bs-sidenav">
+          <li>
+            <a href="http://www.lracrisistracker.com/">Map</a>
+          </li> 
+          <li>
+            <a href="http://www.lracrisistracker.com/#updates">Updates</a>
+          </li> 
+          <li>
+            <a href="http://www.lracrisistracker.com/#about">About</a>
+          </li> 
+          <li>
+            <a href="http://www.lracrisistracker.com/sites/default/files/Map-Methodology-and-Database%20Codebook%20v1.0.pdf">Methodology</a>
+          </li> 
+          <li>
+            <a href="http://twitter.com/CrisisTracker">Follow @CrisisTracker</a>
+          </li>
+          <hr>
+        </ul>
+      </div>
+    </div>
+
+    <!-- PAGE -->
+    <div class="col-md-9 page" role="main">
+        <h5>Security Reports</h5>
+        {% for post in site.categories['previews_en'] %}
+          <div class="preview-description">
+            <a href="{{ post.post_url }}">{{ post.title }}</a> | {{ post.date | date: "%B %Y" }}
+          </div>
+        {% endfor %}
+
+        <h5 style="margin-top: 20px;">Dossier de S&eacute;curit&eacute;</h5>
+        {% for post in site.categories['previews_fr'] %}
+          <div class="preview-description">
+            <a href="{{ post.post_url }}">{{ post.title }}</a> | {{ post.date | date: "%B %Y" }}
+          </div>
+        {% endfor %}
+    </div>
+  </div>
+</div>

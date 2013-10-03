@@ -108,19 +108,8 @@ padding: 3px 15px;
 /* PREVIEW
 ============================== */
 
-.preview {
-  margin-bottom: 20px;
-}
-
-.preview-image {
-}
-
-.preview-image img {
-  width: 100%;
-}
-
 .preview-description {
-  padding: 10px;
+  padding: 5px 0px;
   background: white;
 }
 
@@ -183,6 +172,11 @@ padding: 3px 15px;
   margin-top: 18px;
 }
 
+.btn-export {
+  float: right;
+  margin-top: 42px;
+}
+
 .lang-menu {
   left: 0;
   right: 0;
@@ -191,9 +185,4 @@ padding: 3px 15px;
 .lang-btn {
   float: right;
   margin-top: 40px;
-}
-
-.icon-map-marker {
-  font-size: 21px;
-  margin-right: 10px;
 }
