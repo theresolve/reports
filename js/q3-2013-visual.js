@@ -8,18 +8,18 @@ function getVisualData() {
   var executive_summary_2_car_data = [];  
 
   var get_executive_summary_1_data = $.getJSON( 'http://lra.herokuapp.com/metrics/incidents.json?callback=?&type=attacks&start_date=2011-01-01&end_date=2013-09-01&duration=quarter&group=civilian_fatalities', function (data) {
-      for(var i = 0; i < data.length; i++) { 
-        executive_summary_1_data.push([data[i]['date'] * 1000, data[i]['civilian_fatalities']])
+      for(var i = 0; i < data.periods.length; i++) { 
+        executive_summary_1_data.push([data.periods[i].unix_start_datetime * 1000, data.periods[i].count])
       }
   });
   var get_executive_summary_2_drc_data = $.getJSON( 'http://lra.herokuapp.com/metrics/incidents.json?callback=?&type=attacks&start_date=2011-01-01&end_date=2013-09-01&duration=quarter&country=DRC', function (data) {
-      for(var i = 0; i < data.length; i++) { 
-        executive_summary_2_drc_data.push([data[i]['date'] * 1000, data[i]['incidents']])
+      for(var i = 0; i < data.periods.length; i++) { 
+        executive_summary_2_drc_data.push([data.periods[i].unix_start_datetime * 1000, data.periods[i].count])
       }
   });
   var get_executive_summary_2_car_data = $.getJSON( 'http://lra.herokuapp.com/metrics/incidents.json?callback=?&type=attacks&start_date=2011-01-01&end_date=2013-09-01&duration=quarter&country=CAR', function (data) {
       for(var i = 0; i < data.length; i++) { 
-        executive_summary_2_car_data.push([data[i]['date'] * 1000, data[i]['incidents']])
+        executive_summary_2_car_data.periods.push([data.periods[i].unix_start_datetime * 1000, data.periods[i].count])
       }
   });
   $.when(get_executive_summary_1_data, get_executive_summary_2_drc_data, get_executive_summary_2_car_data).done(function() {
