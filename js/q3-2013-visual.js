@@ -3,13 +3,19 @@ $(document).ready(function() {
 });
 
 function getVisualData() {  
-  var executive_summary_1_data = [];
+  var executive_summary_1_killing_data = [];
+  var executive_summary_1_abduction_data = [];
   var executive_summary_2_drc_data = [];
   var executive_summary_2_car_data = [];  
 
-  var get_executive_summary_1_data = $.getJSON( 'http://lra.herokuapp.com/metrics/incidents.json?callback=?&type=attacks&start_date=2011-01-01&end_date=2013-09-01&duration=quarter&group=civilian_fatalities', function (data) {
+  var get_executive_summary_1_killing_data = $.getJSON( 'http://lra.herokuapp.com/metrics/incidents.json?callback=?&type=attacks&start_date=2011-01-01&end_date=2013-09-01&duration=quarter&group=civilian_fatalities', function (data) {
       for(var i = 0; i < data.periods.length; i++) { 
-        executive_summary_1_data.push([data.periods[i].unix_start_datetime * 1000, data.periods[i].count])
+        executive_summary_1_killing_data.push([data.periods[i].unix_start_datetime * 1000, data.periods[i].count])
+      }
+  });
+  var get_executive_summary_1_abduction_data = $.getJSON( 'http://lra.herokuapp.com/metrics/incidents.json?callback=?&type=attacks&start_date=2011-01-01&end_date=2013-09-01&duration=quarter&group=civilian_abductions', function (data) {
+      for(var i = 0; i < data.periods.length; i++) { 
+        executive_summary_1_abduction_data.push([data.periods[i].unix_start_datetime * 1000, data.periods[i].count])
       }
   });
   var get_executive_summary_2_drc_data = $.getJSON( 'http://lra.herokuapp.com/metrics/incidents.json?callback=?&type=attacks&start_date=2011-01-01&end_date=2013-09-01&duration=quarter&country=DRC', function (data) {
@@ -18,18 +24,27 @@ function getVisualData() {
       }
   });
   var get_executive_summary_2_car_data = $.getJSON( 'http://lra.herokuapp.com/metrics/incidents.json?callback=?&type=attacks&start_date=2011-01-01&end_date=2013-09-01&duration=quarter&country=CAR', function (data) {
-      for(var i = 0; i < data.length; i++) { 
-        executive_summary_2_car_data.periods.push([data.periods[i].unix_start_datetime * 1000, data.periods[i].count])
+      for(var i = 0; i < data.periods.length; i++) { 
+        executive_summary_2_car_data.push([data.periods[i].unix_start_datetime * 1000, data.periods[i].count])
       }
   });
-  $.when(get_executive_summary_1_data, get_executive_summary_2_drc_data, get_executive_summary_2_car_data).done(function() {
-    buildExecutiveSummary1(executive_summary_1_data)
+  $.when(
+           
+           get_executive_summary_1_killing_data, 
+           get_executive_summary_1_abduction_data,
+           get_executive_summary_2_drc_data, 
+           get_executive_summary_2_car_data
+
+        ).done(function() {
+
+
+    buildExecutiveSummary1(executive_summary_1_killing_data, executive_summary_1_abduction_data)
     buildExecutiveSummary2(executive_summary_2_drc_data, executive_summary_2_car_data)
     buildUAG()
   });
 };
 
-function buildExecutiveSummary1(executive_summary_1_data) {
+function buildExecutiveSummary1(executive_summary_1_killing_data, executive_summary_1_abduction_data) {
     if ($('#executive-summary-1').length) {
   $('#executive-summary-1').highcharts({
     chart: {
@@ -37,15 +52,16 @@ function buildExecutiveSummary1(executive_summary_1_data) {
     },
     colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
     title: {
-        text: "LRA Fatalities"
+        text: "LRA Killings and Abductions by Quarter"
     },
     subtitle: {
-        text: "January 2010-September 2013"
+        text: "January 2011-September 2013"
     },
     xAxis: {
       type: 'datetime',
+      tickInterval: 24 * 3600 * 1000 *30 * 3,
       dateTimeLabelFormats: {
-        month: '%b %y'
+        month: '%b \'%y'
       }
     },
     yAxis: {
@@ -65,7 +81,10 @@ function buildExecutiveSummary1(executive_summary_1_data) {
     },
     series: [{
         name: "LRA Fatalities",
-        data: executive_summary_1_data
+        data: executive_summary_1_killing_data
+    },{
+        name: "LRA Abductions",
+        data: executive_summary_1_abduction_data
     }]
   });
 };
@@ -79,15 +98,16 @@ function buildExecutiveSummary2(executive_summary_2_drc_data, executive_summary_
     },
     colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
     title: {
-        text: "LRA Attacks by Country"
+        text: "LRA Attacks in CAR and Congo"
     },
     subtitle: {
         text: "January 2010-September 2013"
     },
     xAxis: {
       type: 'datetime',
+      tickInterval: 24 * 3600 * 1000 *30 * 3,
       dateTimeLabelFormats: {
-        month: '%b %y'
+        month: '%b \'%y'
       }
     },
     yAxis: {
@@ -110,11 +130,11 @@ function buildExecutiveSummary2(executive_summary_2_drc_data, executive_summary_
     credits: {
       enabled: false
     },
-    series: [{
-        name: "LRA Attacks in DRC",
-        data: executive_summary_2_car_data
-    }, {
+    series: [ {
         name: "LRA Attacks in CAR",
+        data: executive_summary_2_car_data
+    },{
+        name: "LRA Attacks in DRC",
         data: executive_summary_2_drc_data
     }]
   });
