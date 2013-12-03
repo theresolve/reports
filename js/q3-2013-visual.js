@@ -66,12 +66,6 @@ function buildExecutiveSummary1(executive_summary_1_killing_data, executive_summ
             text: ''
         }
     },
-    // tooltip: {
-    //   formatter: function() {
-    //     return '<b>'+ this.series.name +'</b><br/>'+
-    //     Highcharts.dateFormat(' Start of Quarter - %b %e, %Y', this.x) +'<br/>'+ this.y;
-    //   }
-    // },
     credits: {
       enabled: false
     },
@@ -108,12 +102,6 @@ function buildExecutiveSummary2(executive_summary_2_drc_data, executive_summary_
             text: ''
         }
     },
-    // tooltip: {
-    //   formatter: function() {
-    //     return '<b>'+ this.series.name +'</b><br/>'+
-    //     Highcharts.dateFormat(' Start of Quarter - %b %e, %Y', this.x) +'<br/>'+ this.y;
-    //   }
-    // },
     plotOptions: {
       column: {
         stacking: 'normal'
@@ -147,9 +135,7 @@ function buildUAG() {
         text: 'July-Sept 2013'
       },
       xAxis: {
-          labels: {
-            enabled: false
-          }
+        categories: ['Q1 13','Q2 13','Q3 13']
       },
       yAxis: {
           min: 0,
@@ -168,10 +154,10 @@ function buildUAG() {
       },
       series: [{
           name: 'LRA',
-          data: [31]
+          data: [62, 38, 36]
       }, {
           name: 'UAG',
-          data: [10]
+          data: [31, 22, 13]
       }]
     });
   }
