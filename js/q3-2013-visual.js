@@ -10,22 +10,22 @@ function getVisualData() {
 
   var get_executive_summary_1_killing_data = $.getJSON( 'http://lra.herokuapp.com/metrics/incidents.json?callback=?&type=attacks&start_date=2011-01-01&end_date=2013-09-01&duration=quarter&group=civilian_fatalities', function (data) {
       for(var i = 0; i < data.periods.length; i++) { 
-        executive_summary_1_killing_data.push([data.periods[i].unix_start_datetime * 1000, data.periods[i].count])
+        executive_summary_1_killing_data.push([data.periods[i].count])
       }
   });
   var get_executive_summary_1_abduction_data = $.getJSON( 'http://lra.herokuapp.com/metrics/incidents.json?callback=?&type=attacks&start_date=2011-01-01&end_date=2013-09-01&duration=quarter&group=civilian_abductions', function (data) {
       for(var i = 0; i < data.periods.length; i++) { 
-        executive_summary_1_abduction_data.push([data.periods[i].unix_start_datetime * 1000, data.periods[i].count])
+        executive_summary_1_abduction_data.push([data.periods[i].count])
       }
   });
   var get_executive_summary_2_drc_data = $.getJSON( 'http://lra.herokuapp.com/metrics/incidents.json?callback=?&type=attacks&start_date=2011-01-01&end_date=2013-09-01&duration=quarter&country=DRC', function (data) {
       for(var i = 0; i < data.periods.length; i++) { 
-        executive_summary_2_drc_data.push([data.periods[i].unix_start_datetime * 1000, data.periods[i].count])
+        executive_summary_2_drc_data.push([data.periods[i].count])
       }
   });
   var get_executive_summary_2_car_data = $.getJSON( 'http://lra.herokuapp.com/metrics/incidents.json?callback=?&type=attacks&start_date=2011-01-01&end_date=2013-09-01&duration=quarter&country=CAR', function (data) {
       for(var i = 0; i < data.periods.length; i++) { 
-        executive_summary_2_car_data.push([data.periods[i].unix_start_datetime * 1000, data.periods[i].count])
+        executive_summary_2_car_data.push([data.periods[i].count])
       }
   });
   $.when(
@@ -36,8 +36,8 @@ function getVisualData() {
            get_executive_summary_2_car_data
 
         ).done(function() {
-
-
+    
+    window.data = executive_summary_2_drc_data;
     buildExecutiveSummary1(executive_summary_1_killing_data, executive_summary_1_abduction_data)
     buildExecutiveSummary2(executive_summary_2_drc_data, executive_summary_2_car_data)
     buildUAG()
@@ -58,11 +58,7 @@ function buildExecutiveSummary1(executive_summary_1_killing_data, executive_summ
         text: "January 2011-September 2013"
     },
     xAxis: {
-      type: 'datetime',
-      tickInterval: 24 * 3600 * 1000 *30 * 3,
-      dateTimeLabelFormats: {
-        month: '%b \'%y'
-      }
+      categories: ['Q1 11','Q2','Q3','Q4', 'Q1 12','Q2','Q3','Q4', 'Q1 13','Q2','Q3']
     },
     yAxis: {
         min: 0,
@@ -70,12 +66,12 @@ function buildExecutiveSummary1(executive_summary_1_killing_data, executive_summ
             text: ''
         }
     },
-    tooltip: {
-      formatter: function() {
-        return '<b>'+ this.series.name +'</b><br/>'+
-        Highcharts.dateFormat('%e. %b, %y', this.x) +': '+ this.y;
-      }
-    },
+    // tooltip: {
+    //   formatter: function() {
+    //     return '<b>'+ this.series.name +'</b><br/>'+
+    //     Highcharts.dateFormat(' Start of Quarter - %b %e, %Y', this.x) +'<br/>'+ this.y;
+    //   }
+    // },
     credits: {
       enabled: false
     },
@@ -104,11 +100,7 @@ function buildExecutiveSummary2(executive_summary_2_drc_data, executive_summary_
         text: "January 2010-September 2013"
     },
     xAxis: {
-      type: 'datetime',
-      tickInterval: 24 * 3600 * 1000 *30 * 3,
-      dateTimeLabelFormats: {
-        month: '%b \'%y'
-      }
+      categories: ['Q1 11','Q2','Q3','Q4', 'Q1 12','Q2','Q3','Q4', 'Q1 13','Q2','Q3']
     },
     yAxis: {
         min: 0,
@@ -116,12 +108,12 @@ function buildExecutiveSummary2(executive_summary_2_drc_data, executive_summary_
             text: ''
         }
     },
-    tooltip: {
-      formatter: function() {
-        return '<b>'+ this.series.name +'</b><br/>'+
-        Highcharts.dateFormat('%e. %b, %y', this.x) +': '+ this.y;
-      }
-    },
+    // tooltip: {
+    //   formatter: function() {
+    //     return '<b>'+ this.series.name +'</b><br/>'+
+    //     Highcharts.dateFormat(' Start of Quarter - %b %e, %Y', this.x) +'<br/>'+ this.y;
+    //   }
+    // },
     plotOptions: {
       column: {
         stacking: 'normal'
