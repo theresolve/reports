@@ -8,22 +8,22 @@ function getVisualData() {
   var executive_summary_2_drc_data = [];
   var executive_summary_2_car_data = [];  
 
-  var get_executive_summary_1_killing_data = $.getJSON( 'http://lra.herokuapp.com/metrics/incidents.json?callback=?&type=attacks&start_date=2011-01-01&end_date=2013-09-01&duration=quarter&group=civilian_fatalities', function (data) {
+  var get_executive_summary_1_killing_data = $.getJSON( 'http://lra.herokuapp.com/metrics/incidents.json?callback=?&type=attacks&start_date=2011-01-01&end_date=2013-09-31&duration=quarter&group=civilian_fatalities', function (data) {
       for(var i = 0; i < data.periods.length; i++) { 
         executive_summary_1_killing_data.push([data.periods[i].count])
       }
   });
-  var get_executive_summary_1_abduction_data = $.getJSON( 'http://lra.herokuapp.com/metrics/incidents.json?callback=?&type=attacks&start_date=2011-01-01&end_date=2013-09-01&duration=quarter&group=civilian_abductions', function (data) {
+  var get_executive_summary_1_abduction_data = $.getJSON( 'http://lra.herokuapp.com/metrics/incidents.json?callback=?&type=attacks&start_date=2011-01-01&end_date=2013-09-31&duration=quarter&group=civilian_abductions', function (data) {
       for(var i = 0; i < data.periods.length; i++) { 
         executive_summary_1_abduction_data.push([data.periods[i].count])
       }
   });
-  var get_executive_summary_2_drc_data = $.getJSON( 'http://lra.herokuapp.com/metrics/incidents.json?callback=?&type=attacks&start_date=2011-01-01&end_date=2013-09-01&duration=quarter&country=DRC', function (data) {
+  var get_executive_summary_2_drc_data = $.getJSON( 'http://lra.herokuapp.com/metrics/incidents.json?callback=?&type=attacks&start_date=2011-01-01&end_date=2013-09-31&duration=quarter&country=DRC', function (data) {
       for(var i = 0; i < data.periods.length; i++) { 
         executive_summary_2_drc_data.push([data.periods[i].count])
       }
   });
-  var get_executive_summary_2_car_data = $.getJSON( 'http://lra.herokuapp.com/metrics/incidents.json?callback=?&type=attacks&start_date=2011-01-01&end_date=2013-09-01&duration=quarter&country=CAR', function (data) {
+  var get_executive_summary_2_car_data = $.getJSON( 'http://lra.herokuapp.com/metrics/incidents.json?callback=?&type=attacks&start_date=2011-01-01&end_date=2013-09-31&duration=quarter&country=CAR', function (data) {
       for(var i = 0; i < data.periods.length; i++) { 
         executive_summary_2_car_data.push([data.periods[i].count])
       }
@@ -114,7 +114,7 @@ function buildExecutiveSummary2(executive_summary_2_drc_data, executive_summary_
         name: "LRA Attacks in CAR",
         data: executive_summary_2_car_data
     },{
-        name: "LRA Attacks in DRC",
+        name: "LRA Attacks in Congo",
         data: executive_summary_2_drc_data
     }]
   });
@@ -154,7 +154,7 @@ function buildUAG() {
       },
       series: [{
           name: 'LRA',
-          data: [62, 38, 36]
+          data: [62, 38, 37]
       }, {
           name: 'UAG',
           data: [31, 22, 13]
