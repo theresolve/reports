@@ -1,0 +1,42 @@
+---
+layout: main
+published: true
+---
+<script src="/js/midyear-2013-visual.js"></script>
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <a href="{{ site.baseurl }}/"><img src="/images/logo.png" class="logo"></a>
+        <a href="{{ site.baseurl }}/"><img src="/images/logo-text.png" class="logo-text"></a>
+        <div class="btn-group btn-group-lang">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            Langue: Fran&ccedil;ais <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu lang-menu" role="menu">
+            <li id="english"><a href="">English</a></li>
+            <li id="french"><a href="">&#x2713;  Fran&ccedil;ais</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+
+    <!-- TABLE OF CONTENTS -->
+    <div class="col-md-3 sidebar">
+      <div role="complementary">
+        {% include fr-navigation/midyear-2013.html %}
+      </div>
+    </div>
+
+    <!-- PAGE -->
+    <div class="col-md-9 page" role="main">
+      {{ content }}
+    </div>
+  </div>
+</div>
