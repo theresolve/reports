@@ -49,7 +49,7 @@ header {
 
 .page {
   margin-top: 30px;
-  line-height: 1.75em;
+  line-height: 1.5em;
 }
 
 .page-container {
@@ -176,6 +176,9 @@ padding: 3px 15px;
   float: right;
   margin-top: 42px;
 }
+
+/* LANG MENU
+============================== */
 
 .lang-menu {
   left: 0;
