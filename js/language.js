@@ -19,3 +19,13 @@ $(function () {
     return false;
   });
 });
+
+$(function () {
+  if (location.pathname.split('/')[3] == "introduction") {
+    $("#introduction").addClass("active-nav-item")
+  } else {
+  }
+  return false;
+});
+
+

@@ -76,6 +76,11 @@ ul.nav a:hover {
   border-bottom-color: $white;
 }
 
+.navbar .nav li.dropdown > a:hover .caret {
+  border-top-color: $white;
+  border-bottom-color: $white;
+}
+
 nav.navbar.navbar-fixed-top.subnav {
   top: 80;
 }
@@ -133,6 +138,8 @@ nav.navbar.navbar-fixed {
 .page-container {
   padding: 20px 30px;
   background-color: white;
+  width: 950px;
+  margin: 0px auto;
 }
 
 .section-title {
@@ -180,16 +187,6 @@ nav.navbar.navbar-fixed {
 .sidebar-subtitle {
   margin: 20px 16px 10px;
   font-size: 15;
-}
-
-.nav>li {
-  margin-left: 6px;
-}
-
-.nav>li>a {
-/*position: relative;
-display: block;
-padding: 3px 15px;*/
 }
 
 /* PREVIEW
@@ -296,3 +293,6 @@ margin: 40px 0px;
   visibility: hidden;
 }
 
+.active-nav-item {
+  background: $darker-blue;
+}
