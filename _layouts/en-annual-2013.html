@@ -4,7 +4,7 @@ published: true
 ---
 <!-- NAVBAR -->
 <script src="/js/annual-2013-visual.js"></script>
-<header>
+<!-- <header>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -23,21 +23,107 @@ published: true
       </div>
     </div>
   </div>
-</header>
+</header> -->
+<nav class="navbar navbar-fixed-top" role="navigation">
+  <div class="nav-container">
+    <div class="navbar-header">
+<!--       <a class="navbar-brand" href="#">Annual</a> -->
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Introduction <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="/en/annual-2013/introduction#executive-summary">Executive Summary</a>
+            </li>
+            <li>
+              <a href="/en/annual-2013/introduction#map-of-lra-attacks">Map of LRA Attacks, 2010-2013</a>
+            </li>
+            <li>
+              <a href="/en/annual-2013/introduction#notable-political-context">Notable Political Context</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">LRA Command Structure <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="/en/annual-2013/lra-command-structure/">LRA command structure and group location</a>
+            </li>
+            <li>
+              <a href="/en/annual-2013/lra-camps/">LRA camps and resupply networks</a>
+            </li>
+            <li>
+              <a href="/en/annual-2013/looting-analysis/">Looting analysis</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">LRA Force Capacity <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="/en/annual-2013/reduction-in-fighting-capacity/">Reduction in LRA fighting capacity </a>
+            </li>
+            <li>
+              <a href="/en/annual-2013/returnees/">Return of long-term women, children, and non-Ugandan men</a>
+            </li>
+            <li>
+              <a href="/en/annual-2013/come-home-messaging/">Exposure to Come Home messages</a>
+            </li>
+            <li>
+              <a href="/en/annual-2013/porters-or-new-recruits/">LRA abductees: Porters or new recruits?</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Congo: The LRA's breadbasket <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="/en/annual-2013/looting-congo/">LRA looting</a>
+            </li>
+            <li>
+              <a href="/en/annual-2013/dangerous-livelihoods/">Dangerous livelihoods: Hunting, fishing, and farming in the LRA's shadow</a>
+            </li>
+            <li>
+              <a href="/en/annual-2013/lra-vs-uag/">LRA vs UAG attacks, 2013</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">CAR: Extreme violence<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="/en/annual-2013/mass-lra-attacks/">Mass LRA attacks in eastern CAR</a>
+            </li>
+            <li>
+              <a href="/en/annual-2013/lra-car-hotspots/">LRA hotspots in AU-controlled territory</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="/en/annual-2013/lra-background/">LRA Background</a>
+            </li>
+            <li>
+              <a href="/en/annual-2013/methodology/">LRA Crisis Tracker Methodology</a>
+            </li>
+            <li>
+              <a href="/en/annual-2013/about/">About the LRA Crisis Tracker</a>
+            </li>
+            <li>
+              <a href="/en/annual-2013/contributors/">Contributors</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
 <div class="container">
   <div class="row">
-
-    <!-- TABLE OF CONTENTS -->
-    <div class="col-md-3 sidebar">
-      <div role="complementary">
-        {% include en-navigation/annual-2013.html %}
-      </div>
-    </div>
-
-    <!-- PAGE -->
-    <div class="col-md-9 page" role="main">
-      {{ content }}
-    </div>
+    <img src="/images/annual-logo.png" class="annual-logo">
+    {{ content }}
   </div>
 </div>
