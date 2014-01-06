@@ -55,7 +55,7 @@ a {
 
 // NAVBAR ITEMS
 .navbar-nav>li>a {
-  padding: 30px 15px;
+  padding: 30px 22px;
   color: $white;
   font-size: 13px;
 }
@@ -295,4 +295,8 @@ margin: 40px 0px;
 
 .active-nav-item {
   background: $darker-blue;
+}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
 }
