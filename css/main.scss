@@ -39,7 +39,7 @@ a {
 // NAVBAR
 .navbar {
   background: $blue;
-  height: 80px;
+  height: 90px;
   color: white;
   border: 0px;
   border-radius: 0px;
@@ -51,13 +51,9 @@ a {
   }
 }
 
-.affix { 
-  top: 0; 
+.navbar-brand {
+  padding: 0px;
 }
-
-.navbar-main {
-  background: $dark-gray;
-} 
 
 // LOGO
 .navbar>.container .navbar-brand {
@@ -69,7 +65,7 @@ a {
 
 // NAVBAR ITEMS
 .navbar-nav>li>a {
-  padding: 30px 22px;
+  padding: 35px 15px;
   color: $white;
   font-size: 13px;
 }
@@ -127,7 +123,7 @@ nav.navbar.navbar-fixed {
 
 .annual-logo {
   height: 60px;
-  margin: 10px auto;
+  margin: 14px auto 0px;
 }
 
 /* PAGE
@@ -143,7 +139,7 @@ nav.navbar.navbar-fixed {
 }
 
 .nav-container {
-  width: 950px;
+  width: 1100px;
   padding: 0px;
   margin: 0px auto;
 }
@@ -165,7 +161,7 @@ nav.navbar.navbar-fixed {
 
 .page-title {
   margin-bottom: 35px;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .page-subtitle {
