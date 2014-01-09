@@ -4,6 +4,7 @@ $white: #fff;
 $blue: #4884C5;
 $darker-blue: darken($blue, 10%);
 $black: #555;
+$dark-gray: rgb(71, 71, 71);
 
 
 /* GENERAL
@@ -33,17 +34,30 @@ a {
   color: $blue;
 }
 
+
+
 // NAVBAR
 .navbar {
   background: $blue;
   height: 80px;
   color: white;
+  border: 0px;
   border-radius: 0px;
+  width: 100%;
+  margin-bottom: 0;
   a {
     color: $white;
     text-decoration: none;
   }
 }
+
+.affix { 
+  top: 0; 
+}
+
+.navbar-main {
+  background: $dark-gray;
+} 
 
 // LOGO
 .navbar>.container .navbar-brand {
@@ -112,9 +126,8 @@ nav.navbar.navbar-fixed {
 }
 
 .annual-logo {
-  width: 50%;
-  margin: 120px auto 50px;
-  display: block;
+  height: 60px;
+  margin: 10px auto;
 }
 
 /* PAGE
