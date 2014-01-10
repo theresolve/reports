@@ -29,11 +29,11 @@ function buildES1() {
     if ($('#A13_ES_1').length) {
       $('#A13_ES_1').highcharts({
       chart: {
-          type: 'line'
+          type: 'column'
       },
-      colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
+      colors: ['#0d233a', '#525252', '#910000'],
       title: {
-        text: 'Return of Ugandan Male Fighters By Quarter'
+        text: 'Loss of Ugandan Male Fighters By Quarter'
       },
       subtitle: {
         text: 'January-December 2013'
@@ -58,7 +58,7 @@ function buildES1() {
       },
       series: [{
           name: 'Number of Ugandan Male Fighters',
-          data: [5, 5, 5, 5]
+          data: [4, 9, 2, 7]
       }]
     });
   }
