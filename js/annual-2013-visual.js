@@ -72,18 +72,18 @@ function buildES2() {
       },
       colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
       title: {
-        text: 'Long-term Women and Child Returnees by Year'
+        text: 'Long-term Women and Child Returnees Method of Escape'
       },
       subtitle: {
-        text: '2011-2013'
+        text: 'January-December 2013'
       },
       xAxis: {
-        categories: ['2011','2012','2013']
+        categories: ['Escaped with LRA combatant', 'Escaped on own', 'Rescued by Ugandan troops', 'Rescued by South Sudanese hunters or Arrow Boys', 'Released by LRA combatant']
       },
       yAxis: {
           min: 0,
           title: {
-              text: 'Long-term Women and Child Returnees'
+              text: '# of Women and Child Returnees'
           }
       },
       plotOptions: {
@@ -97,7 +97,7 @@ function buildES2() {
       },
       series: [{
           name: 'Long-term Women and Child Returnees',
-          data: [5, 5, 5]
+          data: [14, 7, 3, 7, 31]
       }]
     });
   }
