@@ -78,7 +78,7 @@ function buildES2() {
         text: 'January-December 2013'
       },
       xAxis: {
-        categories: ['Escaped with LRA combatant', 'Escaped on own', 'Rescued by Ugandan troops', 'Rescued by South Sudanese hunters or Arrow Boys', 'Released by LRA combatant']
+        categories: ['Released by LRA combatant', 'Escaped with LRA combatant', 'Escaped on own', 'Rescued by South Sudanese hunters or Arrow Boys', 'Rescued by Ugandan troops']
       },
       yAxis: {
           min: 0,
@@ -97,7 +97,7 @@ function buildES2() {
       },
       series: [{
           name: 'Long-term Women and Child Returnees',
-          data: [14, 7, 3, 7, 31]
+          data: [31, 14, 7, 7, 3]
       }]
     });
   }
