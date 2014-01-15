@@ -33,10 +33,10 @@ function buildES1() {
       },
       colors: ['#0d233a', '#525252', '#910000'],
       title: {
-        text: 'Loss of Ugandan Male Fighters By Quarter'
+        text: ''
       },
       subtitle: {
-        text: 'January-December 2013'
+        text: ''
       },
       xAxis: {
         categories: ['Q1','Q2','Q3', 'Q4']
@@ -44,7 +44,7 @@ function buildES1() {
       yAxis: {
           min: 0,
           title: {
-              text: 'Number of Ugandan Male Fighters'
+              text: '# of Fighters'
           }
       },
       plotOptions: {
@@ -57,7 +57,7 @@ function buildES1() {
         enabled: false
       },
       series: [{
-          name: 'Number of Ugandan Male Fighters',
+          name: '# of Ugandan Male Fighters',
           data: [4, 9, 2, 7]
       }]
     });
