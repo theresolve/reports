@@ -22,6 +22,11 @@ body {
   background-color: #F8F8F8;
 }
 
+.row-alt {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 /* HEADER
 ============================== */
 
@@ -147,7 +152,7 @@ nav.navbar.navbar-fixed {
 .page-container {
   padding: 120px 30px;
   background-color: white;
-  width: 950px;
+  width: 1000px;
   margin: 0px auto;
 }
 
@@ -224,7 +229,7 @@ nav.navbar.navbar-fixed {
 ============================== */
 
 .visual {
-  margin: 35px 0px 50px -10px;
+  margin: 35px 0px 10px -10px;
 }
 
 .visualization-title-container {

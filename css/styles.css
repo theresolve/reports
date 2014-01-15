@@ -15,20 +15,26 @@ body {
   background-color: #F8F8F8;
 }
 
+/* line 25, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+.row-alt {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 /* HEADER
 ============================== */
-/* line 28, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 33, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 body {
   color: #555555;
 }
 
-/* line 32, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 37, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 a {
   text-decoration: none;
   color: #4884c5;
 }
 
-/* line 40, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 45, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .navbar {
   background: #4884c5;
   height: 90px;
@@ -38,18 +44,18 @@ a {
   width: 100%;
   margin-bottom: 0;
 }
-/* line 48, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 53, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .navbar a {
   color: white;
   text-decoration: none;
 }
 
-/* line 54, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 59, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .navbar-brand {
   padding: 0px;
 }
 
-/* line 59, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 64, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .navbar > .container .navbar-brand {
   font-size: 20px;
   font-weight: 300;
@@ -57,57 +63,57 @@ a {
   color: white;
 }
 
-/* line 67, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 72, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .navbar-nav > li > a {
   padding: 35px 15px;
   color: white;
   font-size: 13px;
 }
 
-/* line 74, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 79, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 ul.nav a:hover {
   color: white !important;
   background-color: #346ba6;
 }
 
-/* line 79, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 84, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   color: white !important;
   background-color: #346ba6;
 }
 
-/* line 84, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 89, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .nav .caret {
   border-top-color: white;
   border-bottom-color: white;
 }
 
-/* line 89, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 94, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .navbar .nav li.dropdown > a:hover .caret {
   border-top-color: white;
   border-bottom-color: white;
 }
 
-/* line 94, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 99, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 nav.navbar.navbar-fixed-top.subnav {
   top: 80;
 }
 
-/* line 98, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 103, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 nav.navbar.navbar-fixed {
   top: 0;
 }
 
 /* LOGO
 ============================== */
-/* line 106, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 111, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .logo {
   height: 75px;
   margin: 21px 0px 5px 10px;
   padding-left: 0px;
 }
 
-/* line 112, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 117, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .logo-text {
   height: 35px;
   margin: 16px 0px 0px;
@@ -115,12 +121,12 @@ nav.navbar.navbar-fixed {
 }
 
 @media screen and (max-width: 600px) {
-  /* line 119, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+  /* line 124, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
   .logo-text {
     display: none;
   }
 }
-/* line 124, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 129, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .annual-logo {
   height: 60px;
   margin: 14px 20px 0px 0px;
@@ -128,44 +134,44 @@ nav.navbar.navbar-fixed {
 
 /* PAGE
 ============================== */
-/* line 132, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 137, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .container {
   width: 1100px;
 }
 
-/* line 136, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 141, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .old-container {
   margin-top: 20px;
   background-color: white;
 }
 
-/* line 141, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 146, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .nav-container {
   width: 1005px;
   padding: 0px;
   margin: 0px auto;
 }
 
-/* line 147, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 152, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .page-container {
   padding: 120px 30px;
   background-color: white;
-  width: 950px;
+  width: 1000px;
   margin: 0px auto;
 }
 
-/* line 158, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 163, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .section-rule {
   margin-bottom: 60px;
 }
 
-/* line 162, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 167, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .page-title {
   margin-bottom: 35px;
   font-weight: 500;
 }
 
-/* line 167, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 172, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .page-subtitle {
   font-size: 18px;
   margin: 20px 0px 10px;
@@ -174,7 +180,7 @@ nav.navbar.navbar-fixed {
 
 /* SIDEBAR
 ============================== */
-/* line 176, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 181, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .sidebar {
   background: white;
   margin-top: 30px;
@@ -182,12 +188,12 @@ nav.navbar.navbar-fixed {
   border-right: 2px #f3f3f3 solid;
 }
 
-/* line 183, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 188, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .section-title {
   margin-top: 30px;
 }
 
-/* line 187, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 192, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .sidebar-title {
   margin: 0px 16px;
   padding: 0px 0px;
@@ -197,7 +203,7 @@ nav.navbar.navbar-fixed {
   font-size: 21px;
 }
 
-/* line 196, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 201, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .sidebar-subtitle {
   margin: 20px 16px 10px;
   font-size: 15;
@@ -205,12 +211,12 @@ nav.navbar.navbar-fixed {
 
 /* PREVIEW
 ============================== */
-/* line 204, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 209, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .previews {
   margin: 40px 0px;
 }
 
-/* line 208, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 213, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .preview-description {
   padding: 5px 0px;
   background: white;
@@ -218,7 +224,7 @@ nav.navbar.navbar-fixed {
 
 /* CAPTIONS
 ============================== */
-/* line 216, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 221, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .caption {
   padding: 15px 0px;
   color: gray;
@@ -228,25 +234,25 @@ nav.navbar.navbar-fixed {
 
 /* VISUALIZATIONS
 ============================== */
-/* line 226, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 231, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .visual {
-  margin: 35px 0px 50px -10px;
+  margin: 35px 0px 10px -10px;
 }
 
-/* line 230, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 235, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .visualization-title-container {
   border: 1px solid #e7e7e7;
   color: gray;
 }
 
-/* line 235, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 240, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .visualization-title {
   margin-top: 15px;
   font-size: 18px;
   margin-left: 15px;
 }
 
-/* line 241, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 246, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .visualization-subtitle {
   font-size: 14px;
   margin-bottom: 15px;
@@ -255,7 +261,7 @@ nav.navbar.navbar-fixed {
 
 /* FOOTER
 ============================== */
-/* line 250, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 255, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .footer {
   text-align: center;
   padding: 40px;
@@ -263,24 +269,24 @@ nav.navbar.navbar-fixed {
 
 /* BUTTONS
 ============================== */
-/* line 258, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 263, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .btn {
   margin-top: 25px;
 }
 
-/* line 262, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 267, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .btn-primary a {
   color: white;
   text-decoration: none;
 }
 
-/* line 267, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 272, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .btn-group-lang {
   float: right;
   margin-top: 18px;
 }
 
-/* line 272, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 277, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .btn-export {
   float: right;
   margin-top: 42px;
@@ -288,13 +294,13 @@ nav.navbar.navbar-fixed {
 
 /* LANG MENU
 ============================== */
-/* line 280, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 285, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .lang-menu {
   left: 0;
   right: 0;
 }
 
-/* line 285, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 290, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .lang-btn {
   float: right;
   margin-top: 40px;
@@ -302,12 +308,12 @@ nav.navbar.navbar-fixed {
 
 /* TABLES
 ============================== */
-/* line 294, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 299, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .table {
   margin: 40px 0px;
 }
 
-/* line 298, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 303, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .page-anchor {
   display: block;
   position: relative;
@@ -315,12 +321,12 @@ nav.navbar.navbar-fixed {
   visibility: hidden;
 }
 
-/* line 305, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 310, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .active-nav-item {
   background: #346ba6;
 }
 
-/* line 309, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+/* line 314, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 ul.nav li.dropdown:hover > ul.dropdown-menu {
   display: block;
 }

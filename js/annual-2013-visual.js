@@ -31,7 +31,7 @@ function buildES1() {
       chart: {
           type: 'column'
       },
-      colors: ['#0d233a', '#525252', '#910000'],
+      colors: ["#2f7ed8",'#0d233a', '#910000'],
       title: {
         text: ''
       },
@@ -39,26 +39,39 @@ function buildES1() {
         text: ''
       },
       xAxis: {
-        categories: ['Q1','Q2','Q3', 'Q4']
+        categories: ['2012','2013'],
       },
       yAxis: {
           min: 0,
+          gridLineColor: 'transparent',
           title: {
-              text: '# of Fighters'
+              text: ''
           }
       },
       plotOptions: {
           column: {
               pointPadding: 0.2,
               borderWidth: 0
+          },
+          series: {
+              pointWidth: 35
           }
       },
       credits: {
         enabled: false
       },
+      legend: {
+          itemStyle: {
+              color: '#000000',
+               fontSize: '10px'
+            }
+      },
       series: [{
-          name: '# of Ugandan Male Fighters',
-          data: [4, 9, 2, 7]
+          name: 'Killed',
+          data: [4, 9]
+      }, {
+          name: 'Captured/Escaped',
+          data: [9, 3]
       }]
     });
   }
@@ -72,18 +85,19 @@ function buildES2() {
       },
       colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
       title: {
-        text: 'Long-term Women and Child Returnees Method of Escape'
+        text: ''
       },
       subtitle: {
-        text: 'January-December 2013'
+        text: ''
       },
       xAxis: {
         categories: ['Released by LRA combatant', 'Escaped with LRA combatant', 'Escaped on own', 'Rescued by South Sudanese hunters or Arrow Boys', 'Rescued by Ugandan troops']
       },
       yAxis: {
           min: 0,
+          gridLineColor: 'transparent',
           title: {
-              text: '# of Women and Child Returnees'
+              text: ''
           }
       },
       plotOptions: {
@@ -94,6 +108,12 @@ function buildES2() {
       },
       credits: {
         enabled: false
+      },
+      legend: {
+          itemStyle: {
+              color: '#000000',
+               fontSize: '10px'
+            }
       },
       series: [{
           name: 'Long-term Women and Child Returnees',
@@ -111,10 +131,10 @@ function buildES4() {
       },
       colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
       title: {
-        text: 'Mass LRA Attacks and Total Abductions'
+        text: ''
       },
       subtitle: {
-        text: 'January-December 2013'
+        text: ''
       },
       xAxis: {
         categories: ['Areas of CAR controlled by ex-Seleka rebels', 'Other LRA-affected areas']
@@ -122,7 +142,7 @@ function buildES4() {
       yAxis: {
           min: 0,
           title: {
-              text: '# of Mass LRA Attacks or Total Abductions'
+              text: ''
           }
       },
       plotOptions: {
@@ -140,51 +160,6 @@ function buildES4() {
       }, {
           name: '# of Total Abductions',
           data: [5, 5]
-      }]
-    });
-  }
-};
-
-function buildES5() {
-    if ($('#A13_ES_5').length) {
-      $('#A13_ES_5').highcharts({
-      chart: {
-          type: 'column'
-      },
-      colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
-      title: {
-        text: 'LRA Attacks and Victim Livelihood'
-      },
-      subtitle: {
-        text: 'January-December 2013'
-      },
-      xAxis: {
-        categories: ['Hunters', 'Fisherpeople', 'Farmers', 'Traders']
-      },
-      yAxis: {
-          min: 0,
-          title: {
-              text: '# of LRA-affected individuals'
-          }
-      },
-      plotOptions: {
-          column: {
-              pointPadding: 0.2,
-              borderWidth: 0
-          }
-      },
-      credits: {
-        enabled: false
-      },
-      series: [{
-          name: 'Killed',
-          data: [5, 5, 5, 5]
-      }, {
-          name: 'Abducted',
-          data: [5, 5, 5, 5]
-      },  {
-          name: 'Robbed',
-          data: [5, 5, 5, 5]
       }]
     });
   }
