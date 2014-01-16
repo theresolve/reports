@@ -7,7 +7,9 @@ function getVisualData() {
   $.when().done(function() {
   buildES1();
   buildES2();
-  buildES4();
+  buildES4a();
+  buildES4b();
+  buildES4c();
   buildES5();
 
   buildLooting1();
@@ -122,32 +124,77 @@ function buildES2() {
   }
 };
 
-function buildES4() {
-    if ($('#A13_ES_4').length) {
-      $('#A13_ES_4').highcharts({
+function buildES4a() {
+    if ($('#A13_ES_4a').length) {
+      $('#A13_ES_4a').highcharts({
       chart: {
           type: 'column'
       },
       colors: ["#4884c5",'#0d233a', '#525252', '#910000'],
       title: {
-        text: 'Long-term Vs. Short-term Abductions by Age'
+        text: ''
       },
       subtitle: {
-        text: 'January-December 2013'
+        text: ''
       },
       xAxis: {
-        categories: ['Adults held < 30 days', 'Adults held > 30 days', 'Children < 30 days', 'Children > 30 days']
+        categories: ['2010', '2011', '2012', '2013']
       },
       yAxis: {
           min: 0,
           title: {
-              text: '# of Abductees'
+              text: ''
           }
       },
       plotOptions: {
           column: {
               pointPadding: 0.2,
               borderWidth: 0
+          },
+          series: {
+              pointWidth: 20
+          }
+      },
+      credits: {
+        enabled: false
+      },
+      series: [{
+          name: '# of Attacks',
+          data: [5, 5, 5, 5]
+      }]
+    });
+  }
+};
+
+function buildES4b() {
+    if ($('#A13_ES_4b').length) {
+      $('#A13_ES_4b').highcharts({
+      chart: {
+          type: 'column'
+      },
+      colors: ['#0d233a', '#525252', '#910000'],
+      title: {
+        text: ''
+      },
+      subtitle: {
+        text: ''
+      },
+      xAxis: {
+        categories: ['2010', '2011', '2012', '2013']
+      },
+      yAxis: {
+          min: 0,
+          title: {
+              text: ''
+          }
+      },
+      plotOptions: {
+          column: {
+              pointPadding: 0.2,
+              borderWidth: 0
+          },
+          series: {
+              pointWidth: 20
           }
       },
       credits: {
@@ -160,6 +207,49 @@ function buildES4() {
     });
   }
 };
+
+function buildES4c() {
+    if ($('#A13_ES_4c').length) {
+      $('#A13_ES_4c').highcharts({
+      chart: {
+          type: 'column'
+      },
+      colors: ['#525252', '#910000'],
+      title: {
+        text: ''
+      },
+      subtitle: {
+        text: ''
+      },
+      xAxis: {
+        categories: ['2010', '2011', '2012', '2013']
+      },
+      yAxis: {
+          min: 0,
+          title: {
+              text: ''
+          }
+      },
+      plotOptions: {
+          column: {
+              pointPadding: 0.2,
+              borderWidth: 0
+          },
+          series: {
+              pointWidth: 20
+          }
+      },
+      credits: {
+        enabled: false
+      },
+      series: [{
+          name: '# of Displaced',
+          data: [5, 5, 5, 5]
+      }]
+    });
+  }
+};
+
 
 function buildES5() {
     if ($('#A13_ES_5').length) {
