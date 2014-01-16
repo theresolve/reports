@@ -31,7 +31,7 @@ function buildES1() {
       chart: {
           type: 'column'
       },
-      colors: ["#2f7ed8",'#0d233a', '#910000'],
+      colors: ['#0d233a', "#4884c5"],
       title: {
         text: ''
       },
@@ -83,7 +83,7 @@ function buildES2() {
       chart: {
           type: 'column'
       },
-      colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
+      colors: ["#4884c5",'#0d233a', '#525252', '#910000'],
       title: {
         text: ''
       },
@@ -129,7 +129,7 @@ function buildES4() {
       chart: {
           type: 'column'
       },
-      colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
+      colors: ["#4884c5",'#0d233a', '#525252', '#910000'],
       title: {
         text: ''
       },
@@ -137,7 +137,7 @@ function buildES4() {
         text: ''
       },
       xAxis: {
-        categories: ['Areas of CAR controlled by ex-Seleka rebels', 'Other LRA-affected areas']
+        categories: ['Areas of CAR controlled by ex-Seleka rebels', 'All other LRA-affected areas of CAR, Congo, and South Sudan']
       },
       yAxis: {
           min: 0,
@@ -155,9 +155,6 @@ function buildES4() {
         enabled: false
       },
       series: [{
-          name: '# of Mass LRA Attacks',
-          data: [5, 5]
-      }, {
           name: '# of Total Abductions',
           data: [5, 5]
       }]
@@ -171,7 +168,7 @@ function buildES6() {
       chart: {
           type: 'column'
       },
-      colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
+      colors: ["#4884c5",'#0d233a', '#525252', '#910000'],
       title: {
         text: 'Long-term Vs. Short-term Abductions by Age'
       },
