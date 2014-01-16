@@ -142,6 +142,7 @@ function buildES4a() {
       },
       yAxis: {
           min: 0,
+          gridLineColor: 'transparent',
           title: {
               text: ''
           }
@@ -184,6 +185,7 @@ function buildES4b() {
       },
       yAxis: {
           min: 0,
+          gridLineColor: 'transparent',
           title: {
               text: ''
           }
@@ -226,6 +228,7 @@ function buildES4c() {
       },
       yAxis: {
           min: 0,
+          gridLineColor: 'transparent',
           title: {
               text: ''
           }
@@ -269,6 +272,7 @@ function buildES5() {
       },
       yAxis: {
           min: 0,
+          gridLineColor: 'transparent',
           title: {
               text: ''
           }
@@ -298,18 +302,22 @@ function buildLooting1() {
       },
       colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
       title: {
-        text: 'Foodstuffs Looted'
+        text: ''
       },
       subtitle: {
-        text: 'January-December 2013'
+        text: ''
       },
       xAxis: {
-        categories: ['Grain', 'Rice']
+        categories: ['Groundnuts', 'Meat/Fish', 'Rice', 'Flour', 'Maize', 'Cassava', 'Alcohol', 'Beans', 'Cooking Oil'],
+        labels: {
+            rotation: -45
+        }
       },
       yAxis: {
           min: 0,
+          gridLineColor: 'transparent',
           title: {
-              text: '# of Lootings'
+              text: ''
           }
       },
       plotOptions: {
@@ -323,7 +331,7 @@ function buildLooting1() {
       },
       series: [{
           name: '# of Lootings',
-          data: [5, 5]
+          data: [23, 19, 15, 14, 12, 9, 5,  5, 2]
       }]
     });
   }
@@ -335,20 +343,24 @@ function buildLooting2() {
       chart: {
           type: 'column'
       },
-      colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
+      colors: ['#0d233a', '#525252', '#910000'],
       title: {
-        text: 'Non-Foodstuffs Looted'
+        text: ''
       },
       subtitle: {
-        text: 'January-December 2013'
+        text: ''
       },
       xAxis: {
-        categories: ['Batteries', 'Sat Phones']
+        categories: ['Clothing', 'Money', 'Electronics/batteries', 'Soap', 'Firearms', 'Cooking utensils', 'Blades', 'Medical supplies',],
+        labels: {
+            rotation: -45
+        }
       },
       yAxis: {
           min: 0,
+          gridLineColor: 'transparent',
           title: {
-              text: '# of Lootings'
+              text: ''
           }
       },
       plotOptions: {
@@ -362,7 +374,7 @@ function buildLooting2() {
       },
       series: [{
           name: '# of Lootings',
-          data: [5, 5]
+          data: [36, 16, 15, 7, 7, 6, 4, 2]
       }]
     });
   }
@@ -386,6 +398,7 @@ function buildReductionCapacity() {
       },
       yAxis: {
           min: 0,
+          gridLineColor: 'transparent',
           title: {
               text: 'Estimated Fighting Capacity'
           }
@@ -425,6 +438,7 @@ function buildLongTermReturnees() {
       },
       yAxis: {
           min: 0,
+          gridLineColor: 'transparent',
           title: {
               text: '# of Long-term Returnees'
           }
@@ -457,18 +471,19 @@ function buildLengthAbduction() {
       },
       colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
       title: {
-        text: 'Length of Abduction'
+        text: ''
       },
       subtitle: {
-        text: 'January-December 2013'
+        text: ''
       },
       xAxis: {
         categories: ['Adults', 'Children']
       },
       yAxis: {
           min: 0,
+          gridLineColor: 'transparent',
           title: {
-              text: 'No. of Abductees'
+              text: ''
           }
       },
       plotOptions: {
@@ -509,6 +524,7 @@ function buildForcesObserved() {
       },
       yAxis: {
           min: 0,
+          gridLineColor: 'transparent',
           title: {
               text: ''
           }
@@ -548,6 +564,7 @@ function buildNumberAbductedPerAttack() {
       },
       yAxis: {
           min: 0,
+          gridLineColor: 'transparent',
           title: {
               text: ''
           }
@@ -587,6 +604,7 @@ function buildLivelihood() {
       },
       yAxis: {
           min: 0,
+          gridLineColor: 'transparent',
           title: {
               text: '# Attacks'
           }
@@ -626,6 +644,7 @@ function buildUAG() {
       },
       yAxis: {
           min: 0,
+          gridLineColor: 'transparent',
           title: {
               text: 'Number of Attacks'
           }

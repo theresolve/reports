@@ -23,8 +23,8 @@ $(function () {
 $(function () {
   if (location.pathname.split('/')[3] == "introduction") {
     $("#introduction").addClass("active-nav-item")
-  } else if (location.pathname.split('/')[3] == "lra-command-structure") {
-    $("#lra-command-structure").addClass("active-nav-item")
+  } else if (location.pathname.split('/')[3] == "lra-survival") {
+    $("#lra-survival").addClass("active-nav-item")
   } else if (location.pathname.split('/')[3] == "lra-force-capacity") {
     $("#lra-force-capacity").addClass("active-nav-item")
   } else if (location.pathname.split('/')[3] == "congo") {
