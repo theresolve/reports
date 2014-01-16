@@ -69,10 +69,10 @@ function buildES1() {
       },
       series: [{
           name: 'Killed',
-          data: [4, 9]
+          data: [0, 5]
       }, {
           name: 'Captured/Escaped',
-          data: [9, 3]
+          data: [20, 17]
       }]
     });
   }
@@ -160,7 +160,7 @@ function buildES4a() {
       },
       series: [{
           name: '# of Attacks',
-          data: [5, 5, 5, 5]
+          data: [363, 228, 223, 125]
       }]
     });
   }
@@ -202,7 +202,7 @@ function buildES4b() {
       },
       series: [{
           name: '# of Abductees',
-          data: [5, 5, 5, 5]
+          data: [665, 412, 294, 155]
       }]
     });
   }
@@ -382,12 +382,12 @@ function buildReductionCapacity() {
         text: 'January-December 2013'
       },
       xAxis: {
-        categories: ['Killed', 'Defected', 'Captured']
+        categories: ['1999', '2008', '2010', '2013']
       },
       yAxis: {
           min: 0,
           title: {
-              text: '# of Combatants'
+              text: 'Estimated Fighting Capacity'
           }
       },
       plotOptions: {
@@ -401,7 +401,7 @@ function buildReductionCapacity() {
       },
       series: [{
           name: '# of Combatants',
-          data: [5, 5, 5]
+          data: [2700,800,400,240]
       }]
     });
   }
@@ -499,10 +499,10 @@ function buildForcesObserved() {
       },
       colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
       title: {
-        text: 'Forces Observed'
+        text: ''
       },
       subtitle: {
-        text: 'January-December 2013'
+        text: ''
       },
       xAxis: {
         categories: ['1-2', '3-4', '5-6', '7-8', '9-10', '11+']
@@ -510,7 +510,7 @@ function buildForcesObserved() {
       yAxis: {
           min: 0,
           title: {
-              text: 'Forces Observed'
+              text: ''
           }
       },
       plotOptions: {
@@ -523,8 +523,8 @@ function buildForcesObserved() {
         enabled: false
       },
       series: [{
-          name: 'LRA Forces Observed',
-          data: [5, 5, 5, 5, 5, 5]
+          name: 'LRA Forces Observed Per Attack',
+          data: [8, 23, 19, 21, 15, 16]
       }]
     });
   }
@@ -536,12 +536,12 @@ function buildNumberAbductedPerAttack() {
       chart: {
           type: 'column'
       },
-      colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
+      colors: ['#0d233a', '#525252', '#910000'],
       title: {
-        text: 'Number of Civilians Abducted Per Attack'
+        text: ''
       },
       subtitle: {
-        text: 'January-December 2013'
+        text: ''
       },
       xAxis: {
         categories: ['1-2', '3-4', '5-6', '7-8', '9-10', '11+']
@@ -549,7 +549,7 @@ function buildNumberAbductedPerAttack() {
       yAxis: {
           min: 0,
           title: {
-              text: '# Abudcted'
+              text: ''
           }
       },
       plotOptions: {
@@ -562,8 +562,8 @@ function buildNumberAbductedPerAttack() {
         enabled: false
       },
       series: [{
-          name: '# Abducted',
-          data: [5, 5, 5, 5, 5, 5]
+          name: '# Abducted Per Attack',
+          data: [21, 15, 2, 0, 1, 3]
       }]
     });
   }
