@@ -9,7 +9,6 @@ function getVisualData() {
   buildES2();
   buildES4();
   buildES5();
-  buildES6();
 
   buildLooting1();
   buildLooting2();
@@ -131,45 +130,6 @@ function buildES4() {
       },
       colors: ["#4884c5",'#0d233a', '#525252', '#910000'],
       title: {
-        text: ''
-      },
-      subtitle: {
-        text: ''
-      },
-      xAxis: {
-        categories: ['Areas of CAR controlled by ex-Seleka rebels', 'All other LRA-affected areas of CAR, Congo, and South Sudan']
-      },
-      yAxis: {
-          min: 0,
-          title: {
-              text: ''
-          }
-      },
-      plotOptions: {
-          column: {
-              pointPadding: 0.2,
-              borderWidth: 0
-          }
-      },
-      credits: {
-        enabled: false
-      },
-      series: [{
-          name: '# of Total Abductions',
-          data: [5, 5]
-      }]
-    });
-  }
-};
-
-function buildES6() {
-    if ($('#A13_ES_6').length) {
-      $('#A13_ES_6').highcharts({
-      chart: {
-          type: 'column'
-      },
-      colors: ["#4884c5",'#0d233a', '#525252', '#910000'],
-      title: {
         text: 'Long-term Vs. Short-term Abductions by Age'
       },
       subtitle: {
@@ -196,6 +156,45 @@ function buildES6() {
       series: [{
           name: '# of Abductees',
           data: [5, 5, 5, 5]
+      }]
+    });
+  }
+};
+
+function buildES5() {
+    if ($('#A13_ES_5').length) {
+      $('#A13_ES_5').highcharts({
+      chart: {
+          type: 'column'
+      },
+      colors: ["#4884c5",'#0d233a', '#525252', '#910000'],
+      title: {
+        text: ''
+      },
+      subtitle: {
+        text: ''
+      },
+      xAxis: {
+        categories: ['Areas of CAR controlled by ex-Seleka rebels', 'All other LRA-affected areas of CAR, Congo, and South Sudan']
+      },
+      yAxis: {
+          min: 0,
+          title: {
+              text: ''
+          }
+      },
+      plotOptions: {
+          column: {
+              pointPadding: 0.2,
+              borderWidth: 0
+          }
+      },
+      credits: {
+        enabled: false
+      },
+      series: [{
+          name: '# of Total Abductions',
+          data: [5, 5]
       }]
     });
   }
