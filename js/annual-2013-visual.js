@@ -138,7 +138,7 @@ function buildES4a() {
         text: ''
       },
       xAxis: {
-        categories: ['2010', '2011', '2012', '2013']
+        categories: ["'10", "'11", "'12", "'13"]
       },
       yAxis: {
           min: 0,
@@ -181,7 +181,7 @@ function buildES4b() {
         text: ''
       },
       xAxis: {
-        categories: ['2010', '2011', '2012', '2013']
+        categories: ["'10", "'11", "'12", "'13"]
       },
       yAxis: {
           min: 0,
@@ -224,7 +224,7 @@ function buildES4c() {
         text: ''
       },
       xAxis: {
-        categories: ['2010', '2011', '2012', '2013']
+        categories: ["'10", "'11", "'12", "'13"]
       },
       yAxis: {
           min: 0,
@@ -247,7 +247,7 @@ function buildES4c() {
       },
       series: [{
           name: '# of Displaced',
-          data: [5, 5, 5, 5]
+          data: [316800, 368600, 368800, 261000]
       }]
     });
   }

@@ -156,7 +156,7 @@ nav.navbar.navbar-fixed {
 .page-container {
   padding: 120px 30px 30px;
   background-color: white;
-  width: 1000px;
+  width: 950px;
   margin: 0px auto;
 }
 
@@ -328,4 +328,10 @@ nav.navbar.navbar-fixed {
 /* line 313, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 ul.nav li.dropdown:hover > ul.dropdown-menu {
   display: block;
+}
+
+/* line 317, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+.edge-left {
+  margin-left: 0px;
+  padding-left: 0px;
 }
