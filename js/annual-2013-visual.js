@@ -23,6 +23,12 @@ function getVisualData() {
   buildNumberAbductedPerAttack();
   buildLivelihood();
   buildUAG();
+  buildDecline();
+
+  buildPatterns();
+  buildHotspotsa();
+  buildHotspotsb();
+  buildHotspotsc();
   });
 };
 
@@ -153,7 +159,7 @@ function buildES4a() {
               borderWidth: 0
           },
           series: {
-              pointWidth: 20
+              pointWidth: 12
           }
       },
       credits: {
@@ -196,7 +202,7 @@ function buildES4b() {
               borderWidth: 0
           },
           series: {
-              pointWidth: 20
+              pointWidth: 12
           }
       },
       credits: {
@@ -239,7 +245,7 @@ function buildES4c() {
               borderWidth: 0
           },
           series: {
-              pointWidth: 20
+              pointWidth: 12
           }
       },
       credits: {
@@ -388,10 +394,10 @@ function buildReductionCapacity() {
       },
       colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
       title: {
-        text: 'Reduction in LRA Fighting Capacity'
+        text: ''
       },
       subtitle: {
-        text: 'January-December 2013'
+        text: ''
       },
       xAxis: {
         categories: ['1999', '2008', '2010', '2013']
@@ -400,7 +406,7 @@ function buildReductionCapacity() {
           min: 0,
           gridLineColor: 'transparent',
           title: {
-              text: 'Estimated Fighting Capacity'
+              text: ''
           }
       },
       plotOptions: {
@@ -512,7 +518,7 @@ function buildForcesObserved() {
       chart: {
           type: 'column'
       },
-      colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
+      colors: ['#525252', '#910000'],
       title: {
         text: ''
       },
@@ -594,13 +600,13 @@ function buildLivelihood() {
       },
       colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
       title: {
-        text: 'LRA Attacks and Victim Livelihoods'
+        text: ''
       },
       subtitle: {
-        text: 'January-December 2013'
+        text: ''
       },
       xAxis: {
-        categories: ['Fishermen', 'Hunters', 'Traders', 'Farmers']
+        categories: ['Trading', 'Hunting or Fishing', 'Farming']
       },
       yAxis: {
           min: 0,
@@ -620,7 +626,7 @@ function buildLivelihood() {
       },
       series: [{
           name: '# Attacks',
-          data: [5, 5, 5, 5]
+          data: [51, 28, 14]
       }]
     });
   }
@@ -668,3 +674,226 @@ function buildUAG() {
     });
   }
 };
+
+function buildDecline() {
+    if ($('#A13_Decline').length) {
+      $('#A13_Decline').highcharts({
+      chart: {
+          type: 'column'
+      },
+      colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
+      title: {
+        text: ''
+      },
+      subtitle: {
+        text: ''
+      },
+      xAxis: {
+        categories: ['December 2008 - December 2010', 'January 2011 - December 2013'] 
+      },
+      yAxis: {
+          min: 0,
+          gridLineColor: 'transparent',
+          title: {
+              text: ''
+          }
+      },
+      plotOptions: {
+          column: {
+              pointPadding: 0.2,
+              borderWidth: 0
+          }
+      },
+      credits: {
+        enabled: false
+      },
+      series: [{
+          name: 'Attacks',
+          data: [612, 575]
+      }, {
+          name: 'Killed',
+          data: [2141, 136]
+      }, {
+          name: 'Abducted',
+          data: [2120, 895]
+      }]
+    });
+  }
+};
+
+function buildPatterns() {
+    if ($('#A13_Patterns').length) {
+      $('#A13_Patterns').highcharts({
+      chart: {
+          type: 'column'
+      },
+      colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
+      title: {
+        text: ''
+      },
+      subtitle: {
+        text: ''
+      },
+      xAxis: {
+        categories: ['December 2008 - December 2010', 'January 2011 - December 2013'] 
+      },
+      yAxis: {
+          min: 0,
+          gridLineColor: 'transparent',
+          title: {
+              text: ''
+          }
+      },
+      plotOptions: {
+          column: {
+              pointPadding: 0.2,
+              borderWidth: 0
+          }
+      },
+      credits: {
+        enabled: false
+      },
+      series: [{
+          name: 'Attacks',
+          data: [612, 575]
+      }, {
+          name: 'Killed',
+          data: [2141, 136]
+      }, {
+          name: 'Abducted',
+          data: [2120, 895]
+      }]
+    });
+  }
+};
+
+function buildHotspotsa() {
+    if ($('#A13_Hotspotsa').length) {
+      $('#A13_Hotspotsa').highcharts({
+      chart: {
+          type: 'column'
+      },
+      colors: ["#4884c5",'#0d233a', '#525252', '#910000'],
+      title: {
+        text: ''
+      },
+      subtitle: {
+        text: ''
+      },
+      xAxis: {
+        categories: ["'10", "'11", "'12", "'13"]
+      },
+      yAxis: {
+          min: 0,
+          gridLineColor: 'transparent',
+          title: {
+              text: ''
+          }
+      },
+      plotOptions: {
+          column: {
+              pointPadding: 0.2,
+              borderWidth: 0
+          },
+          series: {
+              pointWidth: 20
+          }
+      },
+      credits: {
+        enabled: false
+      },
+      series: [{
+          name: '# of Attacks',
+          data: [113, 38, 54, 52]
+      }]
+    });
+  }
+};
+
+function buildHotspotsb() {
+    if ($('#A13_Hotspotsb').length) {
+      $('#A13_Hotspotsb').highcharts({
+      chart: {
+          type: 'column'
+      },
+      colors: ['#0d233a', '#525252', '#910000'],
+      title: {
+        text: ''
+      },
+      subtitle: {
+        text: ''
+      },
+      xAxis: {
+        categories: ["'10", "'11", "'12", "'13"]
+      },
+      yAxis: {
+          min: 0,
+          gridLineColor: 'transparent',
+          title: {
+              text: ''
+          }
+      },
+      plotOptions: {
+          column: {
+              pointPadding: 0.2,
+              borderWidth: 0
+          },
+          series: {
+              pointWidth: 20
+          }
+      },
+      credits: {
+        enabled: false
+      },
+      series: [{
+          name: '# of Abductees',
+          data: [728, 182, 228, 253]
+      }]
+    });
+  }
+};
+
+function buildHotspotsc() {
+    if ($('#A13_Hotspotsc').length) {
+      $('#A13_Hotspotsc').highcharts({
+      chart: {
+          type: 'column'
+      },
+      colors: ['#525252', '#910000'],
+      title: {
+        text: ''
+      },
+      subtitle: {
+        text: ''
+      },
+      xAxis: {
+        categories: ["'10", "'11", "'12", "'13"]
+      },
+      yAxis: {
+          min: 0,
+          gridLineColor: 'transparent',
+          title: {
+              text: ''
+          }
+      },
+      plotOptions: {
+          column: {
+              pointPadding: 0.2,
+              borderWidth: 0
+          },
+          series: {
+              pointWidth: 20
+          }
+      },
+      credits: {
+        enabled: false
+      },
+      series: [{
+          name: '# of Displaced',
+          data: [44100, 22000, 22700, 27000]
+      }]
+    });
+  }
+};
+  
+  
