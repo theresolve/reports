@@ -293,8 +293,8 @@ function buildES5() {
         enabled: false
       },
       series: [{
-          name: '# of Total Abductions',
-          data: [5, 5]
+          name: '# of Total Mass Attacks',
+          data: [10, 5]
       }]
     });
   }
