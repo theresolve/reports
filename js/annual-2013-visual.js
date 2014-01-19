@@ -25,7 +25,7 @@ function getVisualData() {
   buildUAG();
   buildDecline();
 
-  buildPatterns();
+  buildPrefectures();
   buildHotspotsa();
   buildHotspotsb();
   buildHotspotsc();
@@ -681,7 +681,7 @@ function buildDecline() {
       chart: {
           type: 'column'
       },
-      colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
+      colors: ['#0d233a',"#2f7ed8", '#525252', '#910000'],
       title: {
         text: ''
       },
@@ -689,7 +689,7 @@ function buildDecline() {
         text: ''
       },
       xAxis: {
-        categories: ['December 2008 - December 2010', 'January 2011 - December 2013'] 
+        categories: ['Attacks', 'Killed', 'Abducted'] 
       },
       yAxis: {
           min: 0,
@@ -708,14 +708,11 @@ function buildDecline() {
         enabled: false
       },
       series: [{
-          name: 'Attacks',
-          data: [612, 575]
+          name: '2008-2010',
+          data: [947, 2866, 3952]
       }, {
-          name: 'Killed',
-          data: [2141, 136]
-      }, {
-          name: 'Abducted',
-          data: [2120, 895]
+          name: '2011-2013',
+          data: [575, 136, 895]
       }]
     });
   }
@@ -895,5 +892,58 @@ function buildHotspotsc() {
     });
   }
 };
-  
-  
+
+function buildPrefectures() {
+    if ($('#A13_Prefectures').length) {
+      $('#A13_Prefectures').highcharts({
+      chart: {
+          type: 'line'
+      },
+      colors: ["#4884c5",'#0d233a', '#525252', '#C7C7C7', '#910000'],
+      title: {
+        text: ''
+      },
+      subtitle: {
+        text: ''
+      },
+      xAxis: {
+        categories: ["'10", "'11", "'12", "'13"]
+      },
+      yAxis: {
+          min: 0,
+          gridLineColor: 'transparent',
+          title: {
+              text: ''
+          }
+      },
+      plotOptions: {
+          column: {
+              pointPadding: 0.2,
+              borderWidth: 0
+          },
+          series: {
+              pointWidth: 20
+          }
+      },
+      credits: {
+        enabled: false
+      },
+      series: [{
+          name: 'Mbomou',
+          data: [4, 55, 12, 30, 11]
+      }, {
+          name: 'Haut Mbomou',
+          data: [61, 44, 26, 18, 18]
+      }, {
+          name: 'Vakaga',
+          data: [1, 7, 0, 0, 0]
+      }, {
+          name: 'Haut Kotto',
+          data: [0, 5, 0, 3, 20]
+      }, {
+          name: 'CAR total',
+          data: [67, 113, 38, 54, 52]
+      }]
+    });
+  }
+};
