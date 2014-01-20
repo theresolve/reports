@@ -434,7 +434,7 @@ function buildLongTermReturnees() {
       },
       colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
       title: {
-        text: 'Long-term Returnees'
+        text: 'Long-term returnees'
       },
       subtitle: {
         text: 'January 2011-December 2013'
@@ -446,7 +446,7 @@ function buildLongTermReturnees() {
           min: 0,
           gridLineColor: 'transparent',
           title: {
-              text: '# of Long-term Returnees'
+              text: '# of long-term returnees'
           }
       },
       plotOptions: {
@@ -585,7 +585,7 @@ function buildNumberAbductedPerAttack() {
         enabled: false
       },
       series: [{
-          name: '# Abducted Per Attack',
+          name: '# of civilians abducted per LRA attack',
           data: [21, 15, 2, 0, 1, 3]
       }]
     });
@@ -606,13 +606,13 @@ function buildLivelihood() {
         text: ''
       },
       xAxis: {
-        categories: ['Trading', 'Hunting or Fishing', 'Farming']
+        categories: ['Trading', 'Hunting or fishing', 'Farming']
       },
       yAxis: {
           min: 0,
           gridLineColor: 'transparent',
           title: {
-              text: '# Attacks'
+              text: '# of Congolese civilians killed, abducted, or looted by the LRA in 2013 while conducting livelihood activity'
           }
       },
       plotOptions: {
@@ -689,7 +689,7 @@ function buildDecline() {
         text: ''
       },
       xAxis: {
-        categories: ['Attacks', 'Killed', 'Abducted'] 
+        categories: ['# of LRA attacks in Congo', '# of LRA killings in Congo', '# of LRA abductions in Congo'] 
       },
       yAxis: {
           min: 0,
