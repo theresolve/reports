@@ -357,7 +357,7 @@ function buildLooting2() {
         text: ''
       },
       xAxis: {
-        categories: ['Clothing', 'Money', 'Electronics/batteries', 'Soap', 'Firearms', 'Cooking utensils', 'Blades', 'Medical supplies',],
+        categories: ['Clothing', 'Money', 'Electronics/batteries', 'Soap', 'Firearms', 'Cooking utensils', 'Knives/machetes', 'Medical supplies',],
         labels: {
             rotation: -45
         }
