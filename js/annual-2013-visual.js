@@ -123,7 +123,7 @@ function buildES2() {
             }
       },
       series: [{
-          name: 'Long-term Woman and Child Returnees',
+          name: 'Long-term woman and child returnees',
           data: [31, 14, 7, 7, 3]
       }]
     });
@@ -640,7 +640,7 @@ function buildUAG() {
       },
       colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
       title: {
-        text: 'LRA vs. Unidentified Armed Group (UAG) Attacks in LRA-affected Areas of Congo'
+        text: 'LRA vs. unidentified armed group (UAG) attacks in LRA-affected Areas of Congo'
       },
       subtitle: {
         text: '2013'
@@ -689,7 +689,7 @@ function buildDecline() {
         text: ''
       },
       xAxis: {
-        categories: ['# of LRA attacks in Congo', '# of LRA killings in Congo', '# of LRA abductions in Congo'] 
+        categories: ['# of LRA attacks', '# of LRA killings', '# of LRA abductions'] 
       },
       yAxis: {
           min: 0,
@@ -732,7 +732,7 @@ function buildPatterns() {
         text: ''
       },
       xAxis: {
-        categories: ['December 2008 - December 2010', 'January 2011 - December 2013'] 
+        categories: ['Congo, 2008&ndash;2010', 'Congo, 2011&ndash;2013'] 
       },
       yAxis: {
           min: 0,
