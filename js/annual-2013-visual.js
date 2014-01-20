@@ -625,7 +625,7 @@ function buildLivelihood() {
         enabled: false
       },
       series: [{
-          name: '# Attacks',
+          name: '# of Congolese civilians killed, abducted, or looted by the LRA in 2013 while conducting livelihood activity',
           data: [51, 28, 14]
       }]
     });
@@ -708,10 +708,10 @@ function buildDecline() {
         enabled: false
       },
       series: [{
-          name: '2008-2010',
+          name: 'Congo, 2008-2010',
           data: [947, 2866, 3952]
       }, {
-          name: '2011-2013',
+          name: 'Congo, 2011-2013',
           data: [575, 136, 895]
       }]
     });
