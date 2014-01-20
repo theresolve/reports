@@ -751,13 +751,13 @@ function buildPatterns() {
         enabled: false
       },
       series: [{
-          name: 'Attacks',
+          name: '# of LRA attacks',
           data: [612, 575]
       }, {
-          name: 'Killed',
+          name: '# of LRA killings',
           data: [2141, 136]
       }, {
-          name: 'Abducted',
+          name: '# of LRA abductions',
           data: [2120, 895]
       }]
     });
@@ -800,7 +800,7 @@ function buildHotspotsa() {
         enabled: false
       },
       series: [{
-          name: '# of Attacks',
+          name: '# LRA attacks in Haut Mbomou',
           data: [113, 38, 54, 52]
       }]
     });
@@ -843,7 +843,7 @@ function buildHotspotsb() {
         enabled: false
       },
       series: [{
-          name: '# of Abductees',
+          name: '# of LRA abductions in Haut Mbomou',
           data: [728, 182, 228, 253]
       }]
     });
@@ -886,7 +886,7 @@ function buildHotspotsc() {
         enabled: false
       },
       series: [{
-          name: '# of Displaced',
+          name: '# of people displaced by the LRA in Haut Mbomou',
           data: [44100, 22000, 22700, 27000]
       }]
     });
