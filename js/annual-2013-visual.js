@@ -74,10 +74,10 @@ function buildES1() {
             }
       },
       series: [{
-          name: 'Killed',
+          name: '# of Ugandan LRA combatants killed',
           data: [0, 5]
       }, {
-          name: 'Captured/Escaped',
+          name: '# of Ugandan LRA combatants captured/escaped',
           data: [20, 17]
       }]
     });
@@ -98,7 +98,7 @@ function buildES2() {
         text: ''
       },
       xAxis: {
-        categories: ['Released by LRA combatant', 'Escaped with LRA combatant', 'Escaped on own', 'Rescued by South Sudanese hunters or Arrow Boys', 'Rescued by Ugandan troops']
+        categories: ['Released by LRA combatants', 'Escaped with LRA combatants', 'Escaped on own', 'Rescued by South Sudanese hunters', 'Rescued by Ugandan troops']
       },
       yAxis: {
           min: 0,
@@ -123,7 +123,7 @@ function buildES2() {
             }
       },
       series: [{
-          name: 'Long-term Women and Child Returnees',
+          name: 'Long-term Woman and Child Returnees',
           data: [31, 14, 7, 7, 3]
       }]
     });
@@ -166,7 +166,7 @@ function buildES4a() {
         enabled: false
       },
       series: [{
-          name: '# of Attacks',
+          name: '# of LRA attacks in Congo',
           data: [363, 228, 223, 125]
       }]
     });
@@ -209,7 +209,7 @@ function buildES4b() {
         enabled: false
       },
       series: [{
-          name: '# of Abductees',
+          name: '# of LRA abductions in Congo',
           data: [665, 412, 294, 155]
       }]
     });
@@ -252,7 +252,7 @@ function buildES4c() {
         enabled: false
       },
       series: [{
-          name: '# of Displaced',
+          name: '# of Congolese civilians displaced by the LRA (IDPs and refugees)',
           data: [316800, 368600, 368800, 261000]
       }]
     });
@@ -293,7 +293,7 @@ function buildES5() {
         enabled: false
       },
       series: [{
-          name: '# of Total Mass Attacks',
+          name: '# of attacks in which the LRA abducted 10 or more people',
           data: [10, 5]
       }]
     });
@@ -314,7 +314,7 @@ function buildLooting1() {
         text: ''
       },
       xAxis: {
-        categories: ['Groundnuts', 'Meat/Fish', 'Rice', 'Flour', 'Maize', 'Cassava', 'Alcohol', 'Beans', 'Cooking Oil'],
+        categories: ['Groundnuts', 'Meat/fish', 'Rice', 'Flour', 'Maize', 'Cassava', 'Alcohol', 'Beans', 'Cooking Oil'],
         labels: {
             rotation: -45
         }
@@ -336,7 +336,7 @@ function buildLooting1() {
         enabled: false
       },
       series: [{
-          name: '# of Lootings',
+          name: '# of incidents in which item looted by the LRA in 2013',
           data: [23, 19, 15, 14, 12, 9, 5,  5, 2]
       }]
     });
@@ -379,7 +379,7 @@ function buildLooting2() {
         enabled: false
       },
       series: [{
-          name: '# of Lootings',
+          name: '# of incidents in which item looted by the LRA in 2013',
           data: [36, 16, 15, 7, 7, 6, 4, 2]
       }]
     });
@@ -419,7 +419,7 @@ function buildReductionCapacity() {
         enabled: false
       },
       series: [{
-          name: '# of Combatants',
+          name: 'Estimated # of total LRA combatants',
           data: [2700,800,400,240]
       }]
     });
