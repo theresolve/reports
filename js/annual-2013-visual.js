@@ -163,6 +163,12 @@ function buildES4a() {
               pointWidth: 12
           }
       },
+      legend: {
+          itemStyle: {
+              color: '#000000',
+               fontSize: '10px'
+            }
+      },
       credits: {
         enabled: false
       },
@@ -206,6 +212,12 @@ function buildES4b() {
               pointWidth: 12
           }
       },
+      legend: {
+          itemStyle: {
+              color: '#000000',
+               fontSize: '10px'
+            }
+      },
       credits: {
         enabled: false
       },
@@ -248,6 +260,12 @@ function buildES4c() {
           series: {
               pointWidth: 12
           }
+      },
+      legend: {
+          itemStyle: {
+              color: '#000000',
+               fontSize: '10px'
+            }
       },
       credits: {
         enabled: false
@@ -797,12 +815,18 @@ function buildHotspotsa() {
               pointWidth: 20
           }
       },
+      legend: {
+          itemStyle: {
+              color: '#000000',
+               fontSize: '10px'
+            }
+      },
       credits: {
         enabled: false
       },
       series: [{
           name: '# LRA attacks in Haut Mbomou',
-          data: [113, 38, 54, 52]
+          data: [43, 26, 18, 18]
       }]
     });
   }
@@ -840,12 +864,18 @@ function buildHotspotsb() {
               pointWidth: 20
           }
       },
+      legend: {
+          itemStyle: {
+              color: '#000000',
+               fontSize: '10px'
+            }
+      },
       credits: {
         enabled: false
       },
       series: [{
           name: '# of LRA abductions in Haut Mbomou',
-          data: [728, 182, 228, 253]
+          data: [128, 109, 37, 25]
       }]
     });
   }
@@ -883,12 +913,18 @@ function buildHotspotsc() {
               pointWidth: 20
           }
       },
+      legend: {
+          itemStyle: {
+              color: '#000000',
+               fontSize: '10px'
+            }
+      },
       credits: {
         enabled: false
       },
       series: [{
-          name: '# of people displaced by the LRA in Haut Mbomou',
-          data: [44100, 22000, 22700, 27000]
+          name: '# of people displaced in Haut Mbomou',
+          data: [11900, 13900, 12500, 12500]
       }]
     });
   }
