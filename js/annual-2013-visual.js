@@ -294,8 +294,8 @@ function buildES5() {
         enabled: false
       },
       series: [{
-          name: '# of attacks in which the LRA abducted 10 or more people',
-          data: [10, 5]
+          name: '# of abductions',
+          data: [458, 207]
       }]
     });
   }
