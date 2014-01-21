@@ -36,9 +36,9 @@ function buildES1() {
     if ($('#A13_ES_1').length) {
       $('#A13_ES_1').highcharts({
       chart: {
-          type: 'column'
+          type: 'pie'
       },
-      colors: ['#0d233a', "#4884c5"],
+      colors: ['#910000', "#4884c5", '#525252','#0d233a'],
       title: {
         text: ''
       },
@@ -56,12 +56,13 @@ function buildES1() {
           }
       },
       plotOptions: {
-          column: {
-              pointPadding: 0.2,
-              borderWidth: 0
-          },
-          series: {
-              pointWidth: 35
+          pie: {
+              allowPointSelect: true,
+              cursor: 'pointer',
+              dataLabels: {
+                  enabled: false
+              },
+              showInLegend: true
           }
       },
       credits: {
@@ -75,10 +76,10 @@ function buildES1() {
       },
       series: [{
           name: '# of Ugandan LRA combatants killed',
-          data: [0, 5]
-      }, {
-          name: '# of Ugandan LRA combatants captured/escaped',
-          data: [20, 17]
+          data: [['Defected', 16],
+                ['Killed/captured',  12],
+                ['Possibly killed or captured',  12],
+                ['Remaining with the LRA',  172]]
       }]
     });
   }
