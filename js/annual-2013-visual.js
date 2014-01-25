@@ -293,7 +293,7 @@ function buildES5() {
         text: ''
       },
       xAxis: {
-        categories: ['Areas of CAR controlled by ex-Seleka rebels', 'All other LRA-affected areas of CAR, Congo, and South Sudan']
+        categories: ['Areas of CAR currently controlled by ex-Seleka rebels', 'All other LRA-affected areas of CAR, Congo, and South Sudan']
       },
       yAxis: {
           min: 0,
@@ -355,7 +355,7 @@ function buildLooting1() {
         enabled: false
       },
       series: [{
-          name: '# of incidents in which item looted by the LRA in 2013',
+          name: '# of incidents in which item was looted by the LRA in 2013',
           data: [23, 19, 15, 14, 12, 9, 5,  5, 2]
       }]
     });
@@ -398,7 +398,7 @@ function buildLooting2() {
         enabled: false
       },
       series: [{
-          name: '# of incidents in which item looted by the LRA in 2013',
+          name: '# of incidents in which item was looted by the LRA in 2013',
           data: [36, 16, 15, 7, 7, 6, 4, 2]
       }]
     });
@@ -564,7 +564,7 @@ function buildForcesObserved() {
         enabled: false
       },
       series: [{
-          name: 'LRA Forces Observed Per Attack',
+          name: 'LRA forces observed per attack',
           data: [8, 23, 19, 21, 15, 16]
       }]
     });
@@ -631,7 +631,7 @@ function buildLivelihood() {
           min: 0,
           gridLineColor: 'transparent',
           title: {
-              text: '# of Congolese civilians killed, abducted, or looted by the LRA in 2013 while conducting livelihood activity'
+              text: '# of Congolese civilians killed, abducted, or looted by the LRA in 2013'
           }
       },
       plotOptions: {
@@ -644,7 +644,7 @@ function buildLivelihood() {
         enabled: false
       },
       series: [{
-          name: '# of Congolese civilians killed, abducted, or looted by the LRA in 2013 while conducting livelihood activity',
+          name: '# of Congolese civilians killed, abducted, or looted by the LRA in 2013',
           data: [51, 28, 14]
       }]
     });
@@ -659,7 +659,7 @@ function buildUAG() {
       },
       colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
       title: {
-        text: 'LRA vs. unidentified armed group (UAG) attacks in LRA-affected Areas of Congo'
+        text: 'LRA vs. unidentified armed group attacks in LRA-affected areas of Congo'
       },
       subtitle: {
         text: '2013'
