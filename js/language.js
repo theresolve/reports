@@ -31,8 +31,8 @@ $(function () {
     $("#congo").addClass("active-nav-item")
   } else if (location.pathname.split('/')[3] == "car") {
     $("#car").addClass("active-nav-item")
-  } else if (location.pathname.split('/')[3] == "about") {
-    $("#about").addClass("active-nav-item")
+  } else if (location.pathname.split('/')[3] == "background") {
+    $("#background").addClass("active-nav-item")
   } else {
     return false;
   }

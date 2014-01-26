@@ -29,6 +29,9 @@ function getVisualData() {
   buildHotspotsa();
   buildHotspotsb();
   buildHotspotsc();
+  
+  buildAdultVsChild();
+  buildLongVsShort();
   });
 };
 
@@ -312,8 +315,11 @@ function buildES5() {
         enabled: false
       },
       series: [{
-          name: '# of abductions',
-          data: [458, 207]
+          name: '2012',
+          data: [174, 348]
+      }, {
+          name: '2013',
+          data: [215, 243]
       }]
     });
   }
@@ -585,13 +591,16 @@ function buildNumberAbductedPerAttack() {
         text: ''
       },
       xAxis: {
-        categories: ['1-2', '3-4', '5-6', '7-8', '9-10', '11+']
+        categories: ['1-2', '3-4', '5-6', '7-8', '9-10', '11+'],
+        title: {
+            text: '# of civilians abudcted per attack'
+        }
       },
       yAxis: {
           min: 0,
           gridLineColor: 'transparent',
           title: {
-              text: ''
+              text: '# of attacks'
           }
       },
       plotOptions: {
@@ -604,8 +613,8 @@ function buildNumberAbductedPerAttack() {
         enabled: false
       },
       series: [{
-          name: '# of civilians abducted per LRA attack',
-          data: [21, 15, 2, 0, 1, 3]
+          name: 'Range of abductees per attack in 2013',
+          data: [38, 24, 4, 2, 3, 13]
       }]
     });
   }
@@ -631,7 +640,7 @@ function buildLivelihood() {
           min: 0,
           gridLineColor: 'transparent',
           title: {
-              text: '# of Congolese civilians killed, abducted, or looted by the LRA in 2013'
+              text: ''
           }
       },
       plotOptions: {
@@ -944,7 +953,10 @@ function buildPrefectures() {
         text: ''
       },
       xAxis: {
-        categories: ["'10", "'11", "'12", "'13"]
+        categories: ["'09", "'10", "'11", "'12", "'13"],
+          title: {
+              text: '# of abductions'
+          }
       },
       yAxis: {
           min: 0,
@@ -967,20 +979,129 @@ function buildPrefectures() {
       },
       series: [{
           name: 'Mbomou',
-          data: [4, 55, 12, 30, 11]
+          data: [60,315,73,157,21]
       }, {
           name: 'Haut Mbomou',
-          data: [61, 44, 26, 18, 18]
+          data: [149,128,109,37,25]
       }, {
           name: 'Vakaga',
-          data: [1, 7, 0, 0, 0]
+          data: [2, 125, 0, 0, 0]
       }, {
           name: 'Haut Kotto',
-          data: [0, 5, 0, 3, 20]
+          data: [0, 151, 0, 26, 207]
       }, {
           name: 'CAR total',
-          data: [67, 113, 38, 54, 52]
+          data: [213, 728, 182, 228, 253]
       }]
     });
   }
 };
+
+
+function buildAdultVsChild() {
+    if ($('#A13_AdultVsChild').length) {
+      $('#A13_AdultVsChild').highcharts({
+      chart: {
+          type: 'pie'
+      },
+      colors: ["#4884c5", '#525252','#0d233a'],
+      title: {
+        text: ''
+      },
+      subtitle: {
+        text: '2013'
+      },
+      xAxis: {
+        categories: ['2012','2013'],
+      },
+      yAxis: {
+          min: 0,
+          gridLineColor: 'transparent',
+          title: {
+              text: ''
+          }
+      },
+      plotOptions: {
+          pie: {
+              allowPointSelect: true,
+              cursor: 'pointer',
+              dataLabels: {
+                  enabled: false
+              },
+              showInLegend: true
+          }
+      },
+      credits: {
+        enabled: false
+      },
+      legend: {
+          itemStyle: {
+              color: '#000000',
+               fontSize: '10px'
+            }
+      },
+      series: [{
+          name: '# abducted',
+          data: [['Adults abducted', 145],
+                ['Children abducted',  52]]
+      }]
+    });
+  }
+};
+
+function buildLongVsShort() {
+    if ($('#A13_LongVsShort').length) {
+      $('#A13_LongVsShort').highcharts({
+      chart: {
+          type: 'pie'
+      },
+      colors: ["#4884c5", '#525252','#0d233a'],
+      title: {
+        text: ''
+      },
+      subtitle: {
+        text: '2013'
+      },
+      xAxis: {
+        categories: ['Abductions of less than 1 month','Abductions over 1 month or unknown length'],
+          title: {
+              text: '2013'
+          }
+      },
+      yAxis: {
+          min: 0,
+          gridLineColor: 'transparent',
+          title: {
+              text: ''
+          }
+      },
+      plotOptions: {
+          pie: {
+              allowPointSelect: true,
+              cursor: 'pointer',
+              dataLabels: {
+                  enabled: false
+              },
+              showInLegend: true
+          }
+      },
+      credits: {
+        enabled: false
+      },
+      legend: {
+          itemStyle: {
+              color: '#000000',
+               fontSize: '10px'
+            }
+      },
+      series: [{
+          name: '# of abducted',
+          data: [['Abductions of less than 1 month', 104],
+                ['Abductions over 1 month or unknown',  28]]
+      }]
+    });
+  }
+};
+
+
+
