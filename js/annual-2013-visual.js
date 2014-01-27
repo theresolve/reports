@@ -80,8 +80,8 @@ function buildES1() {
       series: [{
           name: '# of Ugandan LRA combatants killed',
           data: [['Defected', 16],
-                ['Killed/captured',  12],
-                ['Possibly killed or captured',  12],
+                ['Killed or captured',  16],
+                ['Possibly killed or captured',  6],
                 ['Remaining with the LRA',  172]]
       }]
     });
@@ -274,8 +274,8 @@ function buildES4c() {
         enabled: false
       },
       series: [{
-          name: '# of Congolese civilians displaced by the LRA (IDPs and refugees)',
-          data: [316800, 368600, 368800, 261000]
+          name: '# of Congolese civilians displaced by the LRA',
+          data: [316800, 368600, 368800, 219000]
       }]
     });
   }
@@ -296,7 +296,7 @@ function buildES5() {
         text: ''
       },
       xAxis: {
-        categories: ['Areas of CAR currently controlled by ex-Seleka rebels', 'All other LRA-affected areas of CAR, Congo, and South Sudan']
+        categories: ['Areas of CAR currently under the authority of ex-Seleka rebels', 'All other LRA-affected areas of CAR, Congo, and South Sudan']
       },
       yAxis: {
           min: 0,
@@ -932,7 +932,7 @@ function buildHotspotsc() {
         enabled: false
       },
       series: [{
-          name: '# of people displaced in Haut Mbomou',
+          name: '# of people displaced in Haut Mbomou*',
           data: [11900, 13900, 12500, 12500]
       }]
     });
@@ -1042,8 +1042,8 @@ function buildAdultVsChild() {
       },
       series: [{
           name: '# abducted',
-          data: [['Adults abducted', 145],
-                ['Children abducted',  52]]
+          data: [['# of adults abducted', 145],
+                ['# of children abducted',  52]]
       }]
     });
   }
@@ -1063,7 +1063,7 @@ function buildLongVsShort() {
         text: '2013'
       },
       xAxis: {
-        categories: ['Abductions of less than 1 month','Abductions over 1 month or unknown length'],
+        categories: ['# of abductions of less than 1 month','# of abductions over 1 month or unknown length'],
           title: {
               text: '2013'
           }
@@ -1096,8 +1096,8 @@ function buildLongVsShort() {
       },
       series: [{
           name: '# of abducted',
-          data: [['Abductions of less than 1 month', 104],
-                ['Abductions over 1 month or unknown',  28]]
+          data: [['# of abductions of less than 1 month', 104],
+                ['# of abductions over 1 month or unknown length',  28]]
       }]
     });
   }
