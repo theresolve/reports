@@ -740,7 +740,7 @@ function buildDecline() {
           data: [947, 2866, 3952]
       }, {
           name: 'Congo, 2011-2013',
-          data: [575, 136, 895]
+          data: [765, 256, 1631]
       }]
     });
   }
