@@ -78,7 +78,7 @@ function buildES1() {
             }
       },
       series: [{
-          name: '# of Ugandan LRA combatants killed',
+          name: '# of Ugandan LRA combatants',
           data: [['Defected', 16],
                 ['Killed or captured',  16],
                 ['Possibly killed or captured',  6],
