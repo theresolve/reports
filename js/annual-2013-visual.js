@@ -309,7 +309,7 @@ function buildES5() {
           min: 0,
           gridLineColor: 'transparent',
           title: {
-              text: ''
+              text: '# of abudctions'
           }
       },
       plotOptions: {
