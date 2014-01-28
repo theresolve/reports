@@ -41,7 +41,8 @@ function buildES1() {
       chart: {
           type: 'pie'
       },
-      colors: ['#910000', "#4884c5", '#525252','#0d233a'],
+      colors: ['rgb(13, 35, 58)', 'rgb(25, 68, 112)', 'rgb(37, 99, 163)', 
+      '#DDDDDD'],
       title: {
         text: ''
       },
@@ -62,6 +63,7 @@ function buildES1() {
           pie: {
               allowPointSelect: true,
               cursor: 'pointer',
+              borderWidth: 0,
               dataLabels: {
                   enabled: false
               },
@@ -79,6 +81,7 @@ function buildES1() {
       },
       series: [{
           name: '# of Ugandan LRA combatants',
+          innerSize: '70%',
           data: [['Defected', 16],
                 ['Killed or captured',  16],
                 ['Possibly killed or captured',  6],
