@@ -46,6 +46,11 @@ function buildES1() {
       chart: {
           type: 'pie'
       },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
+      },
       colors: [dark_blue, blue, light_blue, gray],
       title: {
         text: ''
@@ -101,6 +106,11 @@ function buildES2() {
       chart: {
           type: 'column'
       },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
+      },
       colors: [blue],
       title: {
         text: ''
@@ -146,6 +156,11 @@ function buildES4a() {
       $('#A13_ES_4a').highcharts({
       chart: {
           type: 'column'
+      },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
       },
       colors: [dark_blue],
       title: {
@@ -196,6 +211,11 @@ function buildES4b() {
       chart: {
           type: 'column'
       },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
+      },
       colors: [blue],
       title: {
         text: ''
@@ -244,6 +264,11 @@ function buildES4c() {
       $('#A13_ES_4c').highcharts({
       chart: {
           type: 'column'
+      },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
       },
       colors: [gray],
       title: {
@@ -295,6 +320,11 @@ function buildES5() {
       chart: {
           type: 'column'
       },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
+      },
       colors: [blue, gray],
       title: {
         text: ''
@@ -337,6 +367,11 @@ function buildLooting1() {
       $('#A13_Looting1').highcharts({
       chart: {
           type: 'column'
+      },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
       },
       colors: [dark_blue],
       title: {
@@ -381,6 +416,11 @@ function buildLooting2() {
       chart: {
           type: 'column'
       },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
+      },
       colors: [blue],
       title: {
         text: ''
@@ -424,6 +464,11 @@ function buildReductionCapacity() {
       chart: {
           type: 'column'
       },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
+      },
       colors: [blue],
       title: {
         text: ''
@@ -463,6 +508,11 @@ function buildLongTermReturnees() {
       $('#A13_LongTermReturnees').highcharts({
       chart: {
           type: 'column'
+      },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
       },
       colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
       title: {
@@ -507,6 +557,11 @@ function buildLengthAbduction() {
       chart: {
           type: 'column'
       },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
+      },
       colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
       title: {
         text: ''
@@ -550,6 +605,11 @@ function buildForcesObserved() {
       chart: {
           type: 'column'
       },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
+      },
       colors: ['#525252', '#910000'],
       title: {
         text: ''
@@ -589,6 +649,11 @@ function buildNumberAbductedPerAttack() {
       $('#A13_NumberAbductedPerAttack').highcharts({
       chart: {
           type: 'column'
+      },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
       },
       colors: [gray],
       title: {
@@ -633,6 +698,11 @@ function buildLivelihood() {
       chart: {
           type: 'column'
       },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
+      },
       colors: [dark_blue],
       title: {
         text: ''
@@ -672,6 +742,11 @@ function buildUAG() {
       $('#A13_UAG').highcharts({
       chart: {
           type: 'column'
+      },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
       },
       colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
       title: {
@@ -716,6 +791,11 @@ function buildDecline() {
       chart: {
           type: 'column'
       },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
+      },
       colors: [blue, gray],
       title: {
         text: ''
@@ -758,6 +838,11 @@ function buildPatterns() {
       $('#A13_Patterns').highcharts({
       chart: {
           type: 'column'
+      },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
       },
       colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
       title: {
@@ -804,6 +889,11 @@ function buildHotspotsa() {
       $('#A13_Hotspotsa').highcharts({
       chart: {
           type: 'column'
+      },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
       },
       colors: [dark_blue],
       title: {
@@ -854,6 +944,11 @@ function buildHotspotsb() {
       chart: {
           type: 'column'
       },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
+      },
       colors: [blue],
       title: {
         text: ''
@@ -903,6 +998,11 @@ function buildHotspotsc() {
       chart: {
           type: 'column'
       },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
+      },
       colors: [gray],
       title: {
         text: ''
@@ -951,6 +1051,11 @@ function buildPrefectures() {
       $('#A13_Prefectures').highcharts({
       chart: {
           type: 'line'
+      },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
       },
       colors: [dark_blue, blue, light_blue, gray, '#777777'],
       title: {
@@ -1015,6 +1120,11 @@ function buildAdultVsChild() {
       chart: {
           type: 'pie'
       },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
+      },
       colors: [blue, gray],
       title: {
         text: ''
@@ -1066,6 +1176,11 @@ function buildLongVsShort() {
       $('#A13_LongVsShort').highcharts({
       chart: {
           type: 'pie'
+      },
+      tooltip: {
+        formatter: function() {
+          return this.y;
+        }
       },
       colors: [blue, gray],
       title: {
