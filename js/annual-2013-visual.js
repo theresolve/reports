@@ -183,7 +183,7 @@ function buildES4a() {
         enabled: false
       },
       series: [{
-          name: '# of LRA attacks in Congo',
+          name: '# of LRA attacks <br>in Congo',
           data: [363, 228, 223, 125]
       }]
     });
@@ -232,7 +232,7 @@ function buildES4b() {
         enabled: false
       },
       series: [{
-          name: '# of LRA abductions in Congo',
+          name: '# of LRA abductions <br>in Congo',
           data: [665, 412, 294, 155]
       }]
     });
@@ -281,7 +281,7 @@ function buildES4c() {
         enabled: false
       },
       series: [{
-          name: '# of Congolese civilians displaced by the LRA',
+          name: '# of DRC civilians<br> displaced by LRA',
           data: [316800, 368600, 368800, 219000]
       }]
     });

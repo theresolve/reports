@@ -1,10 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 
 $white: #fff;
-$blue: #484F57;
-$darker-blue: darken($blue, 6%);
+$blueish-gray: #484F57;
+$darker-blueish-gray: darken($blueish-gray, 6%);
 $black: #555;
 $dark-gray: rgb(71, 71, 71);
+
+$dark-blue: rgb(25, 68, 112);
+$darker-blue: darken($dark-blue, 6%);
 
 
 /* GENERAL
@@ -36,14 +39,14 @@ body {
 
 a {
   text-decoration: underline;
-  color: $blue;
+  color: $blueish-gray;
 }
 
 
 
 // NAVBAR
 .navbar {
-  background: $blue;
+  background: $blueish-gray;
   height: 90px;
   color: white;
   border: 0px;
@@ -78,12 +81,12 @@ a {
 // NAVBAR HOVER STATE
 ul.nav a:hover { 
   color: $white !important; 
-  background-color: $darker-blue;
+  background-color: $darker-blueish-gray;
 }
 
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
   color: $white !important; 
-  background-color: $darker-blue;
+  background-color: $darker-blueish-gray;
 }
 
 .nav .caret {
@@ -166,11 +169,12 @@ nav.navbar.navbar-fixed {
 
 .page-title {
   font-weight: 300;
+  margin-top: 50px;
 }
 
 .page-subtitle {
   font-size: 18px;
-  margin: 15px 0px 5px;
+  margin: 35px 0px 5px;
   font-weight: 300;
 }
 
@@ -291,6 +295,24 @@ nav.navbar.navbar-fixed {
   margin-top: 40px;
 }
 
+.next {
+  height: 70px;
+}
+
+.btn-next {
+  background-color: $dark-blue;
+  border-color: $dark-blue;
+  float: right;
+  margin-top: 40px;
+}
+
+.btn-next:hover {
+  background-color: $darker-blue; 
+  border-color: $darker-blue;
+}
+
+
+
 /* TABLES
 ============================== */
 
@@ -307,7 +329,7 @@ margin: 40px 0px;
 }
 
 .active-nav-item {
-  background: $darker-blue;
+  background: $darker-blueish-gray;
 }
 
 ul.nav li.dropdown:hover > ul.dropdown-menu {
@@ -321,4 +343,18 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .label-primary {
 background-color: rgb(25, 68, 112);
+}
+
+/* MAPS
+============================== */
+
+.map {
+  border: 1px solid #e7e7e7;
+  margin-bottom: 40px;
+}
+
+.map-title {
+  margin: 40px 0px 10px;
+  font-weight: 300;
+  font-size: 18px;
 }
