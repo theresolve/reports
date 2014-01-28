@@ -358,3 +358,19 @@ background-color: rgb(25, 68, 112);
   font-weight: 300;
   font-size: 18px;
 }
+
+.survival-map-legend {
+  height: 290px;
+  .col-md-10 {
+    padding-bottom: 20px;
+  }
+  .col-md-2 {
+    padding-top: 4px;
+  }
+}
+
+.map-legend-marker {
+  background: rgb(43, 85, 157);
+  padding: 6px 0px 4px 12px;
+  color: white;
+}
