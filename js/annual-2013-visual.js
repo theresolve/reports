@@ -338,7 +338,7 @@ function buildLooting1() {
       chart: {
           type: 'column'
       },
-      colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
+      colors: [dark_blue],
       title: {
         text: ''
       },
@@ -381,7 +381,7 @@ function buildLooting2() {
       chart: {
           type: 'column'
       },
-      colors: ['#0d233a', '#525252', '#910000'],
+      colors: [blue],
       title: {
         text: ''
       },
@@ -424,7 +424,7 @@ function buildReductionCapacity() {
       chart: {
           type: 'column'
       },
-      colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
+      colors: [blue],
       title: {
         text: ''
       },
@@ -590,7 +590,7 @@ function buildNumberAbductedPerAttack() {
       chart: {
           type: 'column'
       },
-      colors: ['#0d233a', '#525252', '#910000'],
+      colors: [gray],
       title: {
         text: ''
       },
@@ -633,7 +633,7 @@ function buildLivelihood() {
       chart: {
           type: 'column'
       },
-      colors: ["#2f7ed8",'#0d233a', '#525252', '#910000'],
+      colors: [dark_blue],
       title: {
         text: ''
       },
@@ -716,7 +716,7 @@ function buildDecline() {
       chart: {
           type: 'column'
       },
-      colors: ['#0d233a',"#2f7ed8", '#525252', '#910000'],
+      colors: [blue, gray],
       title: {
         text: ''
       },
@@ -805,7 +805,7 @@ function buildHotspotsa() {
       chart: {
           type: 'column'
       },
-      colors: ["#4884c5",'#0d233a', '#525252', '#910000'],
+      colors: [dark_blue],
       title: {
         text: ''
       },
@@ -828,7 +828,7 @@ function buildHotspotsa() {
               borderWidth: 0
           },
           series: {
-              pointWidth: 20
+              pointWidth: 30
           }
       },
       legend: {
@@ -854,7 +854,7 @@ function buildHotspotsb() {
       chart: {
           type: 'column'
       },
-      colors: ['#0d233a', '#525252', '#910000'],
+      colors: [blue],
       title: {
         text: ''
       },
@@ -877,7 +877,7 @@ function buildHotspotsb() {
               borderWidth: 0
           },
           series: {
-              pointWidth: 20
+              pointWidth: 30
           }
       },
       legend: {
@@ -903,7 +903,7 @@ function buildHotspotsc() {
       chart: {
           type: 'column'
       },
-      colors: ['#525252', '#910000'],
+      colors: [gray],
       title: {
         text: ''
       },
@@ -926,7 +926,7 @@ function buildHotspotsc() {
               borderWidth: 0
           },
           series: {
-              pointWidth: 20
+              pointWidth: 30
           }
       },
       legend: {
@@ -952,7 +952,7 @@ function buildPrefectures() {
       chart: {
           type: 'line'
       },
-      colors: ["#4884c5",'#0d233a', '#525252', '#C7C7C7', '#910000'],
+      colors: [dark_blue, blue, light_blue, gray, '#777777'],
       title: {
         text: ''
       },
@@ -978,7 +978,11 @@ function buildPrefectures() {
               borderWidth: 0
           },
           series: {
-              pointWidth: 20
+              lineWidth: 4,
+              pointWidth: 20,
+              marker: {
+                enabled: false
+              }
           }
       },
       credits: {
@@ -1011,7 +1015,7 @@ function buildAdultVsChild() {
       chart: {
           type: 'pie'
       },
-      colors: ["#4884c5", '#525252','#0d233a'],
+      colors: [blue, gray],
       title: {
         text: ''
       },
@@ -1049,6 +1053,7 @@ function buildAdultVsChild() {
       },
       series: [{
           name: '# abducted',
+          innerSize: '70%',
           data: [['# of adults abducted', 145],
                 ['# of children abducted',  52]]
       }]
@@ -1062,7 +1067,7 @@ function buildLongVsShort() {
       chart: {
           type: 'pie'
       },
-      colors: ["#4884c5", '#525252','#0d233a'],
+      colors: [blue, gray],
       title: {
         text: ''
       },
@@ -1103,6 +1108,7 @@ function buildLongVsShort() {
       },
       series: [{
           name: '# of abducted',
+          innerSize: '70%',
           data: [['# of abductions of less than 1 month', 104],
                 ['# of abductions over 1 month or unknown length',  28]]
       }]
