@@ -281,7 +281,7 @@ function buildES4c() {
         enabled: false
       },
       series: [{
-          name: '# of DRC civilians<br> displaced by LRA',
+          name: '# of Congolese <br>IDPS and refugees <br>displaced by LRA',
           data: [316800, 368600, 368800, 219000]
       }]
     });
