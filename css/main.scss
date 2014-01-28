@@ -1,8 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 
 $white: #fff;
-$blue: #4884C5;
-$darker-blue: darken($blue, 10%);
+$blue: #484F57;
+$darker-blue: darken($blue, 6%);
 $black: #555;
 $dark-gray: rgb(71, 71, 71);
 
@@ -35,7 +35,7 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: $blue;
 }
 
@@ -317,4 +317,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .edge-left {
   margin-left: 0px;
   padding-left: 0px
+}
+
+.label-primary {
+background-color: rgb(25, 68, 112);
 }

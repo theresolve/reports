@@ -30,13 +30,13 @@ body {
 
 /* line 37, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 a {
-  text-decoration: none;
-  color: #4884c5;
+  text-decoration: underline;
+  color: #484f57;
 }
 
 /* line 45, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .navbar {
-  background: #4884c5;
+  background: #484f57;
   height: 90px;
   color: white;
   border: 0px;
@@ -73,13 +73,13 @@ a {
 /* line 79, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 ul.nav a:hover {
   color: white !important;
-  background-color: #346ba6;
+  background-color: #3a4046;
 }
 
 /* line 84, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   color: white !important;
-  background-color: #346ba6;
+  background-color: #3a4046;
 }
 
 /* line 89, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
@@ -322,7 +322,7 @@ nav.navbar.navbar-fixed {
 
 /* line 309, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .active-nav-item {
-  background: #346ba6;
+  background: #3a4046;
 }
 
 /* line 313, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
@@ -334,4 +334,9 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .edge-left {
   margin-left: 0px;
   padding-left: 0px;
+}
+
+/* line 322, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+.label-primary {
+  background-color: #194470;
 }

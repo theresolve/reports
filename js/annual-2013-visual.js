@@ -1,3 +1,8 @@
+var dark_blue = 'rgb(13, 35, 58)';
+var blue = 'rgb(25, 68, 112)';
+var light_blue = 'rgb(37, 99, 163)';
+var gray = '#DDDDDD';
+
 $(document).ready(function() {
   getVisualData()
 });
@@ -41,8 +46,7 @@ function buildES1() {
       chart: {
           type: 'pie'
       },
-      colors: ['rgb(13, 35, 58)', 'rgb(25, 68, 112)', 'rgb(37, 99, 163)', 
-      '#DDDDDD'],
+      colors: [dark_blue, blue, light_blue, gray],
       title: {
         text: ''
       },
@@ -97,7 +101,7 @@ function buildES2() {
       chart: {
           type: 'column'
       },
-      colors: ["#4884c5",'#0d233a', '#525252', '#910000'],
+      colors: [blue],
       title: {
         text: ''
       },
@@ -143,7 +147,7 @@ function buildES4a() {
       chart: {
           type: 'column'
       },
-      colors: ["#4884c5",'#0d233a', '#525252', '#910000'],
+      colors: [dark_blue],
       title: {
         text: ''
       },
@@ -166,7 +170,7 @@ function buildES4a() {
               borderWidth: 0
           },
           series: {
-              pointWidth: 12
+              pointWidth: 19
           }
       },
       legend: {
@@ -192,7 +196,7 @@ function buildES4b() {
       chart: {
           type: 'column'
       },
-      colors: ['#0d233a', '#525252', '#910000'],
+      colors: [blue],
       title: {
         text: ''
       },
@@ -215,7 +219,7 @@ function buildES4b() {
               borderWidth: 0
           },
           series: {
-              pointWidth: 12
+              pointWidth: 19
           }
       },
       legend: {
@@ -241,7 +245,7 @@ function buildES4c() {
       chart: {
           type: 'column'
       },
-      colors: ['#525252', '#910000'],
+      colors: [gray],
       title: {
         text: ''
       },
@@ -264,7 +268,7 @@ function buildES4c() {
               borderWidth: 0
           },
           series: {
-              pointWidth: 12
+              pointWidth: 19
           }
       },
       legend: {
@@ -291,7 +295,7 @@ function buildES5() {
       chart: {
           type: 'column'
       },
-      colors: ["#4884c5",'#0d233a', '#525252', '#910000'],
+      colors: [blue, gray],
       title: {
         text: ''
       },
