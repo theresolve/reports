@@ -1075,7 +1075,7 @@ function buildLongVsShort() {
         text: '2013'
       },
       xAxis: {
-        categories: ['# of abductions of less than 1 month','# of abductions over 1 month or unknown length'],
+        categories: ['# of abductions of less than one month','# of abductions over one month <br>or of unknown length'],
           title: {
               text: '2013'
           }
