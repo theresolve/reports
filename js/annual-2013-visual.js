@@ -282,7 +282,7 @@ function buildES4c() {
       },
       series: [{
           name: '# of Congolese <br>IDPs and refugees <br>displaced by the LRA',
-          data: [316800, 368600, 368800, 219000]
+          data: [316800, 368600, 368800, 236800]
       }]
     });
   }
@@ -743,10 +743,10 @@ function buildDecline() {
         enabled: false
       },
       series: [{
-          name: 'Congo, 2008-2010',
+          name: 'Congo, 2008&ndash;2010',
           data: [947, 2866, 3952]
       }, {
-          name: 'Congo, 2011-2013',
+          name: 'Congo, 2011&ndash;2013',
           data: [765, 256, 1631]
       }]
     });
@@ -1109,8 +1109,8 @@ function buildLongVsShort() {
       series: [{
           name: '# of abducted',
           innerSize: '70%',
-          data: [['# of abductions of less than 1 month', 104],
-                ['# of abductions over 1 month or unknown length',  28]]
+          data: [['# of abductions of less than one month', 104],
+                ['# of abductions over one month <br>or of unknown length',  28]]
       }]
     });
   }
