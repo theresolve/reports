@@ -53,10 +53,12 @@ function buildES1() {
       },
       colors: [dark_blue, blue, light_blue, gray],
       title: {
-        text: ''
-      },
-      subtitle: {
-        text: ''
+        verticalAlign: 'middle',
+        text: 'Status of Ugandan <br>Combatants <br>(2009-2013)', 
+        style: {
+            fontSize: '10px'
+        },
+        y: -25
       },
       xAxis: {
         categories: ['2012','2013'],
@@ -90,6 +92,11 @@ function buildES1() {
       },
       series: [{
           name: '# of Ugandan LRA combatants',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           innerSize: '70%',
           data: [['Defected', 16],
                 ['Killed or captured',  16],
@@ -145,6 +152,11 @@ function buildES2() {
       },
       series: [{
           name: 'Long-term woman and child returnees',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [31, 14, 7, 7, 3]
       }]
     });
@@ -199,6 +211,11 @@ function buildES4a() {
       },
       series: [{
           name: '# of LRA attacks <br>in Congo',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [363, 228, 223, 125]
       }]
     });
@@ -253,6 +270,11 @@ function buildES4b() {
       },
       series: [{
           name: '# of LRA abductions <br>in Congo',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [665, 412, 294, 155]
       }]
     });
@@ -307,6 +329,11 @@ function buildES4c() {
       },
       series: [{
           name: '# of Congolese <br>IDPs and refugees <br>displaced by the LRA',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [316800, 368600, 368800, 236800]
       }]
     });
@@ -353,9 +380,19 @@ function buildES5() {
       },
       series: [{
           name: '2012',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [174, 348]
       }, {
           name: '2013',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [215, 243]
       }]
     });
@@ -404,6 +441,11 @@ function buildLooting1() {
       },
       series: [{
           name: '# of incidents in which item was looted by the LRA in 2013',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [23, 19, 15, 14, 12, 9, 5,  5, 2]
       }]
     });
@@ -452,6 +494,11 @@ function buildLooting2() {
       },
       series: [{
           name: '# of incidents in which item was looted by the LRA in 2013',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [36, 16, 15, 7, 7, 6, 4, 2]
       }]
     });
@@ -497,6 +544,11 @@ function buildReductionCapacity() {
       },
       series: [{
           name: 'Estimated # of total LRA combatants',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [2700,800,400,240]
       }]
     });
@@ -542,9 +594,19 @@ function buildLongTermReturnees() {
       },
       series: [{
           name: '# of Women',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [5, 5, 5]
       }, {
           name: '# of Children',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [5, 5, 5]
       }]
     });
@@ -590,9 +652,19 @@ function buildLengthAbduction() {
       },
       series: [{
           name: '< 1 Month',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [5, 5]
       }, {
           name: '> 1 Month',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [5, 5]
       }]
     });
@@ -638,6 +710,11 @@ function buildForcesObserved() {
       },
       series: [{
           name: 'LRA forces observed per attack',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [8, 23, 19, 21, 15, 16]
       }]
     });
@@ -665,7 +742,7 @@ function buildNumberAbductedPerAttack() {
       xAxis: {
         categories: ['1-2', '3-4', '5-6', '7-8', '9-10', '11+'],
         title: {
-            text: '# of civilians abudcted per attack'
+            text: ''
         }
       },
       yAxis: {
@@ -685,7 +762,12 @@ function buildNumberAbductedPerAttack() {
         enabled: false
       },
       series: [{
-          name: 'Range of abductees per attack in 2013',
+          name: '# of civilians abudcted per attack in 2013',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [38, 24, 4, 2, 3, 13]
       }]
     });
@@ -731,6 +813,11 @@ function buildLivelihood() {
       },
       series: [{
           name: '# of Congolese civilians killed, abducted, or looted by the LRA in 2013',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [51, 28, 14]
       }]
     });
@@ -776,9 +863,19 @@ function buildUAG() {
       },
       series: [{
           name: 'LRA',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [62, 38, 37, 5]
       }, {
           name: 'UAG',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [31, 22, 13, 5]
       }]
     });
@@ -824,9 +921,19 @@ function buildDecline() {
       },
       series: [{
           name: 'Congo, 2008&ndash;2010',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [947, 2866, 3952]
       }, {
           name: 'Congo, 2011&ndash;2013',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [765, 256, 1631]
       }]
     });
@@ -872,12 +979,27 @@ function buildPatterns() {
       },
       series: [{
           name: '# of LRA attacks',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [612, 575]
       }, {
           name: '# of LRA killings',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [2141, 136]
       }, {
           name: '# of LRA abductions',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [2120, 895]
       }]
     });
@@ -932,6 +1054,11 @@ function buildHotspotsa() {
       },
       series: [{
           name: '# LRA attacks in Haut Mbomou',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [43, 26, 18, 18]
       }]
     });
@@ -986,6 +1113,11 @@ function buildHotspotsb() {
       },
       series: [{
           name: '# of LRA abductions in Haut Mbomou',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [128, 109, 37, 25]
       }]
     });
@@ -1040,6 +1172,11 @@ function buildHotspotsc() {
       },
       series: [{
           name: '# of people displaced in Haut Mbomou*',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [11900, 13900, 12500, 12500]
       }]
     });
@@ -1095,19 +1232,36 @@ function buildPrefectures() {
       },
       series: [{
           name: 'Mbomou',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [60,315,73,157,21]
       }, {
           name: 'Haut Mbomou',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [149,128,109,37,25]
       }, {
           name: 'Vakaga',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [2, 125, 0, 0, 0]
       }, {
           name: 'Haut Kotto',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [0, 151, 0, 26, 207]
-      }, {
-          name: 'CAR total',
-          data: [213, 728, 182, 228, 253]
       }]
     });
   }
