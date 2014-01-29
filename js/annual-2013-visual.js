@@ -54,7 +54,7 @@ function buildES1() {
       colors: [dark_blue, blue, light_blue, gray],
       title: {
         verticalAlign: 'middle',
-        text: 'Status of Ugandan <br>Combatants <br>(2009-2013)', 
+        text: 'Status of Ugandan <br> LRA combatants <br>2013', 
         style: {
             fontSize: '10px'
         },
@@ -100,8 +100,8 @@ function buildES1() {
           innerSize: '70%',
           data: [['Defected', 16],
                 ['Killed or captured',  16],
-                ['Possibly killed or captured',  6],
-                ['Remaining with the LRA',  172]]
+                ['Possibly killed or captured',  8],
+                ['Remaining with the LRA',  170]]
       }]
     });
   }
