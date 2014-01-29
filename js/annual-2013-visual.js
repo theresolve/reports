@@ -216,7 +216,7 @@ function buildES4a() {
                 enabled: false
             }
           },
-          data: [363, 228, 223, 125]
+          data: [367, 228, 223, 126]
       }]
     });
   }
@@ -275,7 +275,7 @@ function buildES4b() {
                 enabled: false
             }
           },
-          data: [665, 412, 294, 155]
+          data: [669, 412, 294, 191]
       }]
     });
   }
@@ -393,7 +393,7 @@ function buildES5() {
                 enabled: false
             }
           },
-          data: [215, 243]
+          data: [216, 243]
       }]
     });
   }
