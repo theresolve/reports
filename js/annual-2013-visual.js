@@ -549,7 +549,7 @@ function buildReductionCapacity() {
                 enabled: false
             }
           },
-          data: [2700,800,400,240]
+          data: [2700,800,400,220]
       }]
     });
   }
