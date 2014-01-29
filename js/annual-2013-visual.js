@@ -1194,7 +1194,7 @@ function buildPrefectures() {
           return this.y;
         }
       },
-      colors: [dark_blue, blue, light_blue, gray, '#777777'],
+      colors: [dark_blue, blue, light_blue, '#777777'],
       title: {
         text: ''
       },
@@ -1220,11 +1220,8 @@ function buildPrefectures() {
               borderWidth: 0
           },
           series: {
-              lineWidth: 4,
-              pointWidth: 20,
-              marker: {
-                enabled: false
-              }
+              lineWidth: 2,
+              pointWidth: 20
           }
       },
       credits: {
