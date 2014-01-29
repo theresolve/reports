@@ -261,14 +261,6 @@ nav.navbar.navbar-fixed {
   margin-left: 15px;
 }
 
-/* FOOTER
-============================== */
-
-.footer {
-  text-align: center;
-  padding: 40px;
-}
-
 /* BUTTONS
 ============================== */
 
@@ -291,6 +283,28 @@ nav.navbar.navbar-fixed {
   margin-top: 42px;
 }
 
+.btn-next {
+  background-color: $dark-blue;
+  border-color: $dark-blue;
+  float: right;
+  margin-top: 40px;
+}
+
+.btn-next:hover {
+  background-color: $darker-blue; 
+  border-color: $darker-blue;
+}
+
+.btn-download {
+  background-color: $dark-blue;
+  border-color: $dark-blue;
+}
+
+.btn-download:hover {
+  background-color: $darker-blue; 
+  border-color: $darker-blue;
+}
+
 /* LANG MENU
 ============================== */
 
@@ -307,20 +321,6 @@ nav.navbar.navbar-fixed {
 .next {
   height: 70px;
 }
-
-.btn-next {
-  background-color: $dark-blue;
-  border-color: $dark-blue;
-  float: right;
-  margin-top: 40px;
-}
-
-.btn-next:hover {
-  background-color: $darker-blue; 
-  border-color: $darker-blue;
-}
-
-
 
 /* TABLES
 ============================== */
@@ -399,4 +399,33 @@ background-color: rgb(25, 68, 112);
   background: rgb(43, 85, 157);
   padding: 6px 0px 4px 8px;
   color: white;
+}
+
+.footer-logos {
+  height: 100px;
+}
+
+.footer-publication-of {
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.footer-plus {
+  width: 20px;
+  padding: 0px 32px 0px 15px;
+  float: left;
+  font-size: 30px;
+}
+
+.resolve-logo {
+  width: 225px;
+  float: left;
+  margin-top: 4px;
+}
+
+.ic-logo {
+  width: 100px;
+  float: left;
 }
