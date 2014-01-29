@@ -54,7 +54,7 @@ function buildES1() {
       colors: [dark_blue, blue, light_blue, gray],
       title: {
         verticalAlign: 'middle',
-        text: 'Status of Ugandan <br> LRA combatants <br>2013', 
+        text: 'Fate of Ugandan <br> LRA combatants <br>(2013)', 
         style: {
             fontSize: '10px'
         },
