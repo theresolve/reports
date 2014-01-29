@@ -151,7 +151,7 @@ function buildES2() {
             }
       },
       series: [{
-          name: 'Long-term woman and child returnees',
+          name: '# of women and children who escaped long-term LRA captivity in 2013',
           states: {
             hover: {
                 enabled: false
