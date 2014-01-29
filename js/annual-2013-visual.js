@@ -101,7 +101,7 @@ function buildES1() {
           data: [['Defected', 16],
                 ['Killed or captured',  16],
                 ['Possibly killed or captured',  8],
-                ['Remaining with the LRA',  170]]
+                ['Remaining with the LRA',  160]]
       }]
     });
   }
