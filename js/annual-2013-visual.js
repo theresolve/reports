@@ -920,21 +920,21 @@ function buildDecline() {
         enabled: false
       },
       series: [{
-          name: 'Congo, 2008&ndash;2010',
+          name: 'Congo, 2008-2010',
           states: {
             hover: {
                 enabled: false
             }
           },
-          data: [947, 2866, 3952]
+          data: [651, 2348, 2475]
       }, {
-          name: 'Congo, 2011&ndash;2013',
+          name: 'Congo, 2011-2013',
           states: {
             hover: {
                 enabled: false
             }
           },
-          data: [765, 256, 1631]
+          data: [575, 136, 895]
       }]
     });
   }
@@ -1318,6 +1318,11 @@ function buildAdultVsChild() {
       series: [{
           name: '# abducted',
           innerSize: '70%',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [['# of adults abducted', 145],
                 ['# of children abducted',  52]]
       }]
@@ -1378,6 +1383,11 @@ function buildLongVsShort() {
       series: [{
           name: '# of abducted',
           innerSize: '70%',
+          states: {
+            hover: {
+                enabled: false
+            }
+          },
           data: [['# of abductions of less than one month', 104],
                 ['# of abductions over one month <br>or of unknown length',  28]]
       }]
