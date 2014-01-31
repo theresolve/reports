@@ -1,3 +1,12 @@
+// =================== GENERAL =================== //
+// ========================================================= //
+
+summary_en = "SUMMARY";
+summary_fr = "";
+
+
+
+
 // =================== EXECUTIVE SUMMARY =================== //
 // ========================================================= //
 
@@ -140,8 +149,64 @@ car_text_3_en = "<p>The presence of Ugandan RTF troops in Haut Mbomou prefecture
 car_subtitle_3_fr = "";
 car_text_3_fr = "";
 
+// =================== POLITICAL CONTEXT =================== //
+// ========================================================= //
+
+political_context_tldr_en = "In 2013, escalating crises in both CAR and South Sudan threatened the fragile coalition of African governments collaborating in the AU RTF and provided the LRA with opportunities to exploit for their survival. However, President Obama demonstrated renewed committment to counter-LRA efforts, including by extending the deployment of US military advisers for a full year. Other pages in this section explore the LRA's historical background and provide greater detail about the LRA Crisis Tracker and its methodology."
+political_context_title_en = "I. 2013 political context"
+political_context_tldr_fr = "";
+political_context_title_fr = "";
+
+political_context_subtitle_1_en = "Security in CAR deteriorates"
+political_context_text_1_en = "After forcefully taking power in CAR in a March 2013 coup with the help of now-disbanded Seleka rebel forces, Central African transitional leader Michael Djotodia lost control of the country in late 2013. November and December 2013 witnessed a surge of what was often sectarian violence in CAR, primarily perpetrated by ex-Seleka fighters and opposing anti-balaka militias. France deployed 1,600 troops to help stabilize the country in early December, while African peacekeepers were formally transferred to the African-led International Support Mission for CAR (MISCA) on December 19. However, by the end of 2013 it was unclear how MISCA forces planned to protect civilians in CAR from LRA attacks or cooperate with AU RTF forces, especially in areas where their area of operations may overlap. <a href='http://online.wsj.com/news/articles/SB10001424052702303393804579312193138340578' target='_blank'>Djotodia resigned on January 10</a> under pressure from regional and international leaders, and Bangui mayor Catherine Samba-Panza was soon after installed as interim president."
+political_context_subtitle_1_fr = "";
+political_context_text_1_fr = "";
+
+political_context_subtitle_2_en = "Diplomacy paves the way for resumption of AU RTF counter-LRA operations"
+political_context_text_2_en = "Following the March 2013 coup in Bangui, Ugandan troops operating in southeast CAR under the AU RTF's authority officially suspended counter-LRA operations. The Congolese and South Sudanese contingents to the AU RTF were inactive in the first half of 2013, meaning the Ugandan suspension brought counter-LRA operations to a standstill. However, <a href='http://www.smallarmssurveysudan.org/facts-figures/south-sudan/armed-groups/lra.html' target='_blank'>diplomatic efforts by the AU and UN</a> encouraged Djotodia to permit Ugandan troops to resume operations against the LRA, which they officially did in October 2013. In addition, AU and US diplomats helped secure permission from the Congolese government to allow the South Sudanese and Congolese contingents to launch counter-LRA operations in northeastern Congo in September 2013."
+political_context_subtitle_2_fr = "";
+political_context_text_2_fr = "";
+
+political_context_subtitle_3_en = "US government increases support to counter-LRA operations";
+political_context_text_3_en = "In October 2013, President Barack Obama extended the deployment of US military advisers assisting AU RTF forces for a full year, in contrast to previous six-month renewals. The US military also<a href='http://www.washingtonpost.com/world/national-security/kony-2013-us-quietly-intensifies-effort-to-help-african-troops-capture-infamous-warlord/2013/10/28/74db9720-3cb3-11e3-b6a9-da62c264f40e_story.html' target='_blank'> expanded its material support to AU RTF forces</a>, deploying additional airlift and intelligence-gathering assets to the region. In addition, the US expanded 'Come Home' messaging campaigns designed to promote LRA defections by funding the construction of several FM radios in CAR, the deployment helicopter speaker missions, increasing leaflet drops, and operationalizing additional <a href='http://invisiblechildren.com/program/safe-reporting-sites/' target='_blank'>Safe Reporting Sites</a> in CAR and South Sudan."
+political_context_subtitle_3_fr = "";
+political_context_text_3_fr = "";
+
+political_context_subtitle_4_en = "Civil war erupts in South Sudan";
+political_context_text_4_en = "In December 2013 fighting broke out between members of South Sudanese President Salva Kiir's presidential guard. The fighting quickly spread throughout Juba and the Greater Upper Nile region, with military forces splitting between those loyal to Kiir and those loyal to his former Vice President Riek Machar. Kiir sacked Machar and his entire cabinet in July 2013, exacerbating divisions among the ruling elite in the Sudan Peoples' Liberation Movement (SPLM). Forces loyal to both sides have been responsible for <a href='http://www.hrw.org/news/2014/01/16/south-sudan-ethnic-targeting-widespread-killings' target='_blank'>grievous human rights abuses</a> and fighting has displaced hundreds of thousands of civilians. Mediation efforts by the Intergovernmental Authority for Development (IGAD) have been hampered in part by Uganda's role in the conflict, particularly its decision to send troops to support troops forces loyal to Kiir. Ugandan troops sent to fight Machar's faction reportedly include some troops redeployed from counter-LRA operations. In addition, South Sudanese RTF troops have halted all plans for counter-LRA operations.";
+political_context_subtitle_4_fr = "";
+political_context_text_4_fr = "";
+
+political_context_subtitle_5_en = "M23 rebellion collapses in eastern Congo";
+political_context_text_5_en = "Under pressure from a combined offensive by the Congolese military and MONUSCO peacekeepers and lacking support from its former backers in Rwanda, the M23 rebellion in eastern Congo <a href='http://www.hrw.org/news/2013/11/05/dispatches-after-m23-congo-s-next-challenges' target='_blank'>collapsed in late 2013</a>. Critical to the collapse was intensified international pressure on Rwanda to halt its support for the M23. However, deep-rooted communal tensions, regional tension, political marginalization, and violence by other armed groups in the region continues to threaten the prospects for long-term stability in eastern Congo.";
+political_context_subtitle_5_fr = "";
+political_context_text_5_fr = "";
+
+// =================== LRA BACKGROUND =================== //
+// ========================================================= //
+
+background_title_en = "II. LRA background";
+background_title_fr = "";
+
+background_subtitle_1_en = "From local conflict to regional crisis"
+background_text_1_en = "<p>The LRA's origins are rooted in Uganda's post-independence history of deep divisions between the North and South of the country. The most recent chapter of this conflict has centered on Ugandan President Yoweri Museveni, a native of western Uganda who violently seized power in 1986 after decades of misrule by dictators from the North. Since then more than twenty groups, including the LRA, have taken up arms against the government, many in response to its marginalization of Northern communities.</p><p>However, the LRA failed to capture widespread support among northern Ugandans, many of whom did not see the LRA as representing their legitimate grievances. In the early 1990s, faced with dwindling support, the LRA began to rely more heavily on abducting civilians, shifting to bases in South Sudan, and receiving support from the Khartoum government.</p><p>By 2005 the Ugandan military had significantly improved security in northern Uganda, while a  gradual end to the civil war in South Sudan also threatened the LRA's supply lines and most secure bases. In 2005 the International Criminal Court (ICC) also issued arrest warrants for five LRA commanders, including Kony, on charges of war crimes and crimes against humanity.</p><p>The LRA adapted slowly, leaving South Sudan and establishing a sanctuary in Congo's remote Garamba National Park. In 2006, the LRA began peace negotiations with the Ugandan government mediated by South Sudanese officials. A formal ceasefire was signed in August 2006, enabling hundreds of LRA combatants remaining in South Sudan to shift towards the group's newly established bases in Congo.</p>"
+background_subtitle_1_fr = "";
+background_text_1_fr = "";
+
+background_subtitle_2_en = "The Juba peace talks and Operation Lightning Thunder"
+background_text_2_en = "<p>However, the peace talks faltered, in part due to Kony's refusal to directly participate and to the Ugandan government's erratic commitment. The two sides reached a Final Peace Agreement in April 2008, but Kony refused to sign. Instead, he ordered abduction raids aimed at rebuilding the LRA's fighting capacity.LRA rebels kidnapped dozens of people in southeastern CAR in March 2008 and abducted hundreds of Congolese children from school classrooms in September.</p><p>In December 2008, the Ugandan military, with significant diplomatic and financial support from the US government, launched an assault on LRA bases in Congo's Garamba National Park. Dubbed 'Operation Lightning Thunder,' the Ugandan offensive failed to apprehend top LRA leaders or protect civilians from predictable reprisal attacks, including the massacre of hundreds of Congolese civilians celebrating Christmas.</p>"
+background_subtitle_2_fr = "";
+background_text_2_fr = "";
+
+background_subtitle_3_en = "Civilian suffering in Congo, CAR, and South Sudan"
+background_text_3_en = "<p>Since the failure of Operation Lightning Thunder, Ugandan forces have continued to pursue the LRA across an ever-expanding region that includes parts of Congo, South Sudan, and CAR. The sheer scale of LRA violence is staggering: since September 2008, the LRA has abducted more than 5,600 people and killed nearly 3,100 more. These attacks have torn at the very fabric of community life by targeting schools, churches, and marketplaces.</p>";
+background_subtitle_3_fr = "";
+background_text_3_fr = "";
+
 $(function () {
   if (location.pathname.split('/')[1] == "en") {
+    $("#summary").html(summary_en);
+
     $("#executive_summary_title").html(executive_summary_title_en);
     $("#executive_summary_tldr").html(executive_summary_tldr_en);
     $("#executive_summary_subtitle_1").html(executive_summary_subtitle_1_en);
@@ -196,6 +261,27 @@ $(function () {
     $("#car_text_2").html(car_text_2_en);
     $("#car_subtitle_3").html(car_subtitle_3_en);
     $("#car_text_3").html(car_text_3_en);
+
+    $("#political_context_tldr").html(political_context_tldr_en);
+    $("#political_context_title").html(political_context_title_en);
+    $("#political_context_subtitle_1").html(political_context_subtitle_1_en);
+    $("#political_context_text_1").html(political_context_text_1_en);
+    $("#political_context_subtitle_2").html(political_context_subtitle_2_en);
+    $("#political_context_text_2").html(political_context_text_2_en);
+    $("#political_context_subtitle_3").html(political_context_subtitle_3_en);
+    $("#political_context_text_3").html(political_context_text_3_en);
+    $("#political_context_subtitle_4").html(political_context_subtitle_4_en);
+    $("#political_context_text_4").html(political_context_text_4_en);
+    $("#political_context_subtitle_5").html(political_context_subtitle_5_en);
+    $("#political_context_text_5").html(political_context_text_5_en);
+
+    $("#background_title").html(background_title_en);
+    $("#background_subtitle_1").html(background_subtitle_1_en);
+    $("#background_text_1").html(background_text_1_en);
+    $("#background_subtitle_2").html(background_subtitle_2_en);
+    $("#background_text_2").html(background_text_2_en);
+    $("#background_subtitle_3").html(background_subtitle_3_en);
+    $("#background_text_3").html(background_text_3_en);
 
   } else {
   };

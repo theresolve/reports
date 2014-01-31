@@ -25,7 +25,7 @@ $(function () {
 });
 
 $(function () {
-  if (location.pathname.split('/')[3] == "introduction") {
+  if (location.pathname.split('/')[3] == "") {
     $("#introduction").addClass("active-nav-item")
   } else if (location.pathname.split('/')[3] == "lra-survival") {
     $("#lra-survival").addClass("active-nav-item")
