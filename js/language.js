@@ -1,5 +1,5 @@
 $(function () {
-  $('#french').click(function() { 
+  $('.french').click(function() { 
     if (location.pathname.split('/')[2] && location.pathname.split('/')[3]) {
       window.location = "/fr/" + location.pathname.split('/')[2] + "/" + location.pathname.split('/')[3];
     } else if (location.pathname.split('/')[2]) {
@@ -12,7 +12,7 @@ $(function () {
 });
 
 $(function () {
-  $('#english').click(function() { 
+  $('.english').click(function() { 
     if (location.pathname.split('/')[2] && location.pathname.split('/')[3]) {
       window.location = "/en/" + location.pathname.split('/')[2] + "/" + location.pathname.split('/')[3];
     } else if (location.pathname.split('/')[2]) {
