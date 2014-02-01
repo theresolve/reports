@@ -1,30 +1,25 @@
 ---
-layout: fr-annual-2013
+layout: en-annual-2013
 published: true
 categories: annual-2013
-lang: fr
+lang: en
 ---
 
 <div class="row">
   <button class="btn btn-primary btn-download" style="margin-top: 0px;
 margin-bottom: 5px; margin-left: 15px;">
-    <a href="/pdf/2013-MY-LRA-Crisis-Tracker-Mid-Year-Security-Brief.pdf">Download Report</a>
+    <a id="download" href="/pdf/2013-MY-LRA-Crisis-Tracker-Mid-Year-Security-Brief.pdf"></a>
   </button>
 
   <div class="btn-group" style="margin-left: 12px;">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="margin-top: -5px;">
-      Langue: Fran&ccedil;ais <span class="caret"></span>
+    <button type="button" id="selected_language" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="margin-top: -5px;">
     </button>
     <ul class="dropdown-menu lang-menu" role="menu">
-      <li class="english"><a href="">English</a></li>
-      <li class="french"><a href="">&#x2713; Fran&ccedil;ais</a></li>
+      <li class="english"><a href="" id="english_option" ></a></li>
+      <li  class="french"><a href="" id="french_option"></a></li>
     </ul>
   </div>
 </div>
-
-
-
-
 
 <h3 id="executive_summary_title" class="page-title-top" style="margin-top: 20px"></h3>
 <div id="executive_summary_tldr"></div>
@@ -84,11 +79,10 @@ margin-bottom: 5px; margin-left: 15px;">
   </div>
 </div>
 
-
 <!-- NEXT PAGE -->
 <div class="next">
   <button class="btn btn-primary btn-next">
-    <a href="/en/annual-2013/lra-survival" class="next-page"><i>Next:</i> LRA Survival <i class="fa fa-chevron-right"></i></a>
+    <a href="/en/annual-2013/lra-survival" id="executive_summary_next" class="next-page"></a>
   </button>
 </div>
 

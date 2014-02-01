@@ -7,49 +7,12 @@ summary_fr = "";
 download_en = "Download Report";
 download_fr = "";
 
-lra_survival_map_1_en = "Garamba National Park, where LRA poaches elelphants and other animals for ivory/meat";
-lra_survival_map_2_en = "LRA camp and fields in Garamba National Park, occupied until Sept 2013";
-lra_survival_map_3_en = "Communities around Garamba National Park, frequently targeted for looting";
-lra_survival_map_4_en = "LRA camp and fields in Congo's Bas Uele district, occupied until Sept 2013";
-lra_survival_map_5_en = "CAR authorities provided an LRA group with food and rope in late 2013";
-lra_survival_map_6_en = "Communities under ex-Seleka authority, targeted by large-scale LRA lootings in 2013";
-lra_survival_map_7_en = "LRA camp and fields in Kafia Kingi territory, periodically occupied from 2010&ndash;2013";
-lra_survival_map_8_en = "Sudanese military garrison, periodically supplied the LRA from 2010&ndash;2013";
-lra_survival_map_9_en = "Songo market, where LRA members periodically bartered while in Kafia Kingi";
-lra_survival_map_1_fr = "";
-lra_survival_map_2_fr = "";
-lra_survival_map_3_fr = "";
-lra_survival_map_4_fr = "";
-lra_survival_map_5_fr = "";
-lra_survival_map_6_fr = "";
-lra_survival_map_7_fr = "";
-lra_survival_map_8_fr = "";
-lra_survival_map_9_fr = "";
-
-lra_force_capacity_map_1_en = "January: Ugandan troops kill LRA officer Binany Okumu after he reportedly delivers ivory to Kony";
-lra_force_capacity_map_2_en = "February: Ugandan troops discover LRA ivory cache north of Djemah, CAR";
-lra_force_capacity_map_3_en = "Early 2013: LRA officer Otto Agweng executed on Kony's orders";
-lra_force_capacity_map_4_en = "April: Four Ugandan LRA combatants defect in Obo, CAR";
-lra_force_capacity_map_5_en = "July: South Sudanese hunters kill senior LRA officer Thomas Odano";
-lra_force_capacity_map_6_en = "August: A Ugandan LRA combatant defects near Garamba National Park";
-lra_force_capacity_map_7_en = "September: South Sudanese troops destroy an LRA camp in Garamba National Park ";
-lra_force_capacity_map_8_en = "September: Congolese troops destroy an LRA camp in Congo's Bas Uele district";
-lra_force_capacity_map_9_en = "November: Ugandan troops kill LRA officer Samuel Kangul, at least four fighters";
-lra_force_capacity_map_10_en = "December: LRA officer Okello Okutti and five other LRA combatants defect";
-lra_force_capacity_map_11_en = "Ugandan troops raided LRA camps in Kafia Kingi in 2013, killing at least six LRA fighters";
-lra_force_capacity_map_1_fr = "";
-lra_force_capacity_map_2_fr = "";
-lra_force_capacity_map_3_fr = "";
-lra_force_capacity_map_4_fr = "";
-lra_force_capacity_map_5_fr = "";
-lra_force_capacity_map_6_fr = "";
-lra_force_capacity_map_7_fr = "";
-lra_force_capacity_map_8_fr = "";
-lra_force_capacity_map_9_fr = "";
-lra_force_capacity_map_10_fr = "";
-lra_force_capacity_map_11_fr = "";
-
-
+selected_language_en = "Language: English <span class='caret'></span>";
+english_option_en = "&#x2713; English";
+french_option_en = "Fran&ccedil;ais";
+selected_language_fr = "Langue: Fran&ccedil;ais <span class='caret'></span>";
+english_option_fr = "Anglais";
+french_option_fr = "&#x2713; Fran&ccedil;ais";
 
 // =================== EXECUTIVE SUMMARY =================== //
 // ========================================================= //
@@ -84,6 +47,9 @@ executive_summary_text_5_en = "<p>Unlike trends in Congo, <a href='http://report
 executive_summary_subtitle_5_fr = "";
 executive_summary_text_5_fr = "";
 
+executive_summary_next_en = "<i>Next:</i> LRA Survival <i class='fa fa-chevron-right'></i>";
+executive_summary_next_fr = "";
+
 
 // =================== LRA SURVIVAL =================== //
 // ========================================================= //
@@ -95,6 +61,25 @@ lra_survival_subtitle_1_en = "I. LRA camps and resupply routes"
 lra_survival_text_1_en = "<p>LRA commanders have established a sophisticated network of camps, resupply routes, and even collaborators, crisscrossing porous borders in remote regions well aware that AU RTF and UN peacekeeping forces often are unable to follow them. The map and narrative below provide more detail on how the LRA survived in 2012 and 2013, highlighting their adaptability to diverse political and ecological environments.</p>"
 lra_survival_text_1_fr = "";
 lra_survival_subtitle_1_fr = "";
+
+lra_survival_map_1_en = "Garamba National Park, where LRA poaches elelphants and other animals for ivory/meat";
+lra_survival_map_2_en = "LRA camp and fields in Garamba National Park, occupied until Sept 2013";
+lra_survival_map_3_en = "Communities around Garamba National Park, frequently targeted for looting";
+lra_survival_map_4_en = "LRA camp and fields in Congo's Bas Uele district, occupied until Sept 2013";
+lra_survival_map_5_en = "CAR authorities provided an LRA group with food and rope in late 2013";
+lra_survival_map_6_en = "Communities under ex-Seleka authority, targeted by large-scale LRA lootings in 2013";
+lra_survival_map_7_en = "LRA camp and fields in Kafia Kingi territory, periodically occupied from 2010&ndash;2013";
+lra_survival_map_8_en = "Sudanese military garrison, periodically supplied the LRA from 2010&ndash;2013";
+lra_survival_map_9_en = "Songo market, where LRA members periodically bartered while in Kafia Kingi";
+lra_survival_map_1_fr = "";
+lra_survival_map_2_fr = "";
+lra_survival_map_3_fr = "";
+lra_survival_map_4_fr = "";
+lra_survival_map_5_fr = "";
+lra_survival_map_6_fr = "";
+lra_survival_map_7_fr = "";
+lra_survival_map_8_fr = "";
+lra_survival_map_9_fr = "";
 
 lra_survival_safe_haven_en = "<b>Sudanese safe haven:</b> LRA forces have periodically established camps in the Sudanese-controlled Kafia Kingi territory since 2010, with <a href='http://www.theresolve.org/2013/04/report-sudans-renewed-support-to-the-lra/' target='_blank'>Kony himself staying in Kafia Kingi</a> in late 2012 and early 2013. Sudanese troops there provided LRA forces there with safe haven from Ugandan RTF troops and small amounts of food, ammunition, and other supplies."
 lra_survival_negotiations_en = "<b>Exploiting negotiations:</b> In August 2013, an LRA group led by Otto Ladeere set up a camp near the town of Nzako in CAR's Haut Kotto district and established contact with local authorities and former Central African transitional leader Michel Djotodia. In an attempt to build trust with the group and encourage their defection, Djotodia authorized a trusted ally, General Damane, <a href='http://www.theresolve.org/2013/11/the-backstory-on-konys-surrender-talks/' target='_blank'>to send food and rope to the LRA group</a>. A national aid group provided additional food and medical supplies. Despite promises to come out of the bush, contact was eventually lost with Ladeere and the LRA groups reportedly left their bases."
@@ -125,6 +110,11 @@ lra_survival_visual_text_2_fr = "";
 lra_survival_visual_text_3_fr = "";
 lra_survival_visual_text_4_fr = "";
 
+lra_survival_map_title_en = "How the LRA survived | <i>2012&ndash;2013</i>"
+lra_survival_next_en = "<i>Next:</i> LRA Force Capacity <i class='fa fa-chevron-right'></i>"
+lra_survival_map_title_fr = "";
+lra_survival_next_fr = "";
+
 
 // =================== FORCE CAPACITY =================== //
 // ========================================================= //
@@ -140,6 +130,29 @@ force_capacity_subtitle_1_fr = "";
 force_capacity_text_1_fr = "";
 force_capacity_text_1part2_fr = "";
 
+lra_force_capacity_map_1_en = "January: Ugandan troops kill LRA officer Binany Okumu after he reportedly delivers ivory to Kony";
+lra_force_capacity_map_2_en = "February: Ugandan troops discover LRA ivory cache north of Djemah, CAR";
+lra_force_capacity_map_3_en = "Early 2013: LRA officer Otto Agweng executed on Kony's orders";
+lra_force_capacity_map_4_en = "April: Four Ugandan LRA combatants defect in Obo, CAR";
+lra_force_capacity_map_5_en = "July: South Sudanese hunters kill senior LRA officer Thomas Odano";
+lra_force_capacity_map_6_en = "August: A Ugandan LRA combatant defects near Garamba National Park";
+lra_force_capacity_map_7_en = "September: South Sudanese troops destroy an LRA camp in Garamba National Park ";
+lra_force_capacity_map_8_en = "September: Congolese troops destroy an LRA camp in Congo's Bas Uele district";
+lra_force_capacity_map_9_en = "November: Ugandan troops kill LRA officer Samuel Kangul, at least four fighters";
+lra_force_capacity_map_10_en = "December: LRA officer Okello Okutti and five other LRA combatants defect";
+lra_force_capacity_map_11_en = "Ugandan troops raided LRA camps in Kafia Kingi in 2013, killing at least six LRA fighters";
+lra_force_capacity_map_1_fr = "";
+lra_force_capacity_map_2_fr = "";
+lra_force_capacity_map_3_fr = "";
+lra_force_capacity_map_4_fr = "";
+lra_force_capacity_map_5_fr = "";
+lra_force_capacity_map_6_fr = "";
+lra_force_capacity_map_7_fr = "";
+lra_force_capacity_map_8_fr = "";
+lra_force_capacity_map_9_fr = "";
+lra_force_capacity_map_10_fr = "";
+lra_force_capacity_map_11_fr = "";
+
 force_capacity_subtitle_2_en = "II. Kony's grip on the LRA command structure"
 force_capacity_text_2_en = "<p>LRA founder Joseph Kony remains the group's undisputed leader, but below him the command hierarchy is in constant flux. Kony frequently promotes or demotes officers, often disregarding their conventional military rank, to ensure no commander attains enough influence to threaten his iron grip on the LRA. In recent years, Kony has <a href='http://www.lracrisistracker.com/command/evolution' target='_blank'>tended to promote younger commanders</a>, many of them abducted as young boys from northern Uganda who then served as his bodyguards and remain fiercely loyal to him. Kony has also reportedly empowered several of his sons, including Salim, an ambitious young officer raised in the bush. Meanwhile, Kony has demoted many older commanders who had military experience before joining the LRA, though his loyal second-in-command, Okot Odhiambo, retains a position of great influence.</p> <p>Kony's attempts to maintain his hold on power have come at significant risk and cost. He has authorized greater use of High-Frequency (HF) radios to maintain communications with far-flung LRA commanders, despite the danger that Ugandan military forces will use signal intercepts to track down LRA groups. Kony also reportedly <a href='http://www.theresolve.org/2013/07/new-report-how-to-dismantle-the-lra-from-the-bottom-up/' target='_blank'>ordered the execution of at least four LRA officers</a> for disobedience in late 2012 and early 2013. The most notable execution was of Otto Agweng, once one of Kony's most trusted and feared enforcers, after he raped a female captive against Kony's orders.</p> <p>Kony's disciplinary actions, like his decisions on the command hierarchy, can be unpredictable. In 2012, Kony's half-brother David Olanya also incurred Kony's wrath for sleeping with a female captive without permission. However, Kony only demoted him, perhaps in deference to his family ties. Dominic Ongwen has also escaped the full force of Kony's justice, likely due to his family ties to Kony and bravery in battle.</p><p>Mapping the LRA's command structure is extremely difficult, given lack of access to the group and Kony's constant reshuffling of responsibilities. This graphic tracks the fates of 101 identified Ugandan officers who were confirmed members of the LRA as of 2009, providing a snapshot of how the command structure has fared since then.</p>"
 force_capacity_subtitle_2_fr = "";
@@ -149,6 +162,13 @@ force_capacity_subtitle_3_en = "III. Long-term women and children captives retur
 force_capacity_text_3_en = "<p>While male Ugandan officers monopolize power within the LRA, they depend on women and children held in long-term captivity to survive on a day-to-day basis. Women and children set up and take down camps, transport camp essentials when groups move, cook, and perform other essential duties. Many women and girls are forced into sexual relationships with male officers and fighters. Occasionally women participate in looting raids, and a few have become officers.</p> <p>At the beginning of 2013, the LRA had approximately 250 women and children within its ranks, including both long-term captives who had been with the LRA for over six months and short-term abductees. Sixty-two women and children held in long-term captivity escaped the LRA in 2013, a majority of which (32) were children originally abducted from CAR, Congo, or South Sudan. Ten Ugandan women and children long-term captives escaped the LRA in 2013, a slight reduction from the 13 who escaped in 2012. Nearly 75% of the 62 returnees were <a href='http://blog.invisiblechildren.com/2013/04/01/update-on-the-28-women-and-children-who-escaped-the-lra-last-week/' target='_blank'>intentionally released by the LRA</a> or escaped with an LRA combatant, indicating that the LRA may have trouble feeding women and children and may have less utility for them as the number of combatants dwindles. Only seven of the 62 returnees escaped on their own, suggesting women and children have inadequate information, opportunities, and incentives to escape.</p>"
 force_capacity_subtitle_3_fr = "";
 force_capacity_text_3_fr = "";
+
+lra_force_capacity_map_title_1_en = "Where the LRA suffered key losses | <i>2013</i>"
+lra_force_capacity_map_title_2_en = "Where women and children escaped long-term LRA captivity | <i>2013</i>"
+lra_force_capacity_next_en = "<i>Next:</i> Congo: Key Trends <i class='fa fa-chevron-right'></i>"
+lra_force_capacity_map_title_1_fr = "";
+lra_force_capacity_map_title_2_fr = "";
+lra_force_capacity_next_fr = "";
 
 // =================== CONGO =================== //
 // ========================================================= //
@@ -172,6 +192,13 @@ congo_text_3_en = "<p>High rates of LRA violence in northeastern Congo have furt
 congo_subtitle_3_fr = "";
 congo_text_3_fr = "";
 
+congo_map_title_en = "Attacks by the LRA vs. unidentified armed groups | <i>2013</i>"
+congo_visual_caption_2_en = "<i>*This graph provides a snapshot of how LRA attacks threaten Congolese civilians engaging in livelihood activities in 2013, though it likely underestimates each category due to lack of detailed information available for many attacks.</i>"
+congo_next_en = "<i>Next:</i> CAR: Key Trends <i class='fa fa-chevron-right'></i>"
+congo_map_title_fr = "";
+congo_visual_caption_2_fr = "";
+congo_next_fr = "";
+
 // =================== CAR =================== //
 // ========================================================= //
 
@@ -192,6 +219,13 @@ car_subtitle_3_en = "III. LRA hotspots in Haut Mbomou"
 car_text_3_en = "<p>The presence of Ugandan RTF troops in Haut Mbomou prefecture has deterred large-scale LRA attacks on communities there. However, rebel forces continue to conduct periodic small-scale looting raids that make travelling along roads or to remote fields risky and have forced thousands of civilians into long-term displacement. In early 2013, LRA rebels committed six attacks near the town of Zemio in Haut Mbomou, home to a small Ugandan RTF detachment. They then abducted 36 people just across the border from Zemio in Congo in October. LRA forces also committed a series of attacks on roads leading to the Ugandan RTF base in Djemah, most notably the abduction of 13 hunters near Derbissaka in April 2013.</p> <p><i>*2013 Haut Mbomou displacement data unavailable, but reports indicate consistent levels with 2012</i></p>"
 car_subtitle_3_fr = "";
 car_text_3_fr = "";
+
+car_map_title_en = "Mass LRA Attacks | <i>2013</i>"
+car_map_caption_en = "Note: A mass LRA attack is defined as one in which the LRA kills five or more people and/or abducts ten or more people<br />"
+car_next_en = "<i>Next:</i> Background <i class='fa fa-chevron-right'></i>"
+car_map_title_fr = "";
+car_map_caption_fr = "";
+car_next_fr = "";
 
 // =================== POLITICAL CONTEXT =================== //
 // ========================================================= //
@@ -251,28 +285,9 @@ $(function () {
   if (location.pathname.split('/')[1] == "en") {
     $("#summary").html(summary_en);
     $("#download").html(download_en);
-
-    $("#lra_survival_map_1").html(lra_survival_map_1_en);
-    $("#lra_survival_map_2").html(lra_survival_map_2_en);
-    $("#lra_survival_map_3").html(lra_survival_map_3_en);
-    $("#lra_survival_map_4").html(lra_survival_map_4_en);
-    $("#lra_survival_map_5").html(lra_survival_map_5_en);
-    $("#lra_survival_map_6").html(lra_survival_map_6_en);
-    $("#lra_survival_map_7").html(lra_survival_map_7_en);
-    $("#lra_survival_map_8").html(lra_survival_map_8_en);
-    $("#lra_survival_map_9").html(lra_survival_map_9_en);
-
-    $("#lra_force_capacity_map_1").html(lra_force_capacity_map_1_en);
-    $("#lra_force_capacity_map_2").html(lra_force_capacity_map_2_en);
-    $("#lra_force_capacity_map_3").html(lra_force_capacity_map_3_en);
-    $("#lra_force_capacity_map_4").html(lra_force_capacity_map_4_en);
-    $("#lra_force_capacity_map_5").html(lra_force_capacity_map_5_en);
-    $("#lra_force_capacity_map_6").html(lra_force_capacity_map_6_en);
-    $("#lra_force_capacity_map_7").html(lra_force_capacity_map_7_en);
-    $("#lra_force_capacity_map_8").html(lra_force_capacity_map_8_en);
-    $("#lra_force_capacity_map_9").html(lra_force_capacity_map_9_en);
-    $("#lra_force_capacity_map_10").html(lra_force_capacity_map_10_en);
-    $("#lra_force_capacity_map_11").html(lra_force_capacity_map_11_en);
+    $("#selected_language").html(selected_language_en);
+    $("#english_option").html(english_option_en);
+    $("#french_option").html(french_option_en);
 
     $("#executive_summary_title").html(executive_summary_title_en);
     $("#executive_summary_tldr").html(executive_summary_tldr_en);
@@ -286,6 +301,7 @@ $(function () {
     $("#executive_summary_text_3").html(executive_summary_text_3_en);
     $("#executive_summary_text_4").html(executive_summary_text_4_en);
     $("#executive_summary_text_5").html(executive_summary_text_5_en);
+    $("#executive_summary_next").html(executive_summary_next_en);
 
     $("#lra_survival_tldr").html(lra_survival_tldr_en);
     $("#lra_survival_subtitle_1").html(lra_survival_subtitle_1_en);
@@ -303,6 +319,17 @@ $(function () {
     $("#lra_survival_visual_text_2").html(lra_survival_visual_text_2_en);
     $("#lra_survival_visual_text_3").html(lra_survival_visual_text_3_en);
     $("#lra_survival_visual_text_4").html(lra_survival_visual_text_4_en);
+    $("#lra_survival_map_1").html(lra_survival_map_1_en);
+    $("#lra_survival_map_2").html(lra_survival_map_2_en);
+    $("#lra_survival_map_3").html(lra_survival_map_3_en);
+    $("#lra_survival_map_4").html(lra_survival_map_4_en);
+    $("#lra_survival_map_5").html(lra_survival_map_5_en);
+    $("#lra_survival_map_6").html(lra_survival_map_6_en);
+    $("#lra_survival_map_7").html(lra_survival_map_7_en);
+    $("#lra_survival_map_8").html(lra_survival_map_8_en);
+    $("#lra_survival_map_9").html(lra_survival_map_9_en);
+    $("#lra_survival_map_title").html(lra_survival_map_title_en);
+    $("#lra_survival_next").html(lra_survival_next_en);
 
     $("#force_capacity_tldr").html(force_capacity_tldr_en);
     $("#force_capacity_subtitle_1").html(force_capacity_subtitle_1_en);
@@ -312,6 +339,20 @@ $(function () {
     $("#force_capacity_text_2").html(force_capacity_text_2_en);
     $("#force_capacity_subtitle_3").html(force_capacity_subtitle_3_en);
     $("#force_capacity_text_3").html(force_capacity_text_3_en);
+    $("#lra_force_capacity_map_1").html(lra_force_capacity_map_1_en);
+    $("#lra_force_capacity_map_2").html(lra_force_capacity_map_2_en);
+    $("#lra_force_capacity_map_3").html(lra_force_capacity_map_3_en);
+    $("#lra_force_capacity_map_4").html(lra_force_capacity_map_4_en);
+    $("#lra_force_capacity_map_5").html(lra_force_capacity_map_5_en);
+    $("#lra_force_capacity_map_6").html(lra_force_capacity_map_6_en);
+    $("#lra_force_capacity_map_7").html(lra_force_capacity_map_7_en);
+    $("#lra_force_capacity_map_8").html(lra_force_capacity_map_8_en);
+    $("#lra_force_capacity_map_9").html(lra_force_capacity_map_9_en);
+    $("#lra_force_capacity_map_10").html(lra_force_capacity_map_10_en);
+    $("#lra_force_capacity_map_11").html(lra_force_capacity_map_11_en);
+    $("#lra_force_capacity_map_title_1").html(lra_force_capacity_map_title_1_en);
+    $("#lra_force_capacity_map_title_2").html(lra_force_capacity_map_title_2_en);
+    $("#lra_force_capacity_next").html(lra_force_capacity_next_en);
 
     $("#congo_tldr").html(congo_tldr_en);
     $("#congo_subtitle_1").html(congo_subtitle_1_en);
@@ -320,6 +361,9 @@ $(function () {
     $("#congo_text_2").html(congo_text_2_en);
     $("#congo_subtitle_3").html(congo_subtitle_3_en);
     $("#congo_text_3").html(congo_text_3_en);
+    $("#congo_map_title").html(congo_map_title_en);
+    $("#congo_visual_caption_2").html(congo_visual_caption_2_en);
+    $("#congo_next").html(congo_next_en);
 
     $("#car_tldr").html(car_tldr_en);
     $("#car_subtitle_1").html(car_subtitle_1_en);
@@ -328,6 +372,9 @@ $(function () {
     $("#car_text_2").html(car_text_2_en);
     $("#car_subtitle_3").html(car_subtitle_3_en);
     $("#car_text_3").html(car_text_3_en);
+    $("#car_map_title").html(car_map_title_en);
+    $("#car_map_caption").html(car_map_caption_en);
+    $("#car_next").html(car_next_en);
 
     $("#political_context_tldr").html(political_context_tldr_en);
     $("#political_context_title").html(political_context_title_en);
@@ -351,6 +398,11 @@ $(function () {
     $("#background_text_3").html(background_text_3_en);
 
   } else {
+    $("#summary").html(summary_fr);
+    $("#download").html(download_fr);
+    $("#selected_language").html(selected_language_fr);
+    $("#english_option").html(english_option_fr);
+    $("#french_option").html(french_option_fr);
   };
 });
 
