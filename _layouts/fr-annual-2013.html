@@ -2,6 +2,7 @@
 layout: main
 published: true
 ---
+
 <script src="/js/annual-2013-visual.js"></script>
 <script src="/js/annual-2013-text.js"></script>
 <nav class="navbar navbar-fixed-top" role="navigation">
@@ -10,79 +11,80 @@ published: true
       <a class="navbar-brand" href="/fr/annual-2013"><img src="/images/annual-logo.png" class="annual-logo"></a>
       <ul class="nav navbar-nav">
         <li class="dropdown" id="introduction">
-          <a href="/fr/annual-2013/">Executive Summary</b></a>
+          <a href="/fr/annual-2013/" id="executive_summary_navbar_title"></b></a>
         </li>
         <li class="dropdown" id="lra-survival">
-          <a href="/fr/annual-2013/lra-survival">LRA Survival </a>
+          <a href="/fr/annual-2013/lra-survival" id="lra_survival_navbar_title"></a>
           <ul class="dropdown-menu">
             <li>
-              <a href="/fr/annual-2013/lra-survival">I. LRA camps and resupply networks</a>
+              <a href="/fr/annual-2013/lra-survival" class="lra_survival_subtitle_1"></a>
             </li>
             <li>
-              <a href="/fr/annual-2013/lra-survival#looting-analysis">II. LRA looting patterns</a>
+              <a href="/fr/annual-2013/lra-survival#looting-analysis" class="lra_survival_subtitle_2"></a>
             </li>
           </ul>
         </li>
         <li class="dropdown" id="lra-force-capacity">
-          <a href="/fr/annual-2013/lra-force-capacity/">LRA Force Capacity </a>
+          <a href="/fr/annual-2013/lra-force-capacity/" id="force_capacity_navbar_title"></a>
           <ul class="dropdown-menu">
             <li>
-              <a href="/fr/annual-2013/lra-force-capacity/">I. Reduction in LRA fighting capacity </a>
+              <a href="/fr/annual-2013/lra-force-capacity/" class="force_capacity_subtitle_1"></a>
             </li>
             <li>
-              <a href="/fr/annual-2013/lra-force-capacity#lra-command-structure">II. LRA command structure</a>
+              <a href="/fr/annual-2013/lra-force-capacity#lra-command-structure" class="force_capacity_subtitle_2"></a>
             </li>
             <li>
-              <a href="/fr/annual-2013/lra-force-capacity#returnees">III. Return of long-term women and children captives</a>
+              <a href="/fr/annual-2013/lra-force-capacity#returnees" class="force_capacity_subtitle_3"></a>
             </li>
           </ul>
         </li>
         <li class="dropdown" id="congo">
-          <a href="/fr/annual-2013/congo">Congo: Key Trends </a>
+          <a href="/fr/annual-2013/congo" id="congo_navbar_title"> </a>
           <ul class="dropdown-menu">
             <li>
-              <a href="/fr/annual-2013/congo">I. Steady decline of LRA violence in Congo</a>
+              <a href="/fr/annual-2013/congo" class="congo_subtitle_1"></a>
             </li>
             <li>
-              <a href="/fr/annual-2013/congo#dangerous-livelihoods">II. Making a living in the LRA's shadow</a>
+              <a href="/fr/annual-2013/congo#dangerous-livelihoods" class="congo_subtitle_2"></a>
             </li>
             <li>
-              <a href="/fr/annual-2013/congo#lra-vs-uag">III. The LRA and other armed groups</a>
+              <a href="/fr/annual-2013/congo#lra-vs-uag" class="congo_subtitle_3"></a>
             </li>
           </ul>
         </li>
         <li class="dropdown" id="car">
-          <a href="/fr/annual-2013/car">CAR: Key Trends</a>
+          <a href="/fr/annual-2013/car" id="car_navbar_title"></a>
           <ul class="dropdown-menu">
             <li>
-              <a href="/fr/annual-2013/car">I. The LRA's steady expansion into CAR</a>
+              <a href="/fr/annual-2013/car" class="car_subtitle_1"></a>
             </li>
             <li>
-              <a href="/fr/annual-2013/car#mass">II. Mass LRA attacks near ex-Seleka troops</a>
+              <a href="/fr/annual-2013/car#mass" class="car_subtitle_2"></a>
             </li>
 
             <li>
-              <a href="/fr/annual-2013/car#lra-hotspots">III. LRA hotspots in Haut Mbomou</a>
+              <a href="/fr/annual-2013/car#lra-hotspots" class="car_subtitle_3"></a>
             </li>
           </ul>
         </li>
+
         <li class="dropdown" id="background">
-          <a href="/fr/annual-2013/background">Background</a>
+          <a href="/fr/annual-2013/background" id="background_navbar_title"></a>
           <ul class="dropdown-menu">
             <li>
-              <a href="/fr/annual-2013/background">2013 political context</a>
+              <a href="/fr/annual-2013/background" class="background_title_1"></a>
             </li>
             <li>
-              <a href="/fr/annual-2013/background#lra-background">LRA background</a>
+              <a href="/fr/annual-2013/background#lra-background" class="background_title_2"></a>
             </li>
             <li>
-              <a href="/fr/annual-2013/background#about-ct">About the LRA Crisis Tracker</a>
+              <a href="/fr/annual-2013/background#about-ct" class="background_title_3"></a>
             </li> 
             <li>
-              <a href="/fr/annual-2013/background#methodology">LRA Crisis Tracker Methodology</a>
+              <a href="/fr/annual-2013/background#methodology" class="background_title_4"></a>
             </li>
             <li>
-              <a href="/fr/annual-2013/background#contributors">Contributors</a>
+              <a href="/fr/annual-2013/background#contributors" class="background_title_5"></a>
             </li>
 
           </ul>
@@ -104,7 +106,7 @@ published: true
   <div class="row">
     <div class="col-md-12">
       <div class="footer-logos">
-         <div class="footer-publication-of">A publication of</div>
+         <div id="publication_of" class="footer-publication-of"></div>
          <a href="http://theresolve.org"><img src="/images/resolve-logo.png" class="resolve-logo"></a>
          <div class="footer-plus">+</div>
          <a href="http://invisiblechildren.com"><img src="/images/ic-logo.png" class="ic-logo"></a>
@@ -117,15 +119,13 @@ published: true
       </div>
 
       <div class="btn-group" >
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-          Langue: Fran&ccedil;ais<span class="caret"></span>
+        <button type="button" id="selected_language" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span>
         </button>
         <ul class="dropdown-menu lang-menu" role="menu">
-          <li class="english"><a href="">English</a></li>
-          <li class="french"><a href="">&#x2713; Fran&ccedil;ais</a></li>
+          <li class="english"><a href="" id="english_option"></a></li>
+          <li class="french"><a href="" id="french_option"></a></li>
         </ul>
       </div>
-
     </div>
   </div>
 </div>

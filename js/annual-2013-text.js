@@ -7,12 +7,38 @@ summary_fr = "";
 download_en = "Download Report";
 download_fr = "";
 
+publication_of_en = "A publication of";
+publication_of_fr = "";
+
 selected_language_en = "Language: English <span class='caret'></span>";
 english_option_en = "&#x2713; English";
 french_option_en = "Fran&ccedil;ais";
 selected_language_fr = "Langue: Fran&ccedil;ais <span class='caret'></span>";
 english_option_fr = "Anglais";
 french_option_fr = "&#x2713; Fran&ccedil;ais";
+
+executive_summary_navbar_title_en = "Executive Summary";
+lra_survival_navbar_title_en = "LRA Survival";
+force_capacity_navbar_title_en = "LRA Force Capacity";
+congo_navbar_title_en = "Congo: Key Trends";
+car_navbar_title_en = "CAR: Key Trends";
+background_navbar_title_en = "Background";
+background_title_1_en = "I. 2013 political context";
+background_title_2_en = "II. LRA background";
+background_title_3_en = "III. About the LRA Crisis Tracker";
+background_title_4_en = "IV. LRA Crisis Tracker Methodology";
+background_title_5_en = "V. Contributors";
+executive_summary_navbar_title_fr = "";
+lra_survival_navbar_title_fr = "";
+force_capacity_navbar_title_fr = "";
+congo_navbar_title_fr = "";
+car_navbar_title_fr = "";
+background_navbar_title_fr = "";
+background_title_1_fr = "";
+background_title_2_fr = "";
+background_title_3_fr = "";
+background_title_4_fr = "";
+background_title_5_fr = "";
 
 // =================== EXECUTIVE SUMMARY =================== //
 // ========================================================= //
@@ -263,31 +289,44 @@ political_context_text_5_fr = "";
 // =================== LRA BACKGROUND =================== //
 // ========================================================= //
 
-background_title_en = "II. LRA background";
-background_title_fr = "";
+lra_background_title_en = "II. LRA background";
+lra_background_title_fr = "";
 
-background_subtitle_1_en = "From local conflict to regional crisis"
-background_text_1_en = "<p>The LRA's origins are rooted in Uganda's post-independence history of deep divisions between the North and South of the country. The most recent chapter of this conflict has centered on Ugandan President Yoweri Museveni, a native of western Uganda who violently seized power in 1986 after decades of misrule by dictators from the North. Since then more than twenty groups, including the LRA, have taken up arms against the government, many in response to its marginalization of Northern communities.</p><p>However, the LRA failed to capture widespread support among northern Ugandans, many of whom did not see the LRA as representing their legitimate grievances. In the early 1990s, faced with dwindling support, the LRA began to rely more heavily on abducting civilians, shifting to bases in South Sudan, and receiving support from the Khartoum government.</p><p>By 2005 the Ugandan military had significantly improved security in northern Uganda, while a  gradual end to the civil war in South Sudan also threatened the LRA's supply lines and most secure bases. In 2005 the International Criminal Court (ICC) also issued arrest warrants for five LRA commanders, including Kony, on charges of war crimes and crimes against humanity.</p><p>The LRA adapted slowly, leaving South Sudan and establishing a sanctuary in Congo's remote Garamba National Park. In 2006, the LRA began peace negotiations with the Ugandan government mediated by South Sudanese officials. A formal ceasefire was signed in August 2006, enabling hundreds of LRA combatants remaining in South Sudan to shift towards the group's newly established bases in Congo.</p>"
-background_subtitle_1_fr = "";
-background_text_1_fr = "";
+lra_background_subtitle_1_en = "From local conflict to regional crisis"
+lra_background_text_1_en = "<p>The LRA's origins are rooted in Uganda's post-independence history of deep divisions between the North and South of the country. The most recent chapter of this conflict has centered on Ugandan President Yoweri Museveni, a native of western Uganda who violently seized power in 1986 after decades of misrule by dictators from the North. Since then more than twenty groups, including the LRA, have taken up arms against the government, many in response to its marginalization of Northern communities.</p><p>However, the LRA failed to capture widespread support among northern Ugandans, many of whom did not see the LRA as representing their legitimate grievances. In the early 1990s, faced with dwindling support, the LRA began to rely more heavily on abducting civilians, shifting to bases in South Sudan, and receiving support from the Khartoum government.</p><p>By 2005 the Ugandan military had significantly improved security in northern Uganda, while a  gradual end to the civil war in South Sudan also threatened the LRA's supply lines and most secure bases. In 2005 the International Criminal Court (ICC) also issued arrest warrants for five LRA commanders, including Kony, on charges of war crimes and crimes against humanity.</p><p>The LRA adapted slowly, leaving South Sudan and establishing a sanctuary in Congo's remote Garamba National Park. In 2006, the LRA began peace negotiations with the Ugandan government mediated by South Sudanese officials. A formal ceasefire was signed in August 2006, enabling hundreds of LRA combatants remaining in South Sudan to shift towards the group's newly established bases in Congo.</p>"
+lra_background_subtitle_1_fr = "";
+lra_background_text_1_fr = "";
 
-background_subtitle_2_en = "The Juba peace talks and Operation Lightning Thunder"
-background_text_2_en = "<p>However, the peace talks faltered, in part due to Kony's refusal to directly participate and to the Ugandan government's erratic commitment. The two sides reached a Final Peace Agreement in April 2008, but Kony refused to sign. Instead, he ordered abduction raids aimed at rebuilding the LRA's fighting capacity.LRA rebels kidnapped dozens of people in southeastern CAR in March 2008 and abducted hundreds of Congolese children from school classrooms in September.</p><p>In December 2008, the Ugandan military, with significant diplomatic and financial support from the US government, launched an assault on LRA bases in Congo's Garamba National Park. Dubbed 'Operation Lightning Thunder,' the Ugandan offensive failed to apprehend top LRA leaders or protect civilians from predictable reprisal attacks, including the massacre of hundreds of Congolese civilians celebrating Christmas.</p>"
-background_subtitle_2_fr = "";
-background_text_2_fr = "";
+lra_background_subtitle_2_en = "The Juba peace talks and Operation Lightning Thunder"
+lra_background_text_2_en = "<p>However, the peace talks faltered, in part due to Kony's refusal to directly participate and to the Ugandan government's erratic commitment. The two sides reached a Final Peace Agreement in April 2008, but Kony refused to sign. Instead, he ordered abduction raids aimed at rebuilding the LRA's fighting capacity.LRA rebels kidnapped dozens of people in southeastern CAR in March 2008 and abducted hundreds of Congolese children from school classrooms in September.</p><p>In December 2008, the Ugandan military, with significant diplomatic and financial support from the US government, launched an assault on LRA bases in Congo's Garamba National Park. Dubbed 'Operation Lightning Thunder,' the Ugandan offensive failed to apprehend top LRA leaders or protect civilians from predictable reprisal attacks, including the massacre of hundreds of Congolese civilians celebrating Christmas.</p>"
+lra_background_subtitle_2_fr = "";
+lra_background_text_2_fr = "";
 
-background_subtitle_3_en = "Civilian suffering in Congo, CAR, and South Sudan"
-background_text_3_en = "<p>Since the failure of Operation Lightning Thunder, Ugandan forces have continued to pursue the LRA across an ever-expanding region that includes parts of Congo, South Sudan, and CAR. The sheer scale of LRA violence is staggering: since September 2008, the LRA has abducted more than 5,600 people and killed nearly 3,100 more. These attacks have torn at the very fabric of community life by targeting schools, churches, and marketplaces.</p>";
-background_subtitle_3_fr = "";
-background_text_3_fr = "";
+lra_background_subtitle_3_en = "Civilian suffering in Congo, CAR, and South Sudan"
+lra_background_text_3_en = "<p>Since the failure of Operation Lightning Thunder, Ugandan forces have continued to pursue the LRA across an ever-expanding region that includes parts of Congo, South Sudan, and CAR. The sheer scale of LRA violence is staggering: since September 2008, the LRA has abducted more than 5,600 people and killed nearly 3,100 more. These attacks have torn at the very fabric of community life by targeting schools, churches, and marketplaces.</p>";
+lra_background_subtitle_3_fr = "";
+lra_background_text_3_fr = "";
 
 $(function () {
   if (location.pathname.split('/')[1] == "en") {
     $("#summary").html(summary_en);
     $("#download").html(download_en);
+    $("#publication_of").html(publication_of_en);
     $("#selected_language").html(selected_language_en);
     $("#english_option").html(english_option_en);
     $("#french_option").html(french_option_en);
+
+    $("#executive_summary_navbar_title").html(executive_summary_navbar_title_en);
+    $("#lra_survival_navbar_title").html(lra_survival_navbar_title_en);
+    $("#force_capacity_navbar_title").html(force_capacity_navbar_title_en);
+    $("#congo_navbar_title").html(congo_navbar_title_en);
+    $("#car_navbar_title").html(car_navbar_title_en);
+    $("#background_navbar_title").html(background_navbar_title_en);
+    $(".background_title_1").html(background_title_1_en);
+    $(".background_title_2").html(background_title_2_en);
+    $(".background_title_3").html(background_title_3_en);
+    $(".background_title_4").html(background_title_4_en);
+    $(".background_title_5").html(background_title_5_en);
 
     $("#executive_summary_title").html(executive_summary_title_en);
     $("#executive_summary_tldr").html(executive_summary_tldr_en);
@@ -304,7 +343,7 @@ $(function () {
     $("#executive_summary_next").html(executive_summary_next_en);
 
     $("#lra_survival_tldr").html(lra_survival_tldr_en);
-    $("#lra_survival_subtitle_1").html(lra_survival_subtitle_1_en);
+    $(".lra_survival_subtitle_1").html(lra_survival_subtitle_1_en);
     $("#lra_survival_text_1").html(lra_survival_text_1_en);
     $("#lra_survival_safe_haven").html(lra_survival_safe_haven_en);
     $("#lra_survival_negotiations").html(lra_survival_negotiations_en);
@@ -313,7 +352,7 @@ $(function () {
     $("#lra_survival_live").html(lra_survival_live_en);
     $("#lra_survival_resupply").html(lra_survival_resupply_en);
     $("#lra_survival_looting").html(lra_survival_looting_en);
-    $("#lra_survival_subtitle_2").html(lra_survival_subtitle_2_en);
+    $(".lra_survival_subtitle_2").html(lra_survival_subtitle_2_en);
     $("#lra_survival_text_2").html(lra_survival_text_2_en);
     $("#lra_survival_visual_text_1").html(lra_survival_visual_text_1_en);
     $("#lra_survival_visual_text_2").html(lra_survival_visual_text_2_en);
@@ -332,12 +371,12 @@ $(function () {
     $("#lra_survival_next").html(lra_survival_next_en);
 
     $("#force_capacity_tldr").html(force_capacity_tldr_en);
-    $("#force_capacity_subtitle_1").html(force_capacity_subtitle_1_en);
+    $(".force_capacity_subtitle_1").html(force_capacity_subtitle_1_en);
     $("#force_capacity_text_1").html(force_capacity_text_1_en);
     $("#force_capacity_text_1part2").html(force_capacity_text_1part2_en);
-    $("#force_capacity_subtitle_2").html(force_capacity_subtitle_2_en);
+    $(".force_capacity_subtitle_2").html(force_capacity_subtitle_2_en);
     $("#force_capacity_text_2").html(force_capacity_text_2_en);
-    $("#force_capacity_subtitle_3").html(force_capacity_subtitle_3_en);
+    $(".force_capacity_subtitle_3").html(force_capacity_subtitle_3_en);
     $("#force_capacity_text_3").html(force_capacity_text_3_en);
     $("#lra_force_capacity_map_1").html(lra_force_capacity_map_1_en);
     $("#lra_force_capacity_map_2").html(lra_force_capacity_map_2_en);
@@ -355,22 +394,22 @@ $(function () {
     $("#lra_force_capacity_next").html(lra_force_capacity_next_en);
 
     $("#congo_tldr").html(congo_tldr_en);
-    $("#congo_subtitle_1").html(congo_subtitle_1_en);
+    $(".congo_subtitle_1").html(congo_subtitle_1_en);
     $("#congo_text_1").html(congo_text_1_en);
-    $("#congo_subtitle_2").html(congo_subtitle_2_en);
+    $(".congo_subtitle_2").html(congo_subtitle_2_en);
     $("#congo_text_2").html(congo_text_2_en);
-    $("#congo_subtitle_3").html(congo_subtitle_3_en);
+    $(".congo_subtitle_3").html(congo_subtitle_3_en);
     $("#congo_text_3").html(congo_text_3_en);
     $("#congo_map_title").html(congo_map_title_en);
     $("#congo_visual_caption_2").html(congo_visual_caption_2_en);
     $("#congo_next").html(congo_next_en);
 
     $("#car_tldr").html(car_tldr_en);
-    $("#car_subtitle_1").html(car_subtitle_1_en);
+    $(".car_subtitle_1").html(car_subtitle_1_en);
     $("#car_text_1").html(car_text_1_en);
-    $("#car_subtitle_2").html(car_subtitle_2_en);
+    $(".car_subtitle_2").html(car_subtitle_2_en);
     $("#car_text_2").html(car_text_2_en);
-    $("#car_subtitle_3").html(car_subtitle_3_en);
+    $(".car_subtitle_3").html(car_subtitle_3_en);
     $("#car_text_3").html(car_text_3_en);
     $("#car_map_title").html(car_map_title_en);
     $("#car_map_caption").html(car_map_caption_en);
@@ -378,7 +417,7 @@ $(function () {
 
     $("#political_context_tldr").html(political_context_tldr_en);
     $("#political_context_title").html(political_context_title_en);
-    $("#political_context_subtitle_1").html(political_context_subtitle_1_en);
+    $("political_context_subtitle_1").html(political_context_subtitle_1_en);
     $("#political_context_text_1").html(political_context_text_1_en);
     $("#political_context_subtitle_2").html(political_context_subtitle_2_en);
     $("#political_context_text_2").html(political_context_text_2_en);
@@ -389,20 +428,141 @@ $(function () {
     $("#political_context_subtitle_5").html(political_context_subtitle_5_en);
     $("#political_context_text_5").html(political_context_text_5_en);
 
-    $("#background_title").html(background_title_en);
-    $("#background_subtitle_1").html(background_subtitle_1_en);
-    $("#background_text_1").html(background_text_1_en);
-    $("#background_subtitle_2").html(background_subtitle_2_en);
-    $("#background_text_2").html(background_text_2_en);
-    $("#background_subtitle_3").html(background_subtitle_3_en);
-    $("#background_text_3").html(background_text_3_en);
+    $("#lra_background_title").html(lra_background_title_en);
+    $("#lra_background_subtitle_1").html(lra_background_subtitle_1_en);
+    $("#lra_background_text_1").html(lra_background_text_1_en);
+    $("#lra_background_subtitle_2").html(lra_background_subtitle_2_en);
+    $("#lra_background_text_2").html(lra_background_text_2_en);
+    $("#lra_background_subtitle_3").html(lra_background_subtitle_3_en);
+    $("#lra_background_text_3").html(lra_background_text_3_en);
 
   } else {
     $("#summary").html(summary_fr);
     $("#download").html(download_fr);
+    $("#publication_of").html(publication_of_fr);
     $("#selected_language").html(selected_language_fr);
     $("#english_option").html(english_option_fr);
     $("#french_option").html(french_option_fr);
+
+    $("#executive_summary_navbar_title").html(executive_summary_navbar_title_fr);
+    $("#lra_survival_navbar_title").html(lra_survival_navbar_title_fr);
+    $("#force_capacity_navbar_title").html(force_capacity_navbar_title_fr);
+    $("#congo_navbar_title").html(congo_navbar_title_fr);
+    $("#car_navbar_title").html(car_navbar_title_fr);
+    $("#background_navbar_title").html(background_navbar_title_fr);
+    $(".background_title_1").html(background_title_1_fr);
+    $(".background_title_2").html(background_title_2_fr);
+    $(".background_title_3").html(background_title_3_fr);
+    $(".background_title_4").html(background_title_4_fr);
+    $(".background_title_5").html(background_title_5_fr);
+
+    $("#executive_summary_title").html(executive_summary_title_fr);
+    $("#executive_summary_tldr").html(executive_summary_tldr_fr);
+    $("#executive_summary_subtitle_1").html(executive_summary_subtitle_1_fr);
+    $("#executive_summary_subtitle_2").html(executive_summary_subtitle_2_fr);
+    $("#executive_summary_subtitle_3").html(executive_summary_subtitle_3_fr);
+    $("#executive_summary_subtitle_4").html(executive_summary_subtitle_4_fr);
+    $("#executive_summary_subtitle_5").html(executive_summary_subtitle_5_fr);
+    $("#executive_summary_text_1").html(executive_summary_text_1_fr);
+    $("#executive_summary_text_2").html(executive_summary_text_2_fr);
+    $("#executive_summary_text_3").html(executive_summary_text_3_fr);
+    $("#executive_summary_text_4").html(executive_summary_text_4_fr);
+    $("#executive_summary_text_5").html(executive_summary_text_5_fr);
+    $("#executive_summary_next").html(executive_summary_next_fr);
+
+    $("#lra_survival_tldr").html(lra_survival_tldr_fr);
+    $(".lra_survival_subtitle_1").html(lra_survival_subtitle_1_fr);
+    $("#lra_survival_text_1").html(lra_survival_text_1_fr);
+    $("#lra_survival_safe_haven").html(lra_survival_safe_haven_fr);
+    $("#lra_survival_negotiations").html(lra_survival_negotiations_fr);
+    $("#lra_survival_poaching").html(lra_survival_poaching_fr);
+    $("#lra_survival_trading").html(lra_survival_trading_fr);
+    $("#lra_survival_live").html(lra_survival_live_fr);
+    $("#lra_survival_resupply").html(lra_survival_resupply_fr);
+    $("#lra_survival_looting").html(lra_survival_looting_fr);
+    $(".lra_survival_subtitle_2").html(lra_survival_subtitle_2_fr);
+    $("#lra_survival_text_2").html(lra_survival_text_2_fr);
+    $("#lra_survival_visual_text_1").html(lra_survival_visual_text_1_fr);
+    $("#lra_survival_visual_text_2").html(lra_survival_visual_text_2_fr);
+    $("#lra_survival_visual_text_3").html(lra_survival_visual_text_3_fr);
+    $("#lra_survival_visual_text_4").html(lra_survival_visual_text_4_fr);
+    $("#lra_survival_map_1").html(lra_survival_map_1_fr);
+    $("#lra_survival_map_2").html(lra_survival_map_2_fr);
+    $("#lra_survival_map_3").html(lra_survival_map_3_fr);
+    $("#lra_survival_map_4").html(lra_survival_map_4_fr);
+    $("#lra_survival_map_5").html(lra_survival_map_5_fr);
+    $("#lra_survival_map_6").html(lra_survival_map_6_fr);
+    $("#lra_survival_map_7").html(lra_survival_map_7_fr);
+    $("#lra_survival_map_8").html(lra_survival_map_8_fr);
+    $("#lra_survival_map_9").html(lra_survival_map_9_fr);
+    $("#lra_survival_map_title").html(lra_survival_map_title_fr);
+    $("#lra_survival_next").html(lra_survival_next_fr);
+
+    $("#force_capacity_tldr").html(force_capacity_tldr_fr);
+    $(".force_capacity_subtitle_1").html(force_capacity_subtitle_1_fr);
+    $("#force_capacity_text_1").html(force_capacity_text_1_fr);
+    $("#force_capacity_text_1part2").html(force_capacity_text_1part2_fr);
+    $(".force_capacity_subtitle_2").html(force_capacity_subtitle_2_fr);
+    $("#force_capacity_text_2").html(force_capacity_text_2_fr);
+    $(".force_capacity_subtitle_3").html(force_capacity_subtitle_3_fr);
+    $("#force_capacity_text_3").html(force_capacity_text_3_fr);
+    $("#lra_force_capacity_map_1").html(lra_force_capacity_map_1_fr);
+    $("#lra_force_capacity_map_2").html(lra_force_capacity_map_2_fr);
+    $("#lra_force_capacity_map_3").html(lra_force_capacity_map_3_fr);
+    $("#lra_force_capacity_map_4").html(lra_force_capacity_map_4_fr);
+    $("#lra_force_capacity_map_5").html(lra_force_capacity_map_5_fr);
+    $("#lra_force_capacity_map_6").html(lra_force_capacity_map_6_fr);
+    $("#lra_force_capacity_map_7").html(lra_force_capacity_map_7_fr);
+    $("#lra_force_capacity_map_8").html(lra_force_capacity_map_8_fr);
+    $("#lra_force_capacity_map_9").html(lra_force_capacity_map_9_fr);
+    $("#lra_force_capacity_map_10").html(lra_force_capacity_map_10_fr);
+    $("#lra_force_capacity_map_11").html(lra_force_capacity_map_11_fr);
+    $("#lra_force_capacity_map_title_1").html(lra_force_capacity_map_title_1_fr);
+    $("#lra_force_capacity_map_title_2").html(lra_force_capacity_map_title_2_fr);
+    $("#lra_force_capacity_next").html(lra_force_capacity_next_fr);
+
+    $("#congo_tldr").html(congo_tldr_fr);
+    $(".congo_subtitle_1").html(congo_subtitle_1_fr);
+    $("#congo_text_1").html(congo_text_1_fr);
+    $(".congo_subtitle_2").html(congo_subtitle_2_fr);
+    $("#congo_text_2").html(congo_text_2_fr);
+    $(".congo_subtitle_3").html(congo_subtitle_3_fr);
+    $("#congo_text_3").html(congo_text_3_fr);
+    $("#congo_map_title").html(congo_map_title_fr);
+    $("#congo_visual_caption_2").html(congo_visual_caption_2_fr);
+    $("#congo_next").html(congo_next_fr);
+
+    $("#car_tldr").html(car_tldr_fr);
+    $(".car_subtitle_1").html(car_subtitle_1_fr);
+    $("#car_text_1").html(car_text_1_fr);
+    $(".car_subtitle_2").html(car_subtitle_2_fr);
+    $("#car_text_2").html(car_text_2_fr);
+    $(".car_subtitle_3").html(car_subtitle_3_fr);
+    $("#car_text_3").html(car_text_3_fr);
+    $("#car_map_title").html(car_map_title_fr);
+    $("#car_map_caption").html(car_map_caption_fr);
+    $("#car_next").html(car_next_fr);
+
+    $("#political_context_tldr").html(political_context_tldr_fr);
+    $("#political_context_title").html(political_context_title_fr);
+    $("political_context_subtitle_1").html(political_context_subtitle_1_fr);
+    $("#political_context_text_1").html(political_context_text_1_fr);
+    $("#political_context_subtitle_2").html(political_context_subtitle_2_fr);
+    $("#political_context_text_2").html(political_context_text_2_fr);
+    $("#political_context_subtitle_3").html(political_context_subtitle_3_fr);
+    $("#political_context_text_3").html(political_context_text_3_fr);
+    $("#political_context_subtitle_4").html(political_context_subtitle_4_fr);
+    $("#political_context_text_4").html(political_context_text_4_fr);
+    $("#political_context_subtitle_5").html(political_context_subtitle_5_fr);
+    $("#political_context_text_5").html(political_context_text_5_fr);
+
+    $("#lra_background_title").html(lra_background_title_fr);
+    $("#lra_background_subtitle_1").html(lra_background_subtitle_1_fr);
+    $("#lra_background_text_1").html(lra_background_text_1_fr);
+    $("#lra_background_subtitle_2").html(lra_background_subtitle_2_fr);
+    $("#lra_background_text_2").html(lra_background_text_2_fr);
+    $("#lra_background_subtitle_3").html(lra_background_subtitle_3_fr);
+    $("#lra_background_text_3").html(lra_background_text_3_fr);
   };
 });
 
