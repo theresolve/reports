@@ -310,11 +310,11 @@ lra_background_text_3_fr = "";
 $(function () {
   if (location.pathname.split('/')[1] == "en") {
     $("#summary").html(summary_en);
-    $("#download").html(download_en);
+    $(".download").html(download_en);
     $("#publication_of").html(publication_of_en);
-    $("#selected_language").html(selected_language_en);
-    $("#english_option").html(english_option_en);
-    $("#french_option").html(french_option_en);
+    $(".selected_language").html(selected_language_en);
+    $(".english_option").html(english_option_en);
+    $(".french_option").html(french_option_en);
 
     $("#executive_summary_navbar_title").html(executive_summary_navbar_title_en);
     $("#lra_survival_navbar_title").html(lra_survival_navbar_title_en);
