@@ -423,7 +423,8 @@ function buildES5() {
         min: 0,
         gridLineColor: 'transparent',
         title: {
-          text: y_axis_title
+          text: y_axis_title,
+          style: { color: '#888', fontWeight: 300}
         }
       },
       plotOptions: {
@@ -739,7 +740,8 @@ function buildNumberAbductedPerAttack() {
         min: 0,
         gridLineColor: 'transparent',
         title: {
-          text: y_axis_title
+          text: y_axis_title,
+          style: { color: '#888', fontWeight: 300}
         }
       },
       plotOptions: {
