@@ -282,7 +282,7 @@ political_context_subtitle_4_fr = "";
 political_context_text_4_fr = "";
 
 political_context_subtitle_5_en = "M23 rebellion collapses in eastern Congo";
-political_context_text_5_en = "Under pressure from a combined offensive by the Congolese military and MONUSCO peacekeepers and lacking support from its former backers in Rwanda, the M23 rebellion in eastern Congo <a href='http://www.hrw.org/news/2013/11/05/dispatches-after-m23-congo-s-next-challenges' target='_blank'>collapsed in late 2013</a>. Critical to the collapse was intensified international pressure on Rwanda to halt its support for the M23. However, deep-rooted communal tensions, regional tension, political marginalization, and violence by other armed groups in the region continues to threaten the prospects for long-term stability in eastern Congo.";
+political_context_text_5_en = "Under pressure from a combined offensive by the Congolese military and MONUSCO peacekeepers and lacking support from its former backers in Rwanda, the M23 rebellion in eastern Congo <a href='http://www.hrw.org/news/2013/11/05/dispatches-after-m23-congo-s-next-challenges' target='_blank'>collapsed in late 2013</a>. Critical to the collapse was intensified international pressure on Rwanda to halt its support for the M23. However, deep-rooted communal tensions, regional tension, political marginalization, and violence by other armed groups in the region continue to threaten the prospects for long-term stability in eastern Congo.";
 political_context_subtitle_5_fr = "";
 political_context_text_5_fr = "";
 
