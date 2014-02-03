@@ -124,8 +124,8 @@ lra_survival_looting_fr = "";
 
 lra_survival_subtitle_2_en = "II. LRA looting patterns"
 lra_survival_text_2_en = "<p>The expansion of civilian early warning networks in LRA-affected areas in recent years has shed greater light on patterns in LRA attacks, including what they loot and what happens to the people they abduct. LRA attack patterns in CAR indicate the group is still capable of mounting massive attacks when needed, but no attacks in 2013 resembled historical LRA recruitment raids in which they abducted large numbers of children to be trained as long-term soldiers, wives, and camp labor.</p><p>The following visualizations of LRA looting patterns highlight the group's tranformation from a powerful rebel force into a group whose modus operandi resembles that of common bandits, with the exception of periodic large-scale raids in CAR.</p>"
-lra_survival_subtitle_2_fr =
-lra_survival_text_2_fr =
+lra_survival_subtitle_2_fr = "";
+lra_survival_text_2_fr = "";
 
 lra_survival_visual_text_1_en = "The most commonly reported looted food was groundnuts, an ideal food for mobile LRA groups due to its durability, high calorie and protein counts, and ease of transport."
 lra_survival_visual_text_2_en = "Clothing, soap, and cooking utensils were among the most commonly reported looted non-food items, highlighting the LRA's focus on acquiring basic necessities."
