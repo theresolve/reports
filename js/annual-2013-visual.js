@@ -1410,8 +1410,8 @@ function buildLongVsShort() {
           }
         },
         data: [
-          [slice_1_title, 104],
-          [slice_2_title, 28]
+          [slice_1_title, 276],
+          [slice_2_title, 86]
         ]
       }]
     });
