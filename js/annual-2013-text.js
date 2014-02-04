@@ -69,7 +69,7 @@ executive_summary_subtitle_4_fr = "";
 executive_summary_text_4_fr = "";
 
 executive_summary_subtitle_5_en = "5. The LRA exploited insecurity in CAR to conduct its most violent attacks";
-executive_summary_text_5_en = "<p>Unlike trends in Congo, <a href='http://reports.lracrisistracker.com/en/annual-2013/car/#mass'>LRA violence in CAR increased</a> to its highest point since 2010. This trend was driven by the abduction of over 200 people in a series of particularly violent attacks in areas under the authority of Seleka fighters where AU RTF forces have limited access.</p>"
+executive_summary_text_5_en = "<p>Unlike trends in Congo, <a href='http://reports.lracrisistracker.com/en/annual-2013/car/#mass'>LRA violence in CAR increased</a> to its highest point since 2010. This trend was driven by the abduction of over 200 people in a series of particularly violent attacks in areas under the authority of <a href='http://reports.lracrisistracker.com/en/annual-2013/background/'>Seleka fighters</a> where AU RTF forces have limited access.</p>"
 executive_summary_subtitle_5_fr = "";
 executive_summary_text_5_fr = "";
 
@@ -262,7 +262,7 @@ political_context_tldr_fr = "";
 political_context_title_fr = "";
 
 political_context_subtitle_1_en = "Security in CAR deteriorates"
-political_context_text_1_en = "After forcefully taking power in CAR in a March 2013 coup with the help of now-disbanded Seleka rebel forces, Central African transitional leader Michael Djotodia lost control of the country in late 2013. November and December 2013 witnessed a surge of what was often sectarian violence in CAR, primarily perpetrated by ex-Seleka fighters and opposing anti-balaka militias. France deployed 1,600 troops to help stabilize the country in early December, while African peacekeepers were formally transferred to the African-led International Support Mission for CAR (MISCA) on December 19. However, by the end of 2013 it was unclear how MISCA forces planned to protect civilians in CAR from LRA attacks or cooperate with AU RTF forces, especially in areas where their area of operations may overlap. <a href='http://online.wsj.com/news/articles/SB10001424052702303393804579312193138340578' target='_blank'>Djotodia resigned on January 10</a> under pressure from regional and international leaders, and Bangui mayor Catherine Samba-Panza was soon after installed as interim president."
+political_context_text_1_en = "After forcefully taking power in CAR in a March 2013 coup with the help of Seleka rebel forces, Central African transitional leader Michael Djotodia lost control of the country in late 2013. November and December 2013 witnessed a surge of what was often sectarian violence in CAR, primarily perpetrated by Seleka fighters and opposing anti-balaka militias. France deployed 1,600 troops to help stabilize the country in early December, while African peacekeepers were formally transferred to the African-led International Support Mission for CAR (MISCA) on December 19. However, by the end of 2013 it was unclear how MISCA forces planned to protect civilians in CAR from LRA attacks or cooperate with AU RTF forces, especially in areas where their area of operations may overlap. <a href='http://online.wsj.com/news/articles/SB10001424052702303393804579312193138340578' target='_blank'>Djotodia resigned on January 10</a> under pressure from regional and international leaders, and Bangui mayor Catherine Samba-Panza was soon after installed as interim president."
 political_context_subtitle_1_fr = "";
 political_context_text_1_fr = "";
 
