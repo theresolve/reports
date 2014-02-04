@@ -88,7 +88,7 @@ lra_survival_text_1_en = "<p>LRA commanders have established a sophisticated net
 lra_survival_text_1_fr = "";
 lra_survival_subtitle_1_fr = "";
 
-lra_survival_map_1_en = "Garamba National Park, where LRA poaches elelphants and other animals for ivory/meat";
+lra_survival_map_1_en = "Garamba National Park, where the LRA poaches elelphants and other animals for ivory/meat";
 lra_survival_map_2_en = "LRA camp and fields in Garamba National Park, occupied until Sept 2013";
 lra_survival_map_3_en = "Communities around Garamba National Park, frequently targeted for looting";
 lra_survival_map_4_en = "LRA camp and fields in Congo's Bas Uele district, occupied until Sept 2013";
