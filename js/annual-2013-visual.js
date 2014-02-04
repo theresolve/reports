@@ -396,7 +396,7 @@ function buildES5() {
       x_axis_categories = ['', ''];
       y_axis_title = '';
     } else {
-      x_axis_categories = ['Areas of CAR currently under the authority of ex-Seleka rebels', 'All other LRA-affected areas of CAR, Congo, and South Sudan'];
+      x_axis_categories = ['Areas of CAR under the authority of Seleka fighters', 'All other LRA-affected areas of CAR, Congo, and South Sudan'];
       y_axis_title = '# of abudctions';
     };
 
