@@ -44,7 +44,7 @@ background_title_5_fr = "";
 // ========================================================= //
 
 executive_summary_title_en = "Executive summary: The five most important LRA trends of 2013";
-executive_summary_tldr_en = "Lord's Resistance Army (LRA) attacks and abductions continued to decline in 2013, hitting their lowest levels since 2008, and military operations and defections significantly weakened the group's fighting capacity. The notable exceptions to these trends were a resurgence of large-scale LRA looting raids in areas of Central African Republic (CAR) under the authority of ex-Seleka rebels and the first LRA attacks in South Sudan since 2011.";
+executive_summary_tldr_en = "Lord's Resistance Army (LRA) attacks and abductions continued to decline in 2013, hitting their lowest levels since 2008, and military operations and defections significantly weakened the group's fighting capacity. The notable exceptions to these trends were a resurgence of large-scale LRA looting raids in areas of Central African Republic (CAR) under the authority of Seleka fighters and the first LRA attacks in South Sudan since 2011.";
 executive_summary_title_fr = "Resume: Les cinq tendances de la LRA plus importants de 2013";
 executive_summary_tldr_fr = "";
 
@@ -59,7 +59,7 @@ executive_summary_subtitle_2_fr = "";
 executive_summary_text_2_fr = "";
 
 executive_summary_subtitle_3_en = "3. The AU RTF severely disrupted the LRA's supply networks and safe havens";
-executive_summary_text_3_en = "<div class='col-md-4'><p>In recent years, LRA commanders <a href='http://reports.lracrisistracker.com/en/annual-2013/lra-survival/'>established a network of safe havens</a> across the region, including semi-permanent camps in the Democratic Republic of Congo (Congo) from which they illegally poached ivory. LRA commanders smuggled ivory and other supplies into LRA camps in the Sudanese-controlled Kafia Kingi enclave, where the group bartered ivory and received limited supplies</p></div><div class='col-md-4'><p>from Sudanese troops. In late 2013, LRA forces claiming to negotiate Kony's surrender even convinced transitional authorities in CAR to provide them with rope, food, and medical supplies.</p><p>Tasked with leading counter-LRA operations, Ugandan RTF troops <a href='http://reports.lracrisistracker.com/en/annual-2013/lra-force-capacity/'>secretly destroyed the LRA's Kafia Kingi camps</a> in early 2013 and</p></div><div class='col-md-4'><p>recovered supplies provided by CAR officials in a raid on an LRA group that had abandoned the 'negotiations' in November 2013. In September 2013, South Sudanese and Congolese RTF troops destroyed two LRA camps in Congo in the first offensive operations against the group there in over two years.</p></div>"
+executive_summary_text_3_en = "<div class='col-md-4'><p>In recent years, LRA commanders <a href='http://reports.lracrisistracker.com/en/annual-2013/lra-survival/'>established a network of safe havens</a> across the region, including semi-permanent camps in the Democratic Republic of Congo (Congo) from which they illegally poached elephants. LRA commanders smuggled ivory and other supplies into LRA camps in the Sudanese-controlled Kafia Kingi enclave, where the group bartered the ivory and received limited supplies</p></div><div class='col-md-4'><p>from Sudanese troops. In late 2013, LRA forces claiming to negotiate Kony's surrender even convinced transitional authorities in CAR to provide them with rope, food, and medical supplies.</p><p>Tasked with leading counter-LRA operations, Ugandan RTF troops <a href='http://reports.lracrisistracker.com/en/annual-2013/lra-force-capacity/'>secretly destroyed the LRA's Kafia Kingi camps</a> in early 2013 and</p></div><div class='col-md-4'><p>recovered supplies provided by Central African officials in a raid on an LRA group that had abandoned the 'negotiations' in November 2013. In September 2013, South Sudanese and Congolese RTF troops destroyed two LRA camps in Congo in the first offensive operations against the group there in over two years.</p></div>"
 executive_summary_subtitle_3_fr = "";
 executive_summary_text_3_fr = "";
 
@@ -69,7 +69,7 @@ executive_summary_subtitle_4_fr = "";
 executive_summary_text_4_fr = "";
 
 executive_summary_subtitle_5_en = "5. The LRA exploited insecurity in CAR to conduct its most violent attacks";
-executive_summary_text_5_en = "<p>Unlike trends in Congo, <a href='http://reports.lracrisistracker.com/en/annual-2013/car/#mass'>LRA violence in CAR increased</a> to its highest point since 2010. This trend was driven by the abduction of over 200 people in a series of particularly violent attacks in areas under the authority of ex-Seleka rebels where AU RTF forces have limited access.</p>"
+executive_summary_text_5_en = "<p>Unlike trends in Congo, <a href='http://reports.lracrisistracker.com/en/annual-2013/car/#mass'>LRA violence in CAR increased</a> to its highest point since 2010. This trend was driven by the abduction of over 200 people in a series of particularly violent attacks in areas under the authority of Seleka fighters where AU RTF forces have limited access.</p>"
 executive_summary_subtitle_5_fr = "";
 executive_summary_text_5_fr = "";
 
@@ -93,7 +93,7 @@ lra_survival_map_2_en = "LRA camp and fields in Garamba National Park, occupied 
 lra_survival_map_3_en = "Communities around Garamba National Park, frequently targeted for looting";
 lra_survival_map_4_en = "LRA camp and fields in Congo's Bas Uele district, occupied until Sept 2013";
 lra_survival_map_5_en = "CAR authorities provided an LRA group with food and rope in late 2013";
-lra_survival_map_6_en = "Communities under ex-Seleka authority, targeted by large-scale LRA lootings in 2013";
+lra_survival_map_6_en = "Communities under Seleka authority, targeted by large-scale LRA lootings in 2013";
 lra_survival_map_7_en = "LRA camp and fields in Kafia Kingi territory, periodically occupied from 2010&ndash;2013";
 lra_survival_map_8_en = "Sudanese military garrison, periodically supplied the LRA from 2010&ndash;2013";
 lra_survival_map_9_en = "Songo market, where LRA members periodically bartered while in Kafia Kingi";
@@ -113,7 +113,7 @@ lra_survival_poaching_en = "<b>Poaching and ivory trafficking:</b> In mid-2011, 
 lra_survival_trading_en = "<b>Trading:</b> LRA forces in Kafia Kingi have periodically travelled to market towns such as Songo to barter and purchase goods, though they likely had stopped doing so by mid-2013. Recent defectors also report that LRA groups sometimes use local middlemen, often Mbororo herders, to obtain medical supplies and other goods."
 lra_survival_live_en = "<b>Hunting, fishing, and farming:</b> The LRA has utilized a network of camps in Congo since 2005, with clusters concentrated in Garamba National Park and in the remote Bas Uele district. LRA groups there fished and hunted elephants and hippos, drying the meat on racks. They also grew crops such as beans, sim sim, and maize. The camps contained huts, including separate buildings for storing food, and served as secure sites for women, children, and injured fighters. AU RTF forces <a href='http://reports.lracrisistracker.com/en/annual-2013/lra-force-capacity/' target='_blank'>destroyed several of these camps</a> in September 2013, and it is unclear if the LRA groups currently occupy camps in Congo. LRA forces also cultivated crops in Kafia Kingi from 2011 through at least early 2013."
 lra_survival_resupply_en = "<b>Internal resupply routes:</b> The LRA's camps in Congo have served as rear supply bases from which food, ammunition, and other supplies obtained in Congo were sent to LRA commanders in CAR and Kafia Kingi. Kony specifically requested motorcycle batteries (used for charging electronics) and ivory be sent to senior LRA commanders surrounding him. LRA forces use a complex system of coded High Frequency (HF) radio communications, runners, and preset rendezvous points to coordinate the safe transfer of goods across the group's vast operational theater."
-lra_survival_looting_en = "<b>Looting:</b> Most LRA groups continue to rely on small-scale looting raids to sustain their day-to-day needs. Throughout 2013, groups <a href='http://reports.lracrisistracker.com/en/annual-2013/car/#mass'>committed their most violent and lucrative raids</a> in areas of CAR under the authority of ex-Seleka forces, knowing they faced little chance of reprisal from AU RTF forces."
+lra_survival_looting_en = "<b>Looting:</b> Most LRA groups continue to rely on small-scale looting raids to sustain their day-to-day needs. Throughout 2013, groups <a href='http://reports.lracrisistracker.com/en/annual-2013/car/#mass'>committed their most violent and lucrative raids</a> in areas of CAR under the authority of Seleka forces, knowing they faced little chance of reprisal from AU RTF forces."
 lra_survival_safe_haven_fr = "";
 lra_survival_negotiations_fr = "";
 lra_survival_poaching_fr = "";
@@ -129,7 +129,7 @@ lra_survival_text_2_fr = "";
 
 lra_survival_visual_text_1_en = "The most commonly reported looted food was groundnuts, an ideal food for mobile LRA groups due to its durability, high calorie and protein counts, and ease of transport."
 lra_survival_visual_text_2_en = "Clothing, soap, and cooking utensils were among the most commonly reported looted non-food items, highlighting the LRA's focus on acquiring basic necessities."
-lra_survival_visual_text_3_en = "The LRA abducted four or fewer people in a vast majority of its 2013 attacks, indicating they are not rebuilding their fighting capacity but are using abductees primarily as porters for looted goods after small-scale raids. Ten of the 13 attacks in which the LRA abducted 10 or more people occurred in areas of CAR under the authority of ex-Seleka rebels, even though they comprise just a small fraction of the LRA's total area of operation."
+lra_survival_visual_text_3_en = "The LRA abducted four or fewer people in a vast majority of its 2013 attacks, indicating they are not rebuilding their fighting capacity but are using abductees primarily as porters for looted goods after small-scale raids. Ten of the 13 attacks in which the LRA abducted 10 or more people occurred in areas of CAR under the authority of Seleka fighters, even though they comprise just a small fraction of the LRA's total area of operation."
 lra_survival_visual_text_4_en = "Most LRA abductees for whom relevant data was available were adults and most spent fewer than 30 days with the LRA, another indication they were likely used primarily as porters before they escaped or were released."
 lra_survival_visual_text_1_fr = "";
 lra_survival_visual_text_2_fr = "";
