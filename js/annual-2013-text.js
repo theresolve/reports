@@ -237,7 +237,7 @@ car_subtitle_1_fr = "";
 car_text_1_fr = "";
 
 car_subtitle_2_en = "II. Surge in LRA attacks near Seleka troops"
-car_text_2_en = "In 2013, LRA troops shifted further north into Haut Kotto, conducting large-scale attacks in areas under the nominal authority of Seleka fighters, most of whom are loyal to General Damane of the former <i>Union des forces democratiques pour le rassemblement (UFDR)</i>. Ugandan RTF troops remain primarily based further southeast in Haut Mbomou and have limited access in outlying areas, primarily due to logistical constraints."
+car_text_2_en = "In 2013, LRA troops shifted further north into Haut Kotto, conducting large-scale attacks in areas under the nominal authority of Seleka fighters, most of whom are loyal to General Damane of the former <i>Union des forces democratiques pour le rassemblement (UFDR)</i>. Ugandan RTF troops remain primarily <a href='http://reports.lracrisistracker.com/en/midyear-2013/armed-forces-in-car/' target='_blank'>based further southeast in Haut Mbomou</a> and have limited access in outlying areas, primarily due to logistical constraints."
 car_subtitle_2_fr = "";
 car_text_2_fr = "";
 
