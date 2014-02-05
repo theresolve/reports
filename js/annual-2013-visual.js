@@ -1166,7 +1166,7 @@ function buildHotspotsc() {
             enabled: false
           }
         },
-        data: [11900, 13900, 12500, 12500]
+        data: [11900, 13900, 12500, 0]
       }]
     });
   }
