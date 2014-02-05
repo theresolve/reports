@@ -228,7 +228,7 @@ congo_next_fr = "";
 // =================== CAR =================== //
 // ========================================================= //
 
-car_tldr_en = "LRA rebels have advanced further west and north into CAR in recent years to escape pressure from Ugandan RTF troops based in the far southeast of the country. In 2013, LRA forces particularly targeted communities in Haut Kotto prefecture, committing large-scale abduction raids there that exploited the inability of ex-Seleka rebels to protect civilians."
+car_tldr_en = "LRA rebels have advanced further west and north into CAR in recent years to escape pressure from Ugandan RTF troops based in the far southeast of the country. In 2013, LRA forces particularly targeted communities in Haut Kotto prefecture, committing large-scale abduction raids there that exploited the inability of Seleka fighters to protect civilians."
 car_tldr_fr = "";
 
 car_subtitle_1_en = "I. The LRA responds to military pressure in CAR"
@@ -236,8 +236,8 @@ car_text_1_en = "The LRA's first major foray into CAR was in March 2008, when it
 car_subtitle_1_fr = "";
 car_text_1_fr = "";
 
-car_subtitle_2_en = "II. Surge in LRA attacks near ex-Seleka troops"
-car_text_2_en = "In 2013, LRA troops shifted further north into Haut Kotto, conducting large-scale attacks in areas under the nominal authority of ex-Seleka rebels, most of whom are loyal to General Damane of the former <i>Union des forces democratiques pour le rassemblement (UFDR)</i>. Ugandan RTF troops remain primarily based further southeast in Haut Mbomou and have limited access in outlying areas, primarily due to logistical constraints."
+car_subtitle_2_en = "II. Surge in LRA attacks near Seleka troops"
+car_text_2_en = "In 2013, LRA troops shifted further north into Haut Kotto, conducting large-scale attacks in areas under the nominal authority of Seleka fighters, most of whom are loyal to General Damane of the former <i>Union des forces democratiques pour le rassemblement (UFDR)</i>. Ugandan RTF troops remain primarily based further southeast in Haut Mbomou and have limited access in outlying areas, primarily due to logistical constraints."
 car_subtitle_2_fr = "";
 car_text_2_fr = "";
 
