@@ -129,7 +129,7 @@ lra_survival_text_2_fr = "";
 
 lra_survival_visual_text_1_en = "The most commonly reported looted food was groundnuts, an ideal food for mobile LRA groups due to its durability, high calorie and protein counts, and ease of transport."
 lra_survival_visual_text_2_en = "Clothing, soap, and cooking utensils were among the most commonly reported looted non-food items, highlighting the LRA's focus on acquiring basic necessities."
-lra_survival_visual_text_3_en = "The LRA abducted four or fewer people in a vast majority of its 2013 attacks, indicating they are not rebuilding their fighting capacity but are using abductees primarily as porters for looted goods after small-scale raids. Ten of the 13 attacks in which the LRA abducted ten or more people occurred in areas of CAR under the authority of Seleka fighters, even though they comprise just a small fraction of the LRA's total area of operation."
+lra_survival_visual_text_3_en = "The LRA abducted four or fewer people in a vast majority of its 2013 attacks, indicating they are not rebuilding their fighting capacity but are using abductees primarily as porters for looted goods after small-scale raids. Ten of the 13 attacks in which the LRA abducted ten or more people occurred in areas of CAR under the authority of Seleka fighters, which comprise just a small fraction of the LRA's total area of operation."
 lra_survival_visual_text_4_en = "Most LRA abductees for whom relevant data was available were adults and most spent fewer than 30 days with the LRA, another indication they were likely used primarily as porters before they escaped or were released."
 lra_survival_visual_text_1_fr = "";
 lra_survival_visual_text_2_fr = "";
