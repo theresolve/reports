@@ -204,7 +204,7 @@ congo_tldr_en = "The frequency of LRA attacks in northeastern Congo has slowly d
 congo_tldr_fr = "";
 
 congo_subtitle_1_en = "I. Steady decline of LRA violence in Congo";
-congo_text_1_en = "From 2008&ndash;2010, the LRA was one of the <a href='http://www.hrw.org/news/2010/03/28/dr-congo-lord-s-resistance-army-rampage-kills-321' target='_blank'>most violent groups in Congo</a>, killing over 2,300 civilians and abducting nearly 2,500 others. LRA abductions in Congo decreased by 64% and killings by 94% over the next three years, a dramatic drop that reflects the group's shrinking capacity. However, LRA attacks decreased by only 12% over the same time period, indicating that the decrease in abductions and killings was in part the result of a strategic decision by LRA leaders to reduce extremely violent attacks that attract international attention."
+congo_text_1_en = "From 2008&ndash;2010, the LRA was one of the <a href='http://www.hrw.org/news/2010/03/28/dr-congo-lord-s-resistance-army-rampage-kills-321' target='_blank'>most violent groups in Congo</a>, killing over 2,300 civilians and abducting nearly 2,500 others. LRA abductions in Congo decreased by 64% and killings by 94% over the next three years, a dramatic drop that reflects the group's shrinking capacity. However, LRA attacks decreased by only 12% over the same time period, indicating that the drop in abductions and killings was in part the result of a strategic decision by LRA leaders to reduce extremely violent attacks that attract international attention."
 congo_subtitle_1_fr = "";
 congo_text_1_fr = "";
 
