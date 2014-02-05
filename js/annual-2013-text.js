@@ -84,7 +84,7 @@ lra_survival_tldr_en = "The LRA has utilized a range of survival strategies in r
 lra_survival_tldr_fr = "";
 
 lra_survival_subtitle_1_en = "I. LRA camps and resupply routes"
-lra_survival_text_1_en = "<p>LRA commanders have established a sophisticated network of camps, resupply routes, and even collaborators, crisscrossing porous borders in remote regions well aware that AU RTF and UN peacekeeping forces often are unable to follow them. The map and narrative below provide more detail on how the LRA survived in 2012 and 2013, highlighting their adaptability to diverse political and ecological environments.</p>"
+lra_survival_text_1_en = "<p>LRA commanders have established a sophisticated network of camps, resupply routes, and even collaborators, enabling them to crisscross the porous borders and remote forests that restrict the movements of pursuing AU RTF troops. The map and narrative below provide more detail on how the LRA survived in 2012 and 2013, highlighting their adaptability to diverse political and ecological environments.</p>"
 lra_survival_text_1_fr = "";
 lra_survival_subtitle_1_fr = "";
 
