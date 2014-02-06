@@ -308,7 +308,7 @@ lra_background_subtitle_3_fr = "Les souffrances des civils au Congo, en RCA et a
 lra_background_text_3_fr = "<p>Depuis l'&eacute;chec de l&rsquo;Op&eacute;ration &laquo;&Eacute;clair de tonnerre &raquo;, les forces Ougandaises ont continu&eacute; &agrave; poursuivre la LRA dans une r&eacute;gion en pleine expansion qui comprend des parties du Congo, du Soudan du Sud, et de RCA. L'ampleur des violences de la LRA est stup&eacute;fiante: depuis septembre 2008, la LRA a enlev&eacute; plus de 5.600 personnes et tu&eacute; pr&egrave;s de 3.100 de plus. Ces attaques ont d&eacute;chir&eacute; le tissu m&ecirc;me de la vie communautaire par le ciblage des &eacute;coles, des &eacute;glises et des march&eacute;s.</p>";
 
 $(function () {
-  if (location.pathname.split('/')[1] == "en") {
+  if (location.pathname.split('/')[1] == "en" || location.pathname.split('/')[1] == "en-print") {
     $("#summary").html(summary_en);
     $(".download").html(download_en);
     $("#publication_of").html(publication_of_en);
