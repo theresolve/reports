@@ -6,3 +6,4 @@ paginate: 10
 permalink: /:categories/:title/
 markdown: redcarpet
 redirects: yes
+encoding: "utf-8"
