@@ -15,3 +15,4 @@
 î &icirc;
 É &Eacute;
 â &acirc;
+ë &euml;

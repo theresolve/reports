@@ -42,3 +42,11 @@ $(function () {
   }
   return false;
 });
+
+$(function () {
+  if (location.pathname.split('/')[1] == "en-print") {
+    $('.download-language-top').hide()
+    $('.next').hide()
+  }
+  return false;
+});
