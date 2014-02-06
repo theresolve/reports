@@ -35,10 +35,10 @@ congo_navbar_title_fr = "Congo: Tendances ";
 car_navbar_title_fr = "RCA: Tendances";
 background_navbar_title_fr = "Contexte";
 background_title_1_fr = "I. Contexte politique 2013";
-background_title_2_fr = "";
-background_title_3_fr = "";
-background_title_4_fr = "";
-background_title_5_fr = "";
+background_title_2_fr = "II. Contexte de la LRA";
+background_title_3_fr = "III. &Agrave; propos";
+background_title_4_fr = "IV. Collecte des donn&eacute;es";
+background_title_5_fr = "V. Contributeurs";
 
 // =================== EXECUTIVE SUMMARY =================== //
 // ========================================================= //
