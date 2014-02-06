@@ -2,13 +2,13 @@
 // ========================================================= //
 
 summary_en = "SUMMARY";
-summary_fr = "";
+summary_fr = "SOMMAIRE";
 
 download_en = "Download Report";
-download_fr = "";
+download_fr = "Télécharger le Rapport";
 
 publication_of_en = "A publication of";
-publication_of_fr = "";
+publication_of_fr = "Une publication de";
 
 selected_language_en = "Language: English <span class='caret'></span>";
 english_option_en = "&#x2713; English";
@@ -28,13 +28,13 @@ background_title_2_en = "II. LRA background";
 background_title_3_en = "III. About the LRA Crisis Tracker";
 background_title_4_en = "IV. LRA Crisis Tracker Methodology";
 background_title_5_en = "V. Contributors";
-executive_summary_navbar_title_fr = "";
-lra_survival_navbar_title_fr = "";
-force_capacity_navbar_title_fr = "";
-congo_navbar_title_fr = "";
-car_navbar_title_fr = "";
-background_navbar_title_fr = "";
-background_title_1_fr = "";
+executive_summary_navbar_title_fr = "Sommaire";
+lra_survival_navbar_title_fr = "Survie de la LRA";
+force_capacity_navbar_title_fr = "Capacité de force de la LRA";
+congo_navbar_title_fr = "Congo : Principales Tendances ";
+car_navbar_title_fr = "RCA : Principales Tendances";
+background_navbar_title_fr = "Contexte";
+background_title_1_fr = "I. Contexte politique 2013";
 background_title_2_fr = "";
 background_title_3_fr = "";
 background_title_4_fr = "";
@@ -46,32 +46,32 @@ background_title_5_fr = "";
 executive_summary_title_en = "Executive summary: The five most important LRA trends of 2013";
 executive_summary_tldr_en = "Lord's Resistance Army (LRA) attacks and abductions continued to decline in 2013, hitting their lowest levels since 2008, and military operations and defections significantly weakened the group's fighting capacity. The notable exceptions to these trends were a resurgence of large-scale LRA looting raids in areas of Central African Republic (CAR) under the authority of Seleka fighters and the first LRA attacks in South Sudan since 2011.";
 executive_summary_title_fr = "Resume: Les cinq tendances de la LRA plus importants de 2013";
-executive_summary_tldr_fr = "";
+executive_summary_tldr_fr = "Les attaques et les enlèvements de l'Armée de Résistance du Seigneur (LRA) ont continué à baisser en 2013, atteignant leur plus bas niveau depuis 2008, et les opérations militaires et les défections ont considérablement affaibli la capacité de combat du groupe. Les exceptions notables à ces tendances sont une résurgence à grande échelle des pillages et raids de la LRA dans les zones de la République centrafricaine (RCA) sous l'autorité des combattants Séléka, ainsi que les premières attaques de la LRA au Sud-Soudan depuis 2011.";
 
 executive_summary_subtitle_1_en = "1. The LRA lost as much as one-fifth of its core fighting capacity";
 executive_summary_text_1_en = "<p>The LRA's greatest weakness is its inability to replace the male Ugandan combatants that comprise the core of its command structure and fighting capacity. In 2013, <a href='http://reports.lracrisistracker.com/en/annual-2013/lra-force-capacity/'>16 Ugandan combatants defected</a> from the LRA and another 16, including four senior officers, were confirmed killed or captured. Ugandan troops operating under the African Union Regional Task Force (AU RTF) may have also captured or killed as many as eight additional fighters.</p><p>In total, the LRA has lost 32&ndash;40 (16%&ndash;20%) of the estimated 200 Ugandan officers and fighters that were in its ranks at the beginning of 2013.</p>"
-executive_summary_subtitle_1_fr = "";
-executive_summary_text_1_fr = "";
+executive_summary_subtitle_1_fr = "1. La LRA a perdu autant qu’un cinquième de sa capacité de combat";
+executive_summary_text_1_fr = "<p>La plus grande faiblesse de la LRA est son incapacité à remplacer les combattants hommes Ougandais qui composent le noyau de sa structure de commandement et de sa capacité de combat. En 2013, <a href='http://reports.lracrisistracker.com/en/annual-2013/lra-force-capacity/'>16 combattants Ougandais ont fait défection</a> de la LRA et 16 autres, dont quatre officiers supérieurs, ont été confirmés tués ou capturés. Les troupes Ougandaises opérant sous la force d’intervention régionale de l'Union africaine (UA RTF) peuvent également avoir capturé ou tué jusqu'à huit combattants supplémentaires.</p><p>Au total, la LRA a perdu 32-40 (16% -20%) des 200 officiers et combattants Ougandais qui étaient estimés dans ses rangs au début de 2013.</p>";
 
 executive_summary_subtitle_2_en = "2. LRA commanders are also losing the captives they depend on most";
 executive_summary_text_2_en = "<p>Sixty-two women and children who had spent at least six months in LRA captivity <a href='http://reports.lracrisistracker.com/en/annual-2013/lra-force-capacity/#returnees'>returned home in 2013</a>, a significant portion of the experienced labor that senior LRA commanders rely on to sustain day-to-day life in the bush. A vast majority (73%) either escaped with defecting LRA combatants or were released by LRA fighters, including 28 women and children released in a single incident in March 2013.</p>"
-executive_summary_subtitle_2_fr = "";
-executive_summary_text_2_fr = "";
+executive_summary_subtitle_2_fr = "2. Les commandants de la LRA sont également en train de perdre les captifs dont ils dépendent le plus";
+executive_summary_text_2_fr = "<p>Soixante-deux femmes et enfants qui avaient passé au moins six mois en captivité de la LRA <a href='http://reports.lracrisistracker.com/en/annual-2013/lra-force-capacity/#returnees'>sont rentrés chez eux en 2013</a>, une partie importante de la main-d'œuvre expérimentée en laquelle les commandants supérieurs de la LRA font confiance pour soutenir la vie au jour le jour dans la brousse. Une grande majorité (73%) se sont soit échappés avec des combattants de la LRA faisant défection ou ont été libérés par les combattants de la LRA, dont 28 femmes et enfants ont été libérés dans un seul incident en mars 2013.</p>";
 
 executive_summary_subtitle_3_en = "3. The AU RTF severely disrupted the LRA's supply networks and safe havens";
 executive_summary_text_3_en = "<div class='col-md-4'><p>In recent years, LRA commanders <a href='http://reports.lracrisistracker.com/en/annual-2013/lra-survival/'>established a network of safe havens</a> across the region, including semi-permanent camps in the Democratic Republic of Congo (Congo) from which they illegally poached elephants. LRA commanders smuggled ivory and other supplies into LRA camps in the Sudanese-controlled Kafia Kingi enclave. There the group bartered the ivory and</p></div><div class='col-md-4'><p>received limited supplies from Sudanese troops. In late 2013, LRA forces claiming to negotiate Kony's surrender even convinced transitional authorities in CAR to provide them with rope, food, and medical supplies.</p><p>Tasked with leading counter-LRA operations, Ugandan RTF troops <a href='http://reports.lracrisistracker.com/en/annual-2013/lra-force-capacity/'>secretly destroyed the LRA's Kafia Kingi camps</a> in early 2013.</p></div><div class='col-md-4'><p>They also recovered supplies provided by Central African officials in a raid on an LRA group that had abandoned the 'negotiations' in November 2013. In September 2013, South Sudanese and Congolese RTF troops destroyed two LRA camps in Congo in the first offensive operations against the group there in over two years.</p></div>"
-executive_summary_subtitle_3_fr = "";
-executive_summary_text_3_fr = "";
+executive_summary_subtitle_3_fr = "3. L'UA RTF perturbe significativement les réseaux de distribution de la LRA et ses lieux de refuges";
+executive_summary_text_3_fr = "<div class='col-md-4'><p>Au cours des dernières années, les commandants de la LRA <a href='http://reports.lracrisistracker.com/en/annual-2013/lra-survival/'>ont créé un réseau de refuges</a> dans toute la région, y compris des camps semi-permanents en République démocratique du Congo (Congo) à partir desquels ils braconnaient illégalement des éléphants. Les commandants de la LRA passaient en contrebande de l'ivoire et </p></div><div class='col-md-4'><p>d'autres fournitures dans les camps de la LRA dans l'enclave sous contrôle Soudanais du Kafia Kingi. C’est là que le groupe troquait de l’ivoire pour des fournitures limitées reçu des troupes Soudanaises. À la fin de 2013, les forces de la LRA qui prétendaient négocier la reddition de Kony ont même convaincu des autorités de transition en RCA de leur fournir de la corde, de la nourriture et des fournitures médicales.</p><p>Chargées de mener les opérations contre la LRA, les troupes RTF Ougandaises <a href='http://reports.lracrisistracker.com/en/annual-2013/lra-force-capacity/'>ont secrètement détruit les camps de la LRA au Kafia Kingi</a> au début de 2013. </p></div><div class='col-md-4'><p>Ils ont aussi réussi à récupérer les approvisionnements fournis par les fonctionnaires de la RCA dans un raid sur un groupe de la LRA qui avait abandonné les «négociations» en novembre 2013. En septembre 2013, les troupes Sud-Soudanaises et Congolaises de la RTF ont détruit deux camps de la LRA au Congo dans les premières opérations offensives contre le groupe en plus de deux ans.</p></div>";
 
 executive_summary_subtitle_4_en = "4. LRA attacks and abductions in Congo dropped significantly";
 executive_summary_text_4_en = "<p>LRA violence in Congo <a href='http://reports.lracrisistracker.com/en/annual-2013/congo/'>declined for the fourth consecutive year</a>, with attacks dropping 44% and abductions dropping 35% from 2012&ndash;2013. The number of Congolese civilians displaced by LRA violence has dropped less dramatically in recent years, indicating LRA violence remains severe enough to prevent many civilians from returning home.</p>"
-executive_summary_subtitle_4_fr = "";
-executive_summary_text_4_fr = "";
+executive_summary_subtitle_4_fr = "4. Les attaques et enlèvements de la LRA au Congo ont considérablement diminué";
+executive_summary_text_4_fr = "<p>Les violences de la LRA au Congo <a href='http://reports.lracrisistracker.com/en/annual-2013/congo/'>ont diminué pour la quatrième année consécutive</a>, avec une chute des attaques de 44% et une chute des enlèvements de 35% par rapport à 2012&ndash;2013. Le nombre de civils Congolais déplacés par la violence de la LRA a baissé de façon moins marquée au cours des dernières années, indiquant que les violences de la LRA restent suffisamment graves pour empêcher de nombreux civils de rentrer chez eux.</p>";
 
 executive_summary_subtitle_5_en = "5. The LRA exploited insecurity in CAR to conduct its most violent attacks";
 executive_summary_text_5_en = "<p>Unlike trends in Congo, <a href='http://reports.lracrisistracker.com/en/annual-2013/car/#mass'>LRA violence in CAR increased</a> to its highest point since 2010. This trend was driven by the abduction of over 200 people in a series of particularly violent attacks in areas under the authority of <a href='http://reports.lracrisistracker.com/en/annual-2013/background/'>Seleka fighters</a> where AU RTF forces have limited access.</p>"
-executive_summary_subtitle_5_fr = "";
-executive_summary_text_5_fr = "";
+executive_summary_subtitle_5_fr = "5. La LRA a exploité l'insécurité en RCA pour mener ses attaques les plus violentes";
+executive_summary_text_5_fr = "<p>Contrairement aux tendances au Congo, <a href='http://reports.lracrisistracker.com/en/annual-2013/car/#mass'>les violences de la LRA en RCA ont augmenté</a> à leurs plus haut niveau depuis 2010. Cette tendance s'explique par l'enlèvement de plus de 200 personnes dans une série d'attaques particulièrement violentes dans les zones sous l'autorité des <a href='http://reports.lracrisistracker.com/en/annual-2013/background/'>combattants Séléka</a> où les forces de l'UA RTF ont un accès limité.</p>";
 
 executive_summary_next_en = "<i>Next:</i> LRA Survival <i class='fa fa-chevron-right'></i>";
 executive_summary_next_fr = "";
