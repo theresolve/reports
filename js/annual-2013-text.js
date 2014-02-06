@@ -229,29 +229,29 @@ congo_next_fr = "<i>Suivant:</i> RCA : Principales Tendances <i class='fa fa-che
 // ========================================================= //
 
 car_tldr_en = "LRA rebels have advanced further west and north into CAR in recent years to escape pressure from Ugandan RTF troops based in the far southeast of the country. In 2013, LRA forces particularly targeted communities in Haut Kotto prefecture, committing large-scale abduction raids that exploited the inability of Seleka fighters to protect civilians."
-car_tldr_fr = "";
+car_tldr_fr = "Les rebelles de la LRA ont progressé plus à l'ouest et au nord en RCA au cours des dernières années pour échapper à la pression des troupes Ougandaises RTF basées à l'extrême sud du pays. En 2013, les forces de la LRA ont particulièrement ciblé les communautés du Haut Kotto, commettant des raids d'enlèvement à grande échelle qui exploitent l'incapacité des combattants Séléka à protéger les civils.";
 
 car_subtitle_1_en = "I. The LRA responds to military pressure in CAR"
 car_text_1_en = "The LRA's first major foray into CAR was in March 2008, when it abducted dozens of people in a series of brazen raids near Obo, the capital of the far southeastern prefecture of Haut Mbomou. Ugandan troops established a base in Obo in early 2009, and conducted several successful operations against the LRA in nearby Djemah that year. In response, LRA troops pushed further west and north in 2010, committing massive attacks in the prefectures of Mbomou, Haut Kotto, and Vakaga. After a drop in LRA attacks in 2011, LRA forces conducted a series of prominent raids in Mbomou in 2012, including the <a href='http://www.theresolve.org/2012/07/hrw-release-indicates-lra-responsible-for-major-attacks-in-car/' target='_blank'>looting of a French uranium mining camp</a>."
-car_subtitle_1_fr = "";
-car_text_1_fr = "";
+car_subtitle_1_fr = "I. La LRA répond à la pression militaire en RCA";
+car_text_1_fr = "La première incursion majeure de la LRA en RCA était en mars 2008, quand elle a enlevé des dizaines de personnes dans une série de raids effrontés près d'Obo, la capitale de la préfecture extrême sud-est du Haut Mbomou. Les troupes Ougandaises ont établi une base à Obo au début de 2009, et ont mené plusieurs opérations réussies contre la LRA dans les environs de Djemah cette année-là. En réponse, les troupes de la LRA ont poussé plus à l'ouest et au nord en 2010, commettant des attaques massives dans les préfectures de Mbomou, Haut Kotto, et Vakaga. Après une baisse des attaques de la LRA en 2011, les forces de la LRA ont mené une série de raids importants dans le Mbomou en 2012, y compris le <a href='http://www.theresolve.org/2012/07/hrw-release-indicates-lra-responsible-for-major-attacks-in-car/' target='_blank'>pillage d'un camp minier d'uranium Français</a>.";
 
 car_subtitle_2_en = "II. Surge in LRA attacks near Seleka troops"
 car_text_2_en = "In 2013, LRA troops shifted further north into Haut Kotto, conducting large-scale attacks in areas under the nominal authority of Seleka fighters, most of whom are loyal to General Damane of the former <i>Union des forces democratiques pour le rassemblement (UFDR)</i>. Ugandan RTF troops remain primarily <a href='http://reports.lracrisistracker.com/en/midyear-2013/armed-forces-in-car/' target='_blank'>based further southeast in Haut Mbomou</a> and have limited access in outlying areas, primarily due to logistical constraints."
-car_subtitle_2_fr = "";
-car_text_2_fr = "";
+car_subtitle_2_fr = "II. Recrudescence des attaques de la LRA près des combattants Séléka";
+car_text_2_fr = "En 2013, les troupes de la LRA se sont déplacées plus au nord dans le Haut Kotto, menant des attaques à grande échelle dans les zones sous l'autorité nominale des combattants Séléka, dont la plupart sont fidèles au général Damane de l'ancienne <i>Union des forces démocratiques pour le rassemblement (UFDR)</i>. Les troupes RTF Ougandaises demeurent principalement <a href='http://reports.lracrisistracker.com/en/midyear-2013/armed-forces-in-car/' target='_blank'>basées plus au sud dans le Haut Mbomou</a> et ont un accès limité aux zones périphériques, notamment en raison de contraintes logistiques.";
 
 car_subtitle_3_en = "III. LRA hotspots in Haut Mbomou"
 car_text_3_en = "<p>The presence of Ugandan RTF troops in Haut Mbomou prefecture has deterred large-scale LRA attacks on communities there. However, rebel forces continue to conduct periodic small-scale looting raids that make travelling along roads or to remote fields risky and have forced thousands of civilians into long-term displacement. In early 2013, LRA rebels committed six attacks near the town of Zemio in Haut Mbomou, home to a small Ugandan RTF detachment. They then abducted 36 people just across the border from Zemio in Congo in October. LRA forces also committed a series of attacks on roads leading to the Ugandan RTF base in Djemah, most notably the abduction of 13 hunters near Derbissaka in April 2013.</p> <p><i>*All displacement data in this report is taken from UN Office for the Coordination of Humanitarian Affairs (UN OCHA) statistics. The rise in displacement in 2013 in Haut Mbomou prefecture may be due in part to other armed actors, such as Seleka fighters, in addition to LRA activity.</i></p>"
-car_subtitle_3_fr = "";
-car_text_3_fr = "";
+car_subtitle_3_fr = "III. Points chauds de la LRA dans le Haut Mbomou";
+car_text_3_fr = "<p>La présence de troupes RTF Ougandaises dans le Haut Mbomou a dissuadé des attaques de la LRA à grande échelle sur les communautés là-bas. Cependant, les forces rebelles continuent à mener des raids périodiques de pillage à petite échelle qui rendent risqué de voyager le long des routes ou aux champs éloignés et ont forcé des milliers de civils à être déplacés à long terme. Au début de 2013, les rebelles de la LRA ont commis six attaques près de la ville de Zemio dans le Haut Mbomou, qui abrite un petit détachement RTF Ougandais.  Ils ont ensuite enlevé 36 personnes juste en face de la frontière de Zemio au Congo en octobre. Les forces de la LRA ont également commis une série d'attaques sur les routes menant à la base RTF Ougandaise RTF à Djemah, notamment l'enlèvement de 13 chasseurs près de Derbissaka en avril 2013.</p> <p><i>*Toutes les données de déplacement dans ce rapport sont tirées des statistiques du Bureau de la coordination des affaires humanitaires de l’ONU (ONU OCHA). L’augmentation des déplacements en 2013 au Haut Mbomou peut être attribuée en partie à l’activité de d’autres forces armées, comme les combattants Séléka, qui s’ajoute à l’activité de la LRA.</i></p>";
 
 car_map_title_en = "Mass LRA Attacks | <i>2013</i>"
 car_map_caption_en = "Note: A mass LRA attack is defined as one in which the LRA kills five or more people and/or abducts ten or more people<br />"
 car_next_en = "<i>Next:</i> Background <i class='fa fa-chevron-right'></i>"
-car_map_title_fr = "";
-car_map_caption_fr = "";
-car_next_fr = "";
+car_map_title_fr = "Les attaques de masse de la LRA | <i>2013</i>";
+car_map_caption_fr = "Remarque: Une attaque de masse de la LRA  est définie comme une attaque dans laquelle la LRA tue cinq personnes ou plus et / ou enlève dix personnes ou plus";
+car_next_fr = "<i>Suivant:</i> Contexte <i class='fa fa-chevron-right'></i>";
 
 // =================== POLITICAL CONTEXT =================== //
 // ========================================================= //
