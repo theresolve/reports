@@ -9,4 +9,6 @@
 ê &ecirc;
 « &laquo;
 » &raquo;
-ù
+ù &ugrave;
+û &ucirc;
+ï &iuml;
