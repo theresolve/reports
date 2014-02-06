@@ -39,12 +39,12 @@ function buildES1() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      title = "";
-      series_name = "";
-      label_1 = "";
-      label_2 = "";
-      label_3 = "";
-      label_4 = "";
+      title = "Sort des combattants ougandais de la LRA (2013)";
+      series_name = "Nombre de combattants ougandais de la LRA";
+      label_1 = "Déserteurs";
+      label_2 = "Tué ou capturé";
+      label_3 = "Peut-être tué ou capturé";
+      label_4 = "Restant avec la LRA";
     } else {
       title = "Fate of Ugandan <br> LRA combatants <br>(2013)";
       series_name = "# of Ugandan LRA combatants";
@@ -126,8 +126,8 @@ function buildES2() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      x_axis_categories = ['', '', '', ''];
-      series_name = ""
+      x_axis_categories = ['Libérés par les combattants de la LRA', 'Échappés avec des combattants de la LRA', 'Échappé seul', 'Sauvé par les chasseurs Sud-Soudanais','Sauvé par les troupes Ougandaises'];
+      series_name = "Nombre de femmes et d'enfants qui se sont échappés de la LRA en 2013 après une captivité à long terme"
     } else {
       x_axis_categories = ['Released by LRA combatants', 'Escaped with LRA combatants', 'Escaped on own', 'Rescued by South Sudanese hunters', 'Rescued by Ugandan troops'];
       series_name = "# of women and children who escaped long-term LRA captivity in 2013"
@@ -192,7 +192,7 @@ function buildES4a() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      series_name = "";
+      series_name = "Nombre d'attaques de la LRA au Congo";
     } else {
       series_name = "# of LRA attacks <br>in Congo";
     };
@@ -259,7 +259,7 @@ function buildES4b() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      series_name = "";
+      series_name = "Nombre d'enlèvements de la LRA au Congo";
     } else {
       series_name = "# of LRA abductions <br>in Congo";
     };
@@ -326,7 +326,7 @@ function buildES4c() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      series_name = "";
+      series_name = "Nombre de personnes Congolaises <br>déplacées internes et réfugiées <br>en raison de la LRA";
     } else {
       series_name = "# of Congolese <br>IDPs and refugees <br>displaced by the LRA";
     };
@@ -393,8 +393,8 @@ function buildES5() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      x_axis_categories = ['', ''];
-      y_axis_title = '';
+      x_axis_categories = ['Domaines de la RCA sous lautorité des combattants Séléka', 'Toutes les autres zones touchées par la LRA en RCA, Congo et Soudan du Sud'];
+      y_axis_title = 'Nombre denlèvements';
     } else {
       x_axis_categories = ['Areas of CAR under the authority of Seleka fighters', 'All other LRA-affected areas of CAR, Congo, and South Sudan'];
       y_axis_title = '# of abudctions';
@@ -462,8 +462,8 @@ function buildLooting1() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      x_axis_categories = ['', '', '', '', '', '', '', '', ''];
-      series_name = '';
+      x_axis_categories = ['Arachides', 'Viande / poisson', 'Riz', 'Farine', 'Maïs', 'Manioc', 'Alcool', 'Haricots', 'Huile de cuisine'];
+      series_name = 'Nombre dincidents dans lesquels larticle a été pillé par la LRA en 2013';
     } else {
       x_axis_categories = ['Groundnuts', 'Meat/fish', 'Rice', 'Flour', 'Maize', 'Cassava', 'Alcohol', 'Beans', 'Cooking Oil'];
       series_name = '# of incidents in which item was looted by the LRA in 2013';
@@ -525,8 +525,8 @@ function buildLooting2() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      x_axis_categories = ['', '', '', '', '', '', '', ''];
-      series_name = '';
+      x_axis_categories = ['Vêtements', 'Argent', 'Électroniques / batteries', 'Savon', 'Armes à feu', 'Ustensiles de cuisine', 'Couteaux / machettes', 'Fournitures médicales'];
+      series_name = 'Nombre dincidents dans lesquels larticle a été pillé par la LRA en 2013';
     } else {
       x_axis_categories = ['Clothing', 'Money', 'Electronics/batteries', 'Soap', 'Firearms', 'Cooking utensils', 'Knives/machetes', 'Medical supplies'];
       series_name = '# of incidents in which item was looted by the LRA in 2013';
@@ -588,7 +588,7 @@ function buildReductionCapacity() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      series_name = '';
+      series_name = '# Total estimé de combattants de la LRA';
     } else {
       series_name = 'Estimated # of total LRA combatants';
     };
@@ -706,8 +706,8 @@ function buildNumberAbductedPerAttack() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      y_axis_title = '';
-      series_name = '';
+      y_axis_title = 'Nombre dattaques';
+      series_name = 'Nombre de civils enlevés par attaque en 2013';
     } else {
       y_axis_title = '# of attacks';
       series_name = '# of civilians abudcted per attack in 2013';
