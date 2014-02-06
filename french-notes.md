@@ -12,3 +12,6 @@
 ù &ugrave;
 û &ucirc;
 ï &iuml;
+î &icirc;
+É &Eacute;
+â &acirc;
