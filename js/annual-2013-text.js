@@ -260,7 +260,7 @@ car_next_fr = "<i>Suivant:</i> Contexte <i class='fa fa-chevron-right'></i>";
 
 political_context_tldr_en = "In 2013, escalating crises in both CAR and South Sudan threatened the fragile coalition of African governments collaborating in the AU RTF and provided the LRA with opportunities to exploit regional instability for their survival. However, President Obama demonstrated renewed committment to counter-LRA efforts, including by extending the deployment of US military advisers for a full year. Other pages in this section explore the LRA's historical background and provide greater detail about the LRA Crisis Tracker and its methodology."
 political_context_title_en = "I. 2013 political context"
-political_context_tldr_fr = "";
+political_context_tldr_fr = "En 2013, l'escalade des crises à la fois en RCA et au Sud- Soudan ont menacé la fragile coalition de gouvernements Africains qui participent à l'UA RTF, et a donné à la LRA des possibilités d'exploiter l'instabilité régionale pour leur survie. Toutefois, le président Obama a démontré un engagement renouvelé envers les efforts contre la LRA, y compris en étendant le déploiement de conseillers militaires américains pour une année complète. D'autres pages dans cette section explorent le contexte historique de la LRA et fournissent plus de détails sur le LRA Crisis Tracker et sa méthodologie.";
 political_context_title_fr = "I. Contexte politique 2013";
 
 political_context_subtitle_1_en = "Security in CAR deteriorates"
