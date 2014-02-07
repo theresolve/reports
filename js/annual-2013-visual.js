@@ -126,7 +126,7 @@ function buildES2() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      x_axis_categories = ['Libérés par les combattants de la LRA', 'Échappés avec des combattants de la LRA', 'Échappé seul', 'Sauvé par les chasseurs Sud-Soudanais','Sauvé par les troupes Ougandaises'];
+      x_axis_categories = ['Libérés par les combattants de la LRA', 'échappés avec des combattants de la LRA', 'échappé seul', 'Sauvé par les chasseurs Sud-Soudanais','Sauvé par les troupes Ougandaises'];
       series_name = "Nombre de femmes et d'enfants qui se sont échappés de la LRA en 2013 après une captivité à long terme"
     } else {
       x_axis_categories = ['Released by LRA combatants', 'Escaped with LRA combatants', 'Escaped on own', 'Rescued by South Sudanese hunters', 'Rescued by Ugandan troops'];
@@ -525,7 +525,7 @@ function buildLooting2() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      x_axis_categories = ['Vêtements', 'Argent', 'Électroniques / batteries', 'Savon', 'Armes à feu', 'Ustensiles de cuisine', 'Couteaux / machettes', 'Fournitures médicales'];
+      x_axis_categories = ['Vêtements', 'Argent', 'électroniques / batteries', 'Savon', 'Armes à feu', 'Ustensiles de cuisine', 'Couteaux / machettes', 'Fournitures médicales'];
       series_name = 'Nombre d’incidents dans lesquels l’article a été pillé par la LRA en 2013';
     } else {
       x_axis_categories = ['Clothing', 'Money', 'Electronics/batteries', 'Soap', 'Firearms', 'Cooking utensils', 'Knives/machetes', 'Medical supplies'];
