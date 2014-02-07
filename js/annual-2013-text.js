@@ -71,7 +71,7 @@ executive_summary_text_4_fr = "<p>Les violences de la LRA au Congo <a href='http
 executive_summary_subtitle_5_en = "5. The LRA exploited insecurity in CAR to conduct its most violent attacks";
 executive_summary_text_5_en = "<p>Unlike trends in Congo, <a href='http://reports.lracrisistracker.com/en/annual-2013/car/#mass'>LRA violence in CAR increased</a> to its highest point since 2010. This trend was driven by the abduction of over 200 people in a series of particularly violent attacks in areas under the authority of <a href='http://reports.lracrisistracker.com/en/annual-2013/background/'>Seleka fighters</a> where AU RTF forces have limited access.</p> <p>Goods looted in these attacks may have been used to resupply Kony and other senior LRA commanders, who reportedly operate in nearby areas of CAR and Kafia Kingi.</p>"
 executive_summary_subtitle_5_fr = "5. La LRA a exploité l'insécurité en RCA pour mener ses attaques les plus violentes";
-executive_summary_text_5_fr = "<p>Contrairement aux tendances au Congo, <a href='http://reports.lracrisistracker.com/en/annual-2013/car/#mass'>les violences de la LRA en RCA ont augmenté</a> à leurs plus haut niveau depuis 2010. Cette tendance s'explique par l'enlèvement de plus de 200 personnes dans une série d'attaques particulièrement violentes dans les zones sous l'autorité des <a href='http://reports.lracrisistracker.com/en/annual-2013/background/'>combattants Séléka</a> où les forces de l'UA RTF ont un accès limité.</p>";
+executive_summary_text_5_fr = "<p>Contrairement aux tendances au Congo, <a href='http://reports.lracrisistracker.com/en/annual-2013/car/#mass'>les violences de la LRA en RCA ont augmenté</a> à leurs plus haut niveau depuis 2010. Cette tendance s'explique par l'enlèvement de plus de 200 personnes dans une série d'attaques particulièrement violentes dans les zones sous l'autorité des <a href='http://reports.lracrisistracker.com/en/annual-2013/background/'>combattants Séléka</a> où les forces de l'UA RTF ont un accès limité.</p><p>Les biens pillés dans ces attaques peuvent avoir été utilisés pour réapprovisionner Kony et d'autres hauts commandants de la LRA, qui seraient actuellement dans des zones voisines de la RCA et du Kafia Kingi.</p>";
 
 executive_summary_next_en = "<i>Next:</i> LRA Survival <i class='fa fa-chevron-right'></i>";
 executive_summary_next_fr = "<i>Suivant:</i> Survie de la LRA <i class='fa fa-chevron-right'></i>";
@@ -194,7 +194,7 @@ force_capacity_text_3_fr = "<p>Bien que les officiers Ougandais hommes monopolis
 lra_force_capacity_map_title_1_en = "Where the LRA suffered key losses | <i>2013</i>"
 lra_force_capacity_map_title_2_en = "Where women and children escaped long-term LRA captivity | <i>2013</i>"
 lra_force_capacity_next_en = "<i>Next:</i> Congo: Key Trends <i class='fa fa-chevron-right'></i>"
-lra_force_capacity_map_title_1_fr = "";
+lra_force_capacity_map_title_1_fr = "Là où la LRA a souffert des pertes clés | <i>2013</i>";
 lra_force_capacity_map_title_2_fr = "Où les femmes et les enfants captifs à long terme ont échappé à leurs captivités avec la LRA | <i>2013</i>";
 lra_force_capacity_next_fr = "<i>Suivant:</i> Congo : Principales Tendances <i class='fa fa-chevron-right'></i>";
 
