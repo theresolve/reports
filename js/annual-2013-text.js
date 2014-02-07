@@ -41,7 +41,7 @@ background_title_4_fr = "IV. Collecte des donn&eacute;es";
 background_title_5_fr = "V. Contributeurs";
 
 // =================== EXECUTIVE SUMMARY =================== //
-// ========================================================= //
+// ====================SOMMAIRE==================== //
 
 executive_summary_title_en = "Executive summary: The five most important LRA trends of 2013";
 executive_summary_tldr_en = "Lord's Resistance Army (LRA) attacks and abductions continued to decline in 2013, hitting their lowest levels since 2008, and military operations and defections significantly weakened the group's fighting capacity. The notable exceptions to these trends were a resurgence of large-scale LRA looting raids in areas of Central African Republic (CAR) under the authority of Seleka fighters and the first LRA attacks in South Sudan since 2011.";
@@ -78,7 +78,7 @@ executive_summary_next_fr = "<i>Suivant:</i> Survie de la LRA <i class='fa fa-ch
 
 
 // =================== LRA SURVIVAL =================== //
-// ========================================================= //
+// =====================SURVIE DE LA LRA==================== //
 
 lra_survival_tldr_en = "The LRA has utilized a range of survival strategies in recent years, including obtaining external assistance from regional government officials, farming, and trafficking ivory. However, most LRA groups rely primarily on looting small communities, with attack patterns suggesting most abductees are used as short-term porters."
 lra_survival_tldr_fr = "La LRA a utilis&eacute; une gamme de strat&eacute;gies de survie au cours des derni&egrave;res ann&eacute;es, y compris l'obtention de l'aide ext&eacute;rieure de fonctionnaires du gouvernement r&eacute;gional, l'agriculture et le trafic d'ivoire. Cependant, la plupart des groupes de la LRA se fondent principalement sur le pillage de petites communaut&eacute;s, avec des modes d'attaque qui sugg&egrave;rent que la plupart des personnes enlev&eacute;es sont utilis&eacute;es comme porteurs &agrave; court terme.";
@@ -143,7 +143,7 @@ lra_survival_next_fr = "<i>Suivant:</i> Capacit&eacute; de force de la LRA <i cl
 
 
 // =================== FORCE CAPACITY =================== //
-// ========================================================= //
+// ====================CAPACITE DE FORCE DE LA LRA======================== //
 
 
 force_capacity_tldr_en = "AU RTF forces succeeded in destroying several LRA camps and killing key commanders in 2013, while 16 Ugandan LRA combatants and 62 long-term women and children captives defected or escaped. Despite this, Kony retains firm control over the group's command structure and estimated 220 total fighters."
@@ -197,7 +197,7 @@ lra_force_capacity_map_title_2_fr = "O&ugrave; les femmes et les enfants captifs
 lra_force_capacity_next_fr = "<i>Suivant:</i> Congo : Principales Tendances <i class='fa fa-chevron-right'></i>";
 
 // =================== CONGO =================== //
-// ========================================================= //
+// ====================CONGO==================== //
 
 
 congo_tldr_en = "The frequency of LRA attacks in northeastern Congo has slowly declined in recent years, though they continue to target communities west and south of Garamba National Park. LRA abductions and killings have dropped at a far faster rate than attacks, making it more difficult to distinguish LRA activity from attacks by other armed groups in the area.";
@@ -226,7 +226,7 @@ congo_visual_caption_2_fr = "<i>*Ce graphique donne un aper&ccedil;u de la fa&cc
 congo_next_fr = "<i>Suivant:</i> RCA : Principales Tendances <i class='fa fa-chevron-right'></i>";
 
 // =================== CAR =================== //
-// ========================================================= //
+// ====================RCA==================== //
 
 car_tldr_en = "LRA rebels have advanced further west and north into CAR in recent years to escape pressure from Ugandan RTF troops based in the far southeast of the country. In 2013, LRA forces particularly targeted communities in Haut Kotto prefecture, committing large-scale abduction raids that exploited the inability of Seleka fighters to protect civilians."
 car_tldr_fr = "Les rebelles de la LRA ont progress&eacute; plus &agrave; l'ouest et au nord en RCA au cours des derni&egrave;res ann&eacute;es pour &eacute;chapper &agrave; la pression des troupes Ougandaises RTF bas&eacute;es &agrave; l'extr&ecirc;me sud du pays. En 2013, les forces de la LRA ont particuli&egrave;rement cibl&eacute; les communaut&eacute;s du Haut Kotto, commettant des raids d'enl&egrave;vement &agrave; grande &eacute;chelle qui exploitent l'incapacit&eacute; des combattants S&eacute;l&eacute;ka &agrave; prot&eacute;ger les civils.";
@@ -254,7 +254,7 @@ car_map_caption_fr = "Remarque: Une attaque de masse de la LRA  est d&eacute;fin
 car_next_fr = "<i>Suivant:</i> Contexte <i class='fa fa-chevron-right'></i>";
 
 // =================== POLITICAL CONTEXT =================== //
-// ========================================================= //
+// ===================CONTEXTE POLITIQUE==================== //
 
 political_context_tldr_en = "In 2013, escalating crises in both CAR and South Sudan threatened the fragile coalition of African governments collaborating in the AU RTF and provided the LRA with opportunities to exploit regional instability for their survival. However, President Obama demonstrated renewed committment to counter-LRA efforts, including by extending the deployment of US military advisers for a full year. Other pages in this section explore the LRA's historical background and provide greater detail about the LRA Crisis Tracker and its methodology."
 political_context_title_en = "I. 2013 political context"
@@ -287,7 +287,7 @@ political_context_subtitle_5_fr = "La r&eacute;bellion M23 s'effondre dans l'est
 political_context_text_5_fr = "Sous la pression d'une offensive combin&eacute;e de l'arm&eacute;e Congolaise et des Casques bleus de la MONUSCO, la r&eacute;bellion M23 dans l'est du Congo <a href='http://www.hrw.org/news/2013/11/05/dispatches-after-m23-congo-s-next-challenges' target='_blank'>s'est effondr&eacute;e &agrave; la fin de 2013</a>. Critique &agrave; l'effondrement a &eacute;t&eacute; la pression internationale intensifi&eacute;e sur le Rwanda de mettre fin &agrave; son soutien au M23. Cependant, des tensions communautaires enracin&eacute;es, les tensions r&eacute;gionales, la marginalisation politique et la violence par d'autres groupes arm&eacute;s dans la r&eacute;gion continuent de menacer les perspectives de stabilit&eacute; &agrave; long terme dans l'est du Congo.";
 
 // =================== LRA BACKGROUND =================== //
-// ========================================================= //
+// ====================CONTEXTE DE LA LRA======================= //
 
 lra_background_title_en = "II. LRA background";
 lra_background_title_fr = "II. Contexte de la LRA";
