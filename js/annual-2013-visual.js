@@ -647,7 +647,7 @@ function buildForcesObserved() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      series_name = 'Forces LRA observées par attaque';
+      series_name = 'Nombre de forces de la LRA observées par attaque';
     } else {
       series_name = 'LRA forces observed per attack';
     };
