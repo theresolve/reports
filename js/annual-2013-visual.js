@@ -1032,7 +1032,7 @@ function buildHotspotsa() {
             enabled: false
           }
         },
-        data: [43, 26, 18, 18]
+        data: [43, 26, 18, 19]
       }]
     });
   }
