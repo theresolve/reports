@@ -393,8 +393,8 @@ function buildES5() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      x_axis_categories = ['Domaines de la RCA sous lautorité des combattants Séléka', 'Toutes les autres zones touchées par la LRA en RCA, Congo et Soudan du Sud'];
-      y_axis_title = 'Nombre denlèvements';
+      x_axis_categories = ['Domaines de la RCA sous l’autorité des combattants Séléka', 'Toutes les autres zones touchées par la LRA en RCA, Congo et Soudan du Sud'];
+      y_axis_title = 'Nombre d’enlèvements';
     } else {
       x_axis_categories = ['Areas of CAR under the authority of Seleka fighters', 'All other LRA-affected areas of CAR, Congo, and South Sudan'];
       y_axis_title = '# of abudctions';
@@ -463,7 +463,7 @@ function buildLooting1() {
     // TRANSLATIONS
     if (language == "fr") {
       x_axis_categories = ['Arachides', 'Viande / poisson', 'Riz', 'Farine', 'Maïs', 'Manioc', 'Alcool', 'Haricots', 'Huile de cuisine'];
-      series_name = 'Nombre dincidents dans lesquels larticle a été pillé par la LRA en 2013';
+      series_name = 'Nombre d’incidents dans lesquels l’article a été pillé par la LRA en 2013';
     } else {
       x_axis_categories = ['Groundnuts', 'Meat/fish', 'Rice', 'Flour', 'Maize', 'Cassava', 'Alcohol', 'Beans', 'Cooking Oil'];
       series_name = '# of incidents in which item was looted by the LRA in 2013';
@@ -526,7 +526,7 @@ function buildLooting2() {
     // TRANSLATIONS
     if (language == "fr") {
       x_axis_categories = ['Vêtements', 'Argent', 'Électroniques / batteries', 'Savon', 'Armes à feu', 'Ustensiles de cuisine', 'Couteaux / machettes', 'Fournitures médicales'];
-      series_name = 'Nombre dincidents dans lesquels larticle a été pillé par la LRA en 2013';
+      series_name = 'Nombre d’incidents dans lesquels l’article a été pillé par la LRA en 2013';
     } else {
       x_axis_categories = ['Clothing', 'Money', 'Electronics/batteries', 'Soap', 'Firearms', 'Cooking utensils', 'Knives/machetes', 'Medical supplies'];
       series_name = '# of incidents in which item was looted by the LRA in 2013';
@@ -647,7 +647,7 @@ function buildForcesObserved() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      series_name = '';
+      series_name = 'Forces LRA observées par attaque';
     } else {
       series_name = 'LRA forces observed per attack';
     };
@@ -706,7 +706,7 @@ function buildNumberAbductedPerAttack() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      y_axis_title = 'Nombre dattaques';
+      y_axis_title = 'Nombre d’attaques';
       series_name = 'Nombre de civils enlevés par attaque en 2013';
     } else {
       y_axis_title = '# of attacks';
@@ -771,8 +771,8 @@ function buildLivelihood() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      x_axis_categories = ['', '', ''];
-      series_name = '';
+      x_axis_categories = ['Commerce', 'Chasse ou pêche', 'Agriculture'];
+      series_name = 'Nombre de civils Congolais tués, enlevés ou pillés par la LRA en 2013';
     } else {
       x_axis_categories = ['Trading', 'Hunting or fishing', 'Farming'];
       series_name = '# of Congolese civilians killed, abducted, or looted by the LRA in 2013';
@@ -831,7 +831,7 @@ function buildDecline() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      x_axis_categories = ['', '', ''];
+      x_axis_categories = ['Nombre d’attaques de la LRA', 'Nombre de meurtres de la LRA', 'Nombre d’enlèvements de la LRA'];
     } else {
       x_axis_categories = ['# of LRA attacks', '# of LRA killings', '# of LRA abductions'];
     };
@@ -897,9 +897,9 @@ function buildPatterns() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      series_name_1 = '';
-      series_name_2 = '';
-      series_name_3 = '';
+      series_name_1 = 'Nombre d’attaques de la LRA';
+      series_name_2 = 'Nombre de meurtres de la LRA';
+      series_name_3 = 'Nombre d’enlèvements de la LRA';
     } else {
       series_name_1 = '# of LRA attacks';
       series_name_2 = '# of LRA killings';
@@ -976,7 +976,7 @@ function buildHotspotsa() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      series_name = '';
+      series_name = 'Nombre d’attaques de la LRA dans le Haut Mbomou';
     } else {
       series_name = '# LRA attacks in Haut Mbomou';
     };
@@ -1043,7 +1043,7 @@ function buildHotspotsb() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      series_name = '';
+      series_name = 'Nombre d’enlèvements de la LRA dans le Haut Mbomou';
     } else {
       series_name = '# of LRA abductions in Haut Mbomou';
     };
@@ -1110,7 +1110,7 @@ function buildHotspotsc() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      series_name = '';
+      series_name = 'Nombre de personnes déplacées dans le Haut Mbomou*';
     } else {
       series_name = '# of people displaced in Haut Mbomou*';
     };
@@ -1177,7 +1177,7 @@ function buildPrefectures() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      x_axis_title =  '';
+      x_axis_title =  'Nombre d’enlèvements';
     } else {
       x_axis_title =  '# of abductions';
     };
@@ -1266,9 +1266,9 @@ function buildAdultVsChild() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      series_name = '';
-      slice_1_title = '';
-      slice_2_title = '';
+      series_name = 'Nombre d’enlevés';
+      slice_1_title = 'Nombre d’adultes enlevés';
+      slice_2_title = 'Nombre d’enfants enlevés';
     } else {
       series_name = '# abducted';
       slice_1_title = '# of adults abducted';
@@ -1342,10 +1342,10 @@ function buildLongVsShort() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      x_axis_categories = ['', ''];
-      series_name = '';
-      slice_1_title = '';
-      slice_2_title = '';
+      x_axis_categories = ['# D’enlèvements de moins d’un mois', '# D’enlèvements de plus dun mois ou de longueur inconnue'];
+      series_name = 'Nombre d’enlevés';
+      slice_1_title = '# D’enlèvements de moins d’un mois';
+      slice_2_title = '# D’enlèvements de plus d’un mois <br>ou de longueur inconnue';
     } else {
       x_axis_categories = ['# of abductions of less than one month', '# of abductions over one month <br>in lenght or of unknown length'];
       series_name = '# abducted';
