@@ -288,21 +288,26 @@ nav.navbar.navbar-fixed {
   border-color: $dark-blue;
   float: right;
   margin-top: 40px;
+  text-decoration: none;
 }
 
 .btn-next:hover {
   background-color: $darker-blue; 
   border-color: $darker-blue;
+  text-decoration: none;
 }
 
 .btn-download {
   background-color: $dark-blue;
   border-color: $dark-blue;
+  margin-top: -4;
+  text-decoration: none;
 }
 
 .btn-download:hover {
   background-color: $darker-blue; 
   border-color: $darker-blue;
+  text-decoration: none;
 }
 
 /* LANG MENU

@@ -39,7 +39,7 @@ function buildES1() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      title = "Sort des combattants ougandais de la LRA (2013)";
+      title = "Sort des combattants<br> ougandais <br>de la LRA (2013)";
       series_name = "Nombre de combattants ougandais de la LRA";
       label_1 = "Déserteurs";
       label_2 = "Tué ou capturé";

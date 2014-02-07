@@ -441,11 +441,11 @@ $(function () {
 
   } else {
     $("#summary").html(summary_fr);
-    $("#download").html(download_fr);
+    $(".download").html(download_fr);
     $("#publication_of").html(publication_of_fr);
-    $("#selected_language").html(selected_language_fr);
-    $("#english_option").html(english_option_fr);
-    $("#french_option").html(french_option_fr);
+    $(".selected_language").html(selected_language_fr);
+    $(".english_option").html(english_option_fr);
+    $(".french_option").html(french_option_fr);
 
     $("#executive_summary_navbar_title").html(executive_summary_navbar_title_fr);
     $("#lra_survival_navbar_title").html(lra_survival_navbar_title_fr);
