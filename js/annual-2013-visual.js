@@ -886,7 +886,7 @@ function buildDecline() {
             enabled: false
           }
         },
-        data: [575, 136, 895]
+        data: [577, 137, 897]
       }]
     });
   }
