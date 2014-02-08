@@ -127,7 +127,7 @@ function buildES2() {
     // TRANSLATIONS
     if (language == "fr") {
       x_axis_categories = ['Libérés par les combattants de la LRA', 'échappés avec des combattants de la LRA', 'échappé seul', 'Sauvé par les chasseurs Sud-Soudanais','Sauvé par les troupes Ougandaises'];
-      series_name = "Nombre de femmes et d'enfants qui se sont échappés de la LRA en 2013 après une captivité à long terme"
+      series_name = "Nombre de femmes et d'enfants qui se sont échappés <br/> de la LRA en 2013 après une captivité à long terme"
     } else {
       x_axis_categories = ['Released by LRA combatants', 'Escaped with LRA combatants', 'Escaped on own', 'Rescued by South Sudanese hunters', 'Rescued by Ugandan troops'];
       series_name = "# of women and children who escaped long-term LRA captivity in 2013"
@@ -192,7 +192,7 @@ function buildES4a() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      series_name = "Nombre d'attaques de la LRA au Congo";
+      series_name = "Nombre d'attaques <br>de la LRA au Congo";
     } else {
       series_name = "# of LRA attacks <br>in Congo";
     };
@@ -248,7 +248,7 @@ function buildES4a() {
             enabled: false
           }
         },
-        data: [367, 228, 223, 126]
+        data: [363, 225, 222, 124]
       }]
     });
   }
@@ -259,7 +259,7 @@ function buildES4b() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      series_name = "Nombre d'enlèvements de la LRA au Congo";
+      series_name = "Nombre d'enlèvements <br>de la LRA au Congo";
     } else {
       series_name = "# of LRA abductions <br>in Congo";
     };
@@ -315,7 +315,7 @@ function buildES4b() {
             enabled: false
           }
         },
-        data: [669, 412, 294, 191]
+        data: [669, 411, 294, 191]
       }]
     });
   }
@@ -326,7 +326,7 @@ function buildES4c() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      series_name = "Nombre de personnes Congolaises <br>déplacées internes et réfugiées <br>en raison de la LRA";
+      series_name = "Nombre de personnes <br>Congolaises déplacées <br>internes et réfugiées<br> en raison de la LRA";
     } else {
       series_name = "# of Congolese <br>IDPs and refugees <br>displaced by the LRA";
     };
@@ -878,7 +878,7 @@ function buildDecline() {
             enabled: false
           }
         },
-        data: [651, 2348, 2475]
+        data: [646, 2327, 2475]
       }, {
         name: 'Congo, 2011-2013',
         states: {
@@ -886,7 +886,7 @@ function buildDecline() {
             enabled: false
           }
         },
-        data: [577, 137, 897]
+        data: [571, 136, 896]
       }]
     });
   }
@@ -976,7 +976,7 @@ function buildHotspotsa() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      series_name = 'Nombre d’attaques de la LRA dans le Haut Mbomou';
+      series_name = 'Nombre d’attaques de la<br>LRA dans le Haut Mbomou';
     } else {
       series_name = '# LRA attacks in Haut Mbomou';
     };
@@ -1032,7 +1032,7 @@ function buildHotspotsa() {
             enabled: false
           }
         },
-        data: [45, 26, 18, 18]
+        data: [45, 26, 18, 17]
       }]
     });
   }
@@ -1043,7 +1043,7 @@ function buildHotspotsb() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      series_name = 'Nombre d’enlèvements de la LRA dans le Haut Mbomou';
+      series_name = 'Nombre d’enlèvements de la<br> LRA dans le Haut Mbomou';
     } else {
       series_name = '# of LRA abductions in Haut Mbomou';
     };
@@ -1110,7 +1110,7 @@ function buildHotspotsc() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      series_name = 'Nombre de personnes déplacées dans le Haut Mbomou*';
+      series_name = 'Nombre de personnes déplacées <br>dans le Haut Mbomou*';
     } else {
       series_name = '# of people displaced in Haut Mbomou*';
     };
@@ -1231,7 +1231,7 @@ function buildPrefectures() {
             enabled: false
           }
         },
-        data: [60, 306, 73, 157, 22]
+        data: [60, 306, 73, 192, 22]
       }, {
         name: 'Haut Mbomou',
         states: {
@@ -1349,7 +1349,7 @@ function buildLongVsShort() {
     } else {
       x_axis_categories = ['# of abductions of less than one month', '# of abductions over one month <br>in lenght or of unknown length'];
       series_name = '# abducted';
-      slice_1_title = '# of abductions of less than one month';
+      slice_1_title = '# of abductions of less <br> than one month';
       slice_2_title = '# of abductions over one month <br>or of unknown length';
     };
 
