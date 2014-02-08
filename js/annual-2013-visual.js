@@ -1032,7 +1032,7 @@ function buildHotspotsa() {
             enabled: false
           }
         },
-        data: [43, 26, 18, 19]
+        data: [45, 26, 18, 18]
       }]
     });
   }
@@ -1099,7 +1099,7 @@ function buildHotspotsb() {
             enabled: false
           }
         },
-        data: [128, 109, 37, 25]
+        data: [137, 109, 37, 25]
       }]
     });
   }
@@ -1231,7 +1231,7 @@ function buildPrefectures() {
             enabled: false
           }
         },
-        data: [60, 315, 73, 157, 21]
+        data: [60, 306, 73, 157, 22]
       }, {
         name: 'Haut Mbomou',
         states: {
@@ -1239,7 +1239,7 @@ function buildPrefectures() {
             enabled: false
           }
         },
-        data: [149, 128, 109, 37, 25]
+        data: [149, 137, 109, 37, 25]
       }, {
         name: 'Vakaga',
         states: {
