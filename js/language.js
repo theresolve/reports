@@ -44,7 +44,7 @@ $(function () {
 });
 
 $(function () {
-  if (location.pathname.split('/')[1] == "en-print") {
+  if (location.pathname.split('/')[1] == "en-print" || location.pathname.split('/')[1] == "fr-print") {
     $('.download-language-top').hide()
     $('.next').hide()
   }
