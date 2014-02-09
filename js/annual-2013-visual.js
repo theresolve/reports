@@ -3,7 +3,7 @@ var blue = 'rgb(25, 68, 112)';
 var light_blue = 'rgb(37, 99, 163)';
 var gray = '#DDDDDD';
 var language = "en"
-if (location.pathname.split('/')[1] == "fr") {
+if (location.pathname.split('/')[1] == "fr" || location.pathname.split('/')[1] == "fr-print") {
   language = "fr"
 };
 $(document).ready(function () {
