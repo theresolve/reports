@@ -177,6 +177,7 @@ function buildES2() {
       },
       series: [{
         name: series_name,
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -244,6 +245,7 @@ function buildES4a() {
       },
       series: [{
         name: series_name,
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -311,6 +313,7 @@ function buildES4b() {
       },
       series: [{
         name: series_name,
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -378,6 +381,7 @@ function buildES4c() {
       },
       series: [{
         name: series_name,
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -439,6 +443,7 @@ function buildES5() {
       },
       series: [{
         name: '2012',
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -447,6 +452,7 @@ function buildES5() {
         data: [174, 348]
       }, {
         name: '2013',
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -510,6 +516,7 @@ function buildLooting1() {
       },
       series: [{
         name: series_name,
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -573,6 +580,7 @@ function buildLooting2() {
       },
       series: [{
         name: series_name,
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -631,6 +639,7 @@ function buildReductionCapacity() {
       },
       series: [{
         name: series_name,
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -691,6 +700,7 @@ function buildForcesObserved() {
       },
       series: [{
         name: series_name,
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -756,6 +766,7 @@ function buildNumberAbductedPerAttack() {
       },
       series: [{
         name: series_name,
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -816,6 +827,7 @@ function buildLivelihood() {
       },
       series: [{
         name: series_name,
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -874,6 +886,7 @@ function buildDecline() {
       },
       series: [{
         name: 'Congo, 2008-2010',
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -882,6 +895,7 @@ function buildDecline() {
         data: [646, 2327, 2475]
       }, {
         name: 'Congo, 2011-2013',
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -945,6 +959,7 @@ function buildPatterns() {
       },
       series: [{
         name: series_name_1,
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -953,6 +968,7 @@ function buildPatterns() {
         data: [612, 575]
       }, {
         name: series_name_2,
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -961,6 +977,7 @@ function buildPatterns() {
         data: [2141, 136]
       }, {
         name: series_name_3,
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -1028,6 +1045,7 @@ function buildHotspotsa() {
       },
       series: [{
         name: series_name,
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -1095,6 +1113,7 @@ function buildHotspotsb() {
       },
       series: [{
         name: series_name,
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -1162,6 +1181,7 @@ function buildHotspotsc() {
       },
       series: [{
         name: series_name,
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -1227,6 +1247,7 @@ function buildPrefectures() {
       },
       series: [{
         name: 'Mbomou',
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -1235,6 +1256,7 @@ function buildPrefectures() {
         data: [60, 306, 73, 192, 22]
       }, {
         name: 'Haut Mbomou',
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -1243,6 +1265,7 @@ function buildPrefectures() {
         data: [149, 137, 109, 37, 25]
       }, {
         name: 'Vakaga',
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -1251,6 +1274,7 @@ function buildPrefectures() {
         data: [2, 125, 0, 0, 0]
       }, {
         name: 'Haut Kotto',
+        animation: false,
         states: {
           hover: {
             enabled: false
