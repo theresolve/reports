@@ -104,6 +104,7 @@ function buildES1() {
       },
       series: [{
         name: series_name,
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -1323,6 +1324,7 @@ function buildAdultVsChild() {
       series: [{
         name: series_name,
         innerSize: '70%',
+        animation: false,
         states: {
           hover: {
             enabled: false
@@ -1403,6 +1405,7 @@ function buildLongVsShort() {
       },
       series: [{
         name: series_name,
+        animation: false,
         innerSize: '70%',
         states: {
           hover: {
