@@ -45,7 +45,7 @@ background_title_5_fr = "V. Contributeurs";
 
 executive_summary_title_en = "Executive summary: The five most important LRA trends of 2013";
 executive_summary_tldr_en = "Lord's Resistance Army (LRA) attacks and abductions continued to decline in 2013, hitting their lowest levels since 2008, and military operations and defections significantly weakened the group's fighting capacity. The notable exceptions to these trends were a resurgence of large-scale LRA looting raids in areas of Central African Republic (CAR) under the authority of Seleka fighters and the first LRA attacks in South Sudan since 2011.";
-executive_summary_title_fr = "Resume: Les cinq tendances de la LRA plus importants de 2013";
+executive_summary_title_fr = "Résumé: Les cinq évolutions les plus importantes de la LRA  en 2013";
 executive_summary_tldr_fr = "Les attaques et les enlèvements de l'Armée de Résistance du Seigneur (LRA) ont continué à baisser en 2013, atteignant leur plus bas niveau depuis 2008, et les opérations militaires et les défections ont considérablement affaibli la capacité de combat du groupe. Les exceptions notables à ces tendances sont une résurgence à grande échelle des pillages et raids de la LRA dans les zones de la République centrafricaine (RCA) sous l'autorité des combattants Séléka, ainsi que les premières attaques de la LRA au Sud-Soudan depuis 2011.";
 
 executive_summary_subtitle_1_en = "1. The LRA lost as much as one-fifth of its core fighting capacity";
@@ -70,7 +70,7 @@ executive_summary_text_4_fr = "<p>Les violences de la LRA au Congo <a href='http
 
 executive_summary_subtitle_5_en = "5. Large-scale LRA attacks in volatile CAR could be a lifeline for Kony";
 executive_summary_text_5_en = "<p>Unlike trends in Congo, <a href='http://reports.lracrisistracker.com/en/annual-2013/car/#mass'>LRA violence in CAR increased</a> to its highest point since 2010. This trend was driven by the abduction of over 200 people in a series of particularly violent attacks in areas under the authority of <a href='http://reports.lracrisistracker.com/en/annual-2013/background/'>Seleka fighters</a> where AU RTF forces have limited access.</p> <p>Goods looted in these attacks may have been used to resupply Kony and other senior LRA commanders, who reportedly operate in nearby areas of CAR and Kafia Kingi.</p>"
-executive_summary_subtitle_5_fr = "5. La LRA a exploité l'insécurité en RCA pour mener ses attaques les plus violentes";
+executive_summary_subtitle_5_fr = "5. Les attaques à grande échelle de la LRA dans le contexte d'instabilité en RCA pourraient être une une ligne de survie pour Kony";
 executive_summary_text_5_fr = "<p>Contrairement aux tendances au Congo, <a href='http://reports.lracrisistracker.com/en/annual-2013/car/#mass'>les violences de la LRA en RCA ont augmenté</a> à leurs plus haut niveau depuis 2010. Cette tendance s'explique par l'enlèvement de plus de 200 personnes dans une série d'attaques particulièrement violentes dans les zones sous l'autorité des <a href='http://reports.lracrisistracker.com/en/annual-2013/background/'>combattants Séléka</a> où les forces de l'UA RTF ont un accès limité.</p><p>Les biens pillés dans ces attaques peuvent avoir été utilisés pour réapprovisionner Kony et d'autres hauts commandants de la LRA, qui seraient actuellement dans des zones voisines de la RCA et du Kafia Kingi.</p>";
 
 executive_summary_next_en = "<i>Next:</i> LRA Survival <i class='fa fa-chevron-right'></i>";
