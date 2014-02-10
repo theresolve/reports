@@ -423,3 +423,56 @@ background-color: rgb(25, 68, 112);
   width: 100px;
   float: left;
 }
+
+.nav-language-dropdown {
+  margin-top: -5px;
+}
+
+.nav-download {
+  margin-left: 17px;
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar-nav {
+    display: none;
+  }
+
+  .navbar-brand {
+    padding-left: 20px;
+  }
+
+  .container, .row, .page-container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .map-legend .col-md-2 {
+    width: 62px;
+  }
+
+  .download {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nav-language-dropdown, .nav-download {
+    display: none;
+  }
+
+  .resolve-logo {
+    width: 150px;
+  }
+
+  .ic-logo {
+    width: 75;
+  }
+
+  .footer-plus {
+    font-size: 21px;
+  }
+}
