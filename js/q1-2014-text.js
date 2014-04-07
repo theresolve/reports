@@ -19,7 +19,7 @@ french_option_fr = "&#x2713; Français";
 
 executive_summary_navbar_title_en = "Executive Summary";
 obo_mboki_navbar_title_en = "Obo-Mboki attacks";
-car_navbar_title_en = "Defections in CAR";
+defection_navbar_title_en = "Defections in CAR";
 congo_navbar_title_en = "Congo attack cluster";
 resupplying_kony_navbar_title_en = "Resupplying Kony?";
 
@@ -34,7 +34,7 @@ $(function () {
 
     $("#executive_summary_navbar_title").html(executive_summary_navbar_title_en);
     $("#obo_mboki_navbar_title").html(obo_mboki_navbar_title_en);
-    $("#car_navbar_title").html(car_navbar_title_en);
+    $("#defection_navbar_title").html(defection_navbar_title_en);
     $("#congo_navbar_title").html(congo_navbar_title_en);
     $("#resupplying_kony_navbar_title").html(resupplying_kony_navbar_title_en);
   } else {

@@ -2,7 +2,7 @@
 
 $white: #fff;
 $blueish-gray: #484F57;
-$darker-blueish-gray: darken($blueish-gray, 6%);
+$darker-blueish-gray: darken($blueish-gray,10%);
 $black: #555;
 $dark-gray: rgb(71, 71, 71);
 
@@ -475,4 +475,11 @@ background-color: rgb(25, 68, 112);
   .footer-plus {
     font-size: 21px;
   }
+}
+
+// MAPS
+
+#nambia-map, #bases-map, #combatant-defections-map, #northern-attacks-map {
+  width: 100%;
+  height: 400px;
 }

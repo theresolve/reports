@@ -73,13 +73,13 @@ a {
 /* line 82, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 ul.nav a:hover {
   color: white !important;
-  background-color: #3a4046;
+  background-color: #31363b;
 }
 
 /* line 87, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   color: white !important;
-  background-color: #3a4046;
+  background-color: #31363b;
 }
 
 /* line 92, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
@@ -362,7 +362,7 @@ nav.navbar.navbar-fixed {
 
 /* line 345, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .active-nav-item {
-  background: #3a4046;
+  background: #31363b;
 }
 
 /* line 349, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
@@ -516,4 +516,9 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   .footer-plus {
     font-size: 21px;
   }
+}
+/* line 482, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
+#nambia-map, #bases-map, #combatant-defections-map, #northern-attacks-map {
+  width: 100%;
+  height: 400px;
 }
