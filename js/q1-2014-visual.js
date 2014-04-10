@@ -133,21 +133,20 @@ function buildES() {
     // TRANSLATIONS
     if (language == "fr") {
     } else {
-      x_axis_categories = ['Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
+      x_axis_categories = ['Q1 2010', 'Q2', 'Q3', 'Q4', 'Q1 2011', 'Q2', 'Q3', 'Q4', 'Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
       series_name_1 = '# of total LRA attacks';
-      series_name_2 = '# of total LRA abductions';
     };
 
     $('#Q12014_ES').highcharts({
       chart: {
-        type: 'line'
+        type: 'column'
       },
       tooltip: {
         formatter: function () {
           return this.y;
         }
       },
-      colors: [dark_blue, light_blue],
+      colors: [dark_blue, blue, blue, blue],
       title: {
         text: ''
       },
@@ -167,7 +166,9 @@ function buildES() {
       plotOptions: {
         column: {
           pointPadding: 0.2,
-          borderWidth: 0
+          borderWidth: 0,
+          colorByPoint: true,
+          showInLegend: false
         }
       },
       credits: {
@@ -181,16 +182,7 @@ function buildES() {
             enabled: false
           }
         },
-        data: [112,  80, 47, 38, 65, 38, 36, 42, 63]
-      }, {
-        name: series_name_2,
-        animation: false,
-        states: {
-          hover: {
-            enabled: false
-          }
-        },
-        data: [198, 118, 92, 149, 82, 136, 67, 182, 133]
+        data: [215, 142, 94, 69, 118, 98, 55, 31, 112,  80, 47, 38, 65, 38, 36, 42, 63]
       }]
     });
   }

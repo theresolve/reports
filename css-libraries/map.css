@@ -140,6 +140,15 @@
   z-index: 1040;
 }
 
-.hide {
-  
+
+/*Add to main css*/
+
+.edge-top {
+  margin: 10px 0px 15px;
+}
+
+.graph-label {
+  text-align: center;
+  margin-top: -12px;
+  color: #555555;
 }
