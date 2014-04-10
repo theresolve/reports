@@ -43,7 +43,7 @@ $(function() {
     zoom: 8, 
     csv_url: "/data/lra.csv",
     animate: true,
-    start_date: "1-1-2014", 
+    start_date: "1-1-2010", 
     end_date: "3-31-2014",
   }
   
