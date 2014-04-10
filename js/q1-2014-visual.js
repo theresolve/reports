@@ -52,6 +52,8 @@ $(function() {
   buildMap(northern_attacks_map_options);
   buildMap(nambia_map_options);
   
+  $("#twentytwentycontainer").twentytwenty();
+  
   $.fn.waypoint.defaults = {
     context: window,
     continuous: true,
