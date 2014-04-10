@@ -5,6 +5,7 @@ $(function() {
     lat: 4.144433, 
     long: 27.867907, 
     zoom: 8, 
+    marker_radius: 4,
     csv_url: "/data/lra.csv",
     animate: false,
     start_date: null, 
@@ -14,10 +15,11 @@ $(function() {
   
   combatant_defections_map_options = {
     map_id: "combatant_defections_map",
-    lat: 4.144433, 
-    long: 27.867907, 
-    zoom: 8, 
-    csv_url: false,
+    lat: 6.226528, 
+    long: 25.816990, 
+    zoom: 6, 
+    marker_radius: 5,
+    csv_url: "/data/ugandan-combatant-returnees.csv",
     animate: false,
     start_date: null, 
     end_date: null,
@@ -29,6 +31,7 @@ $(function() {
     lat: 4.144433, 
     long: 27.867907, 
     zoom: 8, 
+    marker_radius: 4,
     csv_url: false,
     animate: false,
     start_date: null, 
@@ -38,9 +41,10 @@ $(function() {
   
   nambia_map_options = {
     map_id: "nambia_map",
-    lat: 4.144433, 
-    long: 27.867907, 
+    lat: 4.136,
+    long: 27.900, 
     zoom: 8, 
+    marker_radius: 4,
     csv_url: "/data/lra.csv",
     animate: true,
     start_date: "1-1-2010", 
@@ -124,6 +128,7 @@ function getVisualData() {
     buildHM();
     buildHU();
     buildCombatant();
+    buildF();
   });
 };
 
@@ -195,7 +200,7 @@ function buildHM() {
     // TRANSLATIONS
     if (language == "fr") {
     } else {
-      x_axis_categories = ['Q1 2010', 'Q2', 'Q3', 'Q4', 'Q1 2011', 'Q2', 'Q3', 'Q4', 'Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
+      x_axis_categories = ['2010','2011','2012','2013','2014'];
       series_name_1 = '# of attacks in Haut Mbomou';
       series_name_2 = '# of abductions in Haut Mbomou';
     };
@@ -243,7 +248,7 @@ function buildHM() {
             enabled: false
           }
         },
-        data: [38, 36, 42, 63, 112,  80, 47, 38, 65, 38, 36, 42, 63, 38, 36, 42, 63]
+        data: [45, 26, 18, 18, 17]
       }, {
         name: series_name_2,
         animation: false,
@@ -252,7 +257,7 @@ function buildHM() {
             enabled: false
           }
         },
-        data: [118, 92, 149, 82, 136, 67, 182, 38, 36, 42, 63, 198, 133, 38, 36, 42, 63]
+        data: [137, 109, 37, 25, 35]
       }]
     });
   }
@@ -312,7 +317,7 @@ function buildHU() {
             enabled: false
           }
         },
-        data: [38, 36, 42, 63, 112,  80, 47, 38, 65, 38, 36, 42, 63, 38, 36, 42, 63]
+        data: [131, 64, 69, 41, 66, 67, 36, 27, 82, 59, 37, 20, 37, 20, 31, 21, 36]
       }, {
         name: series_name_2,
         animation: false,
@@ -321,7 +326,7 @@ function buildHU() {
             enabled: false
           }
         },
-        data: [118, 92, 149, 82, 136, 67, 182, 38, 36, 42, 63, 198, 133, 38, 36, 42, 63]
+        data: [246, 72, 91, 56, 131, 80, 50, 17, 131, 58, 23, 33, 37, 25, 24, 23, 40]
       }]
     });
   }
@@ -391,6 +396,75 @@ function buildCombatant() {
           }
         },
         data: [118, 92, 149, 82, 136, 67, 182, 38, 36, 42, 63, 198, 133, 38, 36, 42, 63]
+      }]
+    });
+  }
+};
+
+function buildF() {
+  if ($('#Q12014_F').length) {
+
+    // TRANSLATIONS
+    if (language == "fr") {
+    } else {
+      x_axis_categories = ['Q1 2010', 'Q2', 'Q3', 'Q4', 'Q1 2011', 'Q2', 'Q3', 'Q4', 'Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
+      series_name_1 = '# of attacks within 140km of Faradje';
+      series_name_2 = '# of abductions within 140km of Faradje';
+    };
+
+    $('#Q12014_F').highcharts({
+      chart: {
+        type: 'line'
+      },
+      tooltip: {
+        formatter: function () {
+          return this.y;
+        }
+      },
+      colors: [dark_blue, light_blue],
+      title: {
+        text: ''
+      },
+      subtitle: {
+        text: ''
+      },
+      xAxis: {
+        categories: x_axis_categories
+      },
+      yAxis: {
+        min: 0,
+        gridLineColor: 'transparent',
+        title: {
+          text: ''
+        }
+      },
+      plotOptions: {
+        column: {
+          pointPadding: 0.2,
+          borderWidth: 0
+        }
+      },
+      credits: {
+        enabled: false
+      },
+      series: [{
+        name: series_name_1,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [50, 21, 26, 17, 37, 29, 16, 13, 34, 17, 26, 11, 24, 13, 18, 9, 2]
+      }, {
+        name: series_name_2,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [55, 29, 45, 18, 39, 38, 28, 14, 48, 21, 16, 27, 30, 6, 10, 5, 0]
       }]
     });
   }

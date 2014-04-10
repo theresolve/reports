@@ -79,7 +79,7 @@ function animateMarkers(data, map_id) {
     $(".map-date").html(formatDate(data[x][0]))
     if (x++ < data.length) {
       if (run_animation == true) {
-        setTimeout(animate, 100);
+        setTimeout(animate, 200);
       };
     };
   };
@@ -127,7 +127,7 @@ function setupAnimation(csv_url, start_date, end_date, map_id) {
 
 // Variables
 var month_names = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-var basemap_id = 'ktransier.hm2e9p06';
+var basemap_id = 'ktransier.map-xya6pg28';
 
 // Helper functions
 function popup(point) {  
@@ -169,7 +169,7 @@ function buildMap(options) {
   } else if (!options.animate && options.csv_url) {
     $.get(options.csv_url, function(data) {
       data = $.csv.toObjects(data);
-      generateMarkers(data, map)    
+      generateMarkers(data, map, options)    
     });
   } else {
   };
@@ -177,7 +177,7 @@ function buildMap(options) {
   $('.mapbox-control-info').addClass('hide');
 };
 
-function generateMarkers(data, map) {
+function generateMarkers(data, map, options) {
   // Set variables
   var markers, marker;
   
@@ -198,7 +198,7 @@ function generateMarkers(data, map) {
           fillOpacity: 1
         });
       marker.bindPopup(popup(data[i]));
-      marker.setRadius(4);
+      marker.setRadius(options.marker_radius);
       map.addLayer(marker);
     };
   };
