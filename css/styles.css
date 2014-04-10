@@ -518,7 +518,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   }
 }
 /* line 482, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
-#nambia-map, #bases-map, #combatant-defections-map, #northern-attacks-map {
+#nambia_map, #bases_map, #combatant_defections_map, #northern_attacks_map {
   width: 100%;
   height: 400px;
 }

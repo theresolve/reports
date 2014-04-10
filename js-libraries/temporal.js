@@ -63,16 +63,19 @@ function animateMarkers(data) {
   var x = 0;
   // Add marker layers to marker cluster
   function animate() {
+    
     if (data[x][1] != "Zero records" && data[x][1] != undefined) {
       for (var i = 0; i < data[x][1].length; i++) {
         reports = data[x][1];
         if (reports[i].latitude && reports[i].longitude) {
           marker = L.marker([reports[i].latitude, reports[i].longitude]);
           marker_group.addLayer(marker);
-          map.addLayer(marker_group);
+          
+          window.map_id.addLayer(marker_group);
         };
       };
     };
+    
     $(".map-date").html(formatDate(data[x][0]))
     if (x++ < data.length) {
       if (run_animation == true) {
@@ -84,16 +87,13 @@ function animateMarkers(data) {
   animate();
 };
 
-// Start
-$(function() {
+function setupAnimation(csv_url, start_date, end_date) {
   var markers = {};
-  $.get('/data/lra.csv', function(data) {
+  $.get(csv_url, function(data) {
     data = $.csv.toObjects(data);
     
-    console.log(data)
-    
     // Generate all dates between beginning and end of data     
-    var date_array = getDates(new Date("1-1-2014"), new Date("3-31-2014"));
+    var date_array = getDates(new Date(start_date), new Date(end_date));
     
     // Group data by date
     var grouped_data = groupByDate(data);
@@ -112,5 +112,4 @@ $(function() {
   $(".map-stop").click( function() {
     run_animation = false;
   });
-
-})
+};

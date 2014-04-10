@@ -1,8 +1,10 @@
 $(function() {
-  buildMap("nambia-map", 4.144433, 27.867907, 8);
-  buildMap("bases-map", 4.144433, 27.867907, 8);
-  buildMap("combatant-defections-map", 4.144433, 27.867907, 8);
-  buildMap("northern-attacks-map", 4.144433, 27.867907, 8);
+  buildMap("bases_map", 4.144433, 27.867907, 8);
+  buildMap("combatant_defections_map", 4.144433, 27.867907, 8);
+  buildMap("northern_attacks_map", 4.144433, 27.867907, 8);
+  buildMap("nambia_map", 4.144433, 27.867907, 8);
+  
+  setupAnimation("/data/lra.csv", "1-1-2014", "3-31-2014");
   
   $.fn.waypoint.defaults = {
     context: window,
@@ -84,8 +86,8 @@ function buildES() {
     if (language == "fr") {
     } else {
       x_axis_categories = ['Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
-      series_name_1 = '# of attacks';
-      series_name_2 = '# of abductions';
+      series_name_1 = '# of total LRA attacks';
+      series_name_2 = '# of total LRA abductions';
     };
 
     $('#Q12014_ES').highcharts({
@@ -154,8 +156,8 @@ function buildHM() {
     if (language == "fr") {
     } else {
       x_axis_categories = ['Q1 2010', 'Q2', 'Q3', 'Q4', 'Q1 2011', 'Q2', 'Q3', 'Q4', 'Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
-      series_name_1 = '# of attacks';
-      series_name_2 = '# of abductions';
+      series_name_1 = '# of attacks in Haut Mbomou';
+      series_name_2 = '# of abductions in Haut Mbomou';
     };
 
     $('#Q12014_HM').highcharts({
@@ -223,8 +225,8 @@ function buildHU() {
     if (language == "fr") {
     } else {
       x_axis_categories = ['Q1 2010', 'Q2', 'Q3', 'Q4', 'Q1 2011', 'Q2', 'Q3', 'Q4', 'Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
-      series_name_1 = '# of attacks';
-      series_name_2 = '# of abductions';
+      series_name_1 = '# of attacks in Haut Uele';
+      series_name_2 = '# of abductions in Haut Uele';
     };
 
     $('#Q12014_HU').highcharts({
@@ -291,14 +293,14 @@ function buildCombatant() {
     // TRANSLATIONS
     if (language == "fr") {
     } else {
-      x_axis_categories = ['Q1 2010', 'Q2', 'Q3', 'Q4', 'Q1 2011', 'Q2', 'Q3', 'Q4', 'Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
-      series_name_1 = '# of attacks';
-      series_name_2 = '# of abductions';
+      x_axis_categories = ['Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
+      series_name_1 = '# of Ugandan combatant returnees';
+      series_name_2 = '# of other long-term returnees';
     };
 
     $('#Q12014_Combatant').highcharts({
       chart: {
-        type: 'line'
+        type: 'column'
       },
       tooltip: {
         formatter: function () {

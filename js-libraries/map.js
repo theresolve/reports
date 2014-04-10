@@ -1,4 +1,3 @@
-
 // Variables
 var month_names = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 var basemap_id = 'ktransier.hm2e9p06';
@@ -23,20 +22,18 @@ function formatDate(date) {
 
 // Build Map
 function buildMap(map_id, lat, long, zoom) {
-  var map;
   // Build map if not initialized
-  if (!map) {
-    map = L.mapbox.map(map_id, basemap_id, {
-      zoomControl: false,
-      scrollWheelZoom: false
-    }).setView([lat, long], zoom);
-    L.control.scale().addTo(map); // Load scale
-    map.addControl(new L.Control.ZoomFS()); // Load map controls
-  };
-  
+  window.map_id = map_id;
+  map_id = L.mapbox.map(map_id, basemap_id, {
+    zoomControl: false,
+    scrollWheelZoom: false
+  }).setView([lat, long], zoom);
+  L.control.scale().addTo(map_id); // Load scale
+  map_id.addControl(new L.Control.ZoomFS()); // Load map controls
+
   // Build legend
   if (document.getElementById('legend-content')) {
-    map.legendControl.addLegend(document.getElementById('legend-content').innerHTML);
+    map_id.legendControl.addLegend(document.getElementById('legend-content').innerHTML);
   };
 };
 
