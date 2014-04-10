@@ -2,9 +2,7 @@ $(function() {
   buildMap("bases_map", 4.144433, 27.867907, 8);
   buildMap("combatant_defections_map", 4.144433, 27.867907, 8);
   buildMap("northern_attacks_map", 4.144433, 27.867907, 8);
-  buildMap("nambia_map", 4.144433, 27.867907, 8);
-  
-  setupAnimation("/data/lra.csv", "1-1-2014", "3-31-2014");
+  buildMap("nambia_map", 4.144433, 27.867907, 8, "/data/lra.csv", "1-1-2014", "3-31-2014");
   
   $.fn.waypoint.defaults = {
     context: window,
