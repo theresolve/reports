@@ -180,10 +180,10 @@ function generateMarkers(data, map) {
   
   // Build marker cluster layer
   markers = new L.MarkerClusterGroup({maxClusterRadius: 20, spiderfyOnMaxZoom: true});
-  
   // Add marker layers to marker cluster
   for (i = 0; i < data.length; i++) {
     if (data[i].latitude && data[i].longitude) {
+      console.log(data[i].marker_color)
       marker = L.circleMarker([data[i].latitude, data[i].longitude], 
         { 
           stroke: true,
@@ -191,7 +191,7 @@ function generateMarkers(data, map) {
           weight: 2,
           opacity: 1,
           fill: true,
-          fillColor: 'blue',
+          fillColor: data[i].marker_color,
           fillOpacity: 1
         });
       marker.bindPopup(popup(data[i]));
