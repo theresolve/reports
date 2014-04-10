@@ -104,13 +104,15 @@ function setupAnimation(csv_url, start_date, end_date, map_id) {
     markers = convertToArray(markers)
     
   });
-  $(".map-play").click( function() {
-    run_animation = true;
-    animateMarkers(markers, map_id);
-  });
-  
-  $(".map-stop").click( function() {
-    run_animation = false;
+  $(".map-animate-control").click( function() {
+    if (run_animation) {
+      run_animation = false;
+      $(".map-animate-control").html("<i class='fa fa-play'></i>");
+    } else {
+      run_animation = true;
+      animateMarkers(markers, map_id);
+      $(".map-animate-control").html("<i class='fa fa-stop'></i>");
+    };
   });
 };
 
