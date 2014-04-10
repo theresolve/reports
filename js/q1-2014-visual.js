@@ -5,10 +5,11 @@ $(function() {
     lat: 4.144433, 
     long: 27.867907, 
     zoom: 8, 
-    csv_url: false,
+    csv_url: "/data/lra.csv",
     animate: false,
     start_date: null, 
     end_date: null,
+    legend: true
   }
   
   combatant_defections_map_options = {
@@ -20,6 +21,7 @@ $(function() {
     animate: false,
     start_date: null, 
     end_date: null,
+    legend: true
   }
   
   northern_attacks_map_options = {
@@ -31,6 +33,7 @@ $(function() {
     animate: false,
     start_date: null, 
     end_date: null,
+    legend: true
   }
   
   nambia_map_options = {

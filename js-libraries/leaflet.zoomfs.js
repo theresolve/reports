@@ -52,7 +52,6 @@ L.Control.ZoomFS = L.Control.Zoom.extend({
 		var container = this._map._container;
 
 		$('.leaflet-control-fullscreen').removeClass('expand').addClass('compress');
-    $('#map').addClass('fullscreen-map')
 
 		// apply our fullscreen settings
 		container.style.position = 'fixed';
@@ -60,6 +59,7 @@ L.Control.ZoomFS = L.Control.Zoom.extend({
 		container.style.top = 0;
 		container.style.width = '100%';
 		container.style.height = '100%';
+    container.style.zIndex = 1040;
 
 		// store state
 		L.DomUtil.addClass(container, 'leaflet-fullscreen');
@@ -75,7 +75,6 @@ L.Control.ZoomFS = L.Control.Zoom.extend({
 		var container = this._map._container;
 
 		$('.leaflet-control-fullscreen').removeClass('compress').addClass('expand')
-    $('#map').removeClass('fullscreen-map')
 
 		// update state
 		L.DomUtil.removeClass(container, 'leaflet-fullscreen');

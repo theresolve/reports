@@ -157,8 +157,9 @@ function buildMap(options) {
   map.addControl(new L.Control.ZoomFS()); // Load map controls
 
   // Build legend
-  if (document.getElementById('legend-content')) {
-    map_id.legendControl.addLegend(document.getElementById('legend-content').innerHTML);
+  if (options.legend) {
+    console.log(options.map_id + '_legend')
+    map.legendControl.addLegend(document.getElementById(options.map_id + '_legend').innerHTML);
   };
   if (options.animate) {
     setupAnimation(options.csv_url, options.start_date, options.end_date, map);
@@ -169,6 +170,8 @@ function buildMap(options) {
     });
   } else {
   };
+  
+  $('.mapbox-control-info').addClass('hide');
 };
 
 function generateMarkers(data, map) {
@@ -181,12 +184,22 @@ function generateMarkers(data, map) {
   // Add marker layers to marker cluster
   for (i = 0; i < data.length; i++) {
     if (data[i].latitude && data[i].longitude) {
-      marker = L.circleMarker([data[i].latitude, data[i].longitude], {color: data[i].marker_color});
+      marker = L.circleMarker([data[i].latitude, data[i].longitude], 
+        { 
+          stroke: true,
+          color: '#fff',
+          weight: 2,
+          opacity: 1,
+          fill: true,
+          fillColor: 'blue',
+          fillOpacity: 1
+        });
       marker.bindPopup(popup(data[i]));
-      markers.addLayer(marker);
+      marker.setRadius(4);
+      map.addLayer(marker);
     };
   };
   
   // Add marker cluster to basemap
-  map.addLayer(markers);
+  // map.addLayer(markers);
 }

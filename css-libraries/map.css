@@ -1,14 +1,11 @@
-html, body {
-  height: 100%;
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-}
-
 #map {
   width: 100%;
   height: 100%;
   z-index: 100;
+}
+
+.leaflet-container {
+  cursor: pointer;
 }
 
 .leaflet-bar {
@@ -99,6 +96,9 @@ html, body {
   line-height: 30px;
 }
 
+.legend-content {
+}
+
 .legend-title {
   text-align: left;
   margin-bottom: 8px;
@@ -130,4 +130,16 @@ html, body {
 
 .legend a {
   color: #777;
+}
+
+.mapbox-info-toggle {
+  display: none;
+}
+
+.fullscreen-map {
+  z-index: 1040;
+}
+
+.hide {
+  
 }
