@@ -1,8 +1,53 @@
 $(function() {
-  buildMap("bases_map", 4.144433, 27.867907, 8);
-  buildMap("combatant_defections_map", 4.144433, 27.867907, 8);
-  buildMap("northern_attacks_map", 4.144433, 27.867907, 8);
-  buildMap("nambia_map", 4.144433, 27.867907, 8, "/data/lra.csv", "1-1-2014", "3-31-2014");
+  
+  bases_map_options = {
+    map_id: "bases_map",
+    lat: 4.144433, 
+    long: 27.867907, 
+    zoom: 8, 
+    csv_url: "/data/lra.csv",
+    animate: false,
+    start_date: null, 
+    end_date: null,
+  }
+  
+  combatant_defections_map_options = {
+    map_id: "combatant_defections_map",
+    lat: 4.144433, 
+    long: 27.867907, 
+    zoom: 8, 
+    csv_url: "/data/lra.csv",
+    animate: false,
+    start_date: null, 
+    end_date: null,
+  }
+  
+  northern_attacks_map_options = {
+    map_id: "northern_attacks_map",
+    lat: 4.144433, 
+    long: 27.867907, 
+    zoom: 8, 
+    csv_url: "/data/lra.csv",
+    animate: false,
+    start_date: null, 
+    end_date: null,
+  }
+  
+  nambia_map_options = {
+    map_id: "nambia_map",
+    lat: 4.144433, 
+    long: 27.867907, 
+    zoom: 8, 
+    csv_url: "/data/lra.csv",
+    animate: true,
+    start_date: "1-1-2014", 
+    end_date: "3-31-2014",
+  }
+  
+  buildMap(bases_map_options);
+  buildMap(combatant_defections_map_options);
+  buildMap(northern_attacks_map_options);
+  buildMap(nambia_map_options);
   
   $.fn.waypoint.defaults = {
     context: window,

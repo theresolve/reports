@@ -88,7 +88,6 @@ function animateMarkers(data, map_id) {
 };
 
 function setupAnimation(csv_url, start_date, end_date, map_id) {
-  console.log(map_id)
   var markers = {};
   $.get(csv_url, function(data) {
     data = $.csv.toObjects(data);
@@ -147,28 +146,30 @@ function formatDate(date) {
 };
 
 // Build Map
-function buildMap(map_id, lat, long, zoom, csv_url, start_date, end_date) {
-  map_id = L.mapbox.map(map_id, basemap_id, {
+function buildMap(options) {
+  var map = L.mapbox.map(options.map_id, basemap_id, {
     zoomControl: false,
     scrollWheelZoom: false
-  }).setView([lat, long], zoom);
-  L.control.scale().addTo(map_id); // Load scale
-  map_id.addControl(new L.Control.ZoomFS()); // Load map controls
+  }).setView([options.lat, options.long], options.zoom);
+  L.control.scale().addTo(map); // Load scale
+  map.addControl(new L.Control.ZoomFS()); // Load map controls
 
   // Build legend
   if (document.getElementById('legend-content')) {
     map_id.legendControl.addLegend(document.getElementById('legend-content').innerHTML);
   };
-  if (start_date != null && end_date != null) {
-    console.log(map_id)
-    setupAnimation(csv_url, start_date, end_date, map_id);
+  if (options.animate) {
+    setupAnimation(options.csv_url, options.start_date, options.end_date, map);
+  } else if (!options.animate && options.csv_url) {
+    $.get(options.csv_url, function(data) {
+      data = $.csv.toObjects(data);
+      generateMarkers(data, map)    
+    });
+  } else {
   };
 };
 
-function generateMarkers(data) {
-  // Remove existing layers 
-  if (markers) { markers.clearLayers() };
-  
+function generateMarkers(data, map) {
   // Set variables
   var markers, marker;
   
