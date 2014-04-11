@@ -2,11 +2,11 @@ $(function() {
   
   bases_map_options = {
     map_id: "bases_map",
-    lat: 4.144433, 
-    long: 27.867907, 
-    zoom: 8, 
-    marker_radius: 4,
-    csv_url: "/data/lra.csv",
+    lat: 6.008053, 
+    long: 25.531345, 
+    zoom: 7, 
+    marker_radius: 6,
+    csv_url: "/data/haut-mbomou-attacks.csv",
     animate: false,
     start_date: null, 
     end_date: null,
