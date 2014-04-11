@@ -126,15 +126,6 @@ function setupAnimation(csv_url, start_date, end_date, map_id) {
   });
 };
 
-
-
-
-
-
-
-
-
-
 // Variables
 var month_names = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 var basemap_id = 'ktransier.map-xya6pg28';
@@ -146,7 +137,7 @@ function popup(point) {
   var summary = "";
   var confidence_level = "";
   if (point.url && point.id) {url = "<a href=" + point.url + point.id + "' target=_blank>" + point.id + "</a> | "};
-  if (point.confidence_level) {confidence_level = "<em>Confidence Level:</em> <strong>" + report.confidence_level + "</strong>"};
+  if (point.confidence_level) {confidence_level = "<em>Confidence Level:</em> <strong>" + point.confidence_level + "</strong>"};
   if (point.start_date) { start_date = formatDate(point.start_date) };
   if (point.summary) { summary = "<p class=map-popup-summary>" + point.summary + "</p>"};
   return url + start_date + summary + confidence_level;

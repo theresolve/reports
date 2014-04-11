@@ -28,11 +28,11 @@ $(function() {
   
   northern_attacks_map_options = {
     map_id: "northern_attacks_map",
-    lat: 4.144433, 
-    long: 27.867907, 
-    zoom: 8, 
-    marker_radius: 4,
-    csv_url: false,
+    lat: 9.154234,  
+    long: 23.606419,
+    zoom: 7, 
+    marker_radius: 5,
+    csv_url: "/data/northern-attacks.csv",
     animate: false,
     start_date: null, 
     end_date: null,
@@ -45,10 +45,11 @@ $(function() {
     long: 27.900, 
     zoom: 8, 
     marker_radius: 4,
-    csv_url: "/data/lra.csv",
+    csv_url: "/data/q1-2014-attacks.csv",
     animate: true,
-    start_date: "1-1-2010", 
+    start_date: "1-1-2014", 
     end_date: "3-31-2014",
+    legend: true
   }
   
   buildMap(bases_map_options);
