@@ -338,14 +338,15 @@ function buildCombatant() {
     // TRANSLATIONS
     if (language == "fr") {
     } else {
-      x_axis_categories = ['Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
+      x_axis_categories = ['Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
       series_name_1 = '# of Ugandan combatant returnees';
-      series_name_2 = '# of other long-term returnees';
+      series_name_2 = '# of non-Ugandan combatant returnees';
+      series_name_3 = '# of women and children long-term returnees';
     };
 
     $('#Q12014_Combatant').highcharts({
       chart: {
-        type: 'column'
+        type: 'line'
       },
       tooltip: {
         formatter: function () {
@@ -386,7 +387,8 @@ function buildCombatant() {
             enabled: false
           }
         },
-        data: [38, 36, 42, 63, 112,  80, 47, 38, 65, 38, 36, 42, 63, 38, 36, 42, 63]
+        data: [1, 9,1,6,4]
+            
       }, {
         name: series_name_2,
         animation: false,
@@ -395,7 +397,16 @@ function buildCombatant() {
             enabled: false
           }
         },
-        data: [118, 92, 149, 82, 136, 67, 182, 38, 36, 42, 63, 198, 133, 38, 36, 42, 63]
+        data: [1,0,0,5,0]
+      }, {
+        name: series_name_3,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [35,8,5,14,13]
       }]
     });
   }

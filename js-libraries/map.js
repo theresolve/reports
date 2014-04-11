@@ -68,7 +68,17 @@ function animateMarkers(data, map_id) {
       for (var i = 0; i < data[x][1].length; i++) {
         reports = data[x][1];
         if (reports[i].latitude && reports[i].longitude) {
-          marker = L.marker([reports[i].latitude, reports[i].longitude]);
+          marker = L.circleMarker([reports[i].latitude, reports[i].longitude], 
+            { 
+              stroke: true,
+              color: '#fff',
+              weight: 2,
+              opacity: 1,
+              fill: true,
+              fillColor: reports[i].marker_color,
+              fillOpacity: 1
+            });
+          marker.setRadius(6);
           marker_group.addLayer(marker);
           
           map_id.addLayer(marker_group);
@@ -177,6 +187,7 @@ function buildMap(options) {
   $('.mapbox-control-info').addClass('hide');
 };
 
+//todo: build seperate generatemarkers and generatemarkercluster functions
 function generateMarkers(data, map, options) {
   // Set variables
   var markers, marker;
@@ -186,7 +197,6 @@ function generateMarkers(data, map, options) {
   // Add marker layers to marker cluster
   for (i = 0; i < data.length; i++) {
     if (data[i].latitude && data[i].longitude) {
-      console.log(data[i].marker_color)
       marker = L.circleMarker([data[i].latitude, data[i].longitude], 
         { 
           stroke: true,
