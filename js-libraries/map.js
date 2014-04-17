@@ -56,7 +56,7 @@ function convertToArray(object) {
 };
 
 // Animate Markers
-function animateMarkers(data, map_id) {
+function animateMarkers(data, map_id, options) {
   if (marker_group != null) { marker_group.clearLayers(); }
   marker_group = L.layerGroup();
 
@@ -68,7 +68,15 @@ function animateMarkers(data, map_id) {
       for (var i = 0; i < data[x][1].length; i++) {
         reports = data[x][1];
         if (reports[i].latitude && reports[i].longitude) {
-          marker = L.circleMarker([reports[i].latitude, reports[i].longitude], 
+          var latitude = Number(reports[i].latitude);
+          var longitude = Number(reports[i].longitude);
+          var coordinates = [latitude, longitude];
+          
+          if (options.offset) {
+            coordinates = offset_coordinates(latitude, longitude, options.max_offset, options.min_offset);
+          }
+          
+          marker = L.circleMarker(coordinates, 
             { 
               stroke: true,
               color: '#fff',
@@ -97,7 +105,7 @@ function animateMarkers(data, map_id) {
   animate();
 };
 
-function setupAnimation(csv_url, start_date, end_date, map_id) {
+function setupAnimation(csv_url, start_date, end_date, map_id, options) {
   var markers = {};
   $.get(csv_url, function(data) {
     data = $.csv.toObjects(data);
@@ -120,7 +128,7 @@ function setupAnimation(csv_url, start_date, end_date, map_id) {
       $(".map-animate-control").html("<i class='fa fa-play'></i>");
     } else {
       run_animation = true;
-      animateMarkers(markers, map_id);
+      animateMarkers(markers, map_id, options);
       $(".map-animate-control").html("<i class='fa fa-stop'></i>");
     };
   });
@@ -149,6 +157,14 @@ function formatDate(date) {
   return month + " " + day + ", " + year;
 };
 
+function offset_coordinates(latitude, longitude, min_offset, max_offset){
+  min_offset = min_offset / 111.32;
+  max_offset = max_offset / 111.32;
+  latitude = latitude + Math.random() * (max_offset - min_offset) + min_offset;
+  longitude = longitude + Math.random() * (max_offset - min_offset) + min_offset;
+  return [latitude, longitude];
+}
+
 // Build Map
 function buildMap(options) {
   var map = L.mapbox.map(options.map_id, basemap_id, {
@@ -164,7 +180,7 @@ function buildMap(options) {
     map.legendControl.addLegend(document.getElementById(options.map_id + '_legend').innerHTML);
   };
   if (options.animate) {
-    setupAnimation(options.csv_url, options.start_date, options.end_date, map);
+    setupAnimation(options.csv_url, options.start_date, options.end_date, map, options);
   } else if (!options.animate && options.csv_url) {
     $.get(options.csv_url, function(data) {
       data = $.csv.toObjects(data);
@@ -179,16 +195,22 @@ function buildMap(options) {
 //todo: build seperate generatemarkers and generatemarkercluster functions
 function generateMarkers(data, map, options) {
   // Set variables
-  var markers, marker;
+  var markers, marker, latitude_offset, longitude_offset;
   
   // Build marker cluster layer
   markers = new L.MarkerClusterGroup({maxClusterRadius: 20, spiderfyOnMaxZoom: true});
   // Add marker layers to marker cluster
   for (i = 0; i < data.length; i++) {
     if (data[i].latitude && data[i].longitude) {
-      var latitude_offset = data[i].latitude_offset ? data[i].latitude_offset : 0;
-      var longitude_offset = data[i].longitude_offset ? data[i].longitude_offset : 0;
-      marker = L.circleMarker([Number(data[i].latitude) + Number(latitude_offset), Number(data[i].longitude) + Number(longitude_offset)], 
+      var latitude = Number(data[i].latitude);
+      var longitude = Number(data[i].longitude);
+      var coordinates = [latitude, longitude];
+      
+      if (options.offset) {
+        coordinates = offset_coordinates(latitude, longitude, options.max_offset, options.min_offset);
+      }
+      
+      marker = L.circleMarker(coordinates, 
         { 
           stroke: true,
           color: '#fff',

@@ -14,7 +14,10 @@ $(function() {
     animate: false,
     start_date: null, 
     end_date: null,
-    legend: true
+    legend: true,
+    offset: true,
+    min_offset: -2,
+    max_offset: 2
   }
   
   combatant_defections_map_options = {
@@ -27,7 +30,10 @@ $(function() {
     animate: false,
     start_date: null, 
     end_date: null,
-    legend: true
+    legend: true,
+    offset: true,
+    min_offset: -2,
+    max_offset: 2
   }
   
   northern_attacks_map_options = {
@@ -40,7 +46,10 @@ $(function() {
     animate: false,
     start_date: null, 
     end_date: null,
-    legend: true
+    legend: true,
+    offset: true,
+    min_offset: -4,
+    max_offset: 4
   }
   
   nambia_map_options = {
@@ -53,7 +62,10 @@ $(function() {
     animate: true,
     start_date: "1-1-2014", 
     end_date: "3-31-2014",
-    legend: true
+    legend: true,
+    offset: true,
+    min_offset: -3,
+    max_offset: 3
   }
   
   buildMap(bases_map_options);
