@@ -8,7 +8,7 @@ $(function() {
     map_id: "bases_map",
     lat: 6.008053, 
     long: 25.531345, 
-    zoom: 7, 
+    zoom: 8, 
     marker_radius: 6,
     csv_url: "/data/haut-mbomou-attacks.csv",
     animate: false,
@@ -45,8 +45,8 @@ $(function() {
   
   nambia_map_options = {
     map_id: "nambia_map",
-    lat: 4.136,
-    long: 27.900, 
+    lat: 3.6797,
+    long: 29.1357, 
     zoom: 8, 
     marker_radius: 4,
     csv_url: "/data/q1-2014-attacks.csv",
@@ -286,7 +286,7 @@ function buildHU() {
     // TRANSLATIONS
     if (language == "fr") {
     } else {
-      x_axis_categories = ['Q1 2010', 'Q2', 'Q3', 'Q4', 'Q1 2011', 'Q2', 'Q3', 'Q4', 'Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
+      x_axis_categories = ['Q1 2011', 'Q2', 'Q3', 'Q4', 'Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
       series_name_1 = '# of attacks in Haut Uele';
       series_name_2 = '# of abductions in Haut Uele';
     };
@@ -334,7 +334,7 @@ function buildHU() {
             enabled: false
           }
         },
-        data: [131, 64, 69, 41, 66, 67, 36, 27, 82, 59, 37, 20, 37, 20, 31, 21, 36]
+        data: [66, 67, 36, 27, 82, 59, 37, 20, 37, 20, 31, 21, 36]
       }, {
         name: series_name_2,
         animation: false,
@@ -343,7 +343,7 @@ function buildHU() {
             enabled: false
           }
         },
-        data: [246, 72, 91, 56, 131, 80, 50, 17, 131, 58, 23, 33, 37, 25, 24, 23, 40]
+        data: [131, 80, 50, 17, 131, 58, 23, 33, 37, 25, 24, 23, 40]
       }]
     });
   }
@@ -357,8 +357,7 @@ function buildCombatant() {
     } else {
       x_axis_categories = ['Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
       series_name_1 = '# of Ugandan combatant returnees';
-      series_name_2 = '# of non-Ugandan combatant returnees';
-      series_name_3 = '# of women and children long-term returnees';
+      series_name_2 = '# of non-Ugandan returnees';
     };
 
     $('#Q12014_Combatant').highcharts({
@@ -414,16 +413,7 @@ function buildCombatant() {
             enabled: false
           }
         },
-        data: [1,0,0,5,0]
-      }, {
-        name: series_name_3,
-        animation: false,
-        states: {
-          hover: {
-            enabled: false
-          }
-        },
-        data: [35,8,5,14,13]
+        data: [36,8,5,19,13]
       }]
     });
   }

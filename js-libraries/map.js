@@ -135,12 +135,10 @@ function popup(point) {
   var url = "";
   var start_date = "";
   var summary = "";
-  var confidence_level = "";
   if (point.url && point.id) {url = "<a href=" + point.url + point.id + "' target=_blank>" + point.id + "</a> | "};
-  if (point.confidence_level) {confidence_level = "<em>Confidence Level:</em> <strong>" + point.confidence_level + "</strong>"};
   if (point.start_date) { start_date = formatDate(point.start_date) };
   if (point.summary) { summary = "<p class=map-popup-summary>" + point.summary + "</p>"};
-  return url + start_date + summary + confidence_level;
+  return url + start_date + summary;
 }
 
 function formatDate(date) {

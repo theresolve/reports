@@ -206,7 +206,15 @@ padding: 7px 10px 10px;
   line-height: 20px;
 }
 
+.fixed-navbar-subtitle {
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: -5px;
+  margin-bottom: 20px
+  
+}
+
 .fixed-logo {
-  height: 89px;
+  height: 124px;
   margin: 5px 0px 19px 0px;
 }
