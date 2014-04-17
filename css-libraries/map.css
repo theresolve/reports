@@ -161,6 +161,35 @@ padding: 7px 10px 10px;
 
 /*Add to main css*/
 
+.right-container {
+  padding: 30px;
+  background-color: white;
+  width: 850px;
+  margin: 70px 0px 0px 220px;
+}
+
+.fixed-sidebar {
+  margin-top: 70px;
+  text-align: right;
+  position: fixed;
+  width: 190px;
+}
+
+.fixed-sidebar-item {
+  margin-bottom: 10px;
+  padding-right: 5px;
+  border-right: 3px solid transparent;
+  
+}
+
+.fixed-sidebar-item a {
+  text-decoration: none;
+}
+
+.fixed-sidebar-item-active {
+  border-right: 3px solid rgb(25, 68, 112);
+}
+
 .edge-top {
   margin: 10px 0px 15px;
 }
@@ -169,4 +198,15 @@ padding: 7px 10px 10px;
   text-align: center;
   margin-top: -12px;
   color: #555555;
+}
+
+
+.fixed-navbar-brand {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.fixed-logo {
+  height: 89px;
+  margin: 5px 0px 19px 0px;
 }

@@ -64,49 +64,63 @@ $(function() {
     continuous: true,
     enabled: true,
     horizontal: false,
-    offset: 130,
+    offset: 70,
     triggerOnce: false
   }
   
-  $('#executive_summary_navbar_title').addClass("active-nav-item");
+  $('#executive_summary_sidebar_title').addClass("fixed-sidebar-item-active");
   $('#executive_summary_title').waypoint(function(direction) {
-    $('#executive_summary_navbar_title').addClass("active-nav-item");
-    $('#obo_mboki_navbar_title').removeClass("active-nav-item");
-    $('#defection_navbar_title').removeClass("active-nav-item");
-    $('#congo_navbar_title').removeClass("active-nav-item");
-    $('#resupplying_kony_navbar_title').removeClass("active-nav-item");
+    $('#executive_summary_sidebar_title').addClass("fixed-sidebar-item-active");
+    $('#section_1_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_2_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_3_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_4_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_5_sidebar_title').removeClass("fixed-sidebar-item-active");
   });
   
-  $('#obo_mboki_title').waypoint(function(direction) {
-    $('#executive_summary_navbar_title').removeClass("active-nav-item");
-    $('#obo_mboki_navbar_title').addClass("active-nav-item");
-    $('#defection_navbar_title').removeClass("active-nav-item");
-    $('#congo_navbar_title').removeClass("active-nav-item");
-    $('#resupplying_kony_navbar_title').removeClass("active-nav-item");
+  $('#section_1_title').waypoint(function(direction) {
+    $('#executive_summary_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_1_sidebar_title').addClass("fixed-sidebar-item-active");
+    $('#section_2_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_3_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_4_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_5_sidebar_title').removeClass("fixed-sidebar-item-active");
   });
   
-  $('#defection_title').waypoint(function(direction) {
-    $('#executive_summary_navbar_title').removeClass("active-nav-item");
-    $('#obo_mboki_navbar_title').removeClass("active-nav-item");
-    $('#defection_navbar_title').addClass("active-nav-item");
-    $('#congo_navbar_title').removeClass("active-nav-item");
-    $('#resupplying_kony_navbar_title').removeClass("active-nav-item");
+  $('#section_2_title').waypoint(function(direction) {
+    $('#executive_summary_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_1_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_2_sidebar_title').addClass("fixed-sidebar-item-active");
+    $('#section_3_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_4_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_5_sidebar_title').removeClass("fixed-sidebar-item-active");
   });
   
-  $('#congo_title').waypoint(function(direction) {
-    $('#executive_summary_navbar_title').removeClass("active-nav-item");
-    $('#obo_mboki_navbar_title').removeClass("active-nav-item");
-    $('#defection_navbar_title').removeClass("active-nav-item");
-    $('#congo_navbar_title').addClass("active-nav-item");
-    $('#resupplying_kony_navbar_title').removeClass("active-nav-item");
+  $('#section_3_title').waypoint(function(direction) {
+    $('#executive_summary_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_1_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_2_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_3_sidebar_title').addClass("fixed-sidebar-item-active");
+    $('#section_4_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_5_sidebar_title').removeClass("fixed-sidebar-item-active");
   });
   
-  $('#resupplying_kony_title').waypoint(function(direction) {
-    $('#executive_summary_navbar_title').removeClass("active-nav-item");
-    $('#obo_mboki_navbar_title').removeClass("active-nav-item");
-    $('#defection_navbar_title').removeClass("active-nav-item");
-    $('#congo_navbar_title').removeClass("active-nav-item");
-    $('#resupplying_kony_navbar_title').addClass("active-nav-item");
+  $('#section_4_title').waypoint(function(direction) {
+    $('#executive_summary_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_1_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_2_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_3_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_4_sidebar_title').addClass("fixed-sidebar-item-active");
+    $('#section_5_sidebar_title').removeClass("fixed-sidebar-item-active");
+  });
+  
+  $('#section_5_title').waypoint(function(direction) {
+    $('#executive_summary_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_1_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_2_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_3_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_4_sidebar_title').removeClass("fixed-sidebar-item-active");
+    $('#section_5_sidebar_title').addClass("fixed-sidebar-item-active");
   });
 });
 
