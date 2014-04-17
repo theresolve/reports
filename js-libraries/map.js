@@ -186,7 +186,9 @@ function generateMarkers(data, map, options) {
   // Add marker layers to marker cluster
   for (i = 0; i < data.length; i++) {
     if (data[i].latitude && data[i].longitude) {
-      marker = L.circleMarker([data[i].latitude, data[i].longitude], 
+      var latitude_offset = data[i].latitude_offset ? data[i].latitude_offset : 0;
+      var longitude_offset = data[i].longitude_offset ? data[i].longitude_offset : 0;
+      marker = L.circleMarker([Number(data[i].latitude) + Number(latitude_offset), Number(data[i].longitude) + Number(longitude_offset)], 
         { 
           stroke: true,
           color: '#fff',
