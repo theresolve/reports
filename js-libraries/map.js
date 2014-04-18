@@ -125,11 +125,11 @@ function setupAnimation(csv_url, start_date, end_date, map_id, options) {
   $(".map-animate-control").click( function() {
     if (run_animation) {
       run_animation = false;
-      $(".map-animate-control").html("<i class='fa fa-play'></i>");
+      $(".map-animate-control").html("<i class='fa fa-play'></i> Play");
     } else {
       run_animation = true;
       animateMarkers(markers, map_id, options);
-      $(".map-animate-control").html("<i class='fa fa-stop'></i>");
+      $(".map-animate-control").html("<i class='fa fa-stop'></i> Stop");
     };
   });
 };
@@ -176,7 +176,6 @@ function buildMap(options) {
 
   // Build legend
   if (options.legend) {
-    console.log(options.map_id + '_legend')
     map.legendControl.addLegend(document.getElementById(options.map_id + '_legend').innerHTML);
   };
   if (options.animate) {
@@ -195,7 +194,7 @@ function buildMap(options) {
 //todo: build seperate generatemarkers and generatemarkercluster functions
 function generateMarkers(data, map, options) {
   // Set variables
-  var markers, marker, latitude_offset, longitude_offset;
+  var markers, marker, marker_radius, latitude_offset, longitude_offset;
   
   // Build marker cluster layer
   markers = new L.MarkerClusterGroup({maxClusterRadius: 20, spiderfyOnMaxZoom: true});
@@ -221,7 +220,14 @@ function generateMarkers(data, map, options) {
           fillOpacity: 1
         });
       marker.bindPopup(popup(data[i]));
-      marker.setRadius(options.marker_radius);
+      if (data[i].marker_radius) {
+        marker_radius = data[i].marker_radius;
+      } else if (options.marker_radius) {
+        marker_radius = options.marker_radius
+      } else {
+        marker_radius = 1;
+      };
+      marker.setRadius(marker_radius);
       map.addLayer(marker);
     };
   };
