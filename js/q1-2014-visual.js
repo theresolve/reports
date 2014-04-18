@@ -229,7 +229,7 @@ function buildHM() {
     // TRANSLATIONS
     if (language == "fr") {
     } else {
-      x_axis_categories = ['2010','2011','2012','2013','2014'];
+      x_axis_categories = ['Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
       series_name_1 = '# of attacks in Haut Mbomou';
       series_name_2 = '# of abductions in Haut Mbomou';
     };
@@ -277,7 +277,7 @@ function buildHM() {
             enabled: false
           }
         },
-        data: [45, 26, 18, 18, 17]
+        data: [9, 0, 3, 6, 13, 0, 0, 5, 17]
       }, {
         name: series_name_2,
         animation: false,
@@ -286,7 +286,7 @@ function buildHM() {
             enabled: false
           }
         },
-        data: [137, 109, 37, 25, 35]
+        data: [22, 0, 10, 5, 21, 0, 0, 4, 35]
       }]
     });
   }
