@@ -4,22 +4,6 @@ $(window).load(function() {
 
 $(function() {
   
-  bases_map_options = {
-    map_id: "bases_map",
-    lat: 6.008053, 
-    long: 25.531345, 
-    zoom: 8, 
-    marker_radius: 6,
-    csv_url: "/data/haut-mbomou-attacks.csv",
-    animate: false,
-    start_date: null, 
-    end_date: null,
-    legend: true,
-    offset: true,
-    min_offset: -2,
-    max_offset: 2
-  }
-  
   combatant_defections_map_options = {
     map_id: "combatant_defections_map",
     lat: 6.226528, 
@@ -54,9 +38,9 @@ $(function() {
   
   nambia_map_options = {
     map_id: "nambia_map",
-    lat: 3.6797,
-    long: 29.1357, 
-    zoom: 8, 
+    lat: 3.894397793715443,
+    long: 28.2843017578125, 
+    zoom: 9, 
     marker_radius: 4,
     csv_url: "/data/q1-2014-attacks.csv",
     animate: true,
@@ -68,7 +52,6 @@ $(function() {
     max_offset: 3
   }
   
-  buildMap(bases_map_options);
   buildMap(combatant_defections_map_options);
   buildMap(northern_attacks_map_options);
   buildMap(nambia_map_options);
