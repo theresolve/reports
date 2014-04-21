@@ -213,8 +213,8 @@ function buildHM() {
     if (language == "fr") {
     } else {
       x_axis_categories = ['Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
-      series_name_1 = '# of attacks in Haut Mbomou';
-      series_name_2 = '# of abductions in Haut Mbomou';
+      series_name_1 = '# of attacks in Haut Mbomou, CAR';
+      series_name_2 = '# of abductions in Haut Mbomou, CAR';
     };
 
     $('#Q12014_HM').highcharts({
@@ -282,8 +282,8 @@ function buildHU() {
     if (language == "fr") {
     } else {
       x_axis_categories = ['Q1 2011', 'Q2', 'Q3', 'Q4', 'Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
-      series_name_1 = '# of attacks in Haut Uele';
-      series_name_2 = '# of abductions in Haut Uele';
+      series_name_1 = '# of attacks in Haut Uele, Congo';
+      series_name_2 = '# of abductions in Haut Uele, Congo';
     };
 
     $('#Q12014_HU').highcharts({
@@ -351,8 +351,8 @@ function buildCombatant() {
     if (language == "fr") {
     } else {
       x_axis_categories = ['Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
-      series_name_1 = '# of Ugandan combatant returnees';
-      series_name_2 = '# of non-Ugandan returnees';
+      series_name_1 = '# of Ugandan combatant LRA returnees';
+      series_name_2 = '# of women and children LRA returnees';
     };
 
     $('#Q12014_Combatant').highcharts({
@@ -421,8 +421,8 @@ function buildF() {
     if (language == "fr") {
     } else {
       x_axis_categories = ['Q1 2010', 'Q2', 'Q3', 'Q4', 'Q1 2011', 'Q2', 'Q3', 'Q4', 'Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
-      series_name_1 = '# of attacks within 140km of Faradje';
-      series_name_2 = '# of abductions within 140km of Faradje';
+      series_name_1 = '# of attacks on communities surrounding Garamba National Park';
+      series_name_2 = '# of attacks near Garamba National Park';
     };
 
     $('#Q12014_F').highcharts({
