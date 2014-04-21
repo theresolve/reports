@@ -213,8 +213,8 @@ function buildHM() {
     if (language == "fr") {
     } else {
       x_axis_categories = ['Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
-      series_name_1 = '# of attacks in Haut Mbomou, CAR';
-      series_name_2 = '# of abductions in Haut Mbomou, CAR';
+      series_name_1 = '# of LRA attacks in Haut Mbomou, CAR';
+      series_name_2 = '# of LRA abductions in Haut Mbomou, CAR';
     };
 
     $('#Q12014_HM').highcharts({
@@ -282,8 +282,8 @@ function buildHU() {
     if (language == "fr") {
     } else {
       x_axis_categories = ['Q1 2011', 'Q2', 'Q3', 'Q4', 'Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
-      series_name_1 = '# of attacks in Haut Uele, Congo';
-      series_name_2 = '# of abductions in Haut Uele, Congo';
+      series_name_1 = '# of LRA attacks in Haut Uele, Congo';
+      series_name_2 = '# of LRA abductions in Haut Uele, Congo';
     };
 
     $('#Q12014_HU').highcharts({
@@ -421,8 +421,8 @@ function buildF() {
     if (language == "fr") {
     } else {
       x_axis_categories = ['Q1 2010', 'Q2', 'Q3', 'Q4', 'Q1 2011', 'Q2', 'Q3', 'Q4', 'Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
-      series_name_1 = '# of attacks on communities surrounding Garamba National Park';
-      series_name_2 = '# of attacks near Garamba National Park';
+      series_name_1 = '# of LRA attacks near Garamba National Park';
+      series_name_2 = '# of LRA abductions near Garamba National Park';
     };
 
     $('#Q12014_F').highcharts({
