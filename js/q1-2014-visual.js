@@ -282,8 +282,8 @@ function buildHU() {
     if (language == "fr") {
     } else {
       x_axis_categories = ['Q1 2011', 'Q2', 'Q3', 'Q4', 'Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
-      series_name_1 = '# of LRA attacks in the Niangara&ndash;Bangadi area, Congo**';
-      series_name_2 = '# of LRA abductions in the Niangara&ndash;Bangadi area, Congo**';
+      series_name_1 = '# of LRA attacks in the Niangara-Bangadi area, Congo**';
+      series_name_2 = '# of LRA abductions in the Niangara-Bangadi area, Congo**';
     };
 
     $('#Q12014_HU').highcharts({
