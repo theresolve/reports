@@ -215,7 +215,7 @@ function buildES() {
             enabled: false
           }
         },
-        data: [215, 142, 94, 69, 118, 98, 55, 31, 112,  80, 47, 38, 65, 38, 36, 42, 63]
+        data: [215, 142, 94, 69, 118, 98, 55, 31, 112,  80, 47, 38, 65, 38, 36, 42, 62]
       }]
     });
   }
@@ -298,8 +298,8 @@ function buildHU() {
     if (language == "fr") {
     } else {
       x_axis_categories = ['Q1 2011', 'Q2', 'Q3', 'Q4', 'Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
-      series_name_1 = '# of attacks within 45k of Nambia';
-      series_name_2 = '# of abductions within 45k of Nambia';
+      series_name_1 = '# of LRA attacks in Niangara-Bangadi area, Congo**';
+      series_name_2 = '# of LRA abductions in Niangara-Bangadi area, Congo**';
     };
 
     $('#Q12014_HU').highcharts({
@@ -368,7 +368,7 @@ function buildCombatant() {
     } else {
       x_axis_categories = ['Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
       series_name_1 = '# of Ugandan combatant returnees';
-      series_name_2 = '# of non-Ugandan returnees';
+      series_name_2 = '# of women, children, and non-Ugandan men returnees';
     };
 
     $('#Q12014_Combatant').highcharts({
@@ -437,8 +437,8 @@ function buildF() {
     if (language == "fr") {
     } else {
       x_axis_categories = ['Q1 2010', 'Q2', 'Q3', 'Q4', 'Q1 2011', 'Q2', 'Q3', 'Q4', 'Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
-      series_name_1 = '# of attacks within 140km of Faradje';
-      series_name_2 = '# of abductions within 140km of Faradje';
+      series_name_1 = '# of LRA attacks near Garamba National Park, Congo*';
+      series_name_2 = '# of LRA abductions near Garamba National Park, Congo*';
     };
 
     $('#Q12014_F').highcharts({
