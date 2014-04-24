@@ -522,3 +522,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   width: 100%;
   height: 400px;
 }
+
+#northern_attacks_map {
+  height: 600px;
+}

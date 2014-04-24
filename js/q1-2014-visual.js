@@ -22,9 +22,9 @@ $(function() {
   
   northern_attacks_map_options = {
     map_id: "northern_attacks_map",
-    lat: 9.154234,  
-    long: 23.606419,
-    zoom: 7, 
+    lat: 8.526700610450167, 
+    long: 23.236083984374996,
+    zoom: 8, 
     marker_radius: 5,
     csv_url: "/data/northern-attacks.csv",
     animate: false,
