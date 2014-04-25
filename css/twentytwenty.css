@@ -10,12 +10,12 @@
 
 .twentytwenty-horizontal .twentytwenty-handle:before, .twentytwenty-horizontal .twentytwenty-handle:after {
   width: 3px;
-  height: 9999px;
+  height: 300px;
   left: 50%;
   margin-left: -1.5px; }
 
 .twentytwenty-vertical .twentytwenty-handle:before, .twentytwenty-vertical .twentytwenty-handle:after {
-  width: 9999px;
+  width: 395px;
   height: 3px;
   top: 50%;
   margin-top: -1.5px; }
