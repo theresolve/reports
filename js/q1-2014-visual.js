@@ -44,8 +44,8 @@ $(function() {
     marker_radius: 4,
     csv_url: "/data/q1-2014-attacks.csv",
     animate: true,
-    start_date: "1-1-2014",
-    end_date: "3-31-2014",
+    start_date: "1/1/2014",
+    end_date: "3/31/2014",
     legend: true,
     offset: true,
     min_offset: -3,
@@ -157,6 +157,7 @@ function getVisualData() {
     buildHU();
     buildCombatant();
     buildF();
+    buildQ1_Bar();
   });
 };
 
@@ -494,6 +495,85 @@ function buildF() {
           }
         },
         data: [55, 29, 45, 18, 39, 38, 28, 14, 48, 21, 16, 27, 30, 6, 10, 5, 0]
+      }]
+    });
+  }
+};
+
+function buildQ1_Bar() {
+  if ($('#Q12014_Bar').length) {
+
+    // TRANSLATIONS
+    if (language == "fr") {
+    } else {
+      x_axis_categories = ['Q1 2014 Attacks'];
+      series_name_1 = 'LRA';
+      series_name_2 = 'UAG';
+      series_name_3 = 'Mbororo';
+    };
+
+    $('#Q12014_Bar').highcharts({
+      chart: {
+        type: 'column'
+      },
+      tooltip: {
+        formatter: function () {
+          return this.y;
+        }
+      },
+      colors: [dark_blue, light_blue, gray],
+      title: {
+        text: ''
+      },
+      subtitle: {
+        text: ''
+      },
+      xAxis: {
+        categories: x_axis_categories
+      },
+      yAxis: {
+        min: 0,
+        gridLineColor: 'transparent',
+        title: {
+          text: ''
+        }
+      },
+      plotOptions: {
+        column: {
+          pointPadding: 0.2,
+          borderWidth: 0
+        }
+      },
+      credits: {
+        enabled: false
+      },
+      series: [{
+        name: series_name_1,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [24]
+      }, {
+        name: series_name_2,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [9]
+      }, {
+        name: series_name_3,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [7]
       }]
     });
   }

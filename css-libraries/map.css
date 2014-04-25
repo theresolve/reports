@@ -196,8 +196,9 @@ padding: 7px 10px 10px;
 
 .graph-label {
   text-align: center;
-  margin-top: -12px;
+  margin-bottom: 30px;
   color: #555555;
+  font-style: italic;
 }
 
 
@@ -215,7 +216,12 @@ padding: 7px 10px 10px;
 }
 
 .fixed-logo {
-  height: 124px;
+  height: 90px;
   display: block;
-  margin: 57px auto;
+  margin: 5px auto 25px;
+}
+
+.super-page-title {
+  font-size: 29px;
+  font-weight: 300;
 }
