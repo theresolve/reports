@@ -299,8 +299,8 @@ function buildHU() {
     if (language == "fr") {
     } else {
       x_axis_categories = ['Q1 2011', 'Q2', 'Q3', 'Q4', 'Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
-      series_name_1 = '# of LRA attacks in Niangara-Bangadi area, Congo**';
-      series_name_2 = '# of LRA abductions in Niangara-Bangadi area, Congo**';
+      series_name_1 = '# of LRA attacks in Niangara-Bangadi area, Congo';
+      series_name_2 = '# of LRA abductions in Niangara-Bangadi area, Congo';
     };
 
     $('#Q12014_HU').highcharts({
@@ -438,8 +438,8 @@ function buildF() {
     if (language == "fr") {
     } else {
       x_axis_categories = ['Q1 2010', 'Q2', 'Q3', 'Q4', 'Q1 2011', 'Q2', 'Q3', 'Q4', 'Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
-      series_name_1 = '# of LRA attacks near Garamba National Park, Congo*';
-      series_name_2 = '# of LRA abductions near Garamba National Park, Congo*';
+      series_name_1 = '# of LRA attacks near Garamba National Park, Congo';
+      series_name_2 = '# of LRA abductions near Garamba National Park, Congo';
     };
 
     $('#Q12014_F').highcharts({
@@ -506,7 +506,7 @@ function buildQ1_Bar() {
     // TRANSLATIONS
     if (language == "fr") {
     } else {
-      x_axis_categories = ['Attacks in the Niangara-Bangadi area, January-March 2014'];
+      x_axis_categories = ['Attacks in the Niangara-Bangadi area**, January-March 2014'];
       series_name_1 = 'LRA';
       series_name_2 = 'Unidentified armed group';
       series_name_3 = 'Mbororo';
