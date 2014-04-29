@@ -1,46 +1,46 @@
-start_date,country,latitude,longitude,marker_radius,summary,marker_color
-1/13/12,SS,8.4632,24.8018,1,"A Ugandan male of unknown age escaped from the LRA and fled to Boro Medina, S. Sudan. He was abducted 13 years ago and cited radio messages as a reason for escaping.",#2563A3
-5/20/12,CAR,5.298,25.9804,2,"2 Ugandan male LRA combatants peacefully surrendered to security forces along the road just outside of Mboki, CAR. They cited the capture of Caesar Achellam as their reason for turning themselves in.",#2563A3
-6/11/12,DRC,4.136,27.9,1,"A 34-year-old Ugandan LRA combatant peacefully surrendered in Bangadi, DRC, after reportedly spending 17 years in captivity. He reported that he was authorized to speak on FM radio to encourage the surrender of other LRA forces.",#2563A3
-6/26/12,CAR,5.31549,25.95709,1,"Caesar Achellam's bodyguard, an LRA lieutenant, defected near Mboki, CAR along with 5 other LRA officers. Achellam's bodyguard reportedly left the LRA because of threats on his life from fellow members who accused him of allowing Achellam to be captured.",#2563A3
-8/29/12,CAR,5.31549,25.95709,1,"An LRA officer peacefully surrendered to the local police force in Mboki, CAR, citing hunger and defection messages as his reasons for leaving.",#2563A3
-10/15/12,CAR,5.1106,24.4679,1,"An 18-year-old Congolese woman and a 19-year-old Ugandan man escaped from the LRA and fled to Dembia, CAR. They defected because they heard helicopter loudspeaker messages.",#2563A3
-10/23/12,CAR,5.43122,26.44059,1,"A 33-year-old Ugandan man and LRA combatant peacefully surrendered in Gougbéré, CAR. He came out of the bush after being found by a hunter, and was carrying a defection flier. He had been in captivity for 17 years.",#2563A3
-10/23/12,CAR,6.0411,25.3138,1,"2 people escaped from the LRA and fled to Djemah, CAR. They cited seeing defection fliers and hearing helicopter loudspeaker messages during their time with the LRA.",#2563A3
-11/2/12,CAR,6.0411,25.3138,1,A group of LRA clashed with security forces in the Djemah region in CAR. During the clash a Ugandan LRA sergeant and another soldier defected from the LRA.,#2563A3
-11/13/12,CAR,5.3499,26.9318,1,"Ugandan LRA officer 2nd Lieutenant Oloya, defected near Balia, CAR, which is near the South Sudan border.",#2563A3
-11/28/12,CAR,5.31549,25.95709,2,"5 people, 2 men and 3 girls, defected from the LRA and surrendered in Mboki, CAR. They reported having seen defection fliers while in the bush.",#2563A3
-12/6/12,CAR,5.7789,24.8519,1,"On December 6th, 2012, a Ugandan LRA combatant defected near Derbissaka, CAR. He cited defection fliers as a reason for his escape.",#2563A3
-12/25/12,CAR,5.31549,25.95709,1,"An LRA 1st Lieutenant of Ugandan nationality defected on Christmas Day at Mboki, CAR. He cited seeing defection fliers and hearing helicopter loudspeaker messages during his time with the LRA. He was in the LRA for 16 years.",#2563A3
-2/20/13,CAR,4.99573,23.87192,1,"An LRA combatant and a ""wife"" of an LRA member still in the bush, defected at Agoumar, CAR, when they came across a local pastor. The ""wife"" was originally abducted from Faradje, DRC.",#802317
-4/10/13,CAR,5.02412,24.24113,3,"Three Ugandan LRA combatants defected at Kpiamou, CAR. They were accompanied by two Congolese women and a young Central African girl.",#802317
-4/26/13,CAR,5.3948,26.49259,4,"Four Ugandan LRA fighters defected in Obo, CAR. Two combatants defected in the morning, and another defected in the afternoon and then led security forces to the fourth man.",#802317
-4/27/13,DRC,3.7186,29.5345,1,A Ugandan LRA combatant surrendered to security forces at a checkpoint near Congo's Garamba National Park.,#802317
-8/21/13,DRC,3.72723,29.70978,1,An armed 25-year-old Ugandan LRA soldier defected to security forces 15 km west of Faradje.,#802317
-12/6/13,CAR,5.0816,24.9588,6,"19 LRA forces including Lt. Col. Okello Okuti and 8 other men, 4 women, and 6 children surrendered peacefully to a fisherman along a river near Tabane, CAR. The fisherman notified the IC EWN who notified security forces who escorted the group to Obo.",#802317
-1/10/14,CAR,6.0411,25.3138,1,"A 38-year-old male LRA combatant who had spent 20 years in captivity defected on the bank of the Ngouangoua river in Djemah, CAR, after having walked 6 days in the bush. He reported listening to radio defection broadcasts.",#802317
-2/9/14,CAR,5.3817,25.9513,1,"After hearing defection messaging over helicopter speakers, 4 Ugandan LRA elements defected to security forces. The defectors are composed of a 25-year-old man, a 24 and a 22-year-old woman and a 6-year-old boy. They had been in captivity for 12 years.",#802317
-2/21/14,CAR,5.984,24.206,1,"Two Ugandans, one man and one woman, defected in the Chinko Basin area of CAR. They had escaped with 3 other civilians from their LRA group about a year ago. Their group was reportedly commanded by 2nd Lt. Richard and was composed of 34 members.",#802317
-3/10/14,CAR,6.137611,22.864256,1,"1 Ugandan man, 1 Ugandan woman, 3 children and 1 Central African boy defected from the LRA near Nzako, CAR. The boy reported recognizing previous defectors pictured on fliers. The group also listened to shortwave radio Come Home messaging.",#802317
-3/30/14,CAR,6.137611,22.864256,1,"A male Ugandan LRA combattant reportedly defected near Nzako, CAR, with a gun and 20 rounds of ammunition.",#802317
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
+start_date,country,latitude,longitude,num_returnees,summary,marker_color,marker_radius
+12/6/13,CAR,5.0816,24.9588,6,"19 LRA forces including Lt. Col. Okello Okuti and 8 other men, 4 women, and 6 children surrendered peacefully to a fisherman along a river near Tabane, CAR. The fisherman notified the IC EWN who notified security forces who escorted the group to Obo.",#2563A6,18
+4/26/13,CAR,5.3948,26.49259,4,"Four Ugandan LRA fighters defected in Obo, CAR. Two combatants defected in the morning, and another defected in the afternoon and then led security forces to the fourth man.",#2563A6,12
+4/10/13,CAR,5.02412,24.24113,3,"Three Ugandan LRA combatants defected at Kpiamou, CAR. They were accompanied by two Congolese women and a young Central African girl.",#2563A6,9
+5/20/12,CAR,5.298,25.9804,2,"2 Ugandan male LRA combatants peacefully surrendered to security forces along the road just outside of Mboki, CAR. They cited the capture of Caesar Achellam as their reason for turning themselves in.",#4B4B4B,6
+11/28/12,CAR,5.31549,25.95709,2,"5 people, 2 men and 3 girls, defected from the LRA and surrendered in Mboki, CAR. They reported having seen defection fliers while in the bush.",#4B4B4B,6
+1/13/12,SS,8.4632,24.8018,1,"A Ugandan male of unknown age escaped from the LRA and fled to Boro Medina, S. Sudan. He was abducted 13 years ago and cited radio messages as a reason for escaping.",#4B4B4B,3
+6/11/12,DRC,4.136,27.9,1,"A 34-year-old Ugandan LRA combatant peacefully surrendered in Bangadi, DRC, after reportedly spending 17 years in captivity. He reported that he was authorized to speak on FM radio to encourage the surrender of other LRA forces.",#4B4B4B,3
+6/26/12,CAR,5.31549,25.95709,1,"Caesar Achellam's bodyguard, an LRA lieutenant, defected near Mboki, CAR along with 5 other LRA officers. Achellam's bodyguard reportedly left the LRA because of threats on his life from fellow members who accused him of allowing Achellam to be captured.",#4B4B4B,3
+8/29/12,CAR,5.31549,25.95709,1,"An LRA officer peacefully surrendered to the local police force in Mboki, CAR, citing hunger and defection messages as his reasons for leaving.",#4B4B4B,3
+10/15/12,CAR,5.1106,24.4679,1,"An 18-year-old Congolese woman and a 19-year-old Ugandan man escaped from the LRA and fled to Dembia, CAR. They defected because they heard helicopter loudspeaker messages.",#4B4B4B,3
+10/23/12,CAR,5.43122,26.44059,1,"A 33-year-old Ugandan man and LRA combatant peacefully surrendered in Gougbéré, CAR. He came out of the bush after being found by a hunter, and was carrying a defection flier. He had been in captivity for 17 years.",#4B4B4B,3
+10/23/12,CAR,6.0411,25.3138,1,"2 people escaped from the LRA and fled to Djemah, CAR. They cited seeing defection fliers and hearing helicopter loudspeaker messages during their time with the LRA.",#4B4B4B,3
+11/2/12,CAR,6.0411,25.3138,1,A group of LRA clashed with security forces in the Djemah region in CAR. During the clash a Ugandan LRA sergeant and another soldier defected from the LRA.,#4B4B4B,3
+11/13/12,CAR,5.3499,26.9318,1,"Ugandan LRA officer 2nd Lieutenant Oloya, defected near Balia, CAR, which is near the South Sudan border.",#4B4B4B,3
+12/6/12,CAR,5.7789,24.8519,1,"On December 6th, 2012, a Ugandan LRA combatant defected near Derbissaka, CAR. He cited defection fliers as a reason for his escape.",#4B4B4B,3
+12/25/12,CAR,5.31549,25.95709,1,"An LRA 1st Lieutenant of Ugandan nationality defected on Christmas Day at Mboki, CAR. He cited seeing defection fliers and hearing helicopter loudspeaker messages during his time with the LRA. He was in the LRA for 16 years.",#4B4B4B,3
+2/20/13,CAR,4.99573,23.87192,1,"An LRA combatant and a ""wife"" of an LRA member still in the bush, defected at Agoumar, CAR, when they came across a local pastor. The ""wife"" was originally abducted from Faradje, DRC.",#2563A6,3
+4/27/13,DRC,3.7186,29.5345,1,A Ugandan LRA combatant surrendered to security forces at a checkpoint near Congo's Garamba National Park.,#2563A6,3
+8/21/13,DRC,3.72723,29.70978,1,An armed 25-year-old Ugandan LRA soldier defected to security forces 15 km west of Faradje.,#2563A6,3
+1/10/14,CAR,6.0411,25.3138,1,"A 38-year-old male LRA combatant who had spent 20 years in captivity defected on the bank of the Ngouangoua river in Djemah, CAR, after having walked 6 days in the bush. He reported listening to radio defection broadcasts.",#802315,3
+2/9/14,CAR,5.3817,25.9513,1,"After hearing defection messaging over helicopter speakers, 4 Ugandan LRA elements defected to security forces. The defectors are composed of a 25-year-old man, a 24 and a 22-year-old woman and a 6-year-old boy. They had been in captivity for 12 years.",#802315,3
+2/21/14,CAR,5.984,24.206,1,"Two Ugandans, one man and one woman, defected in the Chinko Basin area of CAR. They had escaped with 3 other civilians from their LRA group about a year ago. Their group was reportedly commanded by 2nd Lt. Richard and was composed of 34 members.",#802315,3
+3/10/14,CAR,6.137611,22.864256,1,"1 Ugandan man, 1 Ugandan woman, 3 children and 1 Central African boy defected from the LRA near Nzako, CAR. The boy reported recognizing previous defectors pictured on fliers. The group also listened to shortwave radio Come Home messaging.",#802315,3
+3/30/14,CAR,6.137611,22.864256,1,"A male Ugandan LRA combattant reportedly defected near Nzako, CAR, with a gun and 20 rounds of ammunition.",#802315,3
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
