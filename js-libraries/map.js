@@ -23,19 +23,25 @@ function getDates(start_date, stop_date) {
 function groupByDate(data) {
   var grouped_data = {};
   for (var i = 0; i < data.length; i++) {
-    start_date = new Date(data[i].start_date);  
+    start_date = new Date(data[i].start_date);
     if (grouped_data[start_date] == null) {
+      console.log(start_date)
       grouped_data[start_date] = [data[i]]; // Create group
+      console.log(grouped_data[start_date])
     } else {
       grouped_data[start_date].push(data[i]); // Add to existing group
     };
   };
+  console.log(grouped_data)
+  // dates are not lining up
   return grouped_data;
 };
 
-// Insert data into the date array  
+// Insert data into the date array
 function combineDateArrayGroupedData(date_array, grouped_data) {
   var markers = {}
+  // console.log(grouped_data)
+  // console.log(date_array)
   for (var i = 0; i < date_array.length; i++) {
     if (grouped_data[date_array[i]] == null) {
       markers[date_array[i]] = "Zero records";
@@ -63,7 +69,7 @@ function animateMarkers(data, map_id, options) {
   var x = 0;
   // Add marker layers to marker cluster
   function animate() {
-    
+
     if (data[x][1] != "Zero records" && data[x][1] != undefined) {
       for (var i = 0; i < data[x][1].length; i++) {
         reports = data[x][1];
@@ -71,13 +77,13 @@ function animateMarkers(data, map_id, options) {
           var latitude = Number(reports[i].latitude);
           var longitude = Number(reports[i].longitude);
           var coordinates = [latitude, longitude];
-          
+
           if (options.offset) {
             coordinates = offset_coordinates(latitude, longitude, options.max_offset, options.min_offset);
           }
-          
-          marker = L.circleMarker(coordinates, 
-            { 
+
+          marker = L.circleMarker(coordinates,
+            {
               stroke: true,
               color: '#fff',
               weight: 2,
@@ -88,12 +94,12 @@ function animateMarkers(data, map_id, options) {
             });
           marker.setRadius(6);
           marker_group.addLayer(marker);
-          
+
           map_id.addLayer(marker_group);
         };
       };
     };
-    
+
     $(".map-date").html(formatDate(data[x][0]))
     if (x++ < data.length) {
       if (run_animation == true) {
@@ -109,18 +115,18 @@ function setupAnimation(csv_url, start_date, end_date, map_id, options) {
   var markers = {};
   $.get(csv_url, function(data) {
     data = $.csv.toObjects(data);
-    
-    // Generate all dates between beginning and end of data     
+
+    // Generate all dates between beginning and end of data
     var date_array = getDates(new Date(start_date), new Date(end_date));
-    
+
     // Group data by date
     var grouped_data = groupByDate(data);
-    
-    // combineDateArrayGroupedData  
+
+    // combineDateArrayGroupedData
     markers = combineDateArrayGroupedData(date_array, grouped_data);
-    
+
     markers = convertToArray(markers)
-    
+
   });
   $(".map-animate-control").click( function() {
     if (run_animation) {
@@ -139,7 +145,7 @@ var month_names = ["January", "February", "March", "April", "May", "June", "July
 var basemap_id = 'ktransier.map-xya6pg28';
 
 // Helper functions
-function popup(point) {  
+function popup(point) {
   var url = "";
   var start_date = "";
   var summary = "";
@@ -183,11 +189,11 @@ function buildMap(options) {
   } else if (!options.animate && options.csv_url) {
     $.get(options.csv_url, function(data) {
       data = $.csv.toObjects(data);
-      generateMarkers(data, map, options)    
+      generateMarkers(data, map, options)
     });
   } else {
   };
-  
+
   $('.mapbox-control-info').addClass('hide');
 };
 
@@ -195,7 +201,7 @@ function buildMap(options) {
 function generateMarkers(data, map, options) {
   // Set variables
   var markers, marker, marker_radius, latitude_offset, longitude_offset;
-  
+
   // Build marker cluster layer
   markers = new L.MarkerClusterGroup({maxClusterRadius: 20, spiderfyOnMaxZoom: true});
   // Add marker layers to marker cluster
@@ -204,13 +210,13 @@ function generateMarkers(data, map, options) {
       var latitude = Number(data[i].latitude);
       var longitude = Number(data[i].longitude);
       var coordinates = [latitude, longitude];
-      
+
       if (options.offset) {
         coordinates = offset_coordinates(latitude, longitude, options.max_offset, options.min_offset);
       }
-      
-      marker = L.circleMarker(coordinates, 
-        { 
+
+      marker = L.circleMarker(coordinates,
+        {
           stroke: true,
           color: '#fff',
           weight: 2,
@@ -231,7 +237,7 @@ function generateMarkers(data, map, options) {
       map.addLayer(marker);
     };
   };
-  
+
   // Add marker cluster to basemap
   // map.addLayer(markers);
 }
