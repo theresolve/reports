@@ -216,7 +216,7 @@ function buildES() {
             enabled: false
           }
         },
-        data: [215, 142, 94, 69, 118, 98, 55, 31, 112,  80, 47, 38, 65, 38, 36, 42, 62]
+        data: [215, 142, 94, 69, 118, 98, 55, 31, 112,  80, 47, 38, 65, 38, 36, 42, 61]
       }]
     });
   }
@@ -299,8 +299,8 @@ function buildHU() {
     if (language == "fr") {
     } else {
       x_axis_categories = ['Q1 2011', 'Q2', 'Q3', 'Q4', 'Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
-      series_name_1 = '# of LRA attacks in Niangara-Bangadi area, Congo**';
-      series_name_2 = '# of LRA abductions in Niangara-Bangadi area, Congo**';
+      series_name_1 = '# of LRA attacks in the Niangara-Bangadi area, Congo';
+      series_name_2 = '# of LRA abductions in the Niangara-Bangadi area, Congo';
     };
 
     $('#Q12014_HU').highcharts({
@@ -346,7 +346,7 @@ function buildHU() {
             enabled: false
           }
         },
-        data: [5, 13, 10, 8, 17, 23, 1, 7, 7, 5, 6, 4, 24]
+        data: [5, 13, 10, 8, 17, 23, 1, 7, 7, 5, 6, 4, 23]
       }, {
         name: series_name_2,
         animation: false,
@@ -438,8 +438,8 @@ function buildF() {
     if (language == "fr") {
     } else {
       x_axis_categories = ['Q1 2010', 'Q2', 'Q3', 'Q4', 'Q1 2011', 'Q2', 'Q3', 'Q4', 'Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
-      series_name_1 = '# of LRA attacks near Garamba National Park, Congo*';
-      series_name_2 = '# of LRA abductions near Garamba National Park, Congo*';
+      series_name_1 = '# of LRA attacks near Garamba National Park, Congo';
+      series_name_2 = '# of LRA abductions near Garamba National Park, Congo';
     };
 
     $('#Q12014_F').highcharts({
@@ -506,9 +506,9 @@ function buildQ1_Bar() {
     // TRANSLATIONS
     if (language == "fr") {
     } else {
-      x_axis_categories = ['Q1 2014 Attacks'];
+      x_axis_categories = ['Attacks in the Niangara-Bangadi area**, January-March 2014'];
       series_name_1 = 'LRA';
-      series_name_2 = 'UAG';
+      series_name_2 = 'Unidentified armed group';
       series_name_3 = 'Mbororo';
     };
 
@@ -555,7 +555,7 @@ function buildQ1_Bar() {
             enabled: false
           }
         },
-        data: [24]
+        data: [23]
       }, {
         name: series_name_2,
         animation: false,
@@ -564,7 +564,7 @@ function buildQ1_Bar() {
             enabled: false
           }
         },
-        data: [9]
+        data: [10]
       }, {
         name: series_name_3,
         animation: false,
