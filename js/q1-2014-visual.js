@@ -564,7 +564,7 @@ function buildQ1_Bar() {
             enabled: false
           }
         },
-        data: [10]
+        data: [6]
       }, {
         name: series_name_3,
         animation: false,
@@ -573,7 +573,7 @@ function buildQ1_Bar() {
             enabled: false
           }
         },
-        data: [7]
+        data: [6]
       }]
     });
   }
