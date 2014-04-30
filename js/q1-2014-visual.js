@@ -230,8 +230,8 @@ function buildHM() {
     if (language == "fr") {
     } else {
       x_axis_categories = ['Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
-      series_name_1 = '# of attacks in Haut Mbomou';
-      series_name_2 = '# of abductions in Haut Mbomou';
+      series_name_1 = '# of LRA attacks in Haut Mbomou';
+      series_name_2 = '# of LRA abductions in Haut Mbomou';
     };
 
     $('#Q12014_HM').highcharts({
@@ -368,8 +368,8 @@ function buildCombatant() {
     if (language == "fr") {
     } else {
       x_axis_categories = ['Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
-      series_name_1 = '# of Ugandan combatant returnees';
-      series_name_2 = '# of women, children, and non-Ugandan men returnees';
+      series_name_1 = '# of Ugandan combatant returnees from the LRA';
+      series_name_2 = '# of women, children, and non-Ugandan men returnees from the LRA';
     };
 
     $('#Q12014_Combatant').highcharts({
