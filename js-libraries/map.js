@@ -1,6 +1,14 @@
 marker_group = null;
 run_animation = false;
 
+function formatDate(date) {
+  var date = new Date(date);
+  var month = month_names[date.getMonth()];
+  var day = date.getDate();
+  var year = date.getFullYear();
+  return month + " " + day + ", " + year;
+};
+
 // Add days to dates
 Date.prototype.addDays = function(days) {
   var new_date = new Date(this.valueOf())
@@ -13,7 +21,7 @@ function getDates(start_date, stop_date) {
   var date_array = new Array();
   var current_date = start_date;
   while (current_date <= stop_date) {
-    date_array.push( new Date (current_date) )
+    date_array.push( formatDate(new Date (current_date)) )
     current_date = current_date.addDays(1);
   }
   return date_array;
@@ -25,11 +33,11 @@ function groupByDate(data) {
   for (var i = 0; i < data.length; i++) {
     start_date = new Date(data[i].start_date);
     if (grouped_data[start_date] == null) {
-      console.log(start_date)
-      grouped_data[start_date] = [data[i]]; // Create group
-      console.log(grouped_data[start_date])
+      console.log(formatDate(start_date))
+      grouped_data[formatDate(start_date)] = [data[i]]; // Create group
+      console.log(grouped_data[formatDate(start_date)])
     } else {
-      grouped_data[start_date].push(data[i]); // Add to existing group
+      grouped_data[formatDate(start_date)].push(data[i]); // Add to existing group
     };
   };
   console.log(grouped_data)
@@ -154,14 +162,6 @@ function popup(point) {
   if (point.summary) { summary = "<p class=map-popup-summary>" + point.summary + "</p>"};
   return url + start_date + summary;
 }
-
-function formatDate(date) {
-  var date = new Date(date);
-  var month = month_names[date.getMonth()];
-  var day = date.getDate();
-  var year = date.getFullYear();
-  return month + " " + day + ", " + year;
-};
 
 function offset_coordinates(latitude, longitude, min_offset, max_offset){
   min_offset = min_offset / 111.32;
