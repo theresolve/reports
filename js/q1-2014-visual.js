@@ -415,7 +415,7 @@ function buildCombatant() {
             enabled: false
           }
         },
-        data: [1, 9,1,6,4]
+        data: [1,9,1,6,5]
 
       }, {
         name: series_name_2,
