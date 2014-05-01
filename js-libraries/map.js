@@ -164,10 +164,10 @@ function popup(point) {
 }
 
 function offset_coordinates(latitude, longitude, min_offset, max_offset){
-  min_offset = min_offset / 111.32;
-  max_offset = max_offset / 111.32;
-  latitude = latitude + Math.random() * (max_offset - min_offset) + min_offset;
-  longitude = longitude + Math.random() * (max_offset - min_offset) + min_offset;
+  // min_offset = min_offset / 111.32;
+  // max_offset = max_offset / 111.32;
+  // latitude = latitude + Math.random() * (max_offset - min_offset) + min_offset;
+  // longitude = longitude + Math.random() * (max_offset - min_offset) + min_offset;
   return [latitude, longitude];
 }
 

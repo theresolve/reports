@@ -48,8 +48,8 @@ $(function() {
     end_date: "3/31/2014",
     legend: true,
     offset: true,
-    min_offset: -3,
-    max_offset: 3
+    min_offset: -2,
+    max_offset: 2
   }
 
   buildMap(combatant_defections_map_options);
