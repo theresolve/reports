@@ -166,6 +166,8 @@ function buildES() {
 
     // TRANSLATIONS
     if (language == "fr") {
+      x_axis_categories = ['T1 2010', 'T2', 'T3', 'T4', 'T1 2011', 'T2', 'T3', 'T4', 'T1 2012', 'T2', 'T3', 'T4', 'T1 2013', 'T2', 'T3', 'T4', 'T1 2014'];
+      series_name_1 = 'Attaques de la LRA par trimestre, 2010-2014';
     } else {
       x_axis_categories = ['Q1 2010', 'Q2', 'Q3', 'Q4', 'Q1 2011', 'Q2', 'Q3', 'Q4', 'Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
       series_name_1 = '# of total LRA attacks';
@@ -228,6 +230,9 @@ function buildHM() {
 
     // TRANSLATIONS
     if (language == "fr") {
+      x_axis_categories = ['T1 2012', 'T2', 'T3', 'T4', 'T1 2013', 'T2', 'T3', 'T4', 'T1 2014'];
+      series_name_1 = "Nombre d'attaques de la LRA dans le Haut Mbomou";
+      series_name_2 = "Nombre d'enlèvements de la LRA dans le Haut Mbomou";
     } else {
       x_axis_categories = ['Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
       series_name_1 = '# of LRA attacks in Haut Mbomou';
@@ -297,6 +302,9 @@ function buildHU() {
 
     // TRANSLATIONS
     if (language == "fr") {
+      x_axis_categories = ['T1 2011', 'T2', 'T3', 'T4', 'T1 2012', 'T2', 'T3', 'T4', 'T1 2013', 'T2', 'T3', 'T4', 'T1 2014'];
+      series_name_1 = "Nombre d'attaques de la LRA dans la région de Niangara-Bangadi, Congo";
+      series_name_2 = "Nombre d'enlèvements de la LRA dans la région de Niangara-Bangadi, Congo";
     } else {
       x_axis_categories = ['Q1 2011', 'Q2', 'Q3', 'Q4', 'Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
       series_name_1 = '# of LRA attacks in the Niangara-Bangadi area, Congo';
@@ -366,6 +374,9 @@ function buildCombatant() {
 
     // TRANSLATIONS
     if (language == "fr") {
+      x_axis_categories = ['T1 2013', 'T2', 'T3', 'T4', 'T1 2014'];
+      series_name_1 = "Nombre de rapatriés combattants Ougandais de la LRA";
+      series_name_2 = "Nombre de femmes, enfants, et hommes non-Ougandais rapatriés de la LRA";
     } else {
       x_axis_categories = ['Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
       series_name_1 = '# of Ugandan combatant returnees from the LRA';
@@ -436,6 +447,9 @@ function buildF() {
 
     // TRANSLATIONS
     if (language == "fr") {
+      x_axis_categories = ['T1 2011', 'T2', 'T3', 'T4', 'T1 2012', 'T2', 'T3', 'T4', 'T1 2013', 'T2', 'T3', 'T4', 'T1 2014'];
+      series_name_1 = "Nombre d'attaques de la LRA près du Parc national de la Garamba, Congo";
+      series_name_2 = "Nombre d'enlèvements de la LRA près du Parc national de la Garamba, Congo";
     } else {
       x_axis_categories = ['Q1 2010', 'Q2', 'Q3', 'Q4', 'Q1 2011', 'Q2', 'Q3', 'Q4', 'Q1 2012', 'Q2', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014'];
       series_name_1 = '# of LRA attacks near Garamba National Park, Congo';
@@ -505,6 +519,10 @@ function buildQ1_Bar() {
 
     // TRANSLATIONS
     if (language == "fr") {
+      x_axis_categories = ['Attaques dans la région de Niangara-Bangadi **, Janvier-Mars 2014'];
+      series_name_1 = 'LRA';
+      series_name_2 = 'Groupe armé non identifié';
+      series_name_3 = 'Mbororo';
     } else {
       x_axis_categories = ['Attacks in the Niangara-Bangadi area**, January-March 2014'];
       series_name_1 = 'LRA';
