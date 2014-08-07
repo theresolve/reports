@@ -153,7 +153,7 @@ function buildES() {
             enabled: false
           }
         },
-        data: [215, 142, 94, 69, 118, 98, 55, 31, 112,]
+        data: [80, 142, 94, 69, 118, 98, 55, 31, 112,]
       }, {
         name: series_name_2,
         animation: false,
@@ -162,7 +162,7 @@ function buildES() {
             enabled: false
           }
         },
-        data: [215, 142, 94, 69, 118, 98, 55, 31, 112]
+        data: [118, 142, 94, 69, 118, 98, 55, 31, 112]
       }]
     });
   }
