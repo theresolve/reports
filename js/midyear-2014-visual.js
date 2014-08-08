@@ -105,7 +105,7 @@ function buildES() {
       x_axis_categories = ['T1 2010', 'T2', 'T3', 'T4', 'T1 2011', 'T2', 'T3', 'T4', 'T1 2012', 'T2', 'T3', 'T4', 'T1 2013', 'T2', 'T3', 'T4', 'T1 2014'];
       series_name_1 = 'Attaques de la LRA par trimestre, 2010-2014';
     } else {
-      x_axis_categories = ['January-June 2009', 'Jan-June 2010', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014', 'Q2'];
+      x_axis_categories = ['January-June 2009', 'January-June 2010', 'January-June 2011', 'January-June 2012', 'January-June 2013', 'January-June 2014', 'Delete', 'Delete', 'Delete'];
       series_name_1 = '# of total LRA attacks';
       series_name_2 = '# of total LRA abductions';
     };
