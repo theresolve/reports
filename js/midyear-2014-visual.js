@@ -105,7 +105,7 @@ function buildES() {
       x_axis_categories = ['T1 2010', 'T2', 'T3', 'T4', 'T1 2011', 'T2', 'T3', 'T4', 'T1 2012', 'T2', 'T3', 'T4', 'T1 2013', 'T2', 'T3', 'T4', 'T1 2014'];
       series_name_1 = 'Attaques de la LRA par trimestre, 2010-2014';
     } else {
-      x_axis_categories = ['January-June 2009', 'January-June 2010', 'January-June 2011', 'January-June 2012', 'January-June 2013', 'January-June 2014', 'Delete', 'Delete', 'Delete'];
+      x_axis_categories = ['January-June 2009', 'January-June 2010', 'January-June 2011', 'January-June 2012', 'January-June 2013', 'January-June 2014',];
       series_name_1 = '# of total LRA attacks';
       series_name_2 = '# of total LRA abductions';
     };
@@ -153,7 +153,7 @@ function buildES() {
             enabled: false
           }
         },
-        data: [91, 352, 214, 192, 103, 117, 42, 60, 57,]
+        data: [91, 352, 214, 192, 103, 117,]
       }, {
         name: series_name_2,
         animation: false,
@@ -162,7 +162,7 @@ function buildES() {
             enabled: false
           }
         },
-        data: [499, 988, 500, 316, 218, 328, 182, 144, 184]
+        data: [499, 988, 500, 316, 218, 328]
       }]
     });
   }
