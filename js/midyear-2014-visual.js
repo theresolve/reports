@@ -158,7 +158,7 @@ function buildES() {
             enabled: false
           }
         },
-        data: [91, 352, 214, 192, 103, 117,]
+        data: [91, 352, 214, 192, 103, 119,]
       }, {
         name: series_name_2,
         animation: false,
@@ -167,7 +167,7 @@ function buildES() {
             enabled: false
           }
         },
-        data: [499, 988, 500, 316, 218, 328]
+        data: [499, 988, 500, 316, 218, 329]
       }]
     });
   }
@@ -229,7 +229,7 @@ function buildCongo() {
             enabled: false
           }
         },
-        data: [91, 352, 214, 192, 103, 117,]
+        data: [36, 195, 134, 140, 57, 73,]
       }, {
         name: series_name_2,
         animation: false,
@@ -238,7 +238,7 @@ function buildCongo() {
             enabled: false
           }
         },
-        data: [499, 988, 500, 316, 218, 328]
+        data: [182, 318, 226, 189, 62, 127]
       }]
     });
   }
@@ -256,7 +256,7 @@ function buildHM() {
       series_name_1 = "Nombre d'attaques de la LRA dans le Haut Mbomou";
       series_name_2 = "Nombre d'enlèvements de la LRA dans le Haut Mbomou";
     } else {
-      x_axis_categories = ['Q2 2012', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014', 'Q2'];
+      x_axis_categories = ['Q1 2012', 'Q2 2012', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014', 'Q2'];
       series_name_1 = '# of LRA attacks';
       series_name_2 = '# of UAG attacks';
       series_name_3 = '# of attacks by other armed groups';
@@ -306,7 +306,7 @@ function buildHM() {
             enabled: false
           }
         },
-        data: [9, 0, 3, 6, 13, 0, 0, 5, 17]
+        data: [80, 57, 36, 19, 37, 19, 29, 21, 32, 38]
       }, {
         name: series_name_2,
         animation: false,
@@ -315,7 +315,7 @@ function buildHM() {
             enabled: false
           }
         },
-        data: [22, 0, 10, 5, 21, 0, 0, 35, 56]
+        data: [37, 9, 6, 8, 16, 10, 7, 7, 8, 31]
       }, {
         name: series_name_3,
         animation: false,
@@ -324,7 +324,7 @@ function buildHM() {
             enabled: false
           }
         },
-        data: [22, 0, 10, 5, 21, 0, 0, 4, 35]
+        data: [0, 1, 2, 0, 3, 1, 2, 4, 6, 6]
       }, {
         name: series_name_4,
         animation: false,
@@ -333,7 +333,7 @@ function buildHM() {
             enabled: false
           }
         },
-        data: [22, 0, 10, 5, 21, 0, 0, 4, 10]
+        data: [117, 67, 44, 27, 56, 30, 38, 32, 46, 75]
       }]
     });
   }
