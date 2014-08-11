@@ -412,6 +412,13 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   color: white;
 }
 
+.map-legend-circle-marker {
+  height: 20px;
+  width: 20px;
+  background: #2b559d;
+  border-radius: 10px;
+}
+
 /* line 392, /Users/kennethtransier/Dropbox/code/reports/css/main.scss */
 .map-legend-marker-double {
   background: #2b559d;

@@ -1,3 +1,7 @@
+$(window).load(function() {
+  $("#twentytwentycontainer").twentytwenty();
+});
+
 $(function() {
 
   $('#executive_summary_sidebar_title').addClass("fixed-sidebar-item-active");
@@ -91,6 +95,7 @@ function getVisualData() {
 
     buildES();
     buildHM();
+    buildCongo();
   });
 };
 
@@ -167,6 +172,79 @@ function buildES() {
     });
   }
 };
+
+function buildCongo() {
+  if ($('#MY2014_CONGO').length) {
+
+    // TRANSLATIONS
+    if (language == "fr") {
+      x_axis_categories = ['T1 2010', 'T2', 'T3', 'T4', 'T1 2011', 'T2', 'T3', 'T4', 'T1 2012', 'T2', 'T3', 'T4', 'T1 2013', 'T2', 'T3', 'T4', 'T1 2014'];
+      series_name_1 = 'Attaques de la LRA par trimestre, 2010-2014';
+    } else {
+      x_axis_categories = ['January-June 2009', 'January-June 2010', 'January-June 2011', 'January-June 2012', 'January-June 2013', 'January-June 2014',];
+      series_name_1 = '# of total LRA attacks';
+      series_name_2 = '# of total LRA abductions';
+    };
+
+    $('#MY2014_CONGO').highcharts({
+      chart: {
+        type: 'column'
+      },
+      tooltip: {
+        formatter: function () {
+          return this.y;
+        }
+      },
+      colors: [dark_blue, blue, blue, blue],
+      title: {
+        text: ''
+      },
+      subtitle: {
+        text: ''
+      },
+      xAxis: {
+        categories: x_axis_categories
+      },
+      yAxis: {
+        min: 0,
+        gridLineColor: 'transparent',
+        title: {
+          text: ''
+        }
+      },
+      plotOptions: {
+        column: {
+          pointPadding: 0.2,
+          borderWidth: 0
+        }
+      },
+      credits: {
+        enabled: false
+      },
+      series: [{
+        name: series_name_1,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [91, 352, 214, 192, 103, 117,]
+      }, {
+        name: series_name_2,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [499, 988, 500, 316, 218, 328]
+      }]
+    });
+  }
+};
+
+MY2014_CONGO
 
 
 function buildHM() {
