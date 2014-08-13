@@ -306,7 +306,7 @@ function buildHM() {
             enabled: false
           }
         },
-        data: [80, 57, 36, 19, 37, 19, 29, 21, 32, 38]
+        data: [82, 58, 37, 20, 37, 20, 31, 21, 35, 38]
       }, {
         name: series_name_2,
         animation: false,
@@ -315,7 +315,7 @@ function buildHM() {
             enabled: false
           }
         },
-        data: [37, 9, 6, 8, 16, 10, 7, 7, 8, 31]
+        data: [37, 10, 6, 8, 16, 11, 8, 7, 8, 34]
       }, {
         name: series_name_3,
         animation: false,
