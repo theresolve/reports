@@ -257,9 +257,9 @@ function buildHM() {
       series_name_2 = "Nombre d'enlèvements de la LRA dans le Haut Mbomou";
     } else {
       x_axis_categories = ['Q1 2012', 'Q2 2012', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014', 'Q2'];
-      series_name_1 = '# of LRA attacks';
-      series_name_2 = '# of UAG attacks';
-      series_name_3 = '# of attacks by other armed groups';
+      series_name_1 = 'LRA';
+      series_name_2 = 'Unidentified armed groups';
+      series_name_3 = 'Other identified armed groups (not LRA)';
       series_name_4 = 'Total # of attacks';
     };
 
@@ -324,7 +324,7 @@ function buildHM() {
             enabled: false
           }
         },
-        data: [0, 1, 2, 0, 3, 1, 2, 4, 6, 6]
+        data: [0, 1, 0, 0, 3, 0, 2, 4, 6, 7]
       }, {
         name: series_name_4,
         animation: false,
@@ -333,7 +333,7 @@ function buildHM() {
             enabled: false
           }
         },
-        data: [117, 67, 44, 27, 56, 30, 38, 32, 46, 75]
+        data: [119, 69, 43, 28, 56, 31, 41, 32, 49, 79]
       }]
     });
   }
