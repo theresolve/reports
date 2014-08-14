@@ -85,7 +85,9 @@
   .twentytwenty-container img {
     position: absolute;
     top: 0;
-    display: block; }
+    display: block; 
+    width: 100%;
+    }
   .twentytwenty-container.active .twentytwenty-overlay, .twentytwenty-container.active :hover.twentytwenty-overlay {
     background: rgba(0, 0, 0, 0); }
     .twentytwenty-container.active .twentytwenty-overlay .twentytwenty-before-label,
@@ -100,12 +102,12 @@
 .twentytwenty-before-label {
   opacity: 0; }
   .twentytwenty-before-label:before {
-    content: "April - September 2013"; }
+    content: "January - March 2014"; }
 
 .twentytwenty-after-label {
   opacity: 0; }
   .twentytwenty-after-label:before {
-     content: "October 2013 - March 2014"; }
+     content: "April - June 2014"; }
 
 .twentytwenty-horizontal .twentytwenty-before-label:before {
   left: 10px; }
