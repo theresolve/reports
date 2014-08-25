@@ -107,8 +107,10 @@ function buildES() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      x_axis_categories = ['T1 2010', 'T2', 'T3', 'T4', 'T1 2011', 'T2', 'T3', 'T4', 'T1 2012', 'T2', 'T3', 'T4', 'T1 2013', 'T2', 'T3', 'T4', 'T1 2014'];
-      series_name_1 = 'Attaques de la LRA par trimestre, 2010-2014';
+      x_axis_categories = ['Janvier-Juin 2009', 'Janvier-Juin 2010', 'Janvier-Juin 2011', 'Janvier-Juin 2012', 'Janvier-Juin 2013', 'Janvier-Juin 2014',];
+      series_name_1 = "# total d'attaques de la LRA";
+      series_name_2 = "# total d'enlèvements de la LRA";
+
     } else {
       x_axis_categories = ['January-June 2009', 'January-June 2010', 'January-June 2011', 'January-June 2012', 'January-June 2013', 'January-June 2014',];
       series_name_1 = '# of total LRA attacks';
@@ -178,8 +180,9 @@ function buildCongo() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      x_axis_categories = ['T1 2010', 'T2', 'T3', 'T4', 'T1 2011', 'T2', 'T3', 'T4', 'T1 2012', 'T2', 'T3', 'T4', 'T1 2013', 'T2', 'T3', 'T4', 'T1 2014'];
-      series_name_1 = 'Attaques de la LRA par trimestre, 2010-2014';
+      x_axis_categories = ['January-June 2009', 'January-June 2010', 'January-June 2011', 'January-June 2012', 'January-June 2013', 'January-June 2014',];
+      series_name_1 = '# of total LRA attacks';
+      series_name_2 = '# of total LRA abductions';
     } else {
       x_axis_categories = ['January-June 2009', 'January-June 2010', 'January-June 2011', 'January-June 2012', 'January-June 2013', 'January-June 2014',];
       series_name_1 = '# of total LRA attacks';
@@ -252,9 +255,11 @@ function buildHM() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      x_axis_categories = ['T1 2012', 'T2', 'T3', 'T4', 'T1 2013', 'T2', 'T3', 'T4', 'T1 2014'];
-      series_name_1 = "Nombre d'attaques de la LRA dans le Haut Mbomou";
-      series_name_2 = "Nombre d'enlèvements de la LRA dans le Haut Mbomou";
+      x_axis_categories = ['T1 2012', 'T2 2012', 'T3', 'T4', 'T1 2013', 'T2', 'T3', 'T4', 'T1 2014', 'T2'];
+      series_name_1 = 'LRA';
+      series_name_2 = 'Groupes armés non-identifiés';
+      series_name_3 = 'Autres groupes armés identifiés (non LRA)';
+      series_name_4 = "# total d'attaques";
     } else {
       x_axis_categories = ['Q1 2012', 'Q2 2012', 'Q3', 'Q4', 'Q1 2013', 'Q2', 'Q3', 'Q4', 'Q1 2014', 'Q2'];
       series_name_1 = 'LRA';
