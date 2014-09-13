@@ -1,5 +1,6 @@
 marker_group = null;
 run_animation = false;
+map = null;
 
 function formatDate(date) {
   var date = new Date(date);
@@ -150,7 +151,6 @@ function setupAnimation(csv_url, start_date, end_date, map_id, options) {
 
 // Variables
 var month_names = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-var basemap_id = 'ktransier.map-xya6pg28';
 
 // Helper functions
 function popup(point) {
@@ -173,12 +173,19 @@ function offset_coordinates(latitude, longitude, min_offset, max_offset){
 
 // Build Map
 function buildMap(options) {
-  var map = L.mapbox.map(options.map_id, basemap_id, {
-    zoomControl: false,
-    scrollWheelZoom: false
-  }).setView([options.lat, options.long], options.zoom);
-  L.control.scale().addTo(map); // Load scale
-  map.addControl(new L.Control.ZoomFS()); // Load map controls
+  var basemap_id = 'ktransier.map-xya6pg28';
+  
+  if (options.basemap_id) {
+    basemap_id = options.basemap_id;
+  };
+  if (!map) {
+    map = L.mapbox.map(options.map_id, basemap_id, {
+      zoomControl: false,
+      scrollWheelZoom: false
+    }).setView([options.lat, options.long], options.zoom);
+    L.control.scale().addTo(map); // Load scale
+    map.addControl(new L.Control.ZoomFS()); // Load map controls
+  }
 
   // Build legend
   if (options.legend) {
