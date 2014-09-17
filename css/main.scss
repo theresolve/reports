@@ -498,11 +498,16 @@ background-color: rgb(25, 68, 112);
 .tracking-kony-text {
   margin-top: 161px;
   font-size: 17px;
+  margin-bottom: 400px;
 }
 
-.tracking-kony-visuals {
+.tracking-kony-visual-container {
   position: fixed; 
   top: 160px;
+  width: 550px;
+}
+
+.tracking-kony-visual {
   width: 550px;
 }
 
@@ -511,6 +516,21 @@ background-color: rgb(25, 68, 112);
   display: block;
 }
 
-#tracking-kony-visual-1 {
-  height: 500px;
+.tracking-kony-map {
+  min-height: 450px;
+}
+
+.tracking-kony-caption {
+  margin-top: 10px;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.tracking-kony-number {
+  font-style: normal;
+  padding: 2px 8px;
+  background: rgb(80, 134, 218);
+  color: white;
+  margin: 0px 5px 0px 0px;
+  border-radius: 2px;
 }

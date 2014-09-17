@@ -1,6 +1,5 @@
 marker_group = null;
 run_animation = false;
-map = null;
 
 function formatDate(date) {
   var date = new Date(date);
@@ -173,16 +172,20 @@ function offset_coordinates(latitude, longitude, min_offset, max_offset){
 
 // Build Map
 function buildMap(options) {
+  var map = null
+
   var basemap_id = 'ktransier.map-xya6pg28';
-  
+
   if (options.basemap_id) {
     basemap_id = options.basemap_id;
   };
-  if (!map) {
-    map = L.mapbox.map(options.map_id, basemap_id, {
+  if (!window[options.map_id].options) {
+
+    window[options.map_id] = L.mapbox.map(options.map_id, basemap_id, {
       zoomControl: false,
       scrollWheelZoom: false
     }).setView([options.lat, options.long], options.zoom);
+    map = window[options.map_id];
     L.control.scale().addTo(map); // Load scale
     map.addControl(new L.Control.ZoomFS()); // Load map controls
   }
