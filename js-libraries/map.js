@@ -179,6 +179,7 @@ function buildMap(options) {
   if (options.basemap_id) {
     basemap_id = options.basemap_id;
   };
+  
   if (!window[options.map_id].options) {
 
     window[options.map_id] = L.mapbox.map(options.map_id, basemap_id, {
