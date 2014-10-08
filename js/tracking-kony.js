@@ -177,7 +177,11 @@ $(function() {
 
 
   $('.tracking-kony-visual-container').hide();
-  $('#tracking-kony-visual-0').show();
+
+
+  $('#tracking-kony-break-header').waypoint(function(direction) {
+    $('.tracking-kony-visual-container').hide();
+  }, {offset: waypoints_offset});
 
   $('#tracking-kony-break-0').waypoint(function(direction) {
     $('.tracking-kony-visual-container').hide();
