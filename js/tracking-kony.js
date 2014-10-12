@@ -41,7 +41,7 @@ $(function() {
     long: 30.670959,
     zoom: 7,
     marker_radius: 5,
-    // csv_url: "/data/q1-2014-attacks.csv",
+    csv_url: "/data/tracking-kony/kony-locations.csv",
     animate: false,
     start_date: "1/1/2014",
     end_date: "3/31/2014",
@@ -212,7 +212,6 @@ $(function() {
     // map = null;
     $('.tracking-kony-visual-container').hide();
     $('#tracking-kony-visual-4').show();
-    buildMap(map_4_options); 
   }, {offset: waypoints_offset});
 
   $('#tracking-kony-break-5').waypoint(function(direction) {
@@ -318,4 +317,28 @@ $(function() {
     buildMap(map_20_options);  
   }, {offset: waypoints_offset});
 
+  $('#tracking-kony-break-21').waypoint(function(direction) {
+    map = null;
+    $('.tracking-kony-visual-container').hide();
+    $('#tracking-kony-visual-21').show(); 
+  }, {offset: waypoints_offset});
+
+  $('#tracking-kony-break-22').waypoint(function(direction) {
+    map = null;
+    $('.tracking-kony-visual-container').hide();
+    $('#tracking-kony-visual-22').show();
+  }, {offset: waypoints_offset});
+
+  $('#tracking-kony-break-23').waypoint(function(direction) {
+    map = null;
+    $('.tracking-kony-visual-container').hide();
+    $('#tracking-kony-visual-23').show();
+  }, {offset: waypoints_offset});
+
+
+  $('#tracking-kony-break-24').waypoint(function(direction) {
+    map = null;
+    $('.tracking-kony-visual-container').hide();
+    $('#tracking-kony-visual-24').show();
+  }, {offset: waypoints_offset});
 });

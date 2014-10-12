@@ -210,6 +210,7 @@ function buildMap(options) {
 
 //todo: build seperate generatemarkers and generatemarkercluster functions
 function generateMarkers(data, map, options) {
+
   // Set variables
   var markers, marker, marker_radius, latitude_offset, longitude_offset;
 
@@ -217,6 +218,7 @@ function generateMarkers(data, map, options) {
   markers = new L.MarkerClusterGroup({maxClusterRadius: 20, spiderfyOnMaxZoom: true});
   // Add marker layers to marker cluster
   for (i = 0; i < data.length; i++) {
+    console.log(data[i].latitude + " " + data[i].longitude)
     if (data[i].latitude && data[i].longitude) {
       var latitude = Number(data[i].latitude);
       var longitude = Number(data[i].longitude);
@@ -245,6 +247,7 @@ function generateMarkers(data, map, options) {
         marker_radius = 1;
       };
       marker.setRadius(marker_radius);
+      console.log(marker);
       map.addLayer(marker);
     };
   };
