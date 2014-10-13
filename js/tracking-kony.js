@@ -85,23 +85,6 @@ $(function() {
     max_offset: 2
   };
 
-  var map_13_options = {
-    basemap_id: "ktransier.basemap",
-    map_id: "tracking-kony-map-13",
-    lat: 9.204556,
-    long: 24.092241,
-    zoom: 8,
-    marker_radius: 5,
-    // csv_url: "/data/q1-2014-attacks.csv",
-    animate: false,
-    start_date: "1/1/2014",
-    end_date: "3/31/2014",
-    legend: false,
-    offset: false,
-    min_offset: -2,
-    max_offset: 2
-  };
-
   var map_14_options = {
     basemap_id: "ktransier.basemap",
     map_id: "tracking-kony-map-14",
@@ -192,14 +175,6 @@ $(function() {
     // map = null;
     $('.tracking-kony-visual-container').hide();
     $('#tracking-kony-visual-1').show();
-    buildMap(map_1_options);   
-  }, {offset: waypoints_offset});
-
-  $('#tracking-kony-break-2').waypoint(function(direction) {
-    // map = null;
-    $('.tracking-kony-visual-container').hide();
-    $('#tracking-kony-visual-2').show();
-    buildMap(map_2_options);     
   }, {offset: waypoints_offset});
 
   $('#tracking-kony-break-3').waypoint(function(direction) {
@@ -241,15 +216,13 @@ $(function() {
   $('#tracking-kony-break-9').waypoint(function(direction) {
     map = null;
     $('.tracking-kony-visual-container').hide();
-    $('#tracking-kony-visual-9').show();
-    buildMap(map_9_options);  
+    $('#tracking-kony-visual-9').show(); 
   }, {offset: waypoints_offset});
 
   $('#tracking-kony-break-10').waypoint(function(direction) {
     map = null;
     $('.tracking-kony-visual-container').hide();
     $('#tracking-kony-visual-10').show();
-    buildMap(map_10_options);  
   }, {offset: waypoints_offset});
 
   $('#tracking-kony-break-11').waypoint(function(direction) {
@@ -264,25 +237,16 @@ $(function() {
     $('#tracking-kony-visual-12').show();
   }, {offset: waypoints_offset});
 
-  $('#tracking-kony-break-13').waypoint(function(direction) {
-    map = null;
-    $('.tracking-kony-visual-container').hide();
-    $('#tracking-kony-visual-13').show();
-    buildMap(map_13_options);  
-  }, {offset: waypoints_offset});
-
   $('#tracking-kony-break-14').waypoint(function(direction) {
     map = null;
     $('.tracking-kony-visual-container').hide();
     $('#tracking-kony-visual-14').show();
-    buildMap(map_14_options);  
   }, {offset: waypoints_offset});
 
   $('#tracking-kony-break-15').waypoint(function(direction) {
     map = null;
     $('.tracking-kony-visual-container').hide();
-    $('#tracking-kony-visual-15').show();
-    buildMap(map_15_options);  
+    $('#tracking-kony-visual-15').show(); 
   }, {offset: waypoints_offset});
 
   $('#tracking-kony-break-16').waypoint(function(direction) {
@@ -306,15 +270,13 @@ $(function() {
   $('#tracking-kony-break-19').waypoint(function(direction) {
     map = null;
     $('.tracking-kony-visual-container').hide();
-    $('#tracking-kony-visual-19').show();
-    buildMap(map_19_options);   
+    $('#tracking-kony-visual-19').show();  
   }, {offset: waypoints_offset});
 
   $('#tracking-kony-break-20').waypoint(function(direction) {
     map = null;
     $('.tracking-kony-visual-container').hide();
-    $('#tracking-kony-visual-20').show();
-    buildMap(map_20_options);  
+    $('#tracking-kony-visual-20').show(); 
   }, {offset: waypoints_offset});
 
   $('#tracking-kony-break-21').waypoint(function(direction) {
@@ -340,5 +302,17 @@ $(function() {
     map = null;
     $('.tracking-kony-visual-container').hide();
     $('#tracking-kony-visual-24').show();
+  }, {offset: waypoints_offset});
+
+  $('#tracking-kony-break-25').waypoint(function(direction) {
+    map = null;
+    $('.tracking-kony-visual-container').hide();
+    $('#tracking-kony-visual-25').show();
+  }, {offset: waypoints_offset});
+
+  $('#tracking-kony-break-26').waypoint(function(direction) {
+    map = null;
+    $('.tracking-kony-visual-container').hide();
+    $('#tracking-kony-visual-26').show();
   }, {offset: waypoints_offset});
 });
