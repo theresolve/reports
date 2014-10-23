@@ -536,12 +536,6 @@ background-color: rgb(25, 68, 112);
   text-align: center;
 }
 
-.tracking-kony-logo {
-  width: 200px;
-  display: block;
-  margin: 0px auto 80px;
-}
-
 .tracking-kony-title {
   font-size: 70px;
   text-transform: uppercase;
@@ -563,4 +557,33 @@ background-color: rgb(25, 68, 112);
   margin: 0px 0px 30px;
   font-weight: 300;
   font-size: 18px;
+}
+
+
+.tracking-kony-logo-container {
+  width: 800px;
+  margin: 94px auto 70px;
+  height: 150px;
+}
+
+.tracking-kony-resolve-logo {
+  width: 200px;
+  float: left;
+  margin: 55px 20px 0px;
+}
+
+.tracking-kony-ct-logo {
+  width: 300px;
+  float: left;
+  margin: 0px 20px 0px;
+}
+
+.tracking-kony-ic-logo {
+  width: 139px;
+  float: left;
+  margin: 34px 0px 0px 29px;
+}
+
+.tracking-kony-main-visual {
+  border: 1px solid #e7e7e7;
 }
