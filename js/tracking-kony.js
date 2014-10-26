@@ -1,5 +1,7 @@
 $(function() {
 
+  buildTrackingKonyGraph();
+
   var map_1_options = {
     basemap_id: "ktransier.basemap",
     map_id: "tracking-kony-map-1",
@@ -316,3 +318,68 @@ $(function() {
     $('#tracking-kony-visual-26').show();
   }, {offset: waypoints_offset});
 });
+
+
+
+
+var dark_blue = 'rgb(13, 35, 58)';
+var blue = 'rgb(25, 68, 112)';
+var light_blue = 'rgb(37, 99, 163)';
+var gray = '#DDDDDD';
+
+
+function buildTrackingKonyGraph() {
+  if ($('#tracking-kony-graph').length) {
+    $('#tracking-kony-graph').highcharts({
+      chart: {
+        type: 'column'
+      },
+      tooltip: {
+        formatter: function () {
+          return this.y;
+        }
+      },
+      colors: ["#555555", dark_blue, blue, light_blue, gray],
+      title: {
+        text: ''
+      },
+      subtitle: {
+        text: ''
+      },
+      xAxis: {
+        categories: ["Active", "Defected","Possibly Killed or Captured", "Killed", "Captured"]
+      },
+      yAxis: {
+        min: 0,
+        gridLineColor: 'transparent',
+        title: {
+          text: ''
+        }
+      },
+      plotOptions: {
+        column: {
+          pointPadding: 0.2,
+          borderWidth: 0,
+          colorByPoint: true,
+          showInLegend: false
+        }
+      },
+      credits: {
+        enabled: false
+      },
+      series: [{
+        name: ["Status of LRA Combatants - 2013"],
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [147,28,12,11,2]
+      }]
+    });
+  }
+};
+
+
+
