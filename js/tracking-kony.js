@@ -191,7 +191,7 @@ function buildTrackingKonyGraph() {
         text: ''
       },
       xAxis: {
-        categories: ["Active", "Defected","Reportedly Killed or Captured", "Killed", "Captured"]
+        categories: ["Active", "Defected","Killed (Presumed)", "Killed (Confirmed)", "Captured"]
       },
       yAxis: {
         min: 0,
@@ -219,7 +219,7 @@ function buildTrackingKonyGraph() {
             enabled: false
           }
         },
-        data: [147,28,12,11,2]
+        data: [150,28,14,6,2]
       }]
     });
   }
