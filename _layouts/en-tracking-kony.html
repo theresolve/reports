@@ -1,32 +1,45 @@
----
-layout: main
-published: true
----
-<!-- JS MAP LIBRARIES -->
-<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
-<script src="/js-libraries/jquery.csv-0.71.min.js"></script>
-<script src="/js-libraries/leaflet-heat.js"></script>
-<script src="/js-libraries/leaflet.label.js"></script>
-<script src="/js-libraries/leaflet.markercluster.js"></script>
-<script src="/js-libraries/leaflet.zoomfs.js"></script>
-<script src="/js-libraries/leaflet-omnivore.js"></script>
-<script src="/js-libraries/map.js"></script>
+<html>
+  <head>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <link rel="shortcut icon" href="/favicon.ico">
 
-<!-- CSS MAP LIBRARIES-->
-<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
-<link href="/css-libraries/leaflet.label.css" rel="stylesheet">
-<link href="/css-libraries/map.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- JS -->
-<script src="/js/waypoints.min.js"></script>
-<script src="/js/jquery.twentytwenty.js"></script>
-<script src="/js/jquery.event.move.js"></script>
-<script src="/js/tracking-kony.js"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
 
-<!-- CSS -->
-<link href="/css/twentytwenty.css" rel="stylesheet">
+    <script src="/js/language.js"></script>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>LRA Crisis Tracker | Security Briefs</title>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-18225319-2', 'lracrisistracker.com');
+      ga('send', 'pageview');
+    </script>
+  </head>
+
+  <!-- JS -->
+  <script src="/js/waypoints.min.js"></script>
+  <script src="/js/jquery.event.move.js"></script>
+  <script src="/js/tracking-kony.js"></script>
 
 
-<body style="background: white">
-  {{ content }}
-</body>
+  <body style="background: white">
+    {{ content }}
+  </body>
+
+</html>
