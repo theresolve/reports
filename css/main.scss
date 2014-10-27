@@ -512,6 +512,15 @@ background-color: rgb(25, 68, 112);
   border: 1px solid #e7e7e7;
 }
 
+@media (max-width: 1000px) {
+  .tracking-kony-visual {
+    width: 575px;
+  }
+  .tracking-kony-visual-container {
+    width: 575px;
+  }
+}
+
 .logo-tracking-kony {
   height: 90px;
   display: block;
