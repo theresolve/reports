@@ -191,7 +191,7 @@ function buildTrackingKonyGraph() {
         text: ''
       },
       xAxis: {
-        categories: ["Active within LRA", "Defected","Killed (Presumed)", "Killed (Confirmed)", "Captured"]
+        categories: ["Active within the LRA", "Defected","Killed (Presumed)", "Killed (Confirmed)", "Captured"]
       },
       yAxis: {
         min: 0,
