@@ -347,7 +347,7 @@ function buildTrackingKonyGraph() {
         text: ''
       },
       xAxis: {
-        categories: ["Active", "Defected","Possibly Killed or Captured", "Killed", "Captured"]
+        categories: ["Active", "Defected","Reportedly Killed or Captured", "Killed", "Captured"]
       },
       yAxis: {
         min: 0,
