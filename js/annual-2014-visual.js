@@ -1,0 +1,391 @@
+var dark_blue = 'rgb(13, 35, 58)';
+var blue = 'rgb(25, 68, 112)';
+var light_blue = 'rgb(37, 99, 163)';
+var gray = '#DDDDDD';
+var language = "en"
+
+$(document).ready(function () {
+  getVisualData()
+});
+
+function getVisualData() {
+  $.when().done(function () {
+    buildV1();
+    buildV2();
+    buildV3();
+    buildV4();
+  });
+};
+
+
+
+function buildV1() {
+  if ($('#2014-fighting-capacity').length) {
+
+    // TRANSLATIONS
+    if (language == "fr") {
+      x_axis_categories = ['T1 2011', 'T2', 'T3', 'T4', 'T1 2012', 'T2', 'T3', 'T4', 'T1 2013', 'T2', 'T3', 'T4', 'T1 2014'];
+      series_name_1 = "Nombre d'attaques de la LRA dans la région de Niangara-Bangadi, Congo";
+      series_name_2 = "Nombre d'enlèvements de la LRA dans la région de Niangara-Bangadi, Congo";
+    } else {
+      x_axis_categories = ['2012', '2013', '2014'];
+      series_name_1 = 'Defected';
+      series_name_2 = 'Captured';
+      series_name_3 = 'Presumed/confirmed dead';
+      series_name_4 = ' Total reduction in Ugandan fighters';
+    };
+
+    $('#2014-fighting-capacity').highcharts({
+      chart: {
+        type: 'column'
+      },
+      tooltip: {
+        formatter: function () {
+          return this.y;
+        }
+      },
+      colors: [dark_blue, blue, light_blue,  gray],
+      title: {
+        text: ''
+      },
+      subtitle: {
+        text: ''
+      },
+      xAxis: {
+        categories: x_axis_categories
+      },
+      yAxis: {
+        min: 0,
+        gridLineColor: 'transparent',
+        title: {
+          text: ''
+        }
+      },
+      plotOptions: {
+        column: {
+          pointPadding: 0.2,
+          borderWidth: 0
+        }
+      },
+      credits: {
+        enabled: false
+      },
+      series: [{
+        name: series_name_1,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [12, 17, 16]
+      }, {
+        name: series_name_2,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [1, 1, 3]
+      }, {
+        name: series_name_3,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [0, 18]
+      }, {
+        name: series_name_4,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [13, 36, 19]
+      }]
+    });
+  }
+};
+
+
+function buildV2() {
+  if ($('#2014-women-children').length) {
+
+    // TRANSLATIONS
+    if (language == "fr") {
+      x_axis_categories = ['T1 2011', 'T2', 'T3', 'T4', 'T1 2012', 'T2', 'T3', 'T4', 'T1 2013', 'T2', 'T3', 'T4', 'T1 2014'];
+      series_name_1 = "Nombre d'attaques de la LRA dans la région de Niangara-Bangadi, Congo";
+      series_name_2 = "Nombre d'enlèvements de la LRA dans la région de Niangara-Bangadi, Congo";
+    } else {
+      x_axis_categories = ['2012', '2013', '2014'];
+      series_name_1 = '# of long-term Ugandan women escapees';
+      series_name_2 = '# of long-term Ugandan children escapees';
+      series_name_3 = '# of long-term non-Ugandan women escapees';
+      series_name_4 = '# of long-term non-Ugandan children escapees';
+      series_name_5 = 'Total # of long-term women and children escapees';
+
+    };
+
+    $('#2014-women-children').highcharts({
+      chart: {
+        type: 'line'
+      },
+      tooltip: {
+        formatter: function () {
+          return this.y;
+        }
+      },
+      colors: [dark_blue, blue, light_blue,  gray],
+      title: {
+        text: ''
+      },
+      subtitle: {
+        text: ''
+      },
+      xAxis: {
+        categories: x_axis_categories
+      },
+      yAxis: {
+        min: 0,
+        gridLineColor: 'transparent',
+        title: {
+          text: ''
+        }
+      },
+      plotOptions: {
+        column: {
+          pointPadding: 0.2,
+          borderWidth: 0
+        }
+      },
+      credits: {
+        enabled: false
+      },
+      series: [{
+        name: series_name_1,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [7, 5, 15]
+      }, {
+        name: series_name_2,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [6, 5, 25]
+      }, {
+        name: series_name_3,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [7, 16, 27]
+      }, {
+        name: series_name_4,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [18, 34, 49]
+      }, {
+        name: series_name_5,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [44, 68, 145]
+      }]
+    });
+  }
+};
+
+function buildV3() {
+  if ($('#2014-reversed-decline').length) {
+
+    // TRANSLATIONS
+    if (language == "fr") {
+      x_axis_categories = ['T1 2011', 'T2', 'T3', 'T4', 'T1 2012', 'T2', 'T3', 'T4', 'T1 2013', 'T2', 'T3', 'T4', 'T1 2014'];
+      series_name_1 = "Nombre d'attaques de la LRA dans la région de Niangara-Bangadi, Congo";
+      series_name_2 = "Nombre d'enlèvements de la LRA dans la région de Niangara-Bangadi, Congo";
+    } else {
+      x_axis_categories = ['2012', '2013', '2014'];
+      series_name_1 = 'Attacks';
+      series_name_2 = 'Killings';
+      series_name_3 = 'Abductions';
+
+    };
+
+    $('#2014-reversed-decline').highcharts({
+      chart: {
+        type: 'line'
+      },
+      tooltip: {
+        formatter: function () {
+          return this.y;
+        }
+      },
+      colors: [dark_blue, blue, light_blue,  gray],
+      title: {
+        text: ''
+      },
+      subtitle: {
+        text: ''
+      },
+      xAxis: {
+        categories: x_axis_categories
+      },
+      yAxis: {
+        min: 0,
+        gridLineColor: 'transparent',
+        title: {
+          text: ''
+        }
+      },
+      plotOptions: {
+        column: {
+          pointPadding: 0.2,
+          borderWidth: 0
+        }
+      },
+      credits: {
+        enabled: false
+      },
+      series: [{
+        name: series_name_1,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [513, 299, 275, 183, 202]
+      }, {
+        name: series_name_2,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [776, 150, 52, 76, 13]
+      }, {
+        name: series_name_3,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [1495, 649, 557, 467, 616]
+      }]
+    });
+  }
+};
+
+function buildV4() {
+  if ($('#2014-other-groups').length) {
+
+    // TRANSLATIONS
+    if (language == "fr") {
+      x_axis_categories = ['T1 2011', 'T2', 'T3', 'T4', 'T1 2012', 'T2', 'T3', 'T4', 'T1 2013', 'T2', 'T3', 'T4', 'T1 2014'];
+      series_name_1 = "Nombre d'attaques de la LRA dans la région de Niangara-Bangadi, Congo";
+      series_name_2 = "Nombre d'enlèvements de la LRA dans la région de Niangara-Bangadi, Congo";
+    } else {
+      x_axis_categories = ['2012', '2013', '2014'];
+      series_name_1 = 'LRA';
+      series_name_2 = 'Unidentified armed groups';
+      series_name_3 = 'Other identified armed groups (not LRA)';
+      series_name_4 = 'Total # of attacks';
+    };
+
+    $('#2014-other-groups').highcharts({
+      chart: {
+        type: 'line'
+      },
+      tooltip: {
+        formatter: function () {
+          return this.y;
+        }
+      },
+      colors: [dark_blue, blue, light_blue,  gray],
+      title: {
+        text: ''
+      },
+      subtitle: {
+        text: ''
+      },
+      xAxis: {
+        categories: x_axis_categories
+      },
+      yAxis: {
+        min: 0,
+        gridLineColor: 'transparent',
+        title: {
+          text: ''
+        }
+      },
+      plotOptions: {
+        column: {
+          pointPadding: 0.2,
+          borderWidth: 0
+        }
+      },
+      credits: {
+        enabled: false
+      },
+      series: [{
+        name: series_name_1,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [197, 109, 112]
+      }, {
+        name: series_name_2,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [61, 42, 65]
+      }, {
+        name: series_name_3,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [4, 13, 21]
+      }, {
+        name: series_name_4,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [287, 183, 242]
+      }]
+    });
+  }
+};

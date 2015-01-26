@@ -635,3 +635,34 @@ background-color: rgb(25, 68, 112);
   color: rgb(181, 181, 181);
   font-size: 10px;
 }
+
+
+
+// Cards
+
+.card {
+  background: white;
+  padding: 15px;
+  height: 450px;
+  margin: 0px 0px 20px 0px
+}
+
+.card-visualization-container {
+  float: left;
+  width: 50%;
+}
+
+.card-text-container {
+  float: left;
+  width: 50%;
+}
+
+.cards-container {
+  width: 850px;
+  margin: 70px 0px 0px 220px;
+}
+
+.card-title {
+  font-weight: 300;
+font-size: 18px;
+}
