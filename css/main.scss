@@ -646,8 +646,8 @@ background-color: rgb(25, 68, 112);
 
 .card {
   background: white;
-  padding: 15px;
-  height: 500px;
+  padding: 20px;
+  overflow: hidden;
   margin: 0px 0px 60px 0px
 }
 
@@ -708,6 +708,12 @@ background-color: rgb(25, 68, 112);
   margin: 34px 0px 0px 29px;
 }
 
+.annual-2014-image-container {
+  width: 100%;
+  padding-right: 20px;
+}
+
 .annual-2014-image {
   width: 100%;
+  border: 1px solid #eee;
 }
