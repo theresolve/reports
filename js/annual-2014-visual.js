@@ -96,7 +96,7 @@ function buildV1() {
             enabled: false
           }
         },
-        data: [0, 18]
+        data: [0, "none" ,18]
       }, {
         name: series_name_4,
         animation: false,
@@ -122,10 +122,8 @@ function buildV2() {
       series_name_2 = "Nombre d'enlèvements de la LRA dans la région de Niangara-Bangadi, Congo";
     } else {
       x_axis_categories = ['2012', '2013', '2014'];
-      series_name_1 = '# of long-term Ugandan women escapees';
-      series_name_2 = '# of long-term Ugandan children escapees';
-      series_name_3 = '# of long-term non-Ugandan women escapees';
-      series_name_4 = '# of long-term non-Ugandan children escapees';
+      series_name_1 = '# of long-term Ugandan women and children escapees';
+      series_name_2 = '# of long-term non-Ugandan women and children escapees';
       series_name_5 = 'Total # of long-term women and children escapees';
 
     };
@@ -192,24 +190,6 @@ function buildV2() {
           }
         },
         data: [7, 16, 27]
-      }, {
-        name: series_name_4,
-        animation: false,
-        states: {
-          hover: {
-            enabled: false
-          }
-        },
-        data: [18, 34, 49]
-      }, {
-        name: series_name_5,
-        animation: false,
-        states: {
-          hover: {
-            enabled: false
-          }
-        },
-        data: [44, 68, 145]
       }]
     });
   }
@@ -224,7 +204,7 @@ function buildV3() {
       series_name_1 = "Nombre d'attaques de la LRA dans la région de Niangara-Bangadi, Congo";
       series_name_2 = "Nombre d'enlèvements de la LRA dans la région de Niangara-Bangadi, Congo";
     } else {
-      x_axis_categories = ['2012', '2013', '2014'];
+      x_axis_categories = ['2010', '2011','2012', '2013', '2014'];
       series_name_1 = 'Attacks';
       series_name_2 = 'Killings';
       series_name_3 = 'Abductions';
