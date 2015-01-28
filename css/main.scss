@@ -640,29 +640,70 @@ background-color: rgb(25, 68, 112);
 
 // Cards
 
+.card-container {
+  margin-bottom: 100px;
+}
+
 .card {
   background: white;
   padding: 15px;
-  height: 450px;
-  margin: 0px 0px 20px 0px
+  height: 500px;
+  margin: 0px 0px 60px 0px
 }
 
 .card-visualization-container {
   float: left;
-  width: 50%;
+  width: 60%;
 }
 
 .card-text-container {
   float: left;
-  width: 50%;
-}
-
-.cards-container {
-  width: 850px;
-  margin: 70px 0px 0px 220px;
+  width: 40%;
 }
 
 .card-title {
+  font-size: 20px;
+  padding: 0px 0px 20px;
+  font-weight: 400;
+}
+
+.banner-title-container {
+  margin: 100px 0px 57px;
+  text-align: center;
+}
+
+.banner-title {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.banner-subtitle {
+  font-size: 33px;
   font-weight: 300;
-font-size: 18px;
+  font-style: italic;
+}
+
+.banner-logo-container {
+  width: 640px;
+  margin: 55px auto 70px;
+  height: 150px;
+}
+
+.banner-resolve-logo {
+  width: 180px;
+  float: left;
+  margin: 55px 20px 0px;
+}
+
+.banner-ct-logo {
+  width: 230px;
+  float: left;
+  margin: 0px 20px 0px;
+}
+
+.banner-ic-logo {
+  width: 115px;
+  float: left;
+  margin: 34px 0px 0px 29px;
 }
