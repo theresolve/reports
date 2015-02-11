@@ -122,9 +122,10 @@ function buildV2() {
       series_name_2 = "Nombre d'enlèvements de la LRA dans la région de Niangara-Bangadi, Congo";
     } else {
       x_axis_categories = ['2012', '2013', '2014'];
-      series_name_1 = '# of long-term Ugandan women and children escapees';
-      series_name_2 = '# of long-term non-Ugandan women and children escapees';
-      series_name_5 = 'Total # of long-term women and children escapees';
+      series_name_1 = '# of long-term Ugandan women and children returnees';
+      series_name_2 = '# of long-term non-Ugandan women and children returnees';
+      series_name_4 = '# of long-term women and children returnees of unknown nationalities'
+      series_name_5 = 'Total # of long-term women and children returnees';
 
     };
 
@@ -182,7 +183,16 @@ function buildV2() {
         },
         data: [25, 50, 27]
       }, {
-        name: series_name_3,
+        name: series_name_4,
+        animation: false,
+        states: {
+          hover: {
+            enabled: false
+          }
+        },
+        data: [6, 8, 78]
+      }, {
+        name: series_name_5,
         animation: false,
         states: {
           hover: {
