@@ -205,9 +205,9 @@ function buildV3() {
       series_name_2 = "Nombre d'enlèvements de la LRA dans la région de Niangara-Bangadi, Congo";
     } else {
       x_axis_categories = ['2010', '2011','2012', '2013', '2014'];
-      series_name_1 = 'Attacks';
-      series_name_2 = 'Killings';
-      series_name_3 = 'Abductions';
+      series_name_1 = 'LRA attacks';
+      series_name_2 = 'LRA killings';
+      series_name_3 = 'LRA abductions';
 
     };
 
