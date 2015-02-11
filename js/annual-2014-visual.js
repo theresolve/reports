@@ -29,15 +29,15 @@ function buildV1() {
       series_name_2 = "Nombre d'enlèvements de la LRA dans la région de Niangara-Bangadi, Congo";
     } else {
       x_axis_categories = ['2012', '2013', '2014'];
-      series_name_1 = 'Defected';
-      series_name_2 = 'Captured';
-      series_name_3 = 'Presumed/confirmed dead';
+      series_name_1 = 'Defected Ugandan fighters';
+      series_name_2 = 'Captured Ugandan fighters';
+      series_name_3 = 'Presumed/confirmed dead Ugandan fighters';
       series_name_4 = ' Total reduction in Ugandan fighters';
     };
 
     $('#2014-fighting-capacity').highcharts({
       chart: {
-        type: 'column'
+        type: 'line'
       },
       tooltip: {
         formatter: function () {
@@ -288,9 +288,9 @@ function buildV4() {
       series_name_2 = "Nombre d'enlèvements de la LRA dans la région de Niangara-Bangadi, Congo";
     } else {
       x_axis_categories = ['2012', '2013', '2014'];
-      series_name_1 = 'LRA';
-      series_name_2 = 'Unidentified armed groups';
-      series_name_3 = 'Other identified armed groups (not LRA)';
+      series_name_1 = 'LRA attacks';
+      series_name_2 = 'Unidentified armed groups attacks';
+      series_name_3 = 'Other identified armed groups (not LRA) attacks';
       series_name_4 = 'Total # of attacks';
     };
 
