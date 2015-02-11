@@ -124,7 +124,7 @@ function buildV2() {
       x_axis_categories = ['2012', '2013', '2014'];
       series_name_1 = '# of long-term Ugandan women and children returnees';
       series_name_2 = '# of long-term non-Ugandan women and children returnees';
-      series_name_4 = '# of long-term women and children returnees of unknown nationalities'
+      series_name_4 = '# of long-term women and children returnees of unknown nationality'
       series_name_5 = 'Total # of long-term women and children returnees';
 
     };
