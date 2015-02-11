@@ -130,7 +130,7 @@ function buildV2() {
 
     $('#2014-women-children').highcharts({
       chart: {
-        type: 'line'
+        type: 'column'
       },
       tooltip: {
         formatter: function () {
