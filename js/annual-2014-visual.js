@@ -96,7 +96,7 @@ function buildV1() {
             enabled: false
           }
         },
-        data: ["none", 0,18]
+        data: ["none", 18, 0]
       }, {
         name: series_name_4,
         animation: false,
