@@ -298,10 +298,10 @@ function buildV4() {
       series_name_2 = "Nombre d'enlèvements de la LRA dans la région de Niangara-Bangadi, Congo";
     } else {
       x_axis_categories = ['2012', '2013', '2014'];
-      series_name_1 = 'LRA attacks';
-      series_name_2 = 'Unidentified armed groups attacks';
-      series_name_3 = 'Other identified armed groups (not LRA) attacks';
-      series_name_4 = 'Total # of attacks';
+      series_name_1 = 'LRA attacks in Haut Uele';
+      series_name_2 = 'Unidentified armed groups attacks in Haut Uele';
+      series_name_3 = 'Other identified armed groups (not LRA) attacks in Haut Uele';
+      series_name_4 = 'Total # of attacks in Haut Uele';
     };
 
     $('#2014-other-groups').highcharts({
