@@ -190,7 +190,7 @@ function buildV2() {
             enabled: false
           }
         },
-        data: [6, 8, 78]
+        data: [6, 8, 66]
       }, {
         name: series_name_5,
         animation: false,
@@ -199,7 +199,7 @@ function buildV2() {
             enabled: false
           }
         },
-        data: [44, 68, 145]
+        data: [44, 68, 133]
       }]
     });
   }
