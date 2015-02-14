@@ -87,7 +87,7 @@ function buildV1() {
             enabled: false
           }
         },
-        data: [3, 1, 1]
+        data: [4, 1, 1]
       }, {
         name: series_name_3,
         animation: false,
@@ -96,7 +96,7 @@ function buildV1() {
             enabled: false
           }
         },
-        data: ["none", 18, 0]
+        data: [0, 22, 0]
       }, {
         name: series_name_4,
         animation: false,
@@ -105,7 +105,7 @@ function buildV1() {
             enabled: false
           }
         },
-        data: [19, 36, 13]
+        data: [20, 40, 14]
       }]
     });
   }
