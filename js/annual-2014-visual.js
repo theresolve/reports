@@ -172,7 +172,7 @@ function buildV2() {
             enabled: false
           }
         },
-        data: [13, 10, 40]
+        data: [13, 10, 39]
       }, {
         name: series_name_2,
         animation: false,
@@ -181,7 +181,7 @@ function buildV2() {
             enabled: false
           }
         },
-        data: [25, 50, 27]
+        data: [25, 50, 71]
       }, {
         name: series_name_4,
         animation: false,
@@ -190,7 +190,7 @@ function buildV2() {
             enabled: false
           }
         },
-        data: [6, 8, 66]
+        data: [6, 8, 17]
       }, {
         name: series_name_5,
         animation: false,
@@ -199,7 +199,7 @@ function buildV2() {
             enabled: false
           }
         },
-        data: [44, 68, 133]
+        data: [44, 68, 127]
       }]
     });
   }
