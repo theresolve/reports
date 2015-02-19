@@ -31,7 +31,7 @@ function buildV1() {
       x_axis_categories = ['2012', '2013', '2014'];
       series_name_1 = 'Defected Ugandan fighters';
       series_name_2 = 'Captured Ugandan fighters';
-      series_name_3 = 'Presumed/confirmed dead Ugandan fighters';
+      series_name_3 = 'Presumed/confirmed dead Ugandan fighters*';
       series_name_4 = ' Total reduction in Ugandan fighters';
     };
 
