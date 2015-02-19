@@ -37,7 +37,7 @@ function buildV1() {
 
     $('#2014-fighting-capacity').highcharts({
       chart: {
-        type: 'line'
+        type: 'column'
       },
       tooltip: {
         formatter: function () {
