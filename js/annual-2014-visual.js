@@ -365,7 +365,7 @@ function buildV4() {
             enabled: false
           }
         },
-        data: [4, 13, 21]
+        data: [4, 18, 23]
       }, {
         name: series_name_4,
         animation: false,
