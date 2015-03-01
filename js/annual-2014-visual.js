@@ -3,6 +3,10 @@ var blue = 'rgb(25, 68, 112)';
 var light_blue = 'rgb(37, 99, 163)';
 var gray = '#DDDDDD';
 var language = "en"
+if (location.pathname.split('/')[1] == "fr-print" || location.pathname.split('/')[1] == "fr") {
+  language = "fr"
+};
+
 
 $(document).ready(function () {
   getVisualData()
@@ -24,9 +28,11 @@ function buildV1() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      x_axis_categories = ['T1 2011', 'T2', 'T3', 'T4', 'T1 2012', 'T2', 'T3', 'T4', 'T1 2013', 'T2', 'T3', 'T4', 'T1 2014'];
-      series_name_1 = "Nombre d'attaques de la LRA dans la région de Niangara-Bangadi, Congo";
-      series_name_2 = "Nombre d'enlèvements de la LRA dans la région de Niangara-Bangadi, Congo";
+      x_axis_categories = ['2012', '2013', '2014'];
+      series_name_1 = 'Combattants Ougandais ayant fait défection';
+      series_name_2 = 'Combattants Ougandais capturés';
+      series_name_3 = 'Combattants Ougandais présumés/confirmés comme morts*';
+      series_name_4 = 'Réduction total de combattants Ougandais';
     } else {
       x_axis_categories = ['2012', '2013', '2014'];
       series_name_1 = 'Defected Ugandan fighters';
@@ -117,16 +123,17 @@ function buildV2() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      x_axis_categories = ['T1 2011', 'T2', 'T3', 'T4', 'T1 2012', 'T2', 'T3', 'T4', 'T1 2013', 'T2', 'T3', 'T4', 'T1 2014'];
-      series_name_1 = "Nombre d'attaques de la LRA dans la région de Niangara-Bangadi, Congo";
-      series_name_2 = "Nombre d'enlèvements de la LRA dans la région de Niangara-Bangadi, Congo";
+      x_axis_categories = ['2012', '2013', '2014'];
+      series_name_1 = '# de femmes et enfants Ougandais retournés après une longue captivité';
+      series_name_2 = '# de femmes et enfants non-Ougandais retournés après une longue captivité';
+      series_name_4 = '# de femmes et enfants retournés après une longue captivité et de nationalité inconnue'
+      series_name_5 = 'Total des femmes et enfants retournés après une longue captivité';
     } else {
       x_axis_categories = ['2012', '2013', '2014'];
       series_name_1 = '# of long-term Ugandan women and children returnees';
       series_name_2 = '# of long-term non-Ugandan women and children returnees';
       series_name_4 = '# of long-term women and children returnees of unknown nationality'
       series_name_5 = 'Total # of long-term women and children returnees';
-
     };
 
     $('#2014-women-children').highcharts({
@@ -210,15 +217,15 @@ function buildV3() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      x_axis_categories = ['T1 2011', 'T2', 'T3', 'T4', 'T1 2012', 'T2', 'T3', 'T4', 'T1 2013', 'T2', 'T3', 'T4', 'T1 2014'];
-      series_name_1 = "Nombre d'attaques de la LRA dans la région de Niangara-Bangadi, Congo";
-      series_name_2 = "Nombre d'enlèvements de la LRA dans la région de Niangara-Bangadi, Congo";
+      x_axis_categories = ['2010', '2011','2012', '2013', '2014'];
+      series_name_1 = 'Attaques de la LRA';
+      series_name_2 = 'Meurtres de la LRA';
+      series_name_3 = 'Enlèvements de la LRA';
     } else {
       x_axis_categories = ['2010', '2011','2012', '2013', '2014'];
       series_name_1 = 'LRA attacks';
       series_name_2 = 'LRA killings';
       series_name_3 = 'LRA abductions';
-
     };
 
     $('#2014-reversed-decline').highcharts({
@@ -293,9 +300,11 @@ function buildV4() {
 
     // TRANSLATIONS
     if (language == "fr") {
-      x_axis_categories = ['T1 2011', 'T2', 'T3', 'T4', 'T1 2012', 'T2', 'T3', 'T4', 'T1 2013', 'T2', 'T3', 'T4', 'T1 2014'];
-      series_name_1 = "Nombre d'attaques de la LRA dans la région de Niangara-Bangadi, Congo";
-      series_name_2 = "Nombre d'enlèvements de la LRA dans la région de Niangara-Bangadi, Congo";
+      x_axis_categories = ['2012', '2013', '2014'];
+      series_name_1 = 'Attaques de la LRA dans le Haut Uélé';
+      series_name_2 = 'Attaques de groupes armés non identifiés dans le Haut Uélé';
+      series_name_3 = "Attaques par d'autres groupes armés identifiés (non LRA) dans le Haut Uélé";
+      series_name_4 = "# total d'attaques dans le Haut Uélé";
     } else {
       x_axis_categories = ['2012', '2013', '2014'];
       series_name_1 = 'LRA attacks in Haut Uele';
