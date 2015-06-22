@@ -7,3 +7,4 @@ permalink: /:categories/:title/
 markdown: redcarpet
 redirects: yes
 encoding: "utf-8"
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
