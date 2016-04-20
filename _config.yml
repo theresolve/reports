@@ -2,9 +2,9 @@ name: "LRA Crisis Tracker"
 description: "LRA Crisis Tracker Security Briefs"
 url: "http://localhost:4000"
 baseurl: ""
-paginate: 10
 permalink: /:categories/:title/
-markdown: redcarpet
+kramdown:
+  input: GFM
 redirects: yes
 encoding: "utf-8"
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
