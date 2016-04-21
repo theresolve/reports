@@ -3,8 +3,6 @@ description: "LRA Crisis Tracker Security Briefs"
 url: "http://localhost:4000"
 baseurl: ""
 permalink: /:categories/:title/
-kramdown:
-  input: GFM
 redirects: yes
 encoding: "utf-8"
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']

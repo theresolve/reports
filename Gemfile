@@ -1,6 +1,4 @@
 source 'https://rubygems.org'
 ruby '2.1.4'
 gem 'bundler'
-gem 'jekyll'
-gem 'rack-jekyll'
-gem 'kramdown'
+gem 'github-pages', group: :jekyll_plugins
