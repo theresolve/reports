@@ -2,60 +2,56 @@
 layout: main
 published: true
 ---
-<!-- NAVBAR -->
-<header>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <a href="{{ site.baseurl }}/"><img src="/images/logo.png" class="logo"></a>
-        <a href="{{ site.baseurl }}/"><img src="/images/logo-text.png" class="logo-text"></a>
-      <a href="mailto:lracrisistracker@invisiblechildren.com?subject=LRA Crisis Tracker Data Export Request" class="btn btn-primary btn-export">Request Data Export</a>
+<body id='home' style='background-color: white'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-md-12 main-col'>
+        <div class='text-center'>
+          <div class="header">
+
+            <a href="{{ site.baseurl }}/">
+              <img src="/images/home-logo.png" class="logo">
+            </a>
+            <div class='logo-title'>
+              <a href="{{ site.baseurl }}/">
+                LRA Crisis Tracker Reports
+              </a>
+            </div>
+          </div>
+
+          <div class='navigation'>
+            <span class='nav-link'>
+              <a href="http://www.lracrisistracker.com/">
+                <i class='fa fa-map-marker'></i> 
+                LRA Crisis Tracker Map
+              </a>
+            </span> 
+            <span class='nav-link'>
+              <a href="http://www.theresolve.org/wp-content/uploads/2015/02/Map-Methodology-and-Database-Codebook-v2-2015.pdf">
+                <i class='fa fa-book'></i> 
+                Codebook & Methodology
+              </a>
+            </span> 
+            <span class='nav-link'>
+              <a href="http://twitter.com/CrisisTracker">
+                <i class='fa fa-twitter'></i> 
+                @CrisisTracker
+              </a>
+            </span>
+          </div>
+        </div>
+
+        {% assign english_posts = site.categories['previews_en'] %}
+        {% assign french_posts = site.categories['previews_fr'] %}
+
+        <div>
+          <h5>English</h5>
+          {% include home/links.html posts=english_posts %}
+
+          <h5 style="margin-top: 70px;">Français</h5>
+          {% include home/links.html posts=french_posts %}
+        </div>
       </div>
     </div>
   </div>
-</header>
-
-<div class="container old-container">
-  <div class="row">
-
-    <!-- TABLE OF CONTENTS -->
-    <div class="col-md-3 sidebar">
-      <div role="complementary">
-        <ul class="nav bs-sidenav">
-          <li>
-            <a href="http://www.lracrisistracker.com/">Map</a>
-          </li> 
-          <li>
-            <a href="http://www.lracrisistracker.com/#updates">Updates</a>
-          </li> 
-          <li>
-            <a href="http://www.lracrisistracker.com/#about">About</a>
-          </li> 
-          <li>
-            <a href="http://www.lracrisistracker.com/sites/default/files/Map-Methodology-and-Database%20Codebook%20v1.0.pdf">Methodology</a>
-          </li> 
-          <li>
-            <a href="http://twitter.com/CrisisTracker">Follow @CrisisTracker</a>
-          </li>
-          <hr>
-        </ul>
-      </div>
-    </div>
-
-    <!-- PAGE -->
-    <div class="col-md-9 page previews" role="main">
-        <h5>Security Reports</h5>
-        {% for post in site.categories['previews_en'] %}
-          <div class="preview-description">
-            <a href="{{ post.post_url }}">{{ post.title }}</a> | {{ post.date | date: "%B %Y" }}
-          </div>
-        {% endfor %}
-        <h5 style="margin-top: 20px;">Dossier de S&eacute;curit&eacute;</h5>
-        {% for post in site.categories['previews_fr'] %}
-          <div class="preview-description">
-            <a href="{{ post.post_url }}">{{ post.title }}</a> | {{ post.date | date: "%B %Y" }}
-          </div>
-        {% endfor %}
-    </div>
-  </div>
-</div>
+</body>

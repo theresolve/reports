@@ -1,0 +1,18 @@
+{% assign current_year = null %}
+{% for post in include.posts %}
+  
+  {% assign next_year = post.date | date: '%Y' %}
+  {% if current_year != next_year %}
+    {% assign current_year = post.date | date: '%Y' %}
+    <div class='category' style='font-weight: 700; margin-top: 15px'>{{ current_year }}</div>
+  {% endif %}
+
+  <div class="link">
+    <a href="{{ post.post_url }}">
+      {{ post.title }}
+    </a>
+    <span class="link-date">
+      {{ post.date | date: "%B %Y" }}
+    </span>
+  </div>
+{% endfor %}

@@ -5,4 +5,4 @@ baseurl: ""
 permalink: /:categories/:title/
 redirects: yes
 encoding: "utf-8"
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Guardfile']
