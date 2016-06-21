@@ -42,15 +42,44 @@ published: true
         </div>
 
         {% assign english_posts = site.categories['previews_en'] %}
+
         {% assign french_posts = site.categories['previews_fr'] %}
 
         <div>
+          <div class='featured'>
+            {% for post in site.categories['featured'] %}
+              <div class="link">
+                <span class='label label-primary'>Featured</span>
+                <a href="{{ post.post_url }}">
+                  {{ post.title }}
+                </a>
+                <span class="link-date">
+                  {{ post.date | date: "%B %Y" }}
+                </span>
+              </div>
+            {% endfor %}
+          </div>
+
           <h5>English</h5>
           {% include home/links.html posts=english_posts %}
 
           <h5 style="margin-top: 70px;">Français</h5>
           {% include home/links.html posts=french_posts %}
         </div>
+
+        <div class='footer'>
+          <div class="logo-container text-center">
+            <a href="http://theresolve.org" target="_blank">
+              <img src="/images/tracking-kony/resolve-logo.png" class="resolve-logo-home">
+            </a>
+            
+            <a href="http://invisiblechildren.com" target="_blank">
+              <img src="/images/tracking-kony/ic-logo.png" class="ic-logo-home">
+            </a>
+          </div>
+        </div>
+
+
       </div>
     </div>
   </div>

@@ -38,6 +38,10 @@
     }
   }
 
+  .featured {
+    margin: 40px 0px;
+  }
+
   .link {
     margin-bottom: 5px;
     a {
@@ -52,5 +56,23 @@
         margin-bottom: 10px;
       }
     }
+  }
+
+  .footer {
+    height: 150px;
+    
+    .logo-container {
+      margin-top: 90px;
+    }
+
+    .resolve-logo-home {
+      width: 160px;
+      margin-right: 20px;
+    }
+
+    .ic-logo-home {
+      width: 100px;
+    }
+
   }
 }
